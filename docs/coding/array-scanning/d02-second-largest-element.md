@@ -65,7 +65,7 @@ Read n and n integers. Print the second-largest distinct value, or -1 if absent.
 - [Python source](../../../solutions/D02/solution.py)
 - [Java source](../../../solutions/D02/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

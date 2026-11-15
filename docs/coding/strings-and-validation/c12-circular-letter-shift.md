@@ -91,7 +91,7 @@ Bqq 9!
 - [Python source](../../../solutions/C12/solution.py)
 - [Java source](../../../solutions/C12/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

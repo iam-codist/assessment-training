@@ -90,7 +90,7 @@ Read n, followed by the n−1 supplied roll numbers. Print the missing number.
 - [Python source](../../../solutions/C15/solution.py)
 - [Java source](../../../solutions/C15/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

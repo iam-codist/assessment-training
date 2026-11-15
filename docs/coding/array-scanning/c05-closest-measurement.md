@@ -91,7 +91,7 @@ Read n and target, then n integers. Print value and zero-based index; keep the e
 - [Python source](../../../solutions/C05/solution.py)
 - [Java source](../../../solutions/C05/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

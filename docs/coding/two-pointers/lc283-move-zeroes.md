@@ -49,7 +49,7 @@ Read n and n integers. Move zeros to the end while preserving nonzero order. Pri
 - [Python source](../../../solutions/LC283/solution.py)
 - [Java source](../../../solutions/LC283/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

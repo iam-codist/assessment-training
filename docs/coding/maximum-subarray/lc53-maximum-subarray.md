@@ -65,7 +65,7 @@ Read positive n and n integers. Print the maximum sum of a nonempty contiguous s
 - [Python source](../../../solutions/LC53/solution.py)
 - [Java source](../../../solutions/LC53/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

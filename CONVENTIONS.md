@@ -19,7 +19,7 @@
 - Kadane's algorithm selects a nonempty subarray. Initialize from the first element rather than zero.
 - Sliding-window shrinking for minimum target sum relies on positive input values.
 
-## Corrections retained from the sessions
+## Examples to remember
 
 ```text
 (a XOR b) + 2 × (a AND b) = a + b

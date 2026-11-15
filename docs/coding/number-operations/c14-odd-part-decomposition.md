@@ -88,7 +88,7 @@ Read positive n. Print odd-part and exponent-of-two.
 - [Python source](../../../solutions/C14/solution.py)
 - [Java source](../../../solutions/C14/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

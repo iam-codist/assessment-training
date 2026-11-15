@@ -65,7 +65,7 @@ Read n and n nonnegative integers. Print x if exactly x elements are at least x,
 - [Python source](../../../solutions/LC1608/solution.py)
 - [Java source](../../../solutions/LC1608/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

@@ -99,7 +99,7 @@ ADD 2
 - [Python source](../../../solutions/C13/solution.py)
 - [Java source](../../../solutions/C13/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

@@ -58,7 +58,7 @@ abcabcbb
 - [Python source](../../../solutions/LC3/solution.py)
 - [Java source](../../../solutions/LC3/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

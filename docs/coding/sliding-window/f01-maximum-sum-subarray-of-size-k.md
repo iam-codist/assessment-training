@@ -26,7 +26,7 @@ For an integer array and 1 &lt;= k &lt;= n, find the maximum sum of exactly k co
 
 ## Notes
 
-Classic classroom exercise; no LeetCode number was assigned. Initialize the maximum from an actual window to handle all-negative input.
+Initialize the maximum from the first complete window so the algorithm handles all-negative input.
 
 <details>
 <summary>Show answer and explanation</summary>
@@ -63,7 +63,7 @@ Read positive n and k (1 through n), then n integers. Print the maximum sum over
 - [Python source](../../../solutions/F01/solution.py)
 - [Java source](../../../solutions/F01/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

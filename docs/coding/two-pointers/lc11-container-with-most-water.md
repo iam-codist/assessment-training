@@ -63,7 +63,7 @@ Read n (at least 2), then n nonnegative heights. Print maximum container area.
 - [Python source](../../../solutions/LC11/solution.py)
 - [Java source](../../../solutions/LC11/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

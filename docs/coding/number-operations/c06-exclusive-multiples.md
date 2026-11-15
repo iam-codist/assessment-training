@@ -88,7 +88,7 @@ Read L R a b. Print the sum of numbers divisible by exactly one divisor.
 - [Python source](../../../solutions/C06/solution.py)
 - [Java source](../../../solutions/C06/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

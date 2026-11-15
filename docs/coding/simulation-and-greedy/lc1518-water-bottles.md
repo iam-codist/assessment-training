@@ -58,7 +58,7 @@ Read full bottle count and exchange rate (at least 2). Print total bottles drunk
 - [Python source](../../../solutions/LC1518/solution.py)
 - [Java source](../../../solutions/LC1518/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

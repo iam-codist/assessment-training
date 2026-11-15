@@ -59,7 +59,7 @@ Read n followed by n positive integers. Print how many have an even number of de
 - [Python source](../../../solutions/LC1295/solution.py)
 - [Java source](../../../solutions/LC1295/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

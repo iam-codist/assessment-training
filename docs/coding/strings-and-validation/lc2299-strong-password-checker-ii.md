@@ -62,7 +62,7 @@ true
 - [Python source](../../../solutions/LC2299/solution.py)
 - [Java source](../../../solutions/LC2299/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 

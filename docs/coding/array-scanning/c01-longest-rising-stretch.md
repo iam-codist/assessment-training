@@ -91,7 +91,7 @@ Read n, followed by n integers. Print the longest strictly increasing contiguous
 - [Python source](../../../solutions/C01/solution.py)
 - [Java source](../../../solutions/C01/Main.java)
 
-[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+[How to compile and run these examples](../../../SOLUTIONS.md).
 
 </details>
 
