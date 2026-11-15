@@ -3,6 +3,7 @@
 | Topic | Entries |
 | --- | --- |
 | [Array scanning and selection](array-scanning/README.md) | 9 |
+| [Dynamic programming](dynamic-programming/README.md) | 3 |
 | [Hashing and frequency counts](hashing-and-counting/README.md) | 6 |
 | [Maximum subarray and Kadane](maximum-subarray/README.md) | 2 |
 | [Numbers, digits and divisibility](number-operations/README.md) | 8 |

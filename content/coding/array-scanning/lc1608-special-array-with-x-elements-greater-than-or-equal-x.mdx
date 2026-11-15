@@ -43,6 +43,34 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Try x from 1 through n and count values >= x. Brute force is O(n²); the discussed sorting approach is O(n log n).
 
+## Solutions in four languages
+
+These references use sorting and a boundary check: O(n log n) time. For a candidate x, the last x values must be at least x and the preceding value, if any, must be smaller.
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n and n nonnegative integers. Print x if exactly x elements are at least x, otherwise -1.
+
+**Sample program input**
+
+```text
+2
+3 5
+```
+
+**Sample program output**
+
+```text
+2
+```
+
+- [C source](../../../solutions/LC1608/solution.c)
+- [C++ source](../../../solutions/LC1608/solution.cpp)
+- [Python source](../../../solutions/LC1608/solution.py)
+- [Java source](../../../solutions/LC1608/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

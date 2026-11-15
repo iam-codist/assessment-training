@@ -43,9 +43,33 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Track the two largest distinct values; ignore duplicates of the maximum. O(n) time, O(1) extra space.
 
-## Reference implementations
+## Solutions in four languages
 
-- [SecondLargestElement.java](../../../solutions/D02/SecondLargestElement.java)
+These reference programs sort to make the distinct-value rule easy to see: O(n log n) time. The scan-only approach described above can reduce this to O(n). Python builds a distinct set; other versions sort the input array.
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n and n integers. Print the second-largest distinct value, or -1 if absent.
+
+**Sample program input**
+
+```text
+5
+4 9 9 2 6
+```
+
+**Sample program output**
+
+```text
+6
+```
+
+- [C source](../../../solutions/D02/solution.c)
+- [C++ source](../../../solutions/D02/solution.cpp)
+- [Python source](../../../solutions/D02/solution.py)
+- [Java source](../../../solutions/D02/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
 
 </details>
 

@@ -65,6 +65,31 @@ O(R-L+1) time; O(1) extra working space.
 
 Divisible by both means exclude it. When a=b, the answer is zero. Use Java long for the total.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read L R a b. Print the sum of numbers divisible by exactly one divisor.
+
+**Sample program input**
+
+```text
+1 12 3 4
+```
+
+**Sample program output**
+
+```text
+30
+```
+
+- [C source](../../../solutions/C06/solution.c)
+- [C++ source](../../../solutions/C06/solution.cpp)
+- [Python source](../../../solutions/C06/solution.py)
+- [Java source](../../../solutions/C06/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

@@ -67,6 +67,34 @@ O(n+d log d) time and O(d) space for d distinct values.
 
 Duplicates of the maximum do not create a runner-up. Fewer than two distinct values gives NONE. Negative values are valid.
 
+## Solutions in four languages
+
+Python sorts the d distinct values: O(n + d log d) time and O(d) extra space. C, C++ and Java sort the entire input: O(n log n) time, then count the runner-up block.
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n and n integers. Print second-distinct-maximum and frequency, or NONE.
+
+**Sample program input**
+
+```text
+7
+9 4 9 7 7 1 7
+```
+
+**Sample program output**
+
+```text
+7 3
+```
+
+- [C source](../../../solutions/C19/solution.c)
+- [C++ source](../../../solutions/C19/solution.cpp)
+- [Python source](../../../solutions/C19/solution.py)
+- [Java source](../../../solutions/C19/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

@@ -39,6 +39,32 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 The largest remaining square comes from one of the ends. Compare squares and fill the output from right to left. O(n) time and O(n) result storage.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n and a sorted array of n integers. Print squares in nondecreasing order.
+
+**Sample program input**
+
+```text
+5
+-4 -1 0 3 10
+```
+
+**Sample program output**
+
+```text
+0 1 9 16 100
+```
+
+- [C source](../../../solutions/LC977/solution.c)
+- [C++ source](../../../solutions/LC977/solution.cpp)
+- [Python source](../../../solutions/LC977/solution.py)
+- [Java source](../../../solutions/LC977/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

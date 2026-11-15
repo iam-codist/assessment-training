@@ -67,6 +67,32 @@ O(n) time; O(1) extra working space.
 
 Strict comparison keeps the first tied index. Use a wide enough type for arithmetic if generalizing the stated limits.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n and target, then n integers. Print value and zero-based index; keep the earliest tie.
+
+**Sample program input**
+
+```text
+5 10
+14 8 12 3 8
+```
+
+**Sample program output**
+
+```text
+8 1
+```
+
+- [C source](../../../solutions/C05/solution.c)
+- [C++ source](../../../solutions/C05/solution.cpp)
+- [Python source](../../../solutions/C05/solution.py)
+- [Java source](../../../solutions/C05/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

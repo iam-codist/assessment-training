@@ -2,11 +2,11 @@
 
 [Topic index](README.md) · [Edit MDX](../../../content/coding/sliding-window/lc1004-max-consecutive-ones-iii.mdx)
 
-**ID:** LC1004 · **Status:** planned · **Updated:** 2026-11-15
+**ID:** LC1004 · **Status:** ready · **Updated:** 2026-11-15
 
 # Max Consecutive Ones III
 
-> **Planned lesson** — This appeared in the teaching plan. The brief approach is available; a complete worked classroom lesson has not been recovered.
+> **New worked reference** — The original teaching plan listed this problem. The runnable solutions and worked example were added for this website update; they are not recovered classroom transcripts.
 
 ## Question
 
@@ -14,7 +14,7 @@ Given a binary array and a nonnegative k, find the longest contiguous segment co
 
 ## Notes
 
-Listed in the Day 2 plan. Statement and brief pattern note are editorial summaries; a detailed worked solution was not recovered.
+Originally listed in the Day 2 plan. The implementation and dry run below are newly authored practice.
 
 <details>
 <summary>Show answer and explanation</summary>
@@ -26,6 +26,36 @@ Use the following algorithm to produce the result for any input that satisfies t
 ## Explanation
 
 Maintain the zero count in a window; shrink from the left while zeros exceed k, and track the greatest valid length.
+
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n and nonnegative k, then n binary values. Print the longest window with at most k zeros.
+
+**Sample program input**
+
+```text
+11 2
+1 1 1 0 0 0 1 1 1 1 0
+```
+
+**Sample program output**
+
+```text
+6
+```
+
+- [C source](../../../solutions/LC1004/solution.c)
+- [C++ source](../../../solutions/LC1004/solution.cpp)
+- [Python source](../../../solutions/LC1004/solution.py)
+- [Java source](../../../solutions/LC1004/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
+### Dry run and complexity
+
+In the sample, the first three zeros cannot all stay in a window when k=2. Advance the left edge until at most two remain. The last six values contain two zeros and give length 6. Each index enters and leaves the window once: O(n) time and O(1) working space beyond the stored input. With k=0, every zero forces the window past itself.
 
 </details>
 

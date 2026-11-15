@@ -13,10 +13,11 @@ There is no separate content database or manual upload. Changes to the source MD
 
 ## Run locally
 
-Requires Node.js 22 or later.
+Requires Node.js 22.12 or later. Full checks also need Python 3.10+, C/C++ compilers and a Java 17+ JDK.
 
 ```sh
 npm ci
+npm ci --prefix cognitive-lab
 npm run dev
 ```
 
@@ -28,6 +29,8 @@ Before publishing a change:
 npm run build
 npm test
 npm run test:site
+npm run test:solutions
+npm run test:lab
 ```
 
 ## Where things live
@@ -35,6 +38,9 @@ npm run test:site
 | Location | Purpose |
 | --- | --- |
 | `content/` | Editable question files in MDX |
+| `cognitive-lab/` | Interactive activities, rules and lab tests; built into `/lab/` |
+| `solutions/` | Four-language references and the tab manifest |
+| `practice/sql/` | Downloadable SQL teaching dataset |
 | `site.config.json` | Site title, repository address, origin and base path |
 | `site/style.css` | Responsive layout and reading styles |
 | `site/app.mjs` | Mobile menu, search interaction and copy controls |
@@ -44,9 +50,15 @@ npm run test:site
 | `.github/workflows/content.yml` | Validation, reading-page refresh and Pages deployment |
 | `dist/` | Generated deployment output; ignored by Git |
 
-Search runs in the visitor's browser from a generated local index. Navigation, questions and native answer panels work without JavaScript; search, mobile-menu controls and copy buttons use JavaScript. No accounts or student progress database are included.
+Search runs in the visitor's browser from a generated local index. Questions and native answer panels work without JavaScript; all four code panels remain readable. Search, mobile-menu controls, language tabs and copy buttons use JavaScript. The Cognitive Lab requires JavaScript. No accounts or student progress database are included.
 
 Question URLs use `/questions/<lowercase-id>/` so title changes do not break student links. All local assets and links include the configured `/assessment-training/` base path. If the repository is renamed or moved, update `site.config.json`, the live links in the guides and the GitHub Pages settings together.
+
+## Cognitive Lab and public access
+
+Both the repository and website are public, as requested. A link is sufficient for students to visit; the URL is not a password or access restriction. The lab is available at [the same website under /lab/](https://iam-codist.github.io/assessment-training/lab/). It stores session results only in the current tab. Export reports before refresh or closing.
+
+MDX edits regenerate lesson pages, navigation and search on every successful main-branch deployment. Lab content and scoring edits live in its own source files and follow the same deployment workflow; see [the update guide](CONTRIBUTING.md).
 
 ## Hosting configuration
 

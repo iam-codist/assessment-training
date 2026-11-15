@@ -25,6 +25,32 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Use a write index to copy nonzero values, then fill the remaining positions with zeros. Two sequential loops still take O(n) total time.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n and n integers. Move zeros to the end while preserving nonzero order. Print the changed array.
+
+**Sample program input**
+
+```text
+5
+0 1 0 3 12
+```
+
+**Sample program output**
+
+```text
+1 3 12 0 0
+```
+
+- [C source](../../../solutions/LC283/solution.c)
+- [C++ source](../../../solutions/LC283/solution.cpp)
+- [Python source](../../../solutions/LC283/solution.py)
+- [Java source](../../../solutions/LC283/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

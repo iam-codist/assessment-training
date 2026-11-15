@@ -1,0 +1,49 @@
+---
+id: "SQL03"
+title: "WHERE before grouping and HAVING after"
+category: "sql"
+topic: "queries"
+status: "ready"
+updated: "2026-11-15"
+source: "New original practice \u2014 curriculum expansion, November 2026"
+---
+
+# WHERE before grouping and HAVING after
+
+> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
+
+## Question
+
+Use the [shared practice data](../../../SQL-PRACTICE.md). Find customers whose paid orders total at least 100. Show name and paid total, ordered by customer ID. Include the stated ordering so results are repeatable.
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+```sql
+SELECT c.name, SUM(o.amount) AS paid_total
+FROM customers AS c
+JOIN orders AS o ON o.customer_id = c.id
+WHERE o.status = 'paid'
+GROUP BY c.id, c.name
+HAVING SUM(o.amount) >= 100
+ORDER BY c.id;
+```
+
+Expected rows:
+
+| name | paid_total |
+| --- | --- |
+| Mira | 120 |
+| Noah | 200 |
+
+## Explanation
+
+WHERE removes non-paid rows before aggregation. HAVING checks each resulting group’s total. Moving the paid filter into HAVING would not be an equivalent way to filter individual orders. Pia has a paid order but its total is only 90.
+
+</details>
+
+## Source context
+
+Original educational practice added for the curriculum expansion. SQL references: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.

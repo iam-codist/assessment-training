@@ -1,0 +1,50 @@
+<!-- Generated from content/sql/queries/sql07-above-the-department-average.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/sql/queries/sql07-above-the-department-average.mdx)
+
+**ID:** SQL07 · **Status:** ready · **Updated:** 2026-11-15
+
+# Above the department average
+
+> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
+
+## Question
+
+Use the [shared practice data](../../../SQL-PRACTICE.md). Return employee name and salary for employees earning strictly more than their own department’s average. Ignore employees with no department. Order by employee ID. Include the stated ordering so results are repeatable.
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+```sql
+SELECT e.name, e.salary
+FROM employees AS e
+WHERE e.department_id IS NOT NULL
+  AND e.salary > (
+    SELECT AVG(peer.salary)
+    FROM employees AS peer
+    WHERE peer.department_id = e.department_id
+  )
+ORDER BY e.id;
+```
+
+Expected rows:
+
+| name | salary |
+| --- | --- |
+| Farah | 70000 |
+
+## Explanation
+
+Engineering’s average is 60000, so only Farah is above it. The Sales average is 45000, equal to both salaries. Correlation uses the current employee’s department; a company-wide average would answer a different question. Strictly greater excludes employees exactly at the average.
+
+</details>
+
+## Source context
+
+Original educational practice added for the curriculum expansion. SQL references: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
+
+---
+
+[← SQL06](sql06-second-highest-distinct-salary.md) · [Topic index](README.md) · [SQL09 →](sql09-dense-ranking-with-tied-salaries.md)

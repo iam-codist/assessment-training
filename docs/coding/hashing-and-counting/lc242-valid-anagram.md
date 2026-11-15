@@ -39,6 +39,32 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Compare lengths, increment counts for the first string and decrement for the second. All counts must return to zero. Sorting O(n log n) → counting O(n).
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read two lowercase English strings, one per line. Print true or false for anagrams.
+
+**Sample program input**
+
+```text
+anagram
+nagaram
+```
+
+**Sample program output**
+
+```text
+true
+```
+
+- [C source](../../../solutions/LC242/solution.c)
+- [C++ source](../../../solutions/LC242/solution.cpp)
+- [Python source](../../../solutions/LC242/solution.py)
+- [Java source](../../../solutions/LC242/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

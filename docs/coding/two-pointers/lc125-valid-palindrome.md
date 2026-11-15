@@ -39,6 +39,31 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Move inward from both ends, skip non-alphanumeric characters, and compare lowercase values. O(n) time, O(1) extra working space.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read one ASCII line. Ignore non-alphanumeric characters and case; print true or false for palindrome.
+
+**Sample program input**
+
+```text
+A man, a plan, a canal: Panama
+```
+
+**Sample program output**
+
+```text
+true
+```
+
+- [C source](../../../solutions/LC125/solution.c)
+- [C++ source](../../../solutions/LC125/solution.cpp)
+- [Python source](../../../solutions/LC125/solution.py)
+- [Java source](../../../solutions/LC125/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

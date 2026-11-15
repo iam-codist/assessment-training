@@ -1,0 +1,3615 @@
+[
+  {
+    "id": "set1-q1",
+    "set": 1,
+    "number": 1,
+    "slide": 4,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Shortest Route",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. What is the minimum number of moves needed to reach T?",
+    "options": [
+      "13 moves",
+      "11 moves",
+      "8 moves",
+      "12 moves"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  11 moves",
+      "Explore outward from S: every cell one move away, then two moves away, and so on. | The first time the search touches T is after 11 moves, so that is the minimum. | One shortest route: DDDRRRRRDDL. | Numbers on the map show the order of cells visited."
+    ],
+    "type": "maze",
+    "cols": 6,
+    "rows": 6,
+    "walls": [
+      1,
+      10,
+      13,
+      15,
+      17,
+      26,
+      28,
+      31,
+      33
+    ],
+    "start": 0,
+    "target": 34,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set1-q2",
+    "set": 1,
+    "number": 2,
+    "slide": 5,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Fewest Moves",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. What is the minimum number of moves needed to reach T?",
+    "options": [
+      "9 moves",
+      "10 moves",
+      "6 moves",
+      "8 moves"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  9 moves",
+      "Explore outward from S: every cell one move away, then two moves away, and so on. | The first time the search touches T is after 9 moves, so that is the minimum. | One shortest route: DLDDDRRRR. | Numbers on the map show the order of cells visited."
+    ],
+    "type": "maze",
+    "cols": 6,
+    "rows": 6,
+    "walls": [
+      6,
+      8,
+      9,
+      10,
+      14,
+      17,
+      19,
+      20,
+      22,
+      29
+    ],
+    "start": 7,
+    "target": 34,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set1-q3",
+    "set": 1,
+    "number": 3,
+    "slide": 6,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Path to the Target",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. What is the minimum number of moves needed to reach T?",
+    "options": [
+      "12 moves",
+      "16 moves",
+      "13 moves",
+      "10 moves"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  13 moves",
+      "Explore outward from S: every cell one move away, then two moves away, and so on. | The first time the search touches T is after 13 moves, so that is the minimum. | One shortest route: DDDRRRRDDDRRU. | Numbers on the map show the order of cells visited."
+    ],
+    "type": "maze",
+    "cols": 7,
+    "rows": 7,
+    "walls": [
+      9,
+      10,
+      13,
+      16,
+      17,
+      18,
+      19,
+      30,
+      31,
+      34,
+      36,
+      38,
+      40,
+      42
+    ],
+    "start": 0,
+    "target": 41,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set1-q4",
+    "set": 1,
+    "number": 4,
+    "slide": 7,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Fewest Turns",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. A turn is any change of direction. What is the minimum number of turns the rocket needs to reach T?",
+    "options": [
+      "7 turns",
+      "5 turns",
+      "8 turns",
+      "6 turns"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  5 turns",
+      "The shortest route is not always the one with the fewest turns. | Best turn-saving route: D1 - R1 - D2 - R5 - D2 - L1. | That is 6 straight runs, so 5 turns. | Its length is 12 moves (the minimum possible is 12), but the question asks for turns only."
+    ],
+    "type": "maze",
+    "cols": 7,
+    "rows": 7,
+    "walls": [
+      0,
+      8,
+      11,
+      12,
+      20,
+      21,
+      23,
+      26,
+      27,
+      37,
+      39,
+      40,
+      46
+    ],
+    "start": 7,
+    "target": 47,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set1-q5",
+    "set": 1,
+    "number": 5,
+    "slide": 8,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Count the Routes",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. In how many different ways can the rocket reach T using the minimum number of moves?",
+    "options": [
+      "7 routes",
+      "6 routes",
+      "5 routes",
+      "8 routes"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  8 routes",
+      "The shortest length is 13 moves. | For each cell on a shortest route, add the route counts of its neighbours that are one step closer to S. | Counts flow forward until T collects 8 routes. | Only cells that lie on some shortest route are numbered on the map."
+    ],
+    "type": "maze",
+    "cols": 7,
+    "rows": 7,
+    "walls": [
+      8,
+      14,
+      18,
+      30,
+      34,
+      35,
+      38,
+      40,
+      43
+    ],
+    "start": 0,
+    "target": 41,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set1-q6",
+    "set": 1,
+    "number": 6,
+    "slide": 9,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Collect the Star",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. The rocket must first collect the star, then reach T. What is the minimum number of moves for the whole trip?",
+    "options": [
+      "19 moves",
+      "17 moves",
+      "20 moves",
+      "16 moves"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  17 moves",
+      "S to the star takes 8 moves. | Star to T takes 9 moves. | Total = 8 + 9 = 17 moves. | Going straight to T would take only 11, but the star is compulsory."
+    ],
+    "type": "maze",
+    "cols": 7,
+    "rows": 7,
+    "walls": [
+      4,
+      6,
+      13,
+      15,
+      19,
+      21,
+      27,
+      32,
+      36,
+      37,
+      39,
+      41,
+      45
+    ],
+    "start": 0,
+    "target": 47,
+    "star": 28,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set1-q7",
+    "set": 1,
+    "number": 7,
+    "slide": 10,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Command Sequence",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. Which command sequence (U = up, D = down, L = left, R = right) takes the rocket from S to T without touching a wall?",
+    "options": [
+      "DDRRRRDRDLD",
+      "DDRRRRRLDLD",
+      "DDRRRRRDLLD",
+      "DDRRRRRDDLD"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  DDRRRRRDDLD",
+      "A) hits a wall at move 7 | B) hits a wall at move 9 | C) hits a wall at move 9 | D) works - reaches T in 11 moves"
+    ],
+    "type": "maze",
+    "cols": 6,
+    "rows": 6,
+    "walls": [
+      1,
+      3,
+      7,
+      10,
+      11,
+      22,
+      25,
+      26,
+      27,
+      30,
+      35
+    ],
+    "start": 0,
+    "target": 34,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set1-q8",
+    "set": 1,
+    "number": 8,
+    "slide": 11,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Which Program Works?",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. Which command sequence (U = up, D = down, L = left, R = right) takes the rocket from S to T without touching a wall?",
+    "options": [
+      "DDDDDRRURRD",
+      "DDDDDRRRRRD",
+      "DDDDDRRURUD",
+      "DDUDDRRURRD"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  DDDDDRRURRD",
+      "A) works - reaches T in 11 moves | B) hits a wall at move 8 | C) stops short of T / ends in the wrong cell | D) hits a wall at move 6"
+    ],
+    "type": "maze",
+    "cols": 7,
+    "rows": 7,
+    "walls": [
+      5,
+      6,
+      13,
+      14,
+      16,
+      17,
+      19,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      30,
+      37,
+      41,
+      42,
+      46
+    ],
+    "start": 8,
+    "target": 47,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set1-q9",
+    "set": 1,
+    "number": 9,
+    "slide": 12,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Large Grid",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. This is a bigger 8 x 8 grid. What is the minimum number of moves needed to reach T?",
+    "options": [
+      "18 moves",
+      "17 moves",
+      "16 moves",
+      "14 moves"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  16 moves",
+      "Explore outward from S: every cell one move away, then two moves away, and so on. | The first time the search touches T is after 16 moves, so that is the minimum. | One shortest route: URRDRDRRRDDLDDDR. | Numbers on the map show the order of cells visited."
+    ],
+    "type": "maze",
+    "cols": 8,
+    "rows": 8,
+    "walls": [
+      4,
+      7,
+      10,
+      16,
+      19,
+      25,
+      29,
+      30,
+      37,
+      40,
+      44,
+      47,
+      49,
+      50,
+      52,
+      60
+    ],
+    "start": 9,
+    "target": 63,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set1-q10",
+    "set": 1,
+    "number": 10,
+    "slide": 13,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Right and Down Only",
+    "prompt": "The rocket starts at S (top-left) and must reach T (bottom-right). It can move only RIGHT or DOWN and cannot enter wall cells. How many different routes reach T?",
+    "options": [
+      "6 routes",
+      "2 routes",
+      "3 routes",
+      "4 routes"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  4 routes",
+      "Every cell holds the number of ways to reach it. | Ways into a cell = ways from the cell above + ways from the cell on its left (walls contribute 0). | Following the numbers to the bottom-right corner gives 4 routes."
+    ],
+    "type": "maze",
+    "cols": 6,
+    "rows": 6,
+    "walls": [
+      7,
+      9,
+      11,
+      12,
+      16,
+      17,
+      26,
+      27,
+      30,
+      34
+    ],
+    "start": 0,
+    "target": 35,
+    "rightDownOnly": true
+  },
+  {
+    "id": "set1-q11",
+    "set": 1,
+    "number": 11,
+    "slide": 15,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Reach the Exit",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the minimum number of moves (room to room) to get from START to EXIT?",
+    "options": [
+      "9 moves",
+      "8 moves",
+      "11 moves",
+      "6 moves"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  8 moves",
+      "Shortest route (8 moves): A > B > A > D > G > D > E > F > I. | Keys picked up on the way: Green key in B, Red key in G. | Locked doors crossed: A-D (Green), E-F (Red), F-I (Green). | Route numbers on the map show the order of visits."
+    ],
+    "type": "keys",
+    "keys": {
+      "1": "G",
+      "2": "B",
+      "6": "R"
+    },
+    "start": 0,
+    "target": 8,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": null
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "G"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "B"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": "R"
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "R"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": "R"
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "G"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "B"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "B"
+      }
+    ]
+  },
+  {
+    "id": "set1-q12",
+    "set": 1,
+    "number": 12,
+    "slide": 16,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Unlock the Way",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the minimum number of moves (room to room) to get from START to EXIT?",
+    "options": [
+      "6 moves",
+      "8 moves",
+      "10 moves",
+      "7 moves"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  7 moves",
+      "Shortest route (7 moves): H > E > B > E > H > I > F > C. | Keys picked up on the way: Blue key in B, Red key in F. | Locked doors crossed: H-I (Blue), I-F (Blue), F-C (Red). | Route numbers on the map show the order of visits."
+    ],
+    "type": "keys",
+    "keys": {
+      "1": "B",
+      "3": "G",
+      "5": "R"
+    },
+    "start": 7,
+    "target": 2,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "R"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "B"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": "R"
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "B"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "G"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "B"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "B"
+      }
+    ]
+  },
+  {
+    "id": "set1-q13",
+    "set": 1,
+    "number": 13,
+    "slide": 17,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Keys and Doors",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the minimum number of moves (room to room) to get from START to EXIT?",
+    "options": [
+      "14 moves",
+      "11 moves",
+      "12 moves",
+      "8 moves"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  11 moves",
+      "Shortest route (11 moves): B > C > B > E > D > A > D > E > F > I > H > G. | Keys picked up on the way: Red key in C, Blue key in A, Green key in I. | Locked doors crossed: D-A (Red), A-D (Red), E-F (Red), F-I (Blue), I-H (Blue), H-G (Green). | Route numbers on the map show the order of visits."
+    ],
+    "type": "keys",
+    "keys": {
+      "0": "B",
+      "2": "R",
+      "8": "G"
+    },
+    "start": 1,
+    "target": 6,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "G"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": "B"
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": "G"
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "R"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": "B"
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "B"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "G"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "B"
+      }
+    ]
+  },
+  {
+    "id": "set1-q14",
+    "set": 1,
+    "number": 14,
+    "slide": 18,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Longest Detour",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the minimum number of moves (room to room) to get from START to EXIT?",
+    "options": [
+      "11 moves",
+      "12 moves",
+      "9 moves",
+      "8 moves"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  11 moves",
+      "Shortest route (11 moves): F > I > H > E > H > I > F > C > B > A > D > G. | Keys picked up on the way: Red key in E, Blue key in B, Green key in A. | Locked doors crossed: C-B (Red), A-D (Green). | Route numbers on the map show the order of visits."
+    ],
+    "type": "keys",
+    "keys": {
+      "0": "G",
+      "1": "B",
+      "4": "R"
+    },
+    "start": 5,
+    "target": 6,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": null
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "G"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": "B"
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "G"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "B"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": null
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "G"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": null
+      }
+    ]
+  },
+  {
+    "id": "set1-q15",
+    "set": 1,
+    "number": 15,
+    "slide": 19,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Fewest Keys",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the smallest number of different keys the player must pick up to be able to reach EXIT?",
+    "options": [
+      "0 keys",
+      "1 key",
+      "2 keys",
+      "3 keys"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  2 keys",
+      "Best route: F > I > F > C > B > E > H > G. | Keys picked up: Red key in I, Green key in E. | Locked doors crossed: C-B (Red). | Only 2 keys are needed, even if the route is not the shortest overall."
+    ],
+    "type": "keys",
+    "keys": {
+      "3": "B",
+      "4": "G",
+      "8": "R"
+    },
+    "start": 5,
+    "target": 6,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "R"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "G"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": "R"
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "B"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": null
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "G"
+      }
+    ]
+  },
+  {
+    "id": "set1-q16",
+    "set": 1,
+    "number": 16,
+    "slide": 20,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "First Key",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. On the shortest route from START to EXIT, which key is picked up first?",
+    "options": [
+      "No key is needed",
+      "Green key",
+      "Red key",
+      "Blue key"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  Red key",
+      "Shortest route (6 moves): C > B > A > B > E > D > G. | Keys picked up, in order: Red key in A, Blue key in E. | The first one is the Red key, collected before any locked door blocks the way."
+    ],
+    "type": "keys",
+    "keys": {
+      "0": "R",
+      "4": "B",
+      "7": "G"
+    },
+    "start": 2,
+    "target": 6,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": null
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": "R"
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": "B"
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "G"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": null
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "B"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "R"
+      }
+    ]
+  },
+  {
+    "id": "set1-q17",
+    "set": 1,
+    "number": 17,
+    "slide": 21,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Missing Key",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. Suppose the Green key is removed from the map. What is the minimum number of moves from START to EXIT now?",
+    "options": [
+      "11 moves",
+      "7 moves",
+      "EXIT cannot be reached",
+      "9 moves"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  EXIT cannot be reached",
+      "Original shortest route needs 7 moves. | Without the Green key, every Green door stays locked. | Every path from START to EXIT must cross one of those doors, so EXIT cannot be reached."
+    ],
+    "type": "keys",
+    "keys": {
+      "4": "R",
+      "6": "B"
+    },
+    "start": 5,
+    "target": 0,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "G"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "G"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "G"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "G"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "B"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": null
+      }
+    ],
+    "removedKey": "G"
+  },
+  {
+    "id": "set1-q18",
+    "set": 1,
+    "number": 18,
+    "slide": 22,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Key Removed, Longer Way",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. Suppose the Red key is removed from the map. What is the minimum number of moves from START to EXIT now?",
+    "options": [
+      "EXIT cannot be reached",
+      "12 moves",
+      "10 moves",
+      "6 moves"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  10 moves",
+      "Original shortest route needs 6 moves. | Without the Red key every Red door stays locked, so the player must detour. | New route (10 moves): G > D > E > B > E > D > G > H > I > F > C."
+    ],
+    "type": "keys",
+    "keys": {
+      "1": "G",
+      "5": "B"
+    },
+    "start": 6,
+    "target": 2,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "B"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "B"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": "G"
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "R"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": "R"
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": null
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": null
+      }
+    ],
+    "removedKey": "R"
+  },
+  {
+    "id": "set1-q19",
+    "set": 1,
+    "number": 19,
+    "slide": 23,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Doors Passed",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. On the shortest route, how many locked doors does the player pass through (count every time a locked door is crossed)?",
+    "options": [
+      "2 doors",
+      "5 doors",
+      "6 doors",
+      "3 doors"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  3 doors",
+      "Shortest route (7 moves): G > D > A > B > E > H > I > F. | Locked doors crossed: D-A (Red), E-H (Green), H-I (Red). | Total locked doors crossed = 3."
+    ],
+    "type": "keys",
+    "keys": {
+      "0": "G",
+      "2": "B",
+      "3": "R"
+    },
+    "start": 6,
+    "target": 5,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": null
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "B"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "B"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "B"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": "G"
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": null
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "B"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "R"
+      }
+    ]
+  },
+  {
+    "id": "set1-q20",
+    "set": 1,
+    "number": 20,
+    "slide": 24,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Memory Check",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. Memory round: which colour of locked door appears the most times on the whole map?",
+    "options": [
+      "Red doors",
+      "All colours are equal",
+      "Blue doors",
+      "Green doors"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  Red doors",
+      "Red doors: 4 | Blue doors: 2 | Green doors: 2 | Red has the most locked doors."
+    ],
+    "type": "keys",
+    "keys": {
+      "3": "R",
+      "4": "B",
+      "5": "G"
+    },
+    "start": 0,
+    "target": 8,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "R"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": "R"
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": "B"
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "G"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": "R"
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "B"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "G"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": null
+      }
+    ]
+  },
+  {
+    "id": "set1-q21",
+    "set": 1,
+    "number": 21,
+    "slide": 26,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Whole Numbers",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in ASCENDING order (smallest first). Which bubble is popped 4th?",
+    "options": [
+      "12",
+      "63",
+      "29",
+      "47"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  47",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is 47."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "47",
+        "value": 47
+      },
+      {
+        "label": "12",
+        "value": 12
+      },
+      {
+        "label": "85",
+        "value": 85
+      },
+      {
+        "label": "29",
+        "value": 29
+      },
+      {
+        "label": "63",
+        "value": 63
+      },
+      {
+        "label": "8",
+        "value": 8
+      },
+      {
+        "label": "71",
+        "value": 71
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set1-q22",
+    "set": 1,
+    "number": 22,
+    "slide": 27,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Descending Order",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in DESCENDING order (largest first). Which bubble is popped 2nd?",
+    "options": [
+      "145",
+      "120",
+      "156",
+      "98"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  156",
+      "Convert every bubble to a plain number first. | Sort the values in descending (largest first) order. | The answer is 156."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "156",
+        "value": 156
+      },
+      {
+        "label": "98",
+        "value": 98
+      },
+      {
+        "label": "203",
+        "value": 203
+      },
+      {
+        "label": "87",
+        "value": 87
+      },
+      {
+        "label": "145",
+        "value": 145
+      },
+      {
+        "label": "120",
+        "value": 120
+      }
+    ],
+    "descending": true,
+    "filter": null
+  },
+  {
+    "id": "set1-q23",
+    "set": 1,
+    "number": 23,
+    "slide": 28,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Decimal Trap",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in ASCENDING order. Which bubble is popped 5th?",
+    "options": [
+      "0.8",
+      "0.5",
+      "0.6",
+      "0.09"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  0.6",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is 0.6."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "0.6",
+        "value": 0.6
+      },
+      {
+        "label": "0.45",
+        "value": 0.45
+      },
+      {
+        "label": "0.075",
+        "value": 0.075
+      },
+      {
+        "label": "0.8",
+        "value": 0.8
+      },
+      {
+        "label": "0.5",
+        "value": 0.5
+      },
+      {
+        "label": "0.09",
+        "value": 0.09
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set1-q24",
+    "set": 1,
+    "number": 24,
+    "slide": 29,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Arithmetic Bubbles",
+    "prompt": "Bubbles with the values shown float on the screen. Each shows an expression. Pop them in ASCENDING order of value. Which bubble is popped 3rd?",
+    "options": [
+      "8\u00b2",
+      "50 - 9",
+      "6 x 7",
+      "15 + 19"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  15 + 19",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is 15 + 19."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "6 x 7",
+        "value": 42
+      },
+      {
+        "label": "48 / 4",
+        "value": 12.0
+      },
+      {
+        "label": "15 + 19",
+        "value": 34
+      },
+      {
+        "label": "50 - 9",
+        "value": 41
+      },
+      {
+        "label": "8\u00b2",
+        "value": 64
+      },
+      {
+        "label": "3 x 11",
+        "value": 33
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set1-q25",
+    "set": 1,
+    "number": 25,
+    "slide": 30,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Negative Numbers",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in DESCENDING order (largest first). Which bubble is popped LAST?",
+    "options": [
+      "9",
+      "0",
+      "3",
+      "-15"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  -15",
+      "Convert every bubble to a plain number first. | Sort the values in descending (largest first) order. | The answer is -15."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "-7",
+        "value": -7
+      },
+      {
+        "label": "3",
+        "value": 3
+      },
+      {
+        "label": "-15",
+        "value": -15
+      },
+      {
+        "label": "0",
+        "value": 0
+      },
+      {
+        "label": "-2",
+        "value": -2
+      },
+      {
+        "label": "9",
+        "value": 9
+      },
+      {
+        "label": "-11",
+        "value": -11
+      }
+    ],
+    "descending": true,
+    "filter": null
+  },
+  {
+    "id": "set1-q26",
+    "set": 1,
+    "number": 26,
+    "slide": 31,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Fractions",
+    "prompt": "Bubbles with the values shown float on the screen. Pop the fractions in ASCENDING order. Which bubble is popped 4th?",
+    "options": [
+      "7/10",
+      "1/2",
+      "2/3",
+      "5/8"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  7/10",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is 7/10."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "3/4",
+        "value": 0.75
+      },
+      {
+        "label": "5/8",
+        "value": 0.625
+      },
+      {
+        "label": "2/3",
+        "value": 0.6666666666666666
+      },
+      {
+        "label": "7/10",
+        "value": 0.7
+      },
+      {
+        "label": "4/5",
+        "value": 0.8
+      },
+      {
+        "label": "1/2",
+        "value": 0.5
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set1-q27",
+    "set": 1,
+    "number": 27,
+    "slide": 32,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Percentages",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in DESCENDING order of value. Which bubble is popped 2nd?",
+    "options": [
+      "25% of 80",
+      "10% of 250",
+      "40% of 45",
+      "60% of 35"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  10% of 250",
+      "Convert every bubble to a plain number first. | Sort the values in descending (largest first) order. | The answer is 10% of 250."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "25% of 80",
+        "value": 20.0
+      },
+      {
+        "label": "15% of 200",
+        "value": 30.0
+      },
+      {
+        "label": "40% of 45",
+        "value": 18.0
+      },
+      {
+        "label": "60% of 35",
+        "value": 21.0
+      },
+      {
+        "label": "10% of 250",
+        "value": 25.0
+      }
+    ],
+    "descending": true,
+    "filter": null
+  },
+  {
+    "id": "set1-q28",
+    "set": 1,
+    "number": 28,
+    "slide": 33,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Filter and Order",
+    "prompt": "Bubbles with the values shown float on the screen. Pop ONLY the bubbles greater than 20, in ASCENDING order. Which of them is popped 3rd?",
+    "options": [
+      "18",
+      "25",
+      "29",
+      "47"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  29",
+      "Convert every bubble to a plain number first. | Ignore the bubbles that fail the condition (greater than 20). | The answer is 29. | Skipped bubbles: 18, 12."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "18",
+        "value": 18
+      },
+      {
+        "label": "25",
+        "value": 25
+      },
+      {
+        "label": "33",
+        "value": 33
+      },
+      {
+        "label": "21",
+        "value": 21
+      },
+      {
+        "label": "47",
+        "value": 47
+      },
+      {
+        "label": "12",
+        "value": 12
+      },
+      {
+        "label": "29",
+        "value": 29
+      }
+    ],
+    "descending": false,
+    "filter": "gt20"
+  },
+  {
+    "id": "set1-q29",
+    "set": 1,
+    "number": 29,
+    "slide": 34,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Sum of the First Three",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in ASCENDING order. What is the sum of the first three bubbles popped?",
+    "options": [
+      "36",
+      "25",
+      "28",
+      "31"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  28",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | First three: 5 + 9 + 14 = 28."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "14",
+        "value": 14
+      },
+      {
+        "label": "9",
+        "value": 9
+      },
+      {
+        "label": "22",
+        "value": 22
+      },
+      {
+        "label": "5",
+        "value": 5
+      },
+      {
+        "label": "31",
+        "value": 31
+      },
+      {
+        "label": "17",
+        "value": 17
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set1-q30",
+    "set": 1,
+    "number": 30,
+    "slide": 35,
+    "source": "Accenture_Cognitive_Assessment_Practice.pptx",
+    "title": "Powers and Roots",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in ASCENDING order of value. Which bubble is popped immediately BEFORE 5\u00b2?",
+    "options": [
+      "3\u00b3",
+      "4\u00b2",
+      "2\u00b3",
+      "5\u00b2"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  4\u00b2",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is 4\u00b2."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "\u221a81",
+        "value": 9.0
+      },
+      {
+        "label": "2\u00b3",
+        "value": 8
+      },
+      {
+        "label": "5\u00b2",
+        "value": 25
+      },
+      {
+        "label": "3\u00b3",
+        "value": 27
+      },
+      {
+        "label": "\u221a144",
+        "value": 12.0
+      },
+      {
+        "label": "4\u00b2",
+        "value": 16
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set2-q1",
+    "set": 2,
+    "number": 1,
+    "slide": 4,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Shortest Route",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. What is the minimum number of moves needed to reach T?",
+    "options": [
+      "13 moves",
+      "11 moves",
+      "12 moves",
+      "10 moves"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  10 moves",
+      "Explore outward from S: every cell one move away, then two moves away, and so on. | The first time the search touches T is after 10 moves, so that is the minimum. | One shortest route: DRRURRDDDD. | Numbers on the map show the order of cells visited."
+    ],
+    "type": "maze",
+    "cols": 6,
+    "rows": 6,
+    "walls": [
+      2,
+      10,
+      12,
+      15,
+      19,
+      20,
+      28,
+      30,
+      31,
+      34
+    ],
+    "start": 1,
+    "target": 29,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set2-q2",
+    "set": 2,
+    "number": 2,
+    "slide": 5,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Fewest Moves",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. What is the minimum number of moves needed to reach T?",
+    "options": [
+      "8 moves",
+      "10 moves",
+      "9 moves",
+      "6 moves"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  9 moves",
+      "Explore outward from S: every cell one move away, then two moves away, and so on. | The first time the search touches T is after 9 moves, so that is the minimum. | One shortest route: LDDRDRRRD. | Numbers on the map show the order of cells visited."
+    ],
+    "type": "maze",
+    "cols": 6,
+    "rows": 6,
+    "walls": [
+      0,
+      3,
+      8,
+      9,
+      11,
+      13,
+      14,
+      21,
+      22,
+      24,
+      30,
+      32,
+      33
+    ],
+    "start": 7,
+    "target": 34,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set2-q3",
+    "set": 2,
+    "number": 3,
+    "slide": 6,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Path to the Target",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. What is the minimum number of moves needed to reach T?",
+    "options": [
+      "13 moves",
+      "11 moves",
+      "12 moves",
+      "9 moves"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  12 moves",
+      "Explore outward from S: every cell one move away, then two moves away, and so on. | The first time the search touches T is after 12 moves, so that is the minimum. | One shortest route: DDDRRRRDDRRU. | Numbers on the map show the order of cells visited."
+    ],
+    "type": "maze",
+    "cols": 7,
+    "rows": 7,
+    "walls": [
+      2,
+      4,
+      9,
+      10,
+      11,
+      13,
+      24,
+      25,
+      27,
+      34,
+      35,
+      38,
+      40,
+      42,
+      45
+    ],
+    "start": 7,
+    "target": 41,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set2-q4",
+    "set": 2,
+    "number": 4,
+    "slide": 7,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Fewest Turns",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. A turn is any change of direction. What is the minimum number of turns the rocket needs to reach T?",
+    "options": [
+      "4 turns",
+      "6 turns",
+      "1 turn",
+      "2 turns"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  4 turns",
+      "The shortest route is not always the one with the fewest turns. | Best turn-saving route: R4 - D2 - R2 - D3 - L1. | That is 5 straight runs, so 4 turns. | Its length is 12 moves (the minimum possible is 12), but the question asks for turns only."
+    ],
+    "type": "maze",
+    "cols": 7,
+    "rows": 7,
+    "walls": [
+      1,
+      2,
+      3,
+      12,
+      13,
+      15,
+      16,
+      20,
+      22,
+      24,
+      29,
+      31,
+      33,
+      35,
+      36,
+      38,
+      39,
+      43
+    ],
+    "start": 7,
+    "target": 47,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set2-q5",
+    "set": 2,
+    "number": 5,
+    "slide": 8,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Count the Routes",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. In how many different ways can the rocket reach T using the minimum number of moves?",
+    "options": [
+      "3 routes",
+      "5 routes",
+      "1 route",
+      "4 routes"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  4 routes",
+      "The shortest length is 12 moves. | For each cell on a shortest route, add the route counts of its neighbours that are one step closer to S. | Counts flow forward until T collects 4 routes. | Only cells that lie on some shortest route are numbered on the map."
+    ],
+    "type": "maze",
+    "cols": 7,
+    "rows": 7,
+    "walls": [
+      1,
+      2,
+      4,
+      8,
+      9,
+      11,
+      12,
+      19,
+      21,
+      33,
+      35,
+      39,
+      44,
+      45,
+      48
+    ],
+    "start": 7,
+    "target": 47,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set2-q6",
+    "set": 2,
+    "number": 6,
+    "slide": 9,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Collect the Star",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. The rocket must first collect the star, then reach T. What is the minimum number of moves for the whole trip?",
+    "options": [
+      "15 moves",
+      "18 moves",
+      "17 moves",
+      "16 moves"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  15 moves",
+      "S to the star takes 6 moves. | Star to T takes 9 moves. | Total = 6 + 9 = 15 moves. | Going straight to T would take only 11, but the star is compulsory."
+    ],
+    "type": "maze",
+    "cols": 7,
+    "rows": 7,
+    "walls": [
+      2,
+      3,
+      7,
+      11,
+      12,
+      17,
+      21,
+      27,
+      30,
+      37,
+      44,
+      45
+    ],
+    "start": 0,
+    "target": 47,
+    "star": 36,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set2-q7",
+    "set": 2,
+    "number": 7,
+    "slide": 10,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Command Sequence",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. Which command sequence (U = up, D = down, L = left, R = right) takes the rocket from S to T without touching a wall?",
+    "options": [
+      "RRRRDDRRDD",
+      "RURRDDRDDD",
+      "RULRDDRRDD",
+      "RURRDDRRDD"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  RURRDDRRDD",
+      "A) hits a wall at move 2 | B) hits a wall at move 8 | C) hits a wall at move 3 | D) works - reaches T in 10 moves"
+    ],
+    "type": "maze",
+    "cols": 6,
+    "rows": 6,
+    "walls": [
+      0,
+      5,
+      8,
+      10,
+      14,
+      20,
+      21,
+      22,
+      24,
+      25,
+      31,
+      35
+    ],
+    "start": 6,
+    "target": 29,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set2-q8",
+    "set": 2,
+    "number": 8,
+    "slide": 11,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Which Program Works?",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. Which command sequence (U = up, D = down, L = left, R = right) takes the rocket from S to T without touching a wall?",
+    "options": [
+      "DRURRRDDRDDDD",
+      "RDRURRDDRDDDD",
+      "DRRURRDDRDDDD",
+      "DRRURRDDRDDUD"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  DRRURRDDRDDDD",
+      "A) hits a wall at move 3 | B) hits a wall at move 1 | C) works - reaches T in 13 moves | D) stops short of T / ends in the wrong cell"
+    ],
+    "type": "maze",
+    "cols": 7,
+    "rows": 7,
+    "walls": [
+      1,
+      10,
+      12,
+      16,
+      21,
+      22,
+      25,
+      34,
+      44
+    ],
+    "start": 0,
+    "target": 47,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set2-q9",
+    "set": 2,
+    "number": 9,
+    "slide": 12,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Large Grid",
+    "prompt": "The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. This is a bigger 8 x 8 grid. What is the minimum number of moves needed to reach T?",
+    "options": [
+      "15 moves",
+      "19 moves",
+      "17 moves",
+      "20 moves"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  17 moves",
+      "Explore outward from S: every cell one move away, then two moves away, and so on. | The first time the search touches T is after 17 moves, so that is the minimum. | One shortest route: DDRRRURURRRDDDDLD. | Numbers on the map show the order of cells visited."
+    ],
+    "type": "maze",
+    "cols": 8,
+    "rows": 8,
+    "walls": [
+      1,
+      2,
+      6,
+      7,
+      11,
+      18,
+      22,
+      28,
+      30,
+      32,
+      35,
+      37,
+      38,
+      41,
+      42,
+      44,
+      45,
+      53,
+      55,
+      61
+    ],
+    "start": 8,
+    "target": 54,
+    "rightDownOnly": false
+  },
+  {
+    "id": "set2-q10",
+    "set": 2,
+    "number": 10,
+    "slide": 13,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Right and Down Only",
+    "prompt": "The rocket starts at S (top-left) and must reach T (bottom-right). It can move only RIGHT or DOWN and cannot enter wall cells. How many different routes reach T?",
+    "options": [
+      "7 routes",
+      "4 routes",
+      "5 routes",
+      "2 routes"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  5 routes",
+      "Every cell holds the number of ways to reach it. | Ways into a cell = ways from the cell above + ways from the cell on its left (walls contribute 0). | Following the numbers to the bottom-right corner gives 5 routes."
+    ],
+    "type": "maze",
+    "cols": 6,
+    "rows": 6,
+    "walls": [
+      1,
+      4,
+      12,
+      15,
+      20,
+      21,
+      26,
+      33
+    ],
+    "start": 0,
+    "target": 35,
+    "rightDownOnly": true
+  },
+  {
+    "id": "set2-q11",
+    "set": 2,
+    "number": 11,
+    "slide": 15,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Reach the Exit",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the minimum number of moves (room to room) to get from START to EXIT?",
+    "options": [
+      "9 moves",
+      "5 moves",
+      "4 moves",
+      "7 moves"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  7 moves",
+      "Shortest route (7 moves): F > E > H > E > B > E > D > A. | Keys picked up on the way: Green key in H, Red key in B. | Locked doors crossed: E-B (Green), B-E (Green), D-A (Red). | Route numbers on the map show the order of visits."
+    ],
+    "type": "keys",
+    "keys": {
+      "1": "R",
+      "2": "B",
+      "7": "G"
+    },
+    "start": 5,
+    "target": 0,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "B"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": "G"
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": "G"
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "R"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "G"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "R"
+      }
+    ]
+  },
+  {
+    "id": "set2-q12",
+    "set": 2,
+    "number": 12,
+    "slide": 16,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Unlock the Way",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the minimum number of moves (room to room) to get from START to EXIT?",
+    "options": [
+      "10 moves",
+      "4 moves",
+      "8 moves",
+      "7 moves"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  7 moves",
+      "Shortest route (7 moves): B > E > B > C > B > A > D > G. | Keys picked up on the way: Red key in E, Green key in C. | Locked doors crossed: B-C (Red), C-B (Red), B-A (Green). | Route numbers on the map show the order of visits."
+    ],
+    "type": "keys",
+    "keys": {
+      "2": "G",
+      "4": "R",
+      "7": "B"
+    },
+    "start": 1,
+    "target": 6,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "G"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "G"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "G"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": "G"
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "B"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "B"
+      }
+    ]
+  },
+  {
+    "id": "set2-q13",
+    "set": 2,
+    "number": 13,
+    "slide": 17,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Keys and Doors",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the minimum number of moves (room to room) to get from START to EXIT?",
+    "options": [
+      "10 moves",
+      "8 moves",
+      "9 moves",
+      "6 moves"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  8 moves",
+      "Shortest route (8 moves): I > H > I > F > I > H > G > D > A. | Keys picked up on the way: Green key in H, Blue key in F. | Locked doors crossed: I-F (Green), F-I (Green), H-G (Blue), G-D (Green), D-A (Green). | Route numbers on the map show the order of visits."
+    ],
+    "type": "keys",
+    "keys": {
+      "4": "R",
+      "5": "B",
+      "7": "G"
+    },
+    "start": 8,
+    "target": 0,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "B"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "G"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": "R"
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "R"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": "G"
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "R"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": "B"
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "G"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "B"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": null
+      }
+    ]
+  },
+  {
+    "id": "set2-q14",
+    "set": 2,
+    "number": 14,
+    "slide": 18,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Longest Detour",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the minimum number of moves (room to room) to get from START to EXIT?",
+    "options": [
+      "12 moves",
+      "7 moves",
+      "9 moves",
+      "10 moves"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  9 moves",
+      "Shortest route (9 moves): B > E > F > I > F > C > B > A > D > G. | Keys picked up on the way: Blue key in I, Green key in C, Red key in A. | Locked doors crossed: F-C (Blue), C-B (Blue), B-A (Blue), A-D (Green), D-G (Green). | Route numbers on the map show the order of visits."
+    ],
+    "type": "keys",
+    "keys": {
+      "0": "R",
+      "2": "G",
+      "8": "B"
+    },
+    "start": 1,
+    "target": 6,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "B"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "G"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "B"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": "B"
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "R"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": "G"
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": null
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "R"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": null
+      }
+    ]
+  },
+  {
+    "id": "set2-q15",
+    "set": 2,
+    "number": 15,
+    "slide": 19,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Fewest Keys",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the smallest number of different keys the player must pick up to be able to reach EXIT?",
+    "options": [
+      "0 keys",
+      "1 key",
+      "2 keys",
+      "3 keys"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  2 keys",
+      "Best route: C > F > E > B > A > D > G. | Keys picked up: Green key in F, Blue key in B. | Locked doors crossed: F-E (Green), E-B (Green), D-G (Blue). | Only 2 keys are needed, even if the route is not the shortest overall."
+    ],
+    "type": "keys",
+    "keys": {
+      "1": "B",
+      "5": "G",
+      "7": "R"
+    },
+    "start": 2,
+    "target": 6,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": null
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "B"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": "G"
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "R"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": "B"
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "G"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "B"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "B"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": null
+      }
+    ]
+  },
+  {
+    "id": "set2-q16",
+    "set": 2,
+    "number": 16,
+    "slide": 20,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "First Key",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. On the shortest route from START to EXIT, which key is picked up first?",
+    "options": [
+      "Blue key",
+      "Green key",
+      "Red key",
+      "No key is needed"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  Blue key",
+      "Shortest route (6 moves): A > B > E > F > C > F > I. | Keys picked up, in order: Blue key in C. | The first one is the Blue key, collected before any locked door blocks the way."
+    ],
+    "type": "keys",
+    "keys": {
+      "2": "B",
+      "3": "G",
+      "7": "R"
+    },
+    "start": 0,
+    "target": 8,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": null
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "R"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "B"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "B"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "B"
+      }
+    ]
+  },
+  {
+    "id": "set2-q17",
+    "set": 2,
+    "number": 17,
+    "slide": 21,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Missing Key",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. Suppose the Red key is removed from the map. What is the minimum number of moves from START to EXIT now?",
+    "options": [
+      "EXIT cannot be reached",
+      "11 moves",
+      "9 moves",
+      "7 moves"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  EXIT cannot be reached",
+      "Original shortest route needs 7 moves. | Without the Red key, every Red door stays locked. | Every path from START to EXIT must cross one of those doors, so EXIT cannot be reached."
+    ],
+    "type": "keys",
+    "keys": {
+      "2": "B",
+      "8": "G"
+    },
+    "start": 5,
+    "target": 0,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "G"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": "B"
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "G"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "B"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": "R"
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "G"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": "B"
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "R"
+      }
+    ],
+    "removedKey": "R"
+  },
+  {
+    "id": "set2-q18",
+    "set": 2,
+    "number": 18,
+    "slide": 22,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Key Removed, Longer Way",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. Suppose the Red key is removed from the map. What is the minimum number of moves from START to EXIT now?",
+    "options": [
+      "EXIT cannot be reached",
+      "9 moves",
+      "11 moves",
+      "7 moves"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  9 moves",
+      "Original shortest route needs 7 moves. | Without the Red key every Red door stays locked, so the player must detour. | New route (9 moves): D > E > F > I > H > G > D > E > B > C."
+    ],
+    "type": "keys",
+    "keys": {
+      "6": "B",
+      "8": "G"
+    },
+    "start": 3,
+    "target": 2,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "R"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "G"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "B"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": "R"
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": "B"
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": "R"
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": null
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": null
+      }
+    ],
+    "removedKey": "R"
+  },
+  {
+    "id": "set2-q19",
+    "set": 2,
+    "number": 19,
+    "slide": 23,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Doors Passed",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. On the shortest route, how many locked doors does the player pass through (count every time a locked door is crossed)?",
+    "options": [
+      "4 doors",
+      "2 doors",
+      "1 door",
+      "5 doors"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  2 doors",
+      "Shortest route (8 moves): C > B > E > B > C > F > I > H > G. | Locked doors crossed: F-I (Blue), I-H (Green). | Total locked doors crossed = 2."
+    ],
+    "type": "keys",
+    "keys": {
+      "0": "R",
+      "1": "B",
+      "4": "G"
+    },
+    "start": 2,
+    "target": 6,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": "R"
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "B"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": null
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": null
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "R"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": "R"
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "R"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": "R"
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "B"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": "G"
+      }
+    ]
+  },
+  {
+    "id": "set2-q20",
+    "set": 2,
+    "number": 20,
+    "slide": 24,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Memory Check",
+    "prompt": "Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. Memory round: which colour of locked door appears the most times on the whole map?",
+    "options": [
+      "All colours are equal",
+      "Green doors",
+      "Red doors",
+      "Blue doors"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  Green doors",
+      "Red doors: 1 | Blue doors: 2 | Green doors: 4 | Green has the most locked doors."
+    ],
+    "type": "keys",
+    "keys": {
+      "1": "R",
+      "6": "G",
+      "7": "B"
+    },
+    "start": 8,
+    "target": 0,
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "door": null
+      },
+      {
+        "a": 0,
+        "b": 3,
+        "door": "R"
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "door": "G"
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "door": "G"
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "door": null
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "door": "G"
+      },
+      {
+        "a": 3,
+        "b": 6,
+        "door": "B"
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "door": "B"
+      },
+      {
+        "a": 4,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 5,
+        "b": 8,
+        "door": "G"
+      },
+      {
+        "a": 6,
+        "b": 7,
+        "door": null
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "door": null
+      }
+    ]
+  },
+  {
+    "id": "set2-q21",
+    "set": 2,
+    "number": 21,
+    "slide": 26,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Whole Numbers",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in ASCENDING order (smallest first). Which bubble is popped 3rd?",
+    "options": [
+      "19",
+      "55",
+      "37",
+      "64"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  37",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is 37."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "64",
+        "value": 64
+      },
+      {
+        "label": "19",
+        "value": 19
+      },
+      {
+        "label": "92",
+        "value": 92
+      },
+      {
+        "label": "37",
+        "value": 37
+      },
+      {
+        "label": "55",
+        "value": 55
+      },
+      {
+        "label": "8",
+        "value": 8
+      },
+      {
+        "label": "76",
+        "value": 76
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set2-q22",
+    "set": 2,
+    "number": 22,
+    "slide": 27,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Descending Order",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in DESCENDING order (largest first). Which bubble is popped 4th?",
+    "options": [
+      "240",
+      "98",
+      "160",
+      "133"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  160",
+      "Convert every bubble to a plain number first. | Sort the values in descending (largest first) order. | The answer is 160."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "212",
+        "value": 212
+      },
+      {
+        "label": "175",
+        "value": 175
+      },
+      {
+        "label": "98",
+        "value": 98
+      },
+      {
+        "label": "240",
+        "value": 240
+      },
+      {
+        "label": "133",
+        "value": 133
+      },
+      {
+        "label": "160",
+        "value": 160
+      }
+    ],
+    "descending": true,
+    "filter": null
+  },
+  {
+    "id": "set2-q23",
+    "set": 2,
+    "number": 23,
+    "slide": 28,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Decimal Trap",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in ASCENDING order. Which bubble is popped 2nd?",
+    "options": [
+      "0.35",
+      "0.4",
+      "0.305",
+      "0.31"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  0.305",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is 0.305."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "0.35",
+        "value": 0.35
+      },
+      {
+        "label": "0.305",
+        "value": 0.305
+      },
+      {
+        "label": "0.5",
+        "value": 0.5
+      },
+      {
+        "label": "0.053",
+        "value": 0.053
+      },
+      {
+        "label": "0.4",
+        "value": 0.4
+      },
+      {
+        "label": "0.31",
+        "value": 0.31
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set2-q24",
+    "set": 2,
+    "number": 24,
+    "slide": 29,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Arithmetic Bubbles",
+    "prompt": "Bubbles with the values shown float on the screen. Each shows an expression. Pop them in ASCENDING order of value. Which bubble is popped 4th?",
+    "options": [
+      "27 + 38",
+      "96 / 8",
+      "100 - 23",
+      "4 x 13"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  27 + 38",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is 27 + 38."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "9 x 8",
+        "value": 72
+      },
+      {
+        "label": "96 / 8",
+        "value": 12.0
+      },
+      {
+        "label": "27 + 38",
+        "value": 65
+      },
+      {
+        "label": "100 - 23",
+        "value": 77
+      },
+      {
+        "label": "7\u00b2",
+        "value": 49
+      },
+      {
+        "label": "4 x 13",
+        "value": 52
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set2-q25",
+    "set": 2,
+    "number": 25,
+    "slide": 30,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Negative Numbers",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in ASCENDING order (smallest first). Which bubble is popped 2nd?",
+    "options": [
+      "-1",
+      "0",
+      "8",
+      "-9"
+    ],
+    "answer": 3,
+    "explanation": [
+      "Answer: D  |  -9",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is -9."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "-4",
+        "value": -4
+      },
+      {
+        "label": "8",
+        "value": 8
+      },
+      {
+        "label": "-13",
+        "value": -13
+      },
+      {
+        "label": "0",
+        "value": 0
+      },
+      {
+        "label": "-9",
+        "value": -9
+      },
+      {
+        "label": "5",
+        "value": 5
+      },
+      {
+        "label": "-1",
+        "value": -1
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set2-q26",
+    "set": 2,
+    "number": 26,
+    "slide": 31,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Fractions",
+    "prompt": "Bubbles with the values shown float on the screen. Pop the fractions in DESCENDING order. Which bubble is popped 3rd?",
+    "options": [
+      "2/3",
+      "3/4",
+      "5/6",
+      "7/8"
+    ],
+    "answer": 1,
+    "explanation": [
+      "Answer: B  |  3/4",
+      "Convert every bubble to a plain number first. | Sort the values in descending (largest first) order. | The answer is 3/4."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "5/6",
+        "value": 0.8333333333333334
+      },
+      {
+        "label": "3/5",
+        "value": 0.6
+      },
+      {
+        "label": "7/8",
+        "value": 0.875
+      },
+      {
+        "label": "2/3",
+        "value": 0.6666666666666666
+      },
+      {
+        "label": "3/4",
+        "value": 0.75
+      },
+      {
+        "label": "4/7",
+        "value": 0.5714285714285714
+      }
+    ],
+    "descending": true,
+    "filter": null
+  },
+  {
+    "id": "set2-q27",
+    "set": 2,
+    "number": 27,
+    "slide": 32,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Percentages",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in ASCENDING order of value. Which bubble is popped 3rd?",
+    "options": [
+      "30% of 90",
+      "55% of 60",
+      "20% of 150",
+      "45% of 40"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  30% of 90",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is 30% of 90."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "30% of 90",
+        "value": 27.0
+      },
+      {
+        "label": "20% of 150",
+        "value": 30.0
+      },
+      {
+        "label": "45% of 40",
+        "value": 18.0
+      },
+      {
+        "label": "12% of 200",
+        "value": 24.0
+      },
+      {
+        "label": "55% of 60",
+        "value": 33.0
+      }
+    ],
+    "descending": false,
+    "filter": null
+  },
+  {
+    "id": "set2-q28",
+    "set": 2,
+    "number": 28,
+    "slide": 33,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Filter and Order",
+    "prompt": "Bubbles with the values shown float on the screen. Pop ONLY the bubbles less than 30, in DESCENDING order. Which of them is popped 2nd?",
+    "options": [
+      "28",
+      "19",
+      "27",
+      "34"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  27",
+      "Convert every bubble to a plain number first. | Ignore the bubbles that fail the condition (less than 30). | The answer is 27. | Skipped bubbles: 34, 45."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "34",
+        "value": 34
+      },
+      {
+        "label": "12",
+        "value": 12
+      },
+      {
+        "label": "27",
+        "value": 27
+      },
+      {
+        "label": "45",
+        "value": 45
+      },
+      {
+        "label": "19",
+        "value": 19
+      },
+      {
+        "label": "28",
+        "value": 28
+      },
+      {
+        "label": "8",
+        "value": 8
+      }
+    ],
+    "descending": true,
+    "filter": "lt30"
+  },
+  {
+    "id": "set2-q29",
+    "set": 2,
+    "number": 29,
+    "slide": 34,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Sum of the First Three",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in DESCENDING order. What is the sum of the first three bubbles popped?",
+    "options": [
+      "80",
+      "86",
+      "83",
+      "91"
+    ],
+    "answer": 2,
+    "explanation": [
+      "Answer: C  |  83",
+      "Convert every bubble to a plain number first. | Sort the values in descending (largest first) order. | First three: 40 + 25 + 18 = 83."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "18",
+        "value": 18
+      },
+      {
+        "label": "7",
+        "value": 7
+      },
+      {
+        "label": "25",
+        "value": 25
+      },
+      {
+        "label": "12",
+        "value": 12
+      },
+      {
+        "label": "40",
+        "value": 40
+      },
+      {
+        "label": "3",
+        "value": 3
+      }
+    ],
+    "descending": true,
+    "filter": null
+  },
+  {
+    "id": "set2-q30",
+    "set": 2,
+    "number": 30,
+    "slide": 35,
+    "source": "Accenture_Cognitive_Assessment_Practice_Set2.pptx",
+    "title": "Powers and Roots",
+    "prompt": "Bubbles with the values shown float on the screen. Pop them in ASCENDING order of value. Which bubble is popped immediately BEFORE 3\u00b3?",
+    "options": [
+      "5\u00b2",
+      "6\u00b2",
+      "4\u00b2",
+      "\u221a196"
+    ],
+    "answer": 0,
+    "explanation": [
+      "Answer: A  |  5\u00b2",
+      "Convert every bubble to a plain number first. | Sort the values in ascending (smallest first) order. | The answer is 5\u00b2."
+    ],
+    "type": "bubbles",
+    "bubbles": [
+      {
+        "label": "\u221a64",
+        "value": 8.0
+      },
+      {
+        "label": "3\u00b3",
+        "value": 27
+      },
+      {
+        "label": "6\u00b2",
+        "value": 36
+      },
+      {
+        "label": "4\u00b2",
+        "value": 16
+      },
+      {
+        "label": "\u221a196",
+        "value": 14.0
+      },
+      {
+        "label": "5\u00b2",
+        "value": 25
+      }
+    ],
+    "descending": false,
+    "filter": null
+  }
+]

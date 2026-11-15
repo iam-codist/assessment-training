@@ -106,3 +106,35 @@ if (searchForm) {
     summary.textContent = 'Search could not load. Refresh the page or browse a topic from the menu.';
   }
 }
+
+// Progressive enhancement: without JavaScript, all four source panels remain readable.
+for (const group of document.querySelectorAll('.language-solutions')) {
+  const tablist = group.querySelector('.solution-tabs');
+  const tabs = [...tablist.querySelectorAll('button')];
+  const panels = [...group.querySelectorAll('.solution-panel')];
+  tablist.hidden = false;
+  tablist.setAttribute('role', 'tablist');
+  function selectTab(index, focus = false) {
+    tabs.forEach((tab, i) => {
+      tab.setAttribute('role', 'tab');
+      tab.setAttribute('aria-controls', tab.dataset.panel);
+      tab.setAttribute('aria-selected', String(i === index));
+      tab.tabIndex = i === index ? 0 : -1;
+      panels[i].setAttribute('role', 'tabpanel');
+      panels[i].setAttribute('aria-labelledby', tab.id);
+      panels[i].tabIndex = 0;
+      panels[i].hidden = i !== index;
+    });
+    if (focus) tabs[index].focus();
+  }
+  tabs.forEach((tab, i) => {
+    tab.addEventListener('click', () => selectTab(i));
+    tab.addEventListener('keydown', event => {
+      const next = event.key === 'ArrowRight' ? (i + 1) % tabs.length
+        : event.key === 'ArrowLeft' ? (i + tabs.length - 1) % tabs.length
+        : event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : null;
+      if (next !== null) { event.preventDefault(); selectTab(next, true); }
+    });
+  });
+  selectTab(0);
+}

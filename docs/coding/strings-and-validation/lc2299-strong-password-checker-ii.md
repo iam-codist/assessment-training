@@ -39,9 +39,30 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Scan once with character-category flags and an adjacent-equality check.
 
-## Reference implementations
+## Solutions in four languages
 
-- [Solution.java](../../../solutions/LC2299/Solution.java)
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read an ASCII password line. Apply Strong Password Checker II rules and print true or false.
+
+**Sample program input**
+
+```text
+IloveLe3tcode!
+```
+
+**Sample program output**
+
+```text
+true
+```
+
+- [C source](../../../solutions/LC2299/solution.c)
+- [C++ source](../../../solutions/LC2299/solution.cpp)
+- [Python source](../../../solutions/LC2299/solution.py)
+- [Java source](../../../solutions/LC2299/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
 
 </details>
 

@@ -22,11 +22,16 @@ for (const file of files.filter(f => f.endsWith('.html'))) {
   htmlCount++;
   const html = await readFile(file, 'utf8');
   assert.match(html, /<html lang="en">/);
-  assert.match(html, /id="main"/);
+  const relative = path.relative(dist, file).split(path.sep).join('/');
+  if (relative === 'lab/index.html') {
+    assert.match(html, /id="root"/);
+    assert.match(html, /type="module"/);
+  } else assert.match(html, /id="main"/);
   for (const [, url] of html.matchAll(/(?:href|src|action)="([^"]+)"/g)) {
     if (/^(https?:|mailto:|#)/.test(url)) continue;
-    assert.ok(url.startsWith(basePath), `${file}: URL misses Pages base path: ${url}`);
-    const pathname = decodeURIComponent(url.split(/[?#]/)[0]);
+    if (!relative.startsWith('lab/')) assert.ok(url.startsWith(basePath), `${file}: URL misses Pages base path: ${url}`);
+    const pathname = decodeURIComponent(new URL(url, 'https://example.test' + basePath + relative).pathname);
+    assert.ok(pathname.startsWith(basePath), `${file}: local link leaves the project: ${url}`);
     let target = path.join(dist, pathname.slice(basePath.length));
     if (pathname.endsWith('/')) target = path.join(target, 'index.html');
     if (!checked.has(target)) { await access(target); checked.add(target); }
@@ -37,6 +42,10 @@ for (const q of catalog.questions) {
   const html = await readFile(path.join(dist, 'questions', q.id.toLowerCase(), 'index.html'), 'utf8');
   assert.ok(index.some(entry => entry.id === q.id && entry.url === route));
   assert.match(html, /class="prose lesson-body"/);
+  if (q.category === 'coding') {
+    assert.equal((html.match(/class="solution-panel"/g) ?? []).length, 4, `${q.id}: four language panels`);
+    assert.match(html, /C, C\+\+, Python and Java/);
+  }
   if (q.status !== 'outline') {
     assert.match(html, /<summary>Show answer and explanation<\/summary>/, q.id);
     const lesson = html.split('<article class="prose lesson-body">')[1].split('</article>')[0];

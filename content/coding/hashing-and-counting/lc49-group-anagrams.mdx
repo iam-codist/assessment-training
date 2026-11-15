@@ -39,9 +39,37 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Use a sorted-word or frequency signature as a map key, then group words with matching keys.
 
-## Reference implementations
+## Solutions in four languages
 
-- [Solution.java](../../../solutions/LC49/Solution.java)
+Group order is normally unrestricted. These demonstration programs sort the group keys so all four languages print the same result. This adds ordering work beyond a hash-map solution. Input words use only lowercase English letters, so the JSON output needs no escaping.
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n, then n lowercase English words, one per line (a word may be empty). Print groups as JSON arrays, ordered by sorted-letter key; retain input order inside each group.
+
+**Sample program input**
+
+```text
+4
+eat
+tea
+bat
+ate
+```
+
+**Sample program output**
+
+```text
+["bat"]
+["eat","tea","ate"]
+```
+
+- [C source](../../../solutions/LC49/solution.c)
+- [C++ source](../../../solutions/LC49/solution.cpp)
+- [Python source](../../../solutions/LC49/solution.py)
+- [Java source](../../../solutions/LC49/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
 
 </details>
 

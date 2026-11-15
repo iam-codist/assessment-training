@@ -3,6 +3,7 @@
 | Topic | Entries |
 | --- | --- |
 | [Cloud fundamentals](cloud/README.md) | 6 |
+| [CS fundamentals](cs-fundamentals/README.md) | 8 |
 | [Database keys](databases/README.md) | 1 |
 | [Excel](excel/README.md) | 8 |
 | [Networking](networking/README.md) | 5 |

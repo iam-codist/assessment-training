@@ -67,10 +67,31 @@ O(n) time; O(1) extra working space.
 
 A single value gives 1. Equality breaks a streak. Do not sort or skip readings.
 
-## Reference implementations
+## Solutions in four languages
 
-- [LongestRisingStretch.java](../../../solutions/C01/LongestRisingStretch.java)
-- [longest_rising_stretch.py](../../../solutions/C01/longest_rising_stretch.py)
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n, followed by n integers. Print the longest strictly increasing contiguous length.
+
+**Sample program input**
+
+```text
+7
+2 5 5 6 9 1 4
+```
+
+**Sample program output**
+
+```text
+3
+```
+
+- [C source](../../../solutions/C01/solution.c)
+- [C++ source](../../../solutions/C01/solution.cpp)
+- [Python source](../../../solutions/C01/solution.py)
+- [Java source](../../../solutions/C01/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
 
 </details>
 

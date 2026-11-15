@@ -39,6 +39,31 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Use aligned descending tables: values [1000,900,500,400,100,90,50,40,10,9,5,4,1]; symbols [M,CM,D,CD,C,XC,L,XL,X,IX,V,IV,I]. Repeatedly append the current symbol while its value fits, then subtract.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read an integer from 1 through 3999. Print its Roman numeral.
+
+**Sample program input**
+
+```text
+3749
+```
+
+**Sample program output**
+
+```text
+MMMDCCXLIX
+```
+
+- [C source](../../../solutions/LC12/solution.c)
+- [C++ source](../../../solutions/LC12/solution.cpp)
+- [Python source](../../../solutions/LC12/solution.py)
+- [Java source](../../../solutions/LC12/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

@@ -11,7 +11,7 @@ if (!['sync', 'check'].includes(mode)) throw new Error('Use: node scripts/conten
 const labels = JSON.parse(await readFile(path.join(root, 'scripts/labels.json'), 'utf8'));
 const label = key => labels[key] ?? key.split('-').map(s => s[0].toUpperCase() + s.slice(1)).join(' ');
 const statuses = ['ready', 'planned', 'needs-review', 'outline'];
-const categoryOrder = ['technical-mcqs', 'pseudocode', 'coding', 'concept-checks', 'cognitive', 'reference-outlines'];
+const categoryOrder = ['technical-mcqs', 'pseudocode', 'coding', 'concept-checks', 'sql', 'frontend', 'cognitive', 'behavioral', 'communication', 'interview', 'reference-outlines'];
 const collator = new Intl.Collator('en', { numeric: true });
 
 async function files(directory) {

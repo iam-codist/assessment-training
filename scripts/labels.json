@@ -40,5 +40,21 @@
   "spatial": "Rotation and reflection",
   "visual": "Visual discussion puzzles",
   "words": "Word circuits",
-  "needs-statement": "Outlines awaiting full statements"
+  "needs-statement": "Outlines awaiting full statements",
+  "sql": "SQL \u2014 joins and queries",
+  "frontend": "Frontend development",
+  "behavioral": "Behavioral assessment",
+  "communication": "Communication assessment",
+  "interview": "Technical and HR interview",
+  "cs-fundamentals": "CS fundamentals",
+  "dynamic-programming": "Dynamic programming",
+  "joins": "SQL joins",
+  "queries": "Queries and aggregation",
+  "html": "HTML and accessibility",
+  "css": "CSS and responsive layouts",
+  "javascript": "JavaScript fundamentals",
+  "workplace-scenarios": "Workplace scenarios",
+  "communication-practice": "Speaking, writing and comprehension",
+  "technical-interview": "Technical interview",
+  "hr-interview": "HR interview"
 }

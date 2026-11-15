@@ -41,6 +41,18 @@ Begin without a timer. Write arithmetic values before sorting bubbles. For route
 
 Use the [cognitive topic index](docs/cognitive/README.md). Memory panels must be closed before recall. Visual entries marked `needs-review` are discussions, not verified tests.
 
+## 7. Build dynamic programming from small states
+
+Explain what one state means before writing a recurrence. Start with [climbing stairs](docs/coding/dynamic-programming/dp01-climbing-stairs-with-two-choices.md), then [minimum coins](docs/coding/dynamic-programming/dp02-minimum-coins-when-greedy-fails.md) and [longest common subsequence](docs/coding/dynamic-programming/dp03-longest-common-subsequence.md). Choose a language and follow the [run guide](SOLUTIONS.md).
+
+## 8. Connect queries and interfaces
+
+Use the [SQL dataset](SQL-PRACTICE.md) to predict join results before executing queries. Then work through [HTML, CSS and JavaScript](docs/frontend/README.md), checking how a user would read and operate each example.
+
+## 9. Practise explaining and reflecting
+
+Combine one [behavioral scenario](docs/behavioral/README.md), one [communication exercise](docs/communication/README.md) and one [interview question](docs/interview/README.md). Give truthful examples and ask a partner which part was clear or missing. For partner listening, use the provided script; automated speech scoring is not included.
+
 ## A repeatable practice session
 
 1. Review one concept and explain it aloud.

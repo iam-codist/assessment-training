@@ -65,6 +65,31 @@ O(L) time; O(1) extra working space.
 
 The problem numbers positions from one. Leading zeros must not be removed.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read a nonempty digit string. Print its weighted checksum modulo 10.
+
+**Sample program input**
+
+```text
+2047
+```
+
+**Sample program output**
+
+```text
+5
+```
+
+- [C source](../../../solutions/C11/solution.c)
+- [C++ source](../../../solutions/C11/solution.cpp)
+- [Python source](../../../solutions/C11/solution.py)
+- [Java source](../../../solutions/C11/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

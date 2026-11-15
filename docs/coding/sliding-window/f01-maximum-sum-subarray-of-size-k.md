@@ -39,6 +39,32 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Brute force visits starts i=0..n-k and elements j=i..i+k-1. Optimize by subtracting nums[i-k] and adding nums[i]. O(nk) → O(n), O(1) working space.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read positive n and k (1 through n), then n integers. Print the maximum sum over exactly k consecutive elements.
+
+**Sample program input**
+
+```text
+6 3
+2 1 5 1 3 2
+```
+
+**Sample program output**
+
+```text
+9
+```
+
+- [C source](../../../solutions/F01/solution.c)
+- [C++ source](../../../solutions/F01/solution.cpp)
+- [Python source](../../../solutions/F01/solution.py)
+- [Java source](../../../solutions/F01/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

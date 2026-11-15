@@ -73,6 +73,36 @@ O(q log M) time for repeated division; O(1) working space per pair.
 
 Zero has zero set bits. The values need not be equal to have equal set-bit counts.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read q pairs of nonnegative integers. Print YES or NO for each pair.
+
+**Sample program input**
+
+```text
+3
+5 6
+7 8
+0 0
+```
+
+**Sample program output**
+
+```text
+YES
+NO
+YES
+```
+
+- [C source](../../../solutions/C03/solution.c)
+- [C++ source](../../../solutions/C03/solution.cpp)
+- [Python source](../../../solutions/C03/solution.py)
+- [Java source](../../../solutions/C03/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

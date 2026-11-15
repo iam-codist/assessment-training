@@ -39,9 +39,33 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Track three distinct maxima. Avoid using a valid int value as an unqualified missing-value sentinel.
 
-## Reference implementations
+## Solutions in four languages
 
-- [Solution.java](../../../solutions/LC414/Solution.java)
+These reference programs sort to make the distinct-value rule easy to see: O(n log n) time. The scan-only approach described above can reduce this to O(n). Python builds a distinct set; other versions sort the input array.
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read positive n and n integers. Print third-largest distinct value, or the maximum if fewer than three exist.
+
+**Sample program input**
+
+```text
+3
+3 2 1
+```
+
+**Sample program output**
+
+```text
+1
+```
+
+- [C source](../../../solutions/LC414/solution.c)
+- [C++ source](../../../solutions/LC414/solution.cpp)
+- [Python source](../../../solutions/LC414/solution.py)
+- [Java source](../../../solutions/LC414/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
 
 </details>
 

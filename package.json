@@ -5,15 +5,18 @@
   "type": "module",
   "description": "Topic-wise assessment practice in MDX, with answers and explanations.",
   "engines": {
-    "node": ">=22"
+    "node": ">=22.12.0"
   },
   "scripts": {
     "sync": "node scripts/content.mjs sync",
     "check": "node scripts/content.mjs check",
-    "build": "npm run sync && node scripts/build-site.mjs",
+    "build": "npm run sync && npm run build:lab && node scripts/build-site.mjs",
     "dev": "npm run build && node scripts/preview.mjs",
-    "test": "npm run check && node --test scripts/search.test.mjs",
-    "test:site": "node scripts/check-site.mjs"
+    "test": "npm run check && node --test scripts/search.test.mjs && python3 scripts/test-sql.py",
+    "test:site": "node scripts/check-site.mjs",
+    "build:lab": "npm --prefix cognitive-lab run build",
+    "test:solutions": "python3 scripts/test-solutions.py",
+    "test:lab": "npm --prefix cognitive-lab test"
   },
   "devDependencies": {
     "@mdx-js/mdx": "3.1.1",

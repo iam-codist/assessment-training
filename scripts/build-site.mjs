@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir, rm, cp } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { solutionPanels } from './solution-panels.mjs';
 import { evaluate } from '@mdx-js/mdx';
 import remarkGfm from 'remark-gfm';
 import { createElement } from 'react';
@@ -12,6 +13,7 @@ const out = path.join(root, 'dist');
 const config = JSON.parse(await readFile(path.join(root, 'site.config.json'), 'utf8'));
 const catalog = JSON.parse(await readFile(path.join(root, 'catalog.json'), 'utf8'));
 const labels = JSON.parse(await readFile(path.join(root, 'scripts/labels.json'), 'utf8'));
+const solutions = JSON.parse(await readFile(path.join(root, 'solutions/index.json'), 'utf8'));
 const base = config.basePath;
 if (!/^\/(?:[a-z0-9-]+\/)*$/.test(base)) throw new Error('basePath must be an absolute directory path with a trailing slash');
 const href = route => base + route;
@@ -26,9 +28,14 @@ const categoryRoute = category => `topics/${category}/`;
 const statusLabel = { ready: 'Ready to practise', planned: 'Planned lesson', 'needs-review': 'Needs review', outline: 'Outline only' };
 const statusBadge = status => `<span class="badge ${status}">${statusLabel[status]}</span>`;
 const descriptions = {
-  'technical-mcqs': 'Build confidence in Excel, networking, cloud, security and everyday office tools.',
+  'technical-mcqs': 'Build confidence in Excel, networking, cloud, security, CS fundamentals and everyday office tools.',
+  sql: 'Write queries, understand joins and check your results against a shared practice dataset.',
+  frontend: 'Build sound foundations in HTML, accessible forms, CSS layouts and JavaScript.',
+  behavioral: 'Reflect on teamwork, ownership, feedback and practical workplace decisions.',
+  communication: 'Practise clear speaking, concise writing, listening and careful reading.',
+  interview: 'Prepare truthful examples and explain your projects, decisions and problem-solving.',
   pseudocode: 'Follow the variables. Understand the loops. Learn to explain every output.',
-  coding: 'Build your problem-solving toolkit, from first scans to sliding windows and Kadane.',
+  coding: 'Build your problem-solving toolkit, from first scans to sliding windows and dynamic programming, in four languages.',
   'concept-checks': 'Quick questions that help you explain the why behind an algorithm.',
   cognitive: 'Train your attention, arithmetic, memory, spatial reasoning and route finding.',
   'reference-outlines': 'An open notebook of prompts waiting for complete statements and solutions.'
@@ -49,7 +56,7 @@ for (const cat of categories) sourceRoutes.set(`docs/${cat}/README.md`, category
 for (const topic of topics) sourceRoutes.set(`docs/${topic}/README.md`, `topics/${topic}/`);
 sourceRoutes.set('docs/README.md', 'topics/');
 sourceRoutes.set('README.md', '');
-const guides = [['STUDY-GUIDE.md', 'study-guide', 'Find your starting point'], ['CONVENTIONS.md', 'conventions', 'Small rules. Fewer mistakes.'], ['KNOWN-GAPS.md', 'known-gaps', 'What is still being reviewed'], ['SOURCES.md', 'sources', 'About this collection']];
+const guides = [['COVERAGE.md', 'assessment-roadmap', 'All ten areas in your preparation plan'], ['SOLUTIONS.md', 'running-solutions', 'Choose a language. Run an example. Test an edge case.'], ['SQL-PRACTICE.md', 'sql-practice', 'One small dataset for every SQL exercise'], ['STUDY-GUIDE.md', 'study-guide', 'Find your starting point'], ['CONVENTIONS.md', 'conventions', 'Small rules. Fewer mistakes.'], ['KNOWN-GAPS.md', 'known-gaps', 'What is still being reviewed'], ['SOURCES.md', 'sources', 'About this collection']];
 for (const [file, route] of guides) sourceRoutes.set(file, `guide/${route}/`);
 const codeSources = new Set();
 
@@ -58,6 +65,7 @@ function resolveLink(url, file, image = false) {
   const [pathname, hash] = url.split('#');
   const resolved = path.posix.normalize(path.posix.join(path.posix.dirname(file), decodeURIComponent(pathname)));
   if (sourceRoutes.has(resolved)) return href(sourceRoutes.get(resolved)) + (hash ? '#' + hash : '');
+  if (resolved.startsWith('practice/')) return href(resolved);
   if (resolved.startsWith('assets/')) return href(resolved);
   if (resolved.startsWith('solutions/')) {
     codeSources.add(resolved);
@@ -92,11 +100,12 @@ function sidebar(activeCategory = '', activeTopic = '', current = '') {
   return `<aside class="sidebar" id="sidebar" aria-label="Topic navigation">
     <div class="brand-row"><a class="brand" href="${href('')}" aria-label="Assessment Training home"><span class="brand-symbol">${icon('coding')}</span><span>Assessment<strong>Training</strong></span></a><button id="menu-close" class="icon-button" aria-label="Close topic menu">×</button></div>
     <a class="home-link ${current === '' ? 'active' : ''}" href="${href('')}" ${current === '' ? 'aria-current="page"' : ''}>⌂ <span>Overview</span></a>
+    <a class="lab-link" href="${href('lab/')}">${icon('cognitive')}<span>Open Cognitive Lab ↗</span></a>
     <div class="nav-label">YOUR PRACTICE LIBRARY</div>
     <nav>${categories.map(cat => `<details class="nav-group" ${cat === activeCategory ? 'open' : ''}><summary>${icon(cat)}<span>${label(cat)}</span><span class="nav-count">${catalog.counts[cat]}</span></summary><div class="nav-topics"><a href="${href(categoryRoute(cat))}" ${current === categoryRoute(cat) ? 'aria-current="page"' : ''}>All ${label(cat).toLowerCase()}</a>${topics.filter(t => t.startsWith(cat + '/')).map(t => {
       const topic = t.split('/')[1]; return `<a ${topic === activeTopic && cat === activeCategory ? 'class="active" aria-current="page"' : ''} href="${href(`topics/${t}/`)}">${label(topic)}</a>`;
     }).join('')}</div></details>`).join('')}</nav>
-    <div class="sidebar-bottom"><a href="${href('guide/study-guide/')}">A simple study plan <span>↗</span></a><a href="${href('guide/conventions/')}">Conventions &amp; common pitfalls <span>↗</span></a><p>One question at a time.</p></div>
+    <div class="sidebar-bottom"><a href="${href('guide/assessment-roadmap/')}">Your assessment roadmap <span>↗</span></a><a href="${href('guide/study-guide/')}">A simple study plan <span>↗</span></a><a href="${href('guide/conventions/')}">Conventions &amp; common pitfalls <span>↗</span></a><p>One question at a time.</p></div>
   </aside>`;
 }
 
@@ -127,19 +136,25 @@ await mkdir(path.join(out, 'site'), { recursive: true });
 await cp(path.join(root, 'site'), path.join(out, 'site'), { recursive: true });
 await cp(path.join(root, 'assets'), path.join(out, 'assets'), { recursive: true });
 await cp(path.join(root, 'solutions'), path.join(out, 'solutions'), { recursive: true });
+await cp(path.join(root, 'cognitive-lab/dist'), path.join(out, 'lab'), { recursive: true });
+await cp(path.join(root, 'practice/sql'), path.join(out, 'practice/sql'), { recursive: true });
 await writeFile(path.join(out, '.nojekyll'), '');
 
+function labBanner() {
+  return `<section class="lab-banner"><div><div class="eyebrow">THINK. PLAY. REFLECT.</div><h2>Your Cognitive Lab is ready.</h2><p>Explore 13 activities and 225 prompts, from Bubble Pop to memory and mazes. Practise solo or with your class, then review the explanation. Export your session report before closing or refreshing.</p></div><a class="button primary" href="${href('lab/')}">Launch the lab →</a></section>`;
+}
 const home = `<section class="hero"><div><div class="eyebrow"><span></span> YOUR PRACTICE SPACE</div><h1>Small steps.<br/><em>Stronger thinking.</em></h1><p>Explore a topic. Work through a question. Understand the answer. Your next breakthrough starts with a little practice.</p><div class="hero-actions"><a class="button primary" href="${href('topics/')}">Find a topic <span>→</span></a><a class="text-link" href="${href('guide/study-guide/')}">Not sure where to start? ↗</a></div></div><aside class="study-note"><div class="note-heading">A GOOD WAY TO LEARN <span>✳</span></div><ol><li><b>Choose your topic</b><span>Start small. Follow your curiosity.</span></li><li><b>Try it yourself</b><span>A rough trace is a great beginning.</span></li><li><b>Check your thinking</b><span>Open the answer. Learn the why.</span></li></ol><div class="note-footer">Progress comes from understanding.</div></aside></section>
-  <div class="stats-strip"><div><b>${catalog.total}</b><span>practice entries</span></div><div><b>${topics.length}</b><span>topics to explore</span></div><div><b>6</b><span>learning areas</span></div><p>From the first loop<br/>to a clearer solution.</p></div>
+  <div class="stats-strip"><div><b>${catalog.total}</b><span>practice entries</span></div><div><b>${topics.length}</b><span>topics to explore</span></div><div><b>${categories.length}</b><span>library sections</span></div><p>From the first loop<br/>to a clearer solution.</p></div>
   <section class="section"><div class="section-heading"><div><div class="eyebrow">FIND YOUR FOCUS</div><h2>What will you practise today?</h2></div><a class="text-link" href="${href('search/')}">Search the library →</a></div><div class="category-grid">${categories.map(categoryCard).join('')}</div></section>
+  ${labBanner()}
   <section class="start-banner"><span class="start-symbol">↗</span><div><h2>A little structure goes a long way.</h2><p>Follow the study guide from tracing basics to efficient coding patterns.</p></div><a class="button secondary" href="${href('guide/study-guide/')}">Open the study guide →</a></section>
   <p class="library-note">${catalog.statuses.ready} complete exercises, ${catalog.statuses.planned} planned lessons, ${catalog.statuses['needs-review']} puzzles needing review and ${catalog.statuses.outline} outlines. Variants are labelled. <a href="${href('guide/known-gaps/')}">See what is still being reviewed.</a></p>`;
 await save('', page({ title: 'Your practice space', content: home, kind: 'home' }));
-await save('topics/', page({ title: 'All topics', route: 'topics/', content: `${crumb([['All topics']])}<div class="page-heading"><div class="eyebrow">THE PRACTICE LIBRARY</div><h1>Find your focus.</h1><p>Six learning areas. Choose one and work through it at your own pace.</p></div><div class="category-grid">${categories.map(categoryCard).join('')}</div>` }));
+await save('topics/', page({ title: 'All topics', route: 'topics/', content: `${crumb([['All topics']])}<div class="page-heading"><div class="eyebrow">THE PRACTICE LIBRARY</div><h1>Find your focus.</h1><p>${categories.length} library sections cover the ten assessment areas. Choose one and work through it at your own pace.</p></div><div class="category-grid">${categories.map(categoryCard).join('')}</div>` }));
 
 for (const cat of categories) {
   const ownTopics = topics.filter(t => t.startsWith(cat + '/'));
-  const content = `${crumb([[label(cat)]])}<div class="page-heading"><div class="eyebrow">${catalog.counts[cat]} ENTRIES · ${ownTopics.length} TOPICS</div><h1>${label(cat)}</h1><p>${descriptions[cat]}</p></div><div class="topic-grid">${ownTopics.map((t, i) => {
+  const content = `${crumb([[label(cat)]])}<div class="page-heading"><div class="eyebrow">${catalog.counts[cat]} ENTRIES · ${ownTopics.length} TOPICS</div><h1>${label(cat)}</h1><p>${descriptions[cat]}</p></div>${cat === 'cognitive' ? labBanner() : ''}<div class="topic-grid">${ownTopics.map((t, i) => {
     const topic = t.split('/')[1]; const group = entries.filter(q => q.category === cat && q.topic === topic);
     return `<a class="topic-card" href="${href(`topics/${t}/`)}"><span class="topic-number">${String(i + 1).padStart(2, '0')}</span><h2>${label(topic)}</h2><span>${group.length} ${group.length === 1 ? 'question' : 'questions'} <b>→</b></span></a>`;
   }).join('')}</div>`;
@@ -157,7 +172,13 @@ for (const q of entries) {
   const match = raw.match(/^---\n[\s\S]*?\n---\n([\s\S]*)$/);
   if (!match) throw new Error(`Missing body: ${q.file}`);
   const body = match[1].trim().replace(/^# [^\n]+\n+/, '');
-  const markup = await renderMdx(body, q.file);
+  let markup = await renderMdx(body, q.file);
+  if (q.category === 'coding') {
+    if (!solutions[q.id]) throw new Error(`${q.id}: four language solutions required`);
+    const end = markup.lastIndexOf('</details>');
+    if (end < 0) throw new Error(`${q.id}: answer panel required`);
+    markup = markup.slice(0, end) + await solutionPanels(root, q.id, solutions[q.id], href) + markup.slice(end);
+  }
   const group = entries.filter(item => item.category === q.category && item.topic === q.topic);
   const index = group.findIndex(item => item.id === q.id); const previous = group[index - 1]; const next = group[index + 1];
   const content = `${crumb([[label(q.category), categoryRoute(q.category)], [label(q.topic), topicRoute(q)], [q.id]])}<div class="lesson-heading"><div class="eyebrow">${esc(q.id)} · ${esc(label(q.topic))}</div><h1>${esc(q.title)}</h1><div class="lesson-meta">${statusBadge(q.status)}${q.difficulty ? `<span>${esc(q.difficulty)}</span>` : ''}<span>Updated ${esc(q.updated)}</span></div></div><div class="lesson-toolbar"><p>Take a moment to work it out before revealing the answer.</p><div><button id="copy-link" class="quiet-button">Copy link</button><button id="print-question" class="quiet-button">Print</button></div></div><article class="prose lesson-body">${markup}</article><nav class="lesson-pagination" aria-label="Question navigation">${previous ? `<a href="${href(questionRoute(previous))}"><small>← PREVIOUS QUESTION</small><span>${esc(previous.title)}</span></a>` : '<div></div>'}${next ? `<a href="${href(questionRoute(next))}"><small>NEXT QUESTION →</small><span>${esc(next.title)}</span></a>` : `<a href="${href(topicRoute(q))}"><small>TOPIC COMPLETE →</small><span>Back to ${esc(label(q.topic))}</span></a>`}</nav><div class="edit-note">Something unclear? <a href="${config.repository}/issues/new?template=correction.yml&amp;title=${encodeURIComponent(`[${q.id}] `)}">Suggest a correction</a> · <a href="${config.repository}/edit/main/${q.file}">Edit this question on GitHub ↗</a></div>`;

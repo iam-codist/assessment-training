@@ -65,6 +65,31 @@ O(log n) time; O(1) extra working space.
 
 n is positive. An odd n has exponent 0; n=1 produces 1 0.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read positive n. Print odd-part and exponent-of-two.
+
+**Sample program input**
+
+```text
+72
+```
+
+**Sample program output**
+
+```text
+9 3
+```
+
+- [C source](../../../solutions/C14/solution.c)
+- [C++ source](../../../solutions/C14/solution.cpp)
+- [Python source](../../../solutions/C14/solution.py)
+- [Java source](../../../solutions/C14/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

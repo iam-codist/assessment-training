@@ -1,0 +1,1644 @@
+[
+  {
+    "id": "bubble-pop-easy35-1",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Numbers · 01",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 1,
+    "difficulty": "Very easy",
+    "topic": "Numbers",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "84",
+        "value": 84
+      },
+      {
+        "label": "36",
+        "value": 36
+      },
+      {
+        "label": "27",
+        "value": 27
+      },
+      {
+        "label": "48",
+        "value": 48
+      },
+      {
+        "label": "10",
+        "value": 10
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 10 → 27 → 36 → 48 → 84.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-2",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Expressions · 02",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 2,
+    "difficulty": "Very easy",
+    "topic": "Expressions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "6×5−8",
+        "value": 22
+      },
+      {
+        "label": "2×4−1",
+        "value": 7
+      },
+      {
+        "label": "7×3−8",
+        "value": 13
+      },
+      {
+        "label": "8×4+2",
+        "value": 34
+      },
+      {
+        "label": "9×2+2",
+        "value": 20
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 2×4−1 → 7×3−8 → 9×2+2 → 6×5−8 → 8×4+2.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-3",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Fractions · 03",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 3,
+    "difficulty": "Very easy",
+    "topic": "Fractions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "2/4",
+        "value": 0.5
+      },
+      {
+        "label": "9/10",
+        "value": 0.9
+      },
+      {
+        "label": "1/4",
+        "value": 0.25
+      },
+      {
+        "label": "4/5",
+        "value": 0.8
+      },
+      {
+        "label": "1/5",
+        "value": 0.2
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 1/5 → 1/4 → 2/4 → 4/5 → 9/10.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-4",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Mixed values · 04",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 4,
+    "difficulty": "Very easy",
+    "topic": "Mixed values",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "0.2",
+        "value": 0.2
+      },
+      {
+        "label": "65%",
+        "value": 0.65
+      },
+      {
+        "label": "2/5",
+        "value": 0.4
+      },
+      {
+        "label": "4/5",
+        "value": 0.8
+      },
+      {
+        "label": "0.3",
+        "value": 0.3
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 0.2 → 0.3 → 2/5 → 65% → 4/5.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-5",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Negatives · 05",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 5,
+    "difficulty": "Very easy",
+    "topic": "Negatives",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "−14",
+        "value": -14
+      },
+      {
+        "label": "7",
+        "value": 7
+      },
+      {
+        "label": "−5",
+        "value": -5
+      },
+      {
+        "label": "2",
+        "value": 2
+      },
+      {
+        "label": "5",
+        "value": 5
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: −14 → −5 → 2 → 5 → 7.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-6",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Powers & roots · 06",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 6,
+    "difficulty": "Very easy",
+    "topic": "Powers & roots",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "2^7",
+        "value": 128
+      },
+      {
+        "label": "√100",
+        "value": 10
+      },
+      {
+        "label": "11²",
+        "value": 121
+      },
+      {
+        "label": "8²",
+        "value": 64
+      },
+      {
+        "label": "2^5",
+        "value": 32
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: √100 → 2^5 → 8² → 11² → 2^7.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-7",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Primes · 07",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 7,
+    "difficulty": "Very easy",
+    "topic": "Primes",
+    "defaultSeconds": 20,
+    "selection": true,
+    "prompt": "Pop all PRIME numbers.",
+    "bubbles": [
+      {
+        "label": "13",
+        "value": 13,
+        "matches": true
+      },
+      {
+        "label": "29",
+        "value": 29,
+        "matches": true
+      },
+      {
+        "label": "37",
+        "value": 37,
+        "matches": true
+      },
+      {
+        "label": "19",
+        "value": 19,
+        "matches": true
+      },
+      {
+        "label": "46",
+        "value": 46,
+        "matches": false
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct selections: 13, 29, 37, 19.",
+      "Prime numbers have exactly two positive divisors: 1 and themselves. Select every match in any order; leave the other bubbles untouched.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-8",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Expressions · 08",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 8,
+    "difficulty": "Very easy",
+    "topic": "Expressions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "9×4+6",
+        "value": 42
+      },
+      {
+        "label": "3×7+6",
+        "value": 27
+      },
+      {
+        "label": "3×9+4",
+        "value": 31
+      },
+      {
+        "label": "3×7−10",
+        "value": 11
+      },
+      {
+        "label": "2×2+4",
+        "value": 8
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 2×2+4 → 3×7−10 → 3×7+6 → 3×9+4 → 9×4+6.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-9",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Fractions · 09",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 9,
+    "difficulty": "Very easy",
+    "topic": "Fractions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "3/5",
+        "value": 0.6
+      },
+      {
+        "label": "2/3",
+        "value": 0.6666666666666666
+      },
+      {
+        "label": "9/10",
+        "value": 0.9
+      },
+      {
+        "label": "1/8",
+        "value": 0.125
+      },
+      {
+        "label": "1/3",
+        "value": 0.3333333333333333
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 1/8 → 1/3 → 3/5 → 2/3 → 9/10.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-10",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Multiples · 10",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 10,
+    "difficulty": "Very easy",
+    "topic": "Multiples",
+    "defaultSeconds": 20,
+    "selection": true,
+    "prompt": "Pop all multiples of 6.",
+    "bubbles": [
+      {
+        "label": "67",
+        "value": 67,
+        "matches": false
+      },
+      {
+        "label": "48",
+        "value": 48,
+        "matches": true
+      },
+      {
+        "label": "42",
+        "value": 42,
+        "matches": true
+      },
+      {
+        "label": "58",
+        "value": 58,
+        "matches": false
+      },
+      {
+        "label": "18",
+        "value": 18,
+        "matches": true
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct selections: 48, 42, 18.",
+      "Multiples divide evenly by the named number, with no remainder. Select every match in any order; leave the other bubbles untouched.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-11",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Numbers · 11",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 11,
+    "difficulty": "Very easy",
+    "topic": "Numbers",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "55",
+        "value": 55
+      },
+      {
+        "label": "19",
+        "value": 19
+      },
+      {
+        "label": "60",
+        "value": 60
+      },
+      {
+        "label": "56",
+        "value": 56
+      },
+      {
+        "label": "97",
+        "value": 97
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 19 → 55 → 56 → 60 → 97.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-12",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Expressions · 12",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 12,
+    "difficulty": "Very easy",
+    "topic": "Expressions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "5×7+7",
+        "value": 42
+      },
+      {
+        "label": "9×5−2",
+        "value": 43
+      },
+      {
+        "label": "5×6−3",
+        "value": 27
+      },
+      {
+        "label": "4×5−1",
+        "value": 19
+      },
+      {
+        "label": "4×6+8",
+        "value": 32
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 4×5−1 → 5×6−3 → 4×6+8 → 5×7+7 → 9×5−2.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-13",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Fractions · 13",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 13,
+    "difficulty": "Easy",
+    "topic": "Fractions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "1/4",
+        "value": 0.25
+      },
+      {
+        "label": "3/8",
+        "value": 0.375
+      },
+      {
+        "label": "2/3",
+        "value": 0.6666666666666666
+      },
+      {
+        "label": "5/8",
+        "value": 0.625
+      },
+      {
+        "label": "1/5",
+        "value": 0.2
+      },
+      {
+        "label": "3/4",
+        "value": 0.75
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 3/4 → 2/3 → 5/8 → 3/8 → 1/4 → 1/5.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-14",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Mixed values · 14",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 14,
+    "difficulty": "Easy",
+    "topic": "Mixed values",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "0.4",
+        "value": 0.4
+      },
+      {
+        "label": "3/4",
+        "value": 0.75
+      },
+      {
+        "label": "3/5",
+        "value": 0.6
+      },
+      {
+        "label": "0.7",
+        "value": 0.7
+      },
+      {
+        "label": "90%",
+        "value": 0.9
+      },
+      {
+        "label": "1/2",
+        "value": 0.5
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 0.4 → 1/2 → 3/5 → 0.7 → 3/4 → 90%.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-15",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Negatives · 15",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 15,
+    "difficulty": "Easy",
+    "topic": "Negatives",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "−19",
+        "value": -19
+      },
+      {
+        "label": "1",
+        "value": 1
+      },
+      {
+        "label": "−9",
+        "value": -9
+      },
+      {
+        "label": "0",
+        "value": 0
+      },
+      {
+        "label": "5",
+        "value": 5
+      },
+      {
+        "label": "−13",
+        "value": -13
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 5 → 1 → 0 → −9 → −13 → −19.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-16",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Powers & roots · 16",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 16,
+    "difficulty": "Easy",
+    "topic": "Powers & roots",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "√49",
+        "value": 7
+      },
+      {
+        "label": "2^5",
+        "value": 32
+      },
+      {
+        "label": "8²",
+        "value": 64
+      },
+      {
+        "label": "2^3",
+        "value": 8
+      },
+      {
+        "label": "√25",
+        "value": 5
+      },
+      {
+        "label": "√100",
+        "value": 10
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 8² → 2^5 → √100 → 2^3 → √49 → √25.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-17",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Primes · 17",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 17,
+    "difficulty": "Easy",
+    "topic": "Primes",
+    "defaultSeconds": 20,
+    "selection": true,
+    "prompt": "Pop all PRIME numbers.",
+    "bubbles": [
+      {
+        "label": "31",
+        "value": 31,
+        "matches": true
+      },
+      {
+        "label": "5",
+        "value": 5,
+        "matches": true
+      },
+      {
+        "label": "54",
+        "value": 54,
+        "matches": false
+      },
+      {
+        "label": "24",
+        "value": 24,
+        "matches": false
+      },
+      {
+        "label": "53",
+        "value": 53,
+        "matches": true
+      },
+      {
+        "label": "28",
+        "value": 28,
+        "matches": false
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct selections: 31, 5, 53.",
+      "Prime numbers have exactly two positive divisors: 1 and themselves. Select every match in any order; leave the other bubbles untouched.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-18",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Expressions · 18",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 18,
+    "difficulty": "Easy",
+    "topic": "Expressions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "2×4−3",
+        "value": 5
+      },
+      {
+        "label": "7×3−3",
+        "value": 18
+      },
+      {
+        "label": "8×9−2",
+        "value": 70
+      },
+      {
+        "label": "8×10−3",
+        "value": 77
+      },
+      {
+        "label": "2×2−9",
+        "value": -5
+      },
+      {
+        "label": "9×7+10",
+        "value": 73
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 2×2−9 → 2×4−3 → 7×3−3 → 8×9−2 → 9×7+10 → 8×10−3.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-19",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Fractions · 19",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 19,
+    "difficulty": "Easy",
+    "topic": "Fractions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "1/8",
+        "value": 0.125
+      },
+      {
+        "label": "4/5",
+        "value": 0.8
+      },
+      {
+        "label": "2/3",
+        "value": 0.6666666666666666
+      },
+      {
+        "label": "1/5",
+        "value": 0.2
+      },
+      {
+        "label": "1/4",
+        "value": 0.25
+      },
+      {
+        "label": "4/8",
+        "value": 0.5
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 4/5 → 2/3 → 4/8 → 1/4 → 1/5 → 1/8.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-20",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Multiples · 20",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 20,
+    "difficulty": "Easy",
+    "topic": "Multiples",
+    "defaultSeconds": 20,
+    "selection": true,
+    "prompt": "Pop all multiples of 4.",
+    "bubbles": [
+      {
+        "label": "32",
+        "value": 32,
+        "matches": true
+      },
+      {
+        "label": "86",
+        "value": 86,
+        "matches": false
+      },
+      {
+        "label": "66",
+        "value": 66,
+        "matches": false
+      },
+      {
+        "label": "77",
+        "value": 77,
+        "matches": false
+      },
+      {
+        "label": "68",
+        "value": 68,
+        "matches": true
+      },
+      {
+        "label": "96",
+        "value": 96,
+        "matches": true
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct selections: 32, 68, 96.",
+      "Multiples divide evenly by the named number, with no remainder. Select every match in any order; leave the other bubbles untouched.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-21",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Numbers · 21",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 21,
+    "difficulty": "Easy",
+    "topic": "Numbers",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "965",
+        "value": 965
+      },
+      {
+        "label": "978",
+        "value": 978
+      },
+      {
+        "label": "953",
+        "value": 953
+      },
+      {
+        "label": "480",
+        "value": 480
+      },
+      {
+        "label": "751",
+        "value": 751
+      },
+      {
+        "label": "640",
+        "value": 640
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 978 → 965 → 953 → 751 → 640 → 480.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-22",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Expressions · 22",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 22,
+    "difficulty": "Easy",
+    "topic": "Expressions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "2×6+8",
+        "value": 20
+      },
+      {
+        "label": "5×3+1",
+        "value": 16
+      },
+      {
+        "label": "4×8−8",
+        "value": 24
+      },
+      {
+        "label": "9×3+2",
+        "value": 29
+      },
+      {
+        "label": "4×12+4",
+        "value": 52
+      },
+      {
+        "label": "8×4−1",
+        "value": 31
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 4×12+4 → 8×4−1 → 9×3+2 → 4×8−8 → 2×6+8 → 5×3+1.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-23",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Fractions · 23",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 23,
+    "difficulty": "Easy",
+    "topic": "Fractions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "1/8",
+        "value": 0.125
+      },
+      {
+        "label": "2/3",
+        "value": 0.6666666666666666
+      },
+      {
+        "label": "3/5",
+        "value": 0.6
+      },
+      {
+        "label": "1/3",
+        "value": 0.3333333333333333
+      },
+      {
+        "label": "3/4",
+        "value": 0.75
+      },
+      {
+        "label": "2/4",
+        "value": 0.5
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 1/8 → 1/3 → 2/4 → 3/5 → 2/3 → 3/4.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-24",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Mixed values · 24",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 24,
+    "difficulty": "Easy",
+    "topic": "Mixed values",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "70%",
+        "value": 0.7
+      },
+      {
+        "label": "3/10",
+        "value": 0.3
+      },
+      {
+        "label": "0.8",
+        "value": 0.8
+      },
+      {
+        "label": "15%",
+        "value": 0.15
+      },
+      {
+        "label": "1/5",
+        "value": 0.2
+      },
+      {
+        "label": "60%",
+        "value": 0.6
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 0.8 → 70% → 60% → 3/10 → 1/5 → 15%.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-25",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Negatives · 25",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 25,
+    "difficulty": "Easy+",
+    "topic": "Negatives",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "8−10",
+        "value": -2
+      },
+      {
+        "label": "8−7",
+        "value": 1
+      },
+      {
+        "label": "5−11",
+        "value": -6
+      },
+      {
+        "label": "6−6",
+        "value": 0
+      },
+      {
+        "label": "11−6",
+        "value": 5
+      },
+      {
+        "label": "5−1",
+        "value": 4
+      },
+      {
+        "label": "2−3",
+        "value": -1
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 11−6 → 5−1 → 8−7 → 6−6 → 2−3 → 8−10 → 5−11.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-26",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Powers & roots · 26",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 26,
+    "difficulty": "Easy+",
+    "topic": "Powers & roots",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "7²",
+        "value": 49
+      },
+      {
+        "label": "√100",
+        "value": 10
+      },
+      {
+        "label": "√49",
+        "value": 7
+      },
+      {
+        "label": "√25",
+        "value": 5
+      },
+      {
+        "label": "2^3",
+        "value": 8
+      },
+      {
+        "label": "√81",
+        "value": 9
+      },
+      {
+        "label": "√36",
+        "value": 6
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 7² → √100 → √81 → 2^3 → √49 → √36 → √25.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-27",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Primes · 27",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 27,
+    "difficulty": "Easy+",
+    "topic": "Primes",
+    "defaultSeconds": 20,
+    "selection": true,
+    "prompt": "Pop all PRIME numbers.",
+    "bubbles": [
+      {
+        "label": "24",
+        "value": 24,
+        "matches": false
+      },
+      {
+        "label": "47",
+        "value": 47,
+        "matches": true
+      },
+      {
+        "label": "13",
+        "value": 13,
+        "matches": true
+      },
+      {
+        "label": "2",
+        "value": 2,
+        "matches": true
+      },
+      {
+        "label": "15",
+        "value": 15,
+        "matches": false
+      },
+      {
+        "label": "45",
+        "value": 45,
+        "matches": false
+      },
+      {
+        "label": "32",
+        "value": 32,
+        "matches": false
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct selections: 47, 13, 2.",
+      "Prime numbers have exactly two positive divisors: 1 and themselves. Select every match in any order; leave the other bubbles untouched.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-28",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Expressions · 28",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 28,
+    "difficulty": "Easy+",
+    "topic": "Expressions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "4×3−2",
+        "value": 10
+      },
+      {
+        "label": "6×5+4",
+        "value": 34
+      },
+      {
+        "label": "7×8+7",
+        "value": 63
+      },
+      {
+        "label": "6×3+2",
+        "value": 20
+      },
+      {
+        "label": "7×8−8",
+        "value": 48
+      },
+      {
+        "label": "6×3+4",
+        "value": 22
+      },
+      {
+        "label": "4×12−2",
+        "value": 46
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 7×8+7 → 7×8−8 → 4×12−2 → 6×5+4 → 6×3+4 → 6×3+2 → 4×3−2.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-29",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Fractions · 29",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 29,
+    "difficulty": "Easy+",
+    "topic": "Fractions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "7/10",
+        "value": 0.7
+      },
+      {
+        "label": "1/4",
+        "value": 0.25
+      },
+      {
+        "label": "1/10",
+        "value": 0.1
+      },
+      {
+        "label": "2/5",
+        "value": 0.4
+      },
+      {
+        "label": "3/4",
+        "value": 0.75
+      },
+      {
+        "label": "1/3",
+        "value": 0.3333333333333333
+      },
+      {
+        "label": "1/5",
+        "value": 0.2
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 3/4 → 7/10 → 2/5 → 1/3 → 1/4 → 1/5 → 1/10.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-30",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Multiples · 30",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 30,
+    "difficulty": "Easy+",
+    "topic": "Multiples",
+    "defaultSeconds": 20,
+    "selection": true,
+    "prompt": "Pop all multiples of 4.",
+    "bubbles": [
+      {
+        "label": "36",
+        "value": 36,
+        "matches": true
+      },
+      {
+        "label": "75",
+        "value": 75,
+        "matches": false
+      },
+      {
+        "label": "32",
+        "value": 32,
+        "matches": true
+      },
+      {
+        "label": "64",
+        "value": 64,
+        "matches": true
+      },
+      {
+        "label": "92",
+        "value": 92,
+        "matches": true
+      },
+      {
+        "label": "45",
+        "value": 45,
+        "matches": false
+      },
+      {
+        "label": "79",
+        "value": 79,
+        "matches": false
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct selections: 36, 32, 64, 92.",
+      "Multiples divide evenly by the named number, with no remainder. Select every match in any order; leave the other bubbles untouched.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-31",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Numbers · 31",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 31,
+    "difficulty": "Easy+",
+    "topic": "Numbers",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "192",
+        "value": 192
+      },
+      {
+        "label": "754",
+        "value": 754
+      },
+      {
+        "label": "407",
+        "value": 407
+      },
+      {
+        "label": "498",
+        "value": 498
+      },
+      {
+        "label": "599",
+        "value": 599
+      },
+      {
+        "label": "697",
+        "value": 697
+      },
+      {
+        "label": "799",
+        "value": 799
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 192 → 407 → 498 → 599 → 697 → 754 → 799.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-32",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Expressions · 32",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 32,
+    "difficulty": "Easy+",
+    "topic": "Expressions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "4×3−8",
+        "value": 4
+      },
+      {
+        "label": "7×11−6",
+        "value": 71
+      },
+      {
+        "label": "8×11−8",
+        "value": 80
+      },
+      {
+        "label": "2×2−2",
+        "value": 2
+      },
+      {
+        "label": "3×5+3",
+        "value": 18
+      },
+      {
+        "label": "9×8−6",
+        "value": 66
+      },
+      {
+        "label": "8×9+4",
+        "value": 76
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 2×2−2 → 4×3−8 → 3×5+3 → 9×8−6 → 7×11−6 → 8×9+4 → 8×11−8.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-33",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Fractions · 33",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 33,
+    "difficulty": "Easy+",
+    "topic": "Fractions",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "4/10",
+        "value": 0.4
+      },
+      {
+        "label": "1/8",
+        "value": 0.125
+      },
+      {
+        "label": "1/3",
+        "value": 0.3333333333333333
+      },
+      {
+        "label": "6/8",
+        "value": 0.75
+      },
+      {
+        "label": "2/3",
+        "value": 0.6666666666666666
+      },
+      {
+        "label": "1/2",
+        "value": 0.5
+      },
+      {
+        "label": "4/5",
+        "value": 0.8
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 1/8 → 1/3 → 4/10 → 1/2 → 2/3 → 6/8 → 4/5.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-34",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Mixed values · 34",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 34,
+    "difficulty": "Easy+",
+    "topic": "Mixed values",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in ASCENDING order (smallest → largest).",
+    "bubbles": [
+      {
+        "label": "95%",
+        "value": 0.95
+      },
+      {
+        "label": "0.3",
+        "value": 0.3
+      },
+      {
+        "label": "4/5",
+        "value": 0.8
+      },
+      {
+        "label": "1/10",
+        "value": 0.1
+      },
+      {
+        "label": "75%",
+        "value": 0.75
+      },
+      {
+        "label": "65%",
+        "value": 0.65
+      },
+      {
+        "label": "40%",
+        "value": 0.4
+      }
+    ],
+    "descending": false,
+    "explanation": [
+      "Correct order: 1/10 → 0.3 → 40% → 65% → 75% → 4/5 → 95%.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  },
+  {
+    "id": "bubble-pop-easy35-35",
+    "type": "bubble-pop",
+    "pack": "easy35",
+    "title": "Negatives · 35",
+    "source": "bubble-popping-practice-35.html",
+    "sourceKind": "html",
+    "slide": 35,
+    "difficulty": "Easy+",
+    "topic": "Negatives",
+    "defaultSeconds": 20,
+    "selection": false,
+    "prompt": "Pop in DESCENDING order (largest → smallest).",
+    "bubbles": [
+      {
+        "label": "5−10",
+        "value": -5
+      },
+      {
+        "label": "9−3",
+        "value": 6
+      },
+      {
+        "label": "7−4",
+        "value": 3
+      },
+      {
+        "label": "1−2",
+        "value": -1
+      },
+      {
+        "label": "11−4",
+        "value": 7
+      },
+      {
+        "label": "2−11",
+        "value": -9
+      },
+      {
+        "label": "1−12",
+        "value": -11
+      }
+    ],
+    "descending": true,
+    "explanation": [
+      "Correct order: 11−4 → 9−3 → 7−4 → 1−2 → 5−10 → 2−11 → 1−12.",
+      "Evaluate each expression first, then compare the values in the direction requested.",
+      "The final correct pop submits the round. One incorrect pop ends it. The original time limit is 20 seconds; the trainer can choose more time or untimed practice."
+    ]
+  }
+]

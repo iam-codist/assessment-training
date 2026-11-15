@@ -1,0 +1,186 @@
+{
+  "SQL01": {
+    "rows": [
+      [
+        "Asha",
+        "Engineering"
+      ],
+      [
+        "Ben",
+        "Engineering"
+      ],
+      [
+        "Chen",
+        "Sales"
+      ],
+      [
+        "Divya",
+        "Sales"
+      ],
+      [
+        "Farah",
+        "Engineering"
+      ]
+    ]
+  },
+  "SQL02": {
+    "rows": [
+      [
+        "Mira",
+        2,
+        200
+      ],
+      [
+        "Noah",
+        2,
+        250
+      ],
+      [
+        "Omar",
+        0,
+        0
+      ],
+      [
+        "Pia",
+        1,
+        90
+      ]
+    ]
+  },
+  "SQL03": {
+    "rows": [
+      [
+        "Mira",
+        120
+      ],
+      [
+        "Noah",
+        200
+      ]
+    ]
+  },
+  "SQL04": {
+    "rows": [
+      [
+        "Omar"
+      ]
+    ]
+  },
+  "SQL05": {
+    "rows": [
+      [
+        "Asha",
+        null
+      ],
+      [
+        "Ben",
+        "Asha"
+      ],
+      [
+        "Chen",
+        null
+      ],
+      [
+        "Divya",
+        "Chen"
+      ],
+      [
+        "Evan",
+        null
+      ],
+      [
+        "Farah",
+        "Asha"
+      ]
+    ]
+  },
+  "SQL06": {
+    "rows": [
+      [
+        60000
+      ]
+    ]
+  },
+  "SQL07": {
+    "rows": [
+      [
+        "Farah",
+        70000
+      ]
+    ]
+  },
+  "SQL08": {
+    "rows": [
+      [
+        "Engineering",
+        3
+      ],
+      [
+        "Sales",
+        2
+      ],
+      [
+        "Support",
+        0
+      ],
+      [
+        "Research",
+        0
+      ]
+    ]
+  },
+  "SQL09": {
+    "rows": [
+      [
+        "Farah",
+        70000,
+        1
+      ],
+      [
+        "Asha",
+        60000,
+        2
+      ],
+      [
+        "Ben",
+        50000,
+        3
+      ],
+      [
+        "Chen",
+        45000,
+        4
+      ],
+      [
+        "Divya",
+        45000,
+        4
+      ],
+      [
+        "Evan",
+        40000,
+        5
+      ]
+    ]
+  },
+  "SQL10": {
+    "rows": [
+      [
+        "Mira",
+        1
+      ],
+      [
+        "Noah",
+        1
+      ],
+      [
+        "Omar",
+        0
+      ],
+      [
+        "Pia",
+        1
+      ]
+    ]
+  }
+}

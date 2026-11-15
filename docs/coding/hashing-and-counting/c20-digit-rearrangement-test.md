@@ -67,6 +67,32 @@ O(L1+L2) time; O(1) extra space for ten counters.
 
 Zeros are ordinary characters. Equal numeric values do not imply equal digit multisets.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read two digit strings on separate lines. Print MATCH or DIFFERENT; leading zeros count.
+
+**Sample program input**
+
+```text
+00127
+72010
+```
+
+**Sample program output**
+
+```text
+MATCH
+```
+
+- [C source](../../../solutions/C20/solution.c)
+- [C++ source](../../../solutions/C20/solution.cpp)
+- [Python source](../../../solutions/C20/solution.py)
+- [Java source](../../../solutions/C20/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

@@ -1,0 +1,34 @@
+---
+id: "FE10"
+title: "Event target versus currentTarget"
+category: "frontend"
+topic: "javascript"
+status: "ready"
+updated: "2026-11-15"
+source: "New original practice \u2014 curriculum expansion, November 2026"
+---
+
+# Event target versus currentTarget
+
+> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
+
+## Question
+
+A click listener is attached to a button containing a span. The span itself is clicked. What is the difference between event.target and event.currentTarget inside the button listener?
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+target identifies the span where the event originated. currentTarget identifies the button whose listener is currently running.
+
+## Explanation
+
+A bubbling event can pass through ancestor listeners. currentTarget changes with the listener being invoked while target refers to the original target, subject to shadow-DOM retargeting rules. This exercise assumes ordinary light DOM. Use currentTarget when you need the known button; use target deliberately for delegation.
+
+</details>
+
+## Source context
+
+Original educational practice added for the curriculum expansion. Reference: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).

@@ -1,0 +1,48 @@
+---
+id: "FE07"
+title: "Block scope with let"
+category: "frontend"
+topic: "javascript"
+status: "ready"
+updated: "2026-11-15"
+source: "New original practice \u2014 curriculum expansion, November 2026"
+---
+
+# Block scope with let
+
+> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
+
+## Question
+
+What does this code print?
+
+```javascript
+let value = 1;
+{
+  let value = 2;
+  console.log(value);
+}
+console.log(value);
+```
+
+A. 2 then 1
+B. 2 then 2
+C. 1 then 1
+D. A syntax error
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+A. 2 then 1.
+
+## Explanation
+
+The inner let creates a different binding scoped to its block. It shadows the outer value inside the block but does not change it. Removing the inner let would turn that line into assignment to the outer binding.
+
+</details>
+
+## Source context
+
+Original educational practice added for the curriculum expansion. Reference: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).

@@ -9,3 +9,19 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
 @media(max-width:760px){.sidebar{visibility:hidden}.menu-open .sidebar{visibility:visible}}
 @media print{.sidebar,.topbar,.footer,.lesson-toolbar,.lesson-pagination,.edit-note,.skip-link,.copy-code{display:none!important}.workspace{margin:0}.main{padding:0;max-width:none}.prose{border:0;padding:0;font-size:11pt}.prose pre{white-space:pre-wrap;break-inside:avoid}.prose details{break-inside:avoid;background:#fff}.lesson-heading h1{font-size:26pt}.table-scroll{overflow:visible}.prose img{max-height:500px}body{background:#fff}.breadcrumbs{margin-bottom:15px}.badge{border:1px solid #aaa}}
+
+/* Cognitive practice and language references. */
+.lab-link{display:flex;gap:10px;align-items:center;margin:8px 0 22px;padding:12px 14px;border-radius:10px;background:#e5efe8;color:#164e48;font-weight:700;text-decoration:none}
+.lab-link svg{width:22px;height:22px;flex:none}
+.lab-banner{display:flex;gap:22px;align-items:center;justify-content:space-between;margin:30px 0;padding:30px;border:1px solid #cbdcce;border-radius:18px;background:#edf4ed}
+.lab-banner h2{margin:5px 0 8px;font-size:26px}.lab-banner p{margin:0;max-width:640px;color:#52675e;line-height:1.65}.lab-banner .button{flex-shrink:0}
+.language-solutions{margin-top:32px;padding-top:16px;border-top:1px solid #d8e1dc;min-width:0}
+.solution-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:18px 0 0;padding:6px;border:1px solid #d8e1dc;border-radius:12px;background:#f1f5f0}
+.solution-tabs[hidden],.solution-panel[hidden]{display:none}
+.solution-tabs button{border:0;border-radius:7px;padding:10px 20px;background:transparent;color:#4f655b;font:inherit;font-weight:700;cursor:pointer}
+.solution-tabs button[aria-selected=true]{background:#164e48;color:white;box-shadow:0 2px 5px #123c3320}
+.solution-tabs button:focus-visible,.solution-panel:focus-visible{outline:3px solid #c98c38;outline-offset:3px}
+.solution-panel{min-width:0}.solution-panel-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:18px 0 8px}.solution-panel-heading h4{margin:0}.solution-panel-heading a{font-size:13px}.solution-panel pre{max-height:620px;overflow:auto;margin-top:8px}
+.solution-note{font-size:14px;color:#5c6d63}
+@media(max-width:760px){.lab-banner{flex-direction:column;align-items:flex-start;padding:22px}.lab-banner h2{font-size:24px}.solution-tabs button{padding:9px 14px}.solution-panel-heading{align-items:flex-start;flex-direction:column}}
+@media print{.solution-tabs{display:none}.solution-panel[hidden]{display:block}.solution-panel pre{max-height:none;overflow:visible}.lab-link{display:none}}

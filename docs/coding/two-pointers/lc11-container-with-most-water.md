@@ -39,6 +39,32 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Start at both ends and move the shorter line inward. For indices 1 and 8, width = 8-1 = 7 and water height = min(8,7) = 7. Area = 49. O(n) time, O(1) space.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n (at least 2), then n nonnegative heights. Print maximum container area.
+
+**Sample program input**
+
+```text
+9
+1 8 6 2 5 4 8 3 7
+```
+
+**Sample program output**
+
+```text
+49
+```
+
+- [C source](../../../solutions/LC11/solution.c)
+- [C++ source](../../../solutions/LC11/solution.cpp)
+- [Python source](../../../solutions/LC11/solution.py)
+- [Java source](../../../solutions/LC11/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

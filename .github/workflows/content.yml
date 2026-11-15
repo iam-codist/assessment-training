@@ -25,10 +25,20 @@ jobs:
         with:
           node-version: '22'
           cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - run: npm ci
+      - run: npm ci --prefix cognitive-lab
       - run: npm run build
       - run: npm test
       - run: npm run test:site
+      - run: npm run test:solutions
+      - run: npm run test:lab
       - name: Configure GitHub Pages
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: actions/configure-pages@v5

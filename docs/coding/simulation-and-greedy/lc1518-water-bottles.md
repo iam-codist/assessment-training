@@ -35,6 +35,31 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Track total and empties. newBottles = empty / numExchange; total += newBottles; empty = empty % numExchange + newBottles. The trace is 9 → 3 → 1 empties.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read full bottle count and exchange rate (at least 2). Print total bottles drunk.
+
+**Sample program input**
+
+```text
+9 3
+```
+
+**Sample program output**
+
+```text
+13
+```
+
+- [C source](../../../solutions/LC1518/solution.c)
+- [C++ source](../../../solutions/LC1518/solution.cpp)
+- [Python source](../../../solutions/LC1518/solution.py)
+- [Java source](../../../solutions/LC1518/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

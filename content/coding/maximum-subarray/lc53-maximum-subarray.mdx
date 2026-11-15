@@ -43,9 +43,33 @@ Use the following algorithm to produce the result for any input that satisfies t
 
 Teach O(n³) brute force, then O(n²) running sums, then O(n) Kadane: current = max(value,current+value), best = max(best,current). Initialize from the first element. Track tempStart/start/end for the extended version.
 
-## Reference implementations
+## Solutions in four languages
 
-- [Solution.java](../../../solutions/LC53/Solution.java)
+The four reference programs print the maximum sum. For the separately discussed version that also returns indices and the subarray, see the [extended Java example](../../../solutions/LC53/Solution.java).
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read positive n and n integers. Print the maximum sum of a nonempty contiguous subarray.
+
+**Sample program input**
+
+```text
+9
+-2 1 -3 4 -1 2 1 -5 4
+```
+
+**Sample program output**
+
+```text
+6
+```
+
+- [C source](../../../solutions/LC53/solution.c)
+- [C++ source](../../../solutions/LC53/solution.cpp)
+- [Python source](../../../solutions/LC53/solution.py)
+- [Java source](../../../solutions/LC53/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
 
 </details>
 

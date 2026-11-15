@@ -67,10 +67,31 @@ O(n) worst-case time; O(1) extra working space over the input array.
 
 An exact fit is accepted. An oversized first order yields 0 B. Later small orders cannot be skipped to.
 
-## Reference implementations
+## Solutions in four languages
 
-- [OrdersWithinCapacity.java](../../../solutions/C02/OrdersWithinCapacity.java)
-- [orders_within_capacity.py](../../../solutions/C02/orders_within_capacity.py)
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n and capacity, then n order sizes. Print accepted-count and remaining-capacity.
+
+**Sample program input**
+
+```text
+5 15
+4 6 3 5 1
+```
+
+**Sample program output**
+
+```text
+3 2
+```
+
+- [C source](../../../solutions/C02/solution.c)
+- [C++ source](../../../solutions/C02/solution.cpp)
+- [Python source](../../../solutions/C02/solution.py)
+- [Java source](../../../solutions/C02/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
 
 </details>
 

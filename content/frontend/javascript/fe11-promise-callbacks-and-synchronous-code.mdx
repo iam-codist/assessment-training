@@ -1,0 +1,40 @@
+---
+id: "FE11"
+title: "Promise callbacks and synchronous code"
+category: "frontend"
+topic: "javascript"
+status: "ready"
+updated: "2026-11-15"
+source: "New original practice \u2014 curriculum expansion, November 2026"
+---
+
+# Promise callbacks and synchronous code
+
+> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
+
+## Question
+
+Predict the order in a browser.
+
+```javascript
+console.log("A");
+Promise.resolve().then(() => console.log("B"));
+console.log("C");
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+A, C, B.
+
+## Explanation
+
+The current synchronous code finishes first. The then callback is queued as a promise reaction and runs at a microtask checkpoint after the current stack finishes. An already fulfilled promise does not make then execute inline. This example has no other tasks or microtasks competing with it.
+
+</details>
+
+## Source context
+
+Original educational practice added for the curriculum expansion. Reference: [MDN using promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises).

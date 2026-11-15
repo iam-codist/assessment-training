@@ -1,5 +1,14 @@
 # Change log
 
+## 2026-11-15 — Complete preparation roadmap and Cognitive Lab
+
+- Added 57 labelled original lessons, bringing the collection to 436 entries across 51 topics; all ten requested preparation areas are represented.
+- Added 196 standalone references: C, C++, Python and Java for all 49 complete coding problems, with language tabs and shared executable checks.
+- Integrated the Cognitive Lab under `/lab/`: 13 activity formats, 225 prompts, solo/classroom controls and links back to lessons.
+- Added ten executable SQL answer queries and a shared practice dataset.
+- Added the coverage roadmap, run instructions and update guidance. Completed the two planned sliding-window lessons with new worked references.
+- Kept the repository and website public. Extended automatic publishing to build and check the lab, language references and SQL.
+
 ## 2026-11-15 — Student website on GitHub Pages
 
 - Added topic navigation, a practice homepage and a stable website URL for each question ID.

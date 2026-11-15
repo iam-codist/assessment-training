@@ -1,0 +1,443 @@
+{
+  "C01": {
+    "input": "Read n, followed by n integers. Print the longest strictly increasing contiguous length.",
+    "files": {
+      "C": "solutions/C01/solution.c",
+      "C++": "solutions/C01/solution.cpp",
+      "Python": "solutions/C01/solution.py",
+      "Java": "solutions/C01/Main.java"
+    }
+  },
+  "C02": {
+    "input": "Read n and capacity, then n order sizes. Print accepted-count and remaining-capacity.",
+    "files": {
+      "C": "solutions/C02/solution.c",
+      "C++": "solutions/C02/solution.cpp",
+      "Python": "solutions/C02/solution.py",
+      "Java": "solutions/C02/Main.java"
+    }
+  },
+  "C03": {
+    "input": "Read q pairs of nonnegative integers. Print YES or NO for each pair.",
+    "files": {
+      "C": "solutions/C03/solution.c",
+      "C++": "solutions/C03/solution.cpp",
+      "Python": "solutions/C03/solution.py",
+      "Java": "solutions/C03/Main.java"
+    }
+  },
+  "C04": {
+    "input": "Read one complete line, preserving spaces. Print VALID or INVALID.",
+    "files": {
+      "C": "solutions/C04/solution.c",
+      "C++": "solutions/C04/solution.cpp",
+      "Python": "solutions/C04/solution.py",
+      "Java": "solutions/C04/Main.java"
+    }
+  },
+  "C05": {
+    "input": "Read n and target, then n integers. Print value and zero-based index; keep the earliest tie.",
+    "files": {
+      "C": "solutions/C05/solution.c",
+      "C++": "solutions/C05/solution.cpp",
+      "Python": "solutions/C05/solution.py",
+      "Java": "solutions/C05/Main.java"
+    }
+  },
+  "C06": {
+    "input": "Read L R a b. Print the sum of numbers divisible by exactly one divisor.",
+    "files": {
+      "C": "solutions/C06/solution.c",
+      "C++": "solutions/C06/solution.cpp",
+      "Python": "solutions/C06/solution.py",
+      "Java": "solutions/C06/Main.java"
+    }
+  },
+  "C07": {
+    "input": "Read n and n integers. Print the absolute difference of sums at even and odd indices.",
+    "files": {
+      "C": "solutions/C07/solution.c",
+      "C++": "solutions/C07/solution.cpp",
+      "Python": "solutions/C07/solution.py",
+      "Java": "solutions/C07/Main.java"
+    }
+  },
+  "C08": {
+    "input": "Read n and budget, then n prices. Print minimum-total and change, or IMPOSSIBLE.",
+    "files": {
+      "C": "solutions/C08/solution.c",
+      "C++": "solutions/C08/solution.cpp",
+      "Python": "solutions/C08/solution.py",
+      "Java": "solutions/C08/Main.java"
+    }
+  },
+  "C09": {
+    "input": "Read base1 numeral1, then base2 numeral2. Print LESS, EQUAL or GREATER. Values fit signed 64-bit.",
+    "files": {
+      "C": "solutions/C09/solution.c",
+      "C++": "solutions/C09/solution.cpp",
+      "Python": "solutions/C09/solution.py",
+      "Java": "solutions/C09/Main.java"
+    }
+  },
+  "C10": {
+    "input": "Read one complete label line. Print the normalized label, or EMPTY.",
+    "files": {
+      "C": "solutions/C10/solution.c",
+      "C++": "solutions/C10/solution.cpp",
+      "Python": "solutions/C10/solution.py",
+      "Java": "solutions/C10/Main.java"
+    }
+  },
+  "C11": {
+    "input": "Read a nonempty digit string. Print its weighted checksum modulo 10.",
+    "files": {
+      "C": "solutions/C11/solution.c",
+      "C++": "solutions/C11/solution.cpp",
+      "Python": "solutions/C11/solution.py",
+      "Java": "solutions/C11/Main.java"
+    }
+  },
+  "C12": {
+    "input": "Read nonnegative k on the first line and the complete text on the next line. Print the shifted text.",
+    "files": {
+      "C": "solutions/C12/solution.c",
+      "C++": "solutions/C12/solution.cpp",
+      "Python": "solutions/C12/solution.py",
+      "Java": "solutions/C12/Main.java"
+    }
+  },
+  "C13": {
+    "input": "Read q, then q commands (SET/ADD/SUB/MUL and an integer). Print the final accumulator.",
+    "files": {
+      "C": "solutions/C13/solution.c",
+      "C++": "solutions/C13/solution.cpp",
+      "Python": "solutions/C13/solution.py",
+      "Java": "solutions/C13/Main.java"
+    }
+  },
+  "C14": {
+    "input": "Read positive n. Print odd-part and exponent-of-two.",
+    "files": {
+      "C": "solutions/C14/solution.c",
+      "C++": "solutions/C14/solution.cpp",
+      "Python": "solutions/C14/solution.py",
+      "Java": "solutions/C14/Main.java"
+    }
+  },
+  "C15": {
+    "input": "Read n, followed by the n\u22121 supplied roll numbers. Print the missing number.",
+    "files": {
+      "C": "solutions/C15/solution.c",
+      "C++": "solutions/C15/solution.cpp",
+      "Python": "solutions/C15/solution.py",
+      "Java": "solutions/C15/Main.java"
+    }
+  },
+  "C16": {
+    "input": "Read r and c, then r rows of c integers. Print the earliest best-row index and row sum.",
+    "files": {
+      "C": "solutions/C16/solution.c",
+      "C++": "solutions/C16/solution.cpp",
+      "Python": "solutions/C16/solution.py",
+      "Java": "solutions/C16/Main.java"
+    }
+  },
+  "C17": {
+    "input": "Read one complete ASCII line. Print YES or NO after ignoring non-alphanumeric characters and case.",
+    "files": {
+      "C": "solutions/C17/solution.c",
+      "C++": "solutions/C17/solution.cpp",
+      "Python": "solutions/C17/solution.py",
+      "Java": "solutions/C17/Main.java"
+    }
+  },
+  "C18": {
+    "input": "Read n, then n coordinate pairs. Print total Manhattan distance including the return to the origin.",
+    "files": {
+      "C": "solutions/C18/solution.c",
+      "C++": "solutions/C18/solution.cpp",
+      "Python": "solutions/C18/solution.py",
+      "Java": "solutions/C18/Main.java"
+    }
+  },
+  "C19": {
+    "input": "Read n and n integers. Print second-distinct-maximum and frequency, or NONE.",
+    "files": {
+      "C": "solutions/C19/solution.c",
+      "C++": "solutions/C19/solution.cpp",
+      "Python": "solutions/C19/solution.py",
+      "Java": "solutions/C19/Main.java"
+    }
+  },
+  "C20": {
+    "input": "Read two digit strings on separate lines. Print MATCH or DIFFERENT; leading zeros count.",
+    "files": {
+      "C": "solutions/C20/solution.c",
+      "C++": "solutions/C20/solution.cpp",
+      "Python": "solutions/C20/solution.py",
+      "Java": "solutions/C20/Main.java"
+    }
+  },
+  "D01": {
+    "input": "Read divisor n, then range limit m. Print nondivisible-sum minus divisible-sum.",
+    "files": {
+      "C": "solutions/D01/solution.c",
+      "C++": "solutions/D01/solution.cpp",
+      "Python": "solutions/D01/solution.py",
+      "Java": "solutions/D01/Main.java"
+    }
+  },
+  "D02": {
+    "input": "Read n and n integers. Print the second-largest distinct value, or -1 if absent.",
+    "files": {
+      "C": "solutions/D02/solution.c",
+      "C++": "solutions/D02/solution.cpp",
+      "Python": "solutions/D02/solution.py",
+      "Java": "solutions/D02/Main.java"
+    }
+  },
+  "D03": {
+    "input": "Read a line of lowercase English letters. Print the number of distinct letters.",
+    "files": {
+      "C": "solutions/D03/solution.c",
+      "C++": "solutions/D03/solution.cpp",
+      "Python": "solutions/D03/solution.py",
+      "Java": "solutions/D03/Main.java"
+    }
+  },
+  "D04": {
+    "input": "Read one ASCII password line. Apply the classroom rule (at least 7 characters); print 1 or 0.",
+    "files": {
+      "C": "solutions/D04/solution.c",
+      "C++": "solutions/D04/solution.cpp",
+      "Python": "solutions/D04/solution.py",
+      "Java": "solutions/D04/Main.java"
+    }
+  },
+  "LC2894": {
+    "input": "Read range limit n, then divisor m (the reverse of D01). Print nondivisible-sum minus divisible-sum.",
+    "files": {
+      "C": "solutions/LC2894/solution.c",
+      "C++": "solutions/LC2894/solution.cpp",
+      "Python": "solutions/LC2894/solution.py",
+      "Java": "solutions/LC2894/Main.java"
+    }
+  },
+  "LC414": {
+    "input": "Read positive n and n integers. Print third-largest distinct value, or the maximum if fewer than three exist.",
+    "files": {
+      "C": "solutions/LC414/solution.c",
+      "C++": "solutions/LC414/solution.cpp",
+      "Python": "solutions/LC414/solution.py",
+      "Java": "solutions/LC414/Main.java"
+    }
+  },
+  "LC387": {
+    "input": "Read a lowercase English string. Print the zero-based index of its first unique character, or -1.",
+    "files": {
+      "C": "solutions/LC387/solution.c",
+      "C++": "solutions/LC387/solution.cpp",
+      "Python": "solutions/LC387/solution.py",
+      "Java": "solutions/LC387/Main.java"
+    }
+  },
+  "LC2299": {
+    "input": "Read an ASCII password line. Apply Strong Password Checker II rules and print true or false.",
+    "files": {
+      "C": "solutions/LC2299/solution.c",
+      "C++": "solutions/LC2299/solution.cpp",
+      "Python": "solutions/LC2299/solution.py",
+      "Java": "solutions/LC2299/Main.java"
+    }
+  },
+  "LC53": {
+    "input": "Read positive n and n integers. Print the maximum sum of a nonempty contiguous subarray.",
+    "files": {
+      "C": "solutions/LC53/solution.c",
+      "C++": "solutions/LC53/solution.cpp",
+      "Python": "solutions/LC53/solution.py",
+      "Java": "solutions/LC53/Main.java"
+    }
+  },
+  "LC189": {
+    "input": "Read positive n and nonnegative k, then n integers. Print the array after rotating right by k.",
+    "files": {
+      "C": "solutions/LC189/solution.c",
+      "C++": "solutions/LC189/solution.cpp",
+      "Python": "solutions/LC189/solution.py",
+      "Java": "solutions/LC189/Main.java"
+    }
+  },
+  "LC49": {
+    "input": "Read n, then n lowercase English words, one per line (a word may be empty). Print groups as JSON arrays, ordered by sorted-letter key; retain input order inside each group.",
+    "files": {
+      "C": "solutions/LC49/solution.c",
+      "C++": "solutions/LC49/solution.cpp",
+      "Python": "solutions/LC49/solution.py",
+      "Java": "solutions/LC49/Main.java"
+    }
+  },
+  "LC3": {
+    "input": "Read one ASCII text line. Print the length of the longest substring without a repeated character.",
+    "files": {
+      "C": "solutions/LC3/solution.c",
+      "C++": "solutions/LC3/solution.cpp",
+      "Python": "solutions/LC3/solution.py",
+      "Java": "solutions/LC3/Main.java"
+    }
+  },
+  "LC12": {
+    "input": "Read an integer from 1 through 3999. Print its Roman numeral.",
+    "files": {
+      "C": "solutions/LC12/solution.c",
+      "C++": "solutions/LC12/solution.cpp",
+      "Python": "solutions/LC12/solution.py",
+      "Java": "solutions/LC12/Main.java"
+    }
+  },
+  "LC11": {
+    "input": "Read n (at least 2), then n nonnegative heights. Print maximum container area.",
+    "files": {
+      "C": "solutions/LC11/solution.c",
+      "C++": "solutions/LC11/solution.cpp",
+      "Python": "solutions/LC11/solution.py",
+      "Java": "solutions/LC11/Main.java"
+    }
+  },
+  "LC918": {
+    "input": "Read positive n and n integers. Print the maximum nonempty circular subarray sum.",
+    "files": {
+      "C": "solutions/LC918/solution.c",
+      "C++": "solutions/LC918/solution.cpp",
+      "Python": "solutions/LC918/solution.py",
+      "Java": "solutions/LC918/Main.java"
+    }
+  },
+  "F01": {
+    "input": "Read positive n and k (1 through n), then n integers. Print the maximum sum over exactly k consecutive elements.",
+    "files": {
+      "C": "solutions/F01/solution.c",
+      "C++": "solutions/F01/solution.cpp",
+      "Python": "solutions/F01/solution.py",
+      "Java": "solutions/F01/Main.java"
+    }
+  },
+  "LC1004": {
+    "input": "Read n and nonnegative k, then n binary values. Print the longest window with at most k zeros.",
+    "files": {
+      "C": "solutions/LC1004/solution.c",
+      "C++": "solutions/LC1004/solution.cpp",
+      "Python": "solutions/LC1004/solution.py",
+      "Java": "solutions/LC1004/Main.java"
+    }
+  },
+  "LC209": {
+    "input": "Read n and a positive target, then n positive integers. Print the shortest window with sum at least target, or 0.",
+    "files": {
+      "C": "solutions/LC209/solution.c",
+      "C++": "solutions/LC209/solution.cpp",
+      "Python": "solutions/LC209/solution.py",
+      "Java": "solutions/LC209/Main.java"
+    }
+  },
+  "LC1518": {
+    "input": "Read full bottle count and exchange rate (at least 2). Print total bottles drunk.",
+    "files": {
+      "C": "solutions/LC1518/solution.c",
+      "C++": "solutions/LC1518/solution.cpp",
+      "Python": "solutions/LC1518/solution.py",
+      "Java": "solutions/LC1518/Main.java"
+    }
+  },
+  "LC1608": {
+    "input": "Read n and n nonnegative integers. Print x if exactly x elements are at least x, otherwise -1.",
+    "files": {
+      "C": "solutions/LC1608/solution.c",
+      "C++": "solutions/LC1608/solution.cpp",
+      "Python": "solutions/LC1608/solution.py",
+      "Java": "solutions/LC1608/Main.java"
+    }
+  },
+  "LC125": {
+    "input": "Read one ASCII line. Ignore non-alphanumeric characters and case; print true or false for palindrome.",
+    "files": {
+      "C": "solutions/LC125/solution.c",
+      "C++": "solutions/LC125/solution.cpp",
+      "Python": "solutions/LC125/solution.py",
+      "Java": "solutions/LC125/Main.java"
+    }
+  },
+  "LC9": {
+    "input": "Read a signed 32-bit integer. Print true if its decimal representation is a palindrome, otherwise false.",
+    "files": {
+      "C": "solutions/LC9/solution.c",
+      "C++": "solutions/LC9/solution.cpp",
+      "Python": "solutions/LC9/solution.py",
+      "Java": "solutions/LC9/Main.java"
+    }
+  },
+  "LC1295": {
+    "input": "Read n followed by n positive integers. Print how many have an even number of decimal digits.",
+    "files": {
+      "C": "solutions/LC1295/solution.c",
+      "C++": "solutions/LC1295/solution.cpp",
+      "Python": "solutions/LC1295/solution.py",
+      "Java": "solutions/LC1295/Main.java"
+    }
+  },
+  "LC977": {
+    "input": "Read n and a sorted array of n integers. Print squares in nondecreasing order.",
+    "files": {
+      "C": "solutions/LC977/solution.c",
+      "C++": "solutions/LC977/solution.cpp",
+      "Python": "solutions/LC977/solution.py",
+      "Java": "solutions/LC977/Main.java"
+    }
+  },
+  "LC242": {
+    "input": "Read two lowercase English strings, one per line. Print true or false for anagrams.",
+    "files": {
+      "C": "solutions/LC242/solution.c",
+      "C++": "solutions/LC242/solution.cpp",
+      "Python": "solutions/LC242/solution.py",
+      "Java": "solutions/LC242/Main.java"
+    }
+  },
+  "LC283": {
+    "input": "Read n and n integers. Move zeros to the end while preserving nonzero order. Print the changed array.",
+    "files": {
+      "C": "solutions/LC283/solution.c",
+      "C++": "solutions/LC283/solution.cpp",
+      "Python": "solutions/LC283/solution.py",
+      "Java": "solutions/LC283/Main.java"
+    }
+  },
+  "DP01": {
+    "input": "Read n from 0 through 90. Print ways to climb n steps using moves of 1 or 2 steps. There is one empty way for n=0.",
+    "files": {
+      "C": "solutions/DP01/solution.c",
+      "C++": "solutions/DP01/solution.cpp",
+      "Python": "solutions/DP01/solution.py",
+      "Java": "solutions/DP01/Main.java"
+    }
+  },
+  "DP02": {
+    "input": "Read coin count n and amount (0 through 10000), then n positive coin values. Print minimum coins with unlimited reuse, or -1.",
+    "files": {
+      "C": "solutions/DP02/solution.c",
+      "C++": "solutions/DP02/solution.cpp",
+      "Python": "solutions/DP02/solution.py",
+      "Java": "solutions/DP02/Main.java"
+    }
+  },
+  "DP03": {
+    "input": "Read two ASCII strings on separate lines, at most 1000 characters each. Print the longest common subsequence length.",
+    "files": {
+      "C": "solutions/DP03/solution.c",
+      "C++": "solutions/DP03/solution.cpp",
+      "Python": "solutions/DP03/solution.py",
+      "Java": "solutions/DP03/Main.java"
+    }
+  }
+}

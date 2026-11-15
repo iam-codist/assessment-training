@@ -66,6 +66,32 @@ O(n) time; O(1) extra working space if input is streamed.
 
 n=1 has no further entries. In Java, promote before multiplying, for example (long)n*(n+1)/2.
 
+## Solutions in four languages
+
+These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
+
+Read n, followed by the n−1 supplied roll numbers. Print the missing number.
+
+**Sample program input**
+
+```text
+6
+6 1 4 2 5
+```
+
+**Sample program output**
+
+```text
+3
+```
+
+- [C source](../../../solutions/C15/solution.c)
+- [C++ source](../../../solutions/C15/solution.cpp)
+- [Python source](../../../solutions/C15/solution.py)
+- [Java source](../../../solutions/C15/Main.java)
+
+[How to compile and run these examples](../../../SOLUTIONS.md). These implementations were added for this update.
+
 </details>
 
 ## Source context

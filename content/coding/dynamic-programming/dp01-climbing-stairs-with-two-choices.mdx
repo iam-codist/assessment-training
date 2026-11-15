@@ -1,0 +1,57 @@
+---
+id: "DP01"
+title: "Climbing stairs with two choices"
+category: "coding"
+topic: "dynamic-programming"
+status: "ready"
+updated: "2026-11-15"
+source: "New original practice \u2014 curriculum expansion, November 2026"
+---
+
+# Climbing stairs with two choices
+
+> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
+
+## Question
+
+You may climb 1 or 2 steps at a time. Count the different ordered ways to reach step n. For this exercise, n is between 0 and 90 inclusive. Define one empty way to reach step 0. What recurrence avoids exploring every path?
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+ways(0)=1, ways(1)=1, and ways(n)=ways(n−1)+ways(n−2) for n at least 2.
+
+## Explanation
+
+Every path ends with either a 1-step move from n−1 or a 2-step move from n−2. These possibilities are disjoint and cover all paths. For n=5 the counts are 1,1,2,3,5,8, so the answer is 8. Keep only the last two counts: O(n) time and O(1) extra space. The upper bound keeps the result within a signed 64-bit integer. n=0 is an intentional base case, not zero ways.
+
+## Solutions in four languages
+
+Read n from 0 through 90. Print ways to climb n steps using moves of 1 or 2 steps. There is one empty way for n=0.
+
+**Sample program input**
+
+```text
+0
+```
+
+**Sample program output**
+
+```text
+1
+```
+
+- [C source](../../../solutions/DP01/solution.c)
+- [C++ source](../../../solutions/DP01/solution.cpp)
+- [Python source](../../../solutions/DP01/solution.py)
+- [Java source](../../../solutions/DP01/Main.java)
+
+[Compile and run guide](../../../SOLUTIONS.md).
+
+</details>
+
+## Source context
+
+Original educational practice added for the curriculum expansion.
