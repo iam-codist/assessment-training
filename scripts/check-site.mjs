@@ -61,6 +61,9 @@ for (const set of [1, 2, 3]) {
   assert.match(mock, /id="mock-start"/);
   assert.match(mock, /data-minutes="[1-9]\d*" autocomplete="off" hidden/);
   assert.match(mock, /id="mock-clock" role="timer"/);
+  assert.match(mock, /<dialog id="mock-navigator"/);
+  assert.equal((mock.match(/class="mock-jump"/g) ?? []).length, 47);
+  assert.equal((mock.match(/aria-pressed="false" aria-label="Mark question/g) ?? []).length, 47);
   assert.equal((mock.match(/type="radio"/g) ?? []).length, 45 * 4);
   assert.equal((mock.match(/<textarea /g) ?? []).length, 2);
   assert.equal((mock.match(/data-review hidden><\/div>/g) ?? []).length, 47);

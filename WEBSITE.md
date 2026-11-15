@@ -56,7 +56,7 @@ Question URLs use `/questions/<lowercase-id>/` so title changes do not break stu
 
 ## Assessment mock tests
 
-The [assessment practice guide](https://iam-codist.github.io/assessment-training/guide/assessment-practice/) links to all three mock tests. Each mock uses the same MDX lessons as the question bank. Submitting scores the 45 MCQs and reveals the explanations and both worked solutions. SQL and frontend responses are reviewed by the learner. Each attempt has a 70-minute countdown and submits at expiry. Answers, code drafts and the deadline are saved in the current browser, so refreshing resumes the same attempt. The deadline keeps counting while the page is closed. There is no account, database or cross-device syncing.
+The [assessment practice guide](https://iam-codist.github.io/assessment-training/guide/assessment-practice/) links to all three mock tests. Each mock uses the same MDX lessons as the question bank. Submitting scores the 45 MCQs and reveals the explanations and both worked solutions. SQL and frontend responses are reviewed by the learner. Each attempt has a 70-minute countdown and submits at expiry. The question navigator shows which questions are answered, unanswered or marked for review. Answers, code drafts, review flags and the deadline are saved in the current browser, so refreshing resumes the same attempt. The deadline keeps counting while the page is closed. There is no account, database or cross-device syncing.
 
 The site is public. The submission step controls when the mock displays the review material for classroom practice.
 

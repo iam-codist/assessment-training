@@ -226,8 +226,11 @@ for (const [set, questions] of mockSets) {
     const input = choices
       ? `<fieldset aria-labelledby="${q.id}-title" aria-describedby="${q.id}-prompt">${choices}</fieldset>`
       : `<label for="${q.id}-response">Your ${q.number === 46 ? 'SQL query' : 'frontend code'} (optional)</label><textarea id="${q.id}-response" name="${q.id}" rows="8" spellcheck="false" autocapitalize="off"></textarea>`;
-    return `<section class="prose mock-card" data-question="${q.id}"><h2 id="${q.id}-title">${heading}</h2><div id="${q.id}-prompt">${q.question}</div>${input}<div data-review hidden></div></section>`;
+    return `<section class="prose mock-card" data-question="${q.id}"><div class="mock-card-heading"><h2 id="${q.id}-title" tabindex="-1">${heading}</h2><button type="button" class="quiet-button mock-flag" aria-pressed="false" aria-label="Mark question ${q.number} for review">Mark for review</button></div><div id="${q.id}-prompt">${q.question}</div>${input}<div data-review hidden></div></section>`;
   }).join('');
+  const navigatorLinks = questions.map(q =>
+    `<a class="mock-jump" href="#${q.id}-title" data-jump="${q.id}">${q.number}</a>`
+  ).join('');
   const content = `${crumb([['Assessment practice sets', 'guide/assessment-practice/'], [`Mock test · Set ${set}`]])}
     <div class="page-heading"><div class="eyebrow">ASSESSMENT PRACTICE</div><h1>Mock test · Set ${set}</h1><p>45 scored MCQs, one SQL joins exercise and one frontend exercise. Unanswered MCQs count as incorrect. Compare your hands-on responses with the worked solutions after you submit.</p><p>FOR bounds are inclusive. Arrays start at index 0. DIV is integer division and MOD is remainder.</p></div>
     <div class="prose mock-card" id="mock-intro" hidden>
@@ -238,7 +241,13 @@ for (const [set, questions] of mockSets) {
     <div id="mock-result" class="prose mock-card" tabindex="-1" hidden></div>
     <noscript><p>Enable JavaScript to submit the mock test and see your score.</p></noscript>
     <form id="mock-test" data-review-url="${href(reviewPath)}" data-minutes="${mockMinutes}" autocomplete="off" hidden>
-      <div class="mock-progress"><span id="mock-clock" role="timer" aria-label="Time remaining">Time left <b id="mock-time"></b></span><output id="mock-progress">0 of 45 MCQs answered</output><a href="#mock-submit">Go to submit ↓</a></div>
+      <div class="mock-progress"><span id="mock-clock" role="timer" aria-label="Time remaining">Time left <b id="mock-time"></b></span><output id="mock-progress">0 of 45 MCQs answered</output><button class="quiet-button" id="mock-open-navigator" type="button" aria-haspopup="dialog">Questions</button><a href="#mock-submit" id="mock-submit-link">Go to submit ↓</a></div>
+      <dialog id="mock-navigator" aria-labelledby="mock-navigator-title">
+        <div class="mock-card-heading"><h2 id="mock-navigator-title">Question navigator</h2><button class="quiet-button" type="button" id="mock-close-navigator">Close</button></div>
+        <p id="mock-navigator-summary"></p>
+        <p class="mock-legend"><span>○ Unanswered</span><span>✓ Answered</span><span>⚑ Marked for review</span></p>
+        <nav class="mock-grid" aria-label="Jump to a question">${navigatorLinks}</nav>
+      </dialog>
       ${cards}
       <div class="mock-submit" id="mock-submit"><button class="button primary" type="submit" disabled>Submit mock test</button><p id="mock-error" role="alert"></p></div>
     </form><script type="module" src="${href('site/mock-test.mjs')}"></script>`;

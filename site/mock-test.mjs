@@ -8,6 +8,9 @@ const result = document.querySelector('#mock-result');
 const error = document.querySelector('#mock-error');
 const submit = form.querySelector('[type="submit"]');
 const cards = [...form.querySelectorAll('[data-question]')];
+const navigator = document.querySelector('#mock-navigator');
+const navigatorSummary = document.querySelector('#mock-navigator-summary');
+const jumps = [...navigator.querySelectorAll('[data-jump]')];
 const fields = [...form.querySelectorAll('input, textarea')];
 const storageKey = `assessment-training:mock:v1:${form.dataset.reviewUrl}`;
 const duration = Number(form.dataset.minutes) * 60_000;
@@ -45,7 +48,28 @@ function restoreResponses() {
 }
 
 function updateProgress() {
-  progress.textContent = `${form.querySelectorAll('input:checked').length} of 45 MCQs answered`;
+  const answered = form.querySelectorAll('input:checked').length;
+  progress.textContent = `${answered} of 45 MCQs answered`;
+  let answeredTotal = 0;
+  let markedTotal = 0;
+  for (const [i, card] of cards.entries()) {
+    const id = card.dataset.question;
+    const hasAnswer = Boolean(attempt.responses[id]?.trim());
+    const marked = attempt.flags?.[id] === true;
+    answeredTotal += Number(hasAnswer);
+    markedTotal += Number(marked);
+
+    const flag = card.querySelector('.mock-flag');
+    flag.setAttribute('aria-pressed', String(marked));
+    flag.textContent = marked ? '⚑ Marked for review' : 'Mark for review';
+
+    const jump = jumps[i];
+    jump.classList.toggle('answered', hasAnswer);
+    jump.classList.toggle('marked', marked);
+    const label = i < 45 ? `Question ${i + 1}` : `Question ${i + 1}, ${i === 45 ? 'SQL' : 'frontend'}`;
+    jump.setAttribute('aria-label', `${label}, ${hasAnswer ? 'answered' : 'unanswered'}${marked ? ', marked for review' : ''}`);
+  }
+  navigatorSummary.textContent = `${cards.length - answeredTotal} unanswered · ${markedTotal} marked for review`;
 }
 
 function tick() {
@@ -68,6 +92,8 @@ async function submitAttempt(expired = false) {
   clock.textContent = attempt.expired ? 'Time expired · Auto-submitted' : 'Attempt submitted';
   const selected = new Map(fields.filter(field => field.checked).map(field => [field.name, field.value]));
   fields.forEach(field => { field.disabled = true; });
+  for (const flag of form.querySelectorAll('.mock-flag')) flag.disabled = true;
+  if (navigator.open) navigator.close();
   loading = true;
   submit.disabled = true;
   submit.textContent = 'Loading review…';
@@ -108,6 +134,7 @@ async function submitAttempt(expired = false) {
     });
     result.hidden = false;
     document.querySelector('#mock-submit').hidden = true;
+    document.querySelector('#mock-submit-link').hidden = true;
     result.focus();
     result.scrollIntoView({ block: 'start' });
   } catch {
@@ -141,6 +168,34 @@ form.addEventListener('input', event => {
     return;
   }
   attempt.responses[field.name] = field.value;
+  saveAttempt();
+  updateProgress();
+});
+
+document.querySelector('#mock-open-navigator').addEventListener('click', () => navigator.showModal());
+document.querySelector('#mock-close-navigator').addEventListener('click', () => navigator.close());
+
+navigator.addEventListener('click', event => {
+  const jump = event.target.closest('[data-jump]');
+  if (!jump) return;
+  event.preventDefault();
+  navigator.close();
+  const heading = document.getElementById(`${jump.dataset.jump}-title`);
+  heading.focus({ preventScroll: true });
+  heading.scrollIntoView({ block: 'start' });
+});
+
+form.addEventListener('click', event => {
+  const flag = event.target.closest('.mock-flag');
+  if (!flag || !attempt || attempt.submitted) return;
+  if (Date.now() >= attempt.deadline) {
+    void submitAttempt(true);
+    return;
+  }
+  const id = flag.closest('[data-question]').dataset.question;
+  attempt.flags ??= {};
+  if (attempt.flags[id]) delete attempt.flags[id];
+  else attempt.flags[id] = true;
   saveAttempt();
   updateProgress();
 });
