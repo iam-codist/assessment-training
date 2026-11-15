@@ -58,6 +58,9 @@ for (const set of [1, 2, 3]) {
   const mock = await readFile(path.join(dist, route, 'index.html'), 'utf8');
   const review = JSON.parse(await readFile(path.join(dist, route, 'review.json'), 'utf8'));
   assert.ok(practiceGuide.includes(`href="${basePath}${route}"`));
+  assert.match(mock, /id="mock-start"/);
+  assert.match(mock, /data-minutes="[1-9]\d*" autocomplete="off" hidden/);
+  assert.match(mock, /id="mock-clock" role="timer"/);
   assert.equal((mock.match(/type="radio"/g) ?? []).length, 45 * 4);
   assert.equal((mock.match(/<textarea /g) ?? []).length, 2);
   assert.equal((mock.match(/data-review hidden><\/div>/g) ?? []).length, 47);

@@ -167,6 +167,7 @@ for (const t of topics) {
   await save(route, page({ title: label(topic), route, category: cat, topic, content }));
 }
 
+const mockMinutes = 70;
 const mockSets = new Map([1, 2, 3].map(set => [set, []]));
 const searchIndex = [];
 for (const q of entries) {
@@ -228,11 +229,16 @@ for (const [set, questions] of mockSets) {
     return `<section class="prose mock-card" data-question="${q.id}"><h2 id="${q.id}-title">${heading}</h2><div id="${q.id}-prompt">${q.question}</div>${input}<div data-review hidden></div></section>`;
   }).join('');
   const content = `${crumb([['Assessment practice sets', 'guide/assessment-practice/'], [`Mock test · Set ${set}`]])}
-    <div class="page-heading"><div class="eyebrow">ASSESSMENT PRACTICE</div><h1>Mock test · Set ${set}</h1><p>45 scored MCQs, one SQL joins exercise and one frontend exercise. Unanswered MCQs count as incorrect. Compare your hands-on responses with the worked solutions after you submit.</p><p>FOR bounds are inclusive. Arrays start at index 0. DIV is integer division and MOD is remainder. Keep this page open to retain your attempt.</p></div>
+    <div class="page-heading"><div class="eyebrow">ASSESSMENT PRACTICE</div><h1>Mock test · Set ${set}</h1><p>45 scored MCQs, one SQL joins exercise and one frontend exercise. Unanswered MCQs count as incorrect. Compare your hands-on responses with the worked solutions after you submit.</p><p>FOR bounds are inclusive. Arrays start at index 0. DIV is integer division and MOD is remainder.</p></div>
+    <div class="prose mock-card" id="mock-intro" hidden>
+      <h2>Ready to start?</h2><p>You have ${mockMinutes} minutes. The test submits automatically at zero. Your progress is saved in this browser, and the timer keeps running if you refresh or leave the page.</p>
+      <button class="button primary" id="mock-start" type="button">Start timed test</button>
+    </div>
+    <p id="mock-storage-warning" role="status" hidden>Browser storage is unavailable. Keep this page open to retain your progress.</p>
     <div id="mock-result" class="prose mock-card" tabindex="-1" hidden></div>
     <noscript><p>Enable JavaScript to submit the mock test and see your score.</p></noscript>
-    <form id="mock-test" data-review-url="${href(reviewPath)}" autocomplete="off">
-      <div class="mock-progress"><output id="mock-progress">0 of 45 MCQs answered</output><a href="#mock-submit">Go to submit ↓</a></div>
+    <form id="mock-test" data-review-url="${href(reviewPath)}" data-minutes="${mockMinutes}" autocomplete="off" hidden>
+      <div class="mock-progress"><span id="mock-clock" role="timer" aria-label="Time remaining">Time left <b id="mock-time"></b></span><output id="mock-progress">0 of 45 MCQs answered</output><a href="#mock-submit">Go to submit ↓</a></div>
       ${cards}
       <div class="mock-submit" id="mock-submit"><button class="button primary" type="submit" disabled>Submit mock test</button><p id="mock-error" role="alert"></p></div>
     </form><script type="module" src="${href('site/mock-test.mjs')}"></script>`;

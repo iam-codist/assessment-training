@@ -41,3 +41,7 @@
 .mock-submit[hidden]{display:none}
 #mock-error:empty{display:none}
 #mock-result{scroll-margin-top:75px}
+.mock-progress{position:sticky;top:81px;z-index:5;padding:10px 12px;background:var(--paper);border:1px solid var(--line);border-radius:8px}
+#mock-clock{font-weight:700;font-variant-numeric:tabular-nums}
+#mock-submit{scroll-margin-top:185px}
+@media(max-width:760px){.mock-progress{top:66px}}
