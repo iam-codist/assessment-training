@@ -81,6 +81,33 @@ function tick() {
   if (!seconds) void submitAttempt(true);
 }
 
+function topicBreakdown(topics) {
+  const section = document.createElement('section');
+  section.setAttribute('aria-labelledby', 'mock-topic-heading');
+  section.innerHTML = `<h3 id="mock-topic-heading">Topic scores</h3>
+    <p>Start with the topics at the top. Unanswered MCQs count as missed.</p>
+    <ul class="mock-topic-scores"></ul>`;
+  const list = section.querySelector('ul');
+  const sorted = [...topics.values()].sort((a, b) =>
+    a.correct / a.total - b.correct / b.total || (b.total - b.correct) - (a.total - a.correct));
+  for (const { name, practiceUrl, correct, total } of sorted) {
+    const row = document.createElement('li');
+    const topic = document.createElement('strong');
+    topic.textContent = name;
+    const score = document.createElement('span');
+    score.textContent = `${correct} / ${total} correct`;
+    row.append(topic, score);
+    if (correct < total) {
+      const link = document.createElement('a');
+      link.href = practiceUrl;
+      link.textContent = `Practise ${name}`;
+      row.append(link);
+    }
+    list.append(row);
+  }
+  return section;
+}
+
 async function submitAttempt(expired = false) {
   if (!attempt || loading || !result.hidden) return;
 
@@ -103,19 +130,29 @@ async function submitAttempt(expired = false) {
   error.textContent = '';
 
   try {
-    const response = await fetch(form.dataset.reviewUrl);
+    const response = await fetch(form.dataset.reviewUrl, { cache: 'no-cache' });
     if (!response.ok) throw new Error('Review unavailable');
     const review = await response.json();
-    if (review.length !== cards.length || review.some((item, i) => item.id !== cards[i].dataset.question)) {
+    if (review.length !== cards.length || review.some((item, i) => item.id !== cards[i].dataset.question || (i < 45 && !item.topic?.name))) {
       throw new Error('Review does not match this test');
     }
 
     let score = 0;
-    for (const [i, { id, key, review: explanation }] of review.entries()) {
+    const topics = new Map();
+    for (const [i, { id, key, review: explanation, topic }] of review.entries()) {
       const panel = cards[i].querySelector('[data-review]');
       if (key) {
         const choice = selected.get(id);
-        if (choice === key) score++;
+        let stats = topics.get(topic.name);
+        if (!stats) {
+          stats = { ...topic, correct: 0, total: 0 };
+          topics.set(topic.name, stats);
+        }
+        stats.total++;
+        if (choice === key) {
+          score++;
+          stats.correct++;
+        }
         const feedback = document.createElement('p');
         feedback.className = 'mock-feedback';
         feedback.textContent = choice === key ? `Correct · You chose ${key}`
@@ -129,7 +166,9 @@ async function submitAttempt(expired = false) {
     result.innerHTML = `<h2>MCQ score: ${score} / 45</h2>
       <p>${attempt.expired ? 'Time expired and your test was submitted automatically. ' : ''}${selected.size} answered. Review your choices, explanations and worked solutions below. The hands-on exercises are for self-review.</p>
       <button type="button" class="button secondary">Start a new attempt</button>`;
-    result.querySelector('button').addEventListener('click', () => {
+    const retake = result.querySelector('button');
+    retake.before(topicBreakdown(topics));
+    retake.addEventListener('click', () => {
       attempt = null;
       saveAttempt();
       form.reset();

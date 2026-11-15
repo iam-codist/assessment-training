@@ -63,3 +63,7 @@
 
 #mock-confirm h2{margin-top:0}
 .mock-dialog-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.prose .mock-topic-scores{list-style:none;padding:0;margin:12px 0 20px}
+.mock-topic-scores li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:baseline;border-top:1px solid var(--line);padding:9px 0}
+.mock-topic-scores li a{grid-column:1/-1;text-decoration:underline;text-underline-offset:3px}
+.mock-topic-scores li span{white-space:nowrap;font-variant-numeric:tabular-nums}

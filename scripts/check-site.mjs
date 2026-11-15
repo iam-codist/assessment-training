@@ -72,12 +72,23 @@ for (const set of [1, 2, 3]) {
   assert.equal((mock.match(/data-review hidden><\/div>/g) ?? []).length, 47);
   assert.doesNotMatch(mock, /<h2>Explanation<\/h2>|Show answer and explanation/);
   assert.equal(review.length, 47);
+  const topicTotals = new Map();
   for (const [i, item] of review.entries()) {
     assert.equal(item.id, `PS${set}-${String(i + 1).padStart(2, '0')}`);
     assert.ok(mock.includes(`data-question="${item.id}"`));
     assert.match(item.review, /<h2>Explanation<\/h2>/);
-    if (i < 45) assert.match(item.key, /^[A-D]$/);
-    else assert.equal(item.key, null);
+    if (i < 45) {
+      assert.match(item.key, /^[A-D]$/);
+      const { name, practiceUrl } = item.topic;
+      assert.ok(name);
+      assert.ok(practiceUrl.startsWith(`${basePath}topics/`));
+      await access(path.join(dist, practiceUrl.slice(basePath.length), 'index.html'));
+      topicTotals.set(name, (topicTotals.get(name) ?? 0) + 1);
+    } else {
+      assert.equal(item.key, null);
+      assert.equal(item.topic, null);
+    }
   }
+  assert.deepEqual([...topicTotals.values()], [10, 3, 2, 2, 5, 5, 4, 4, 5, 5]);
 }
 console.log(`Site checks passed: ${htmlCount} HTML pages, ${catalog.total} question routes, full search coverage, collapsed answers and all local links/assets.`);

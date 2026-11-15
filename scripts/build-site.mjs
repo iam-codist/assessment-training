@@ -168,6 +168,19 @@ for (const t of topics) {
 }
 
 const mockMinutes = 70;
+// The same section boundaries apply to all three sets.
+const mockTopics = [
+  [10, 'Pseudocode', 'topics/pseudocode/'],
+  [13, 'Excel', 'topics/technical-mcqs/excel/'],
+  [15, 'Word', 'topics/technical-mcqs/office-tools/'],
+  [17, 'PowerPoint', 'topics/technical-mcqs/office-tools/'],
+  [22, 'Computer networks', 'topics/technical-mcqs/networking/'],
+  [27, 'Operating systems', 'topics/technical-mcqs/cs-fundamentals/'],
+  [31, 'Cloud computing', 'topics/technical-mcqs/cloud/'],
+  [35, 'Cybersecurity', 'topics/technical-mcqs/security/'],
+  [40, 'DBMS and SQL', 'topics/sql/'],
+  [45, 'OOP and programming fundamentals', 'topics/technical-mcqs/cs-fundamentals/']
+];
 const mockSets = new Map([1, 2, 3].map(set => [set, []]));
 const searchIndex = [];
 for (const q of entries) {
@@ -258,7 +271,12 @@ for (const [set, questions] of mockSets) {
       <div class="mock-submit" id="mock-submit"><button class="button primary" type="submit" disabled>Submit mock test</button><p id="mock-error" role="alert"></p></div>
     </form><script type="module" src="${href('site/mock-test.mjs')}"></script>`;
   await save(route, page({ title: `Mock test · Set ${set}`, route, content }));
-  await writeFile(path.join(out, reviewPath), JSON.stringify(questions.map(({ id, key, review }) => ({ id, key, review }))));
+  const review = questions.map(({ id, number, key, review }) => {
+    const section = mockTopics.find(([end]) => number <= end);
+    const topic = section ? { name: section[1], practiceUrl: href(section[2]) } : null;
+    return { id, key, review, topic };
+  });
+  await writeFile(path.join(out, reviewPath), JSON.stringify(review));
 }
 
 const searchContent = `${crumb([['Search']])}<div class="page-heading"><div class="eyebrow">FOLLOW YOUR CURIOSITY</div><h1>Find your next question.</h1><p>Search by a topic, question ID or a phrase. Try “sliding window”, “M20” or “Excel”.</p></div><form id="search-form" class="search-panel" role="search" data-index="${href('search-index.json')}"><label for="search-query">What would you like to practise?</label><div class="search-input-row">${searchIcon}<input id="search-query" name="q" type="search" placeholder="Search all ${catalog.total} entries…" autocomplete="off"/><button class="button primary" type="submit">Search</button></div><div class="search-filters"><label>Learning area<select id="category-filter"><option value="">All learning areas</option>${categories.map(c => `<option value="${c}">${label(c)}</option>`).join('')}</select></label><label>Practice type<select id="status-filter"><option value="">All practice types</option>${Object.entries(statusLabel).map(([value, name]) => `<option value="${value}">${name}</option>`).join('')}</select></label><button id="clear-search" type="button" class="quiet-button">Clear filters</button></div></form><p id="search-summary" class="search-summary" role="status" aria-live="polite">Loading the question library…</p><noscript><p>Search needs JavaScript. You can still <a href="${href('topics/')}">browse every topic</a> and read all questions.</p></noscript><div id="search-results"></div><button id="load-more" class="button secondary" hidden>Show more questions</button>`;
