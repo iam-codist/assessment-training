@@ -43,10 +43,6 @@ The first pop removes 9. Pushing 7 leaves 5 below 7, so the next pops return 7 t
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [Topic index](README.md) · [P16 →](p16-queue-order.md)

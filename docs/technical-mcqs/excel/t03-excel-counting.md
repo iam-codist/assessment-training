@@ -32,10 +32,6 @@ COUNTA counts nonempty cells, including text and numeric zero. Only the genuinel
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T02](t02-excel-conditions.md) · [Topic index](README.md) · [T04 →](t04-excel-filtering.md)

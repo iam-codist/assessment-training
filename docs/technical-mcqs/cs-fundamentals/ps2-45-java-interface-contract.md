@@ -32,10 +32,6 @@ An interface provides a shared contract that unrelated classes can implement.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 45.
-
 ---
 
 [← PS2-44](ps2-44-binary-search-complexity.md) · [Topic index](README.md) · [PS3-23 →](ps3-23-privileged-instructions.md)

@@ -31,10 +31,6 @@ Work backwards from the target. Check the brackets and the order of operations b
 
 </details>
 
-## Source context
-
-Gamified_Aptitude Final (1).pptx. Gamified_Aptitude Final (1).pptx; slide / round 13.
-
 ---
 
 [Topic index](README.md) · [COG-numbers-2 →](cog-numbers-2-bracket-builder.md)

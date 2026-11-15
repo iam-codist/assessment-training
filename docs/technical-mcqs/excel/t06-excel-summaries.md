@@ -32,10 +32,6 @@ A PivotTable can group records by region and aggregate their amounts.
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T05](t05-excel-formatting.md) · [Topic index](README.md)

@@ -94,10 +94,6 @@ Read n, followed by the n−1 supplied roll numbers. Print the missing number.
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C07](c07-alternating-position-balance.md) · [Topic index](README.md) · [C16 →](c16-row-with-the-greatest-total.md)

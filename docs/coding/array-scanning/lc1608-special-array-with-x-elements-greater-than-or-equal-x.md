@@ -69,10 +69,6 @@ Read n and n nonnegative integers. Print x if exactly x elements are at least x,
 
 </details>
 
-## Source context
-
-Additional coding lesson.
-
 ---
 
 [← LC414](lc414-third-maximum-number.md) · [Topic index](README.md)

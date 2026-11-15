@@ -32,10 +32,6 @@ IF returns its second argument when the condition is true and its third otherwis
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 13.
-
 ---
 
 [← PS2-12](ps2-12-filter-by-status.md) · [Topic index](README.md) · [PS3-11 →](ps3-11-conditional-sum-by-region.md)

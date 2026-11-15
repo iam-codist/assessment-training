@@ -32,10 +32,6 @@ A primary key uniquely identifies a record and cannot contain a null key value. 
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← PS3-40](ps3-40-grouped-sums.md) · [Topic index](README.md)

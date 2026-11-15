@@ -18,10 +18,6 @@ Count carry operations while adding two integers.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B09](b09-move-hyphens.md) · [Topic index](README.md) · [B11 →](b11-swap-specified-characters.md)

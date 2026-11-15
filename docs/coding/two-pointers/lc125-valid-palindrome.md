@@ -66,10 +66,6 @@ true
 
 </details>
 
-## Source context
-
-Additional coding lesson; early demo.
-
 ---
 
 [← LC11](lc11-container-with-most-water.md) · [Topic index](README.md) · [LC189 →](lc189-rotate-array.md)

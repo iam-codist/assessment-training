@@ -50,10 +50,6 @@ D) stops short of T / ends in the wrong cell
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 11.
-
 ---
 
 [← COG-set2-q7](cog-set2-q7-command-sequence.md) · [Topic index](README.md) · [COG-set2-q9 →](cog-set2-q9-large-grid.md)

@@ -23,10 +23,6 @@ Zero is numeric. Absent is text but nonempty. Only 85 and 90 are at least 80.
 
 </details>
 
-## Source context
-
-Classroom questions.
-
 ---
 
 [Topic index](README.md)

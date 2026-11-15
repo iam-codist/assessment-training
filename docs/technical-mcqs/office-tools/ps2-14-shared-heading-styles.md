@@ -32,10 +32,6 @@ Editing a style updates all text that uses it.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 14.
-
 ---
 
 [← PS1-17](ps1-17-revealing-slide-content.md) · [Topic index](README.md) · [PS2-15 →](ps2-15-starting-a-new-page.md)

@@ -32,10 +32,6 @@ The OR expression is true because y = 9. The comparison 4 \< 9 is also true.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 8.
-
 ---
 
 [← PS1-02](ps1-02-even-or-odd-branch.md) · [Topic index](README.md) · [PS2-08 →](ps2-08-else-if-branch.md)

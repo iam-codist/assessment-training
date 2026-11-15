@@ -28,10 +28,6 @@ Connect both sides of every shared edge. A straight tile cannot turn; a corner t
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 9.
-
 ---
 
 [← COG-rocket-8](cog-rocket-8-rocket-route-08.md) · [Topic index](README.md) · [COG-rocket-10 →](cog-rocket-10-rocket-route-10.md)

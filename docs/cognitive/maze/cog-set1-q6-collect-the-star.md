@@ -50,10 +50,6 @@ Going straight to T would take only 11, but the star is compulsory.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 9.
-
 ---
 
 [← COG-set1-q5](cog-set1-q5-count-the-routes.md) · [Topic index](README.md) · [COG-set1-q7 →](cog-set1-q7-command-sequence.md)

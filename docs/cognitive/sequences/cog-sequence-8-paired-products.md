@@ -36,10 +36,6 @@ These are n × (n + 1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7. The missing value is
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 8.
-
 ---
 
 [← COG-sequence-7](cog-sequence-7-add-the-last-two.md) · [Topic index](README.md) · [COG-sequence-9 →](cog-sequence-9-halving-ladder.md)

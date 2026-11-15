@@ -65,10 +65,6 @@ Read positive n and n integers. Print third-largest distinct value, or the maxim
 
 </details>
 
-## Source context
-
-Day 1 LeetCode.
-
 ---
 
 [← D02](d02-second-largest-element.md) · [Topic index](README.md) · [LC1608 →](lc1608-special-array-with-x-elements-greater-than-or-equal-x.md)

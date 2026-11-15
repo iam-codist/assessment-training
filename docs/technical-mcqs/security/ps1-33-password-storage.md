@@ -32,10 +32,6 @@ Argon2id is designed for password hashing. A unique salt prevents equal password
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 33.
-
 ---
 
 [← PS1-32](ps1-32-least-privilege.md) · [Topic index](README.md) · [PS1-34 →](ps1-34-offboarding-access.md)

@@ -32,10 +32,6 @@ A context switch changes which execution context a CPU runs.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 23.
-
 ---
 
 [← PS1-45](ps1-45-method-overloading.md) · [Topic index](README.md) · [PS2-24 →](ps2-24-waiting-for-disk-i-o.md)

@@ -61,10 +61,6 @@ The first one is the Red key, collected before any locked door blocks the way.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 20.
-
 ---
 
 [← COG-set1-q15](cog-set1-q15-fewest-keys.md) · [Topic index](README.md) · [COG-set1-q17 →](cog-set1-q17-missing-key.md)

@@ -32,10 +32,6 @@ A load balancer selects backend instances to handle incoming requests.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 29.
-
 ---
 
 [← PS2-28](ps2-28-managed-application-runtime.md) · [Topic index](README.md) · [PS2-30 →](ps2-30-restoring-a-backup.md)

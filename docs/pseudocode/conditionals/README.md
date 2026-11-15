@@ -5,7 +5,7 @@
 | ID | Question | Practice type |
 | --- | --- | --- |
 | E01 | [Conditional warm-up](e01-conditional-warm-up.md) | Worked solution |
-| E08 | [Panel demo output prediction](e08-panel-demo-output-prediction.md) | Worked solution |
+| E08 | [Predict the output of a conditional](e08-panel-demo-output-prediction.md) | Worked solution |
 | M06 | [Conditional Statements with MOD & DIV](m06-conditional-statements-with-mod-div.md) | Worked solution |
 | P01 | [Sequential assignment](p01-sequential-assignment.md) | Worked solution |
 | P02 | [Branch selection](p02-branch-selection.md) | Worked solution |

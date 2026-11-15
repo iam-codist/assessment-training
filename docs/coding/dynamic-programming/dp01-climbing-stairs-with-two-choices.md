@@ -46,10 +46,6 @@ Read n from 0 through 90. Print ways to climb n steps using moves of 1 or 2 step
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [Topic index](README.md) · [DP02 →](dp02-minimum-coins-when-greedy-fails.md)

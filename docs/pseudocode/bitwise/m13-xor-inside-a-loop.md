@@ -42,10 +42,6 @@ Successive XOR results are 1,3,0,4,1.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M08](m08-bitwise-left-and-right-shift.md) · [Topic index](README.md) · [M17 →](m17-bitwise-and-or.md)

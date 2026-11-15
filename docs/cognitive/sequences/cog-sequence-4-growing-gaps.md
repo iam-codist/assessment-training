@@ -36,10 +36,6 @@ The gaps are +3, +5, +7, +9, +11. Add 9 to 17 to get 26.
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 4.
-
 ---
 
 [← COG-sequence-3](cog-sequence-3-square-numbers.md) · [Topic index](README.md) · [COG-sequence-5 →](cog-sequence-5-counting-backwards.md)

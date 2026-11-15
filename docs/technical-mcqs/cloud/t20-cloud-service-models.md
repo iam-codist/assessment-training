@@ -32,10 +32,6 @@ IaaS provides infrastructure such as virtual machines while the customer manages
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← PS3-31](ps3-31-private-bucket-policy.md) · [Topic index](README.md) · [T21 →](t21-managed-application-platforms.md)

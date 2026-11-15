@@ -32,10 +32,6 @@ The loop checks after each decrement and stops after reaching 0.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 10.
-
 ---
 
 [← PS3-04](ps3-04-shrinking-inner-loop.md) · [Topic index](README.md)

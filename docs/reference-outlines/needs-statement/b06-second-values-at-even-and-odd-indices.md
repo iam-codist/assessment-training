@@ -18,10 +18,6 @@ Add the second-largest even-indexed value and second-smallest odd-indexed value.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B05](b05-difference-of-sums.md) · [Topic index](README.md) · [B07 →](b07-product-of-two-minimum-values.md)

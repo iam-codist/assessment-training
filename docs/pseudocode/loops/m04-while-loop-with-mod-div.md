@@ -46,10 +46,6 @@ n takes values 3254, 325, 32, 3. Only 3254 and 32 are even.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M01](m01-nested-loops.md) · [Topic index](README.md) · [M07 →](m07-for-loop-with-continue.md)

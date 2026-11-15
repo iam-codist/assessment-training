@@ -42,10 +42,6 @@ There are 4 valid completions of this board. Explain which row or column elimina
 
 </details>
 
-## Source context
-
-Game_Aptitude_Test-Session-02-Geo_Sudo_Formatted.pptx. Game_Aptitude_Test-Session-02-Geo_Sudo_Formatted.pptx; slide / round 3.
-
 ---
 
 [← COG-geo-1](cog-geo-1-geo-sudo-01.md) · [Topic index](README.md) · [COG-geo-3 →](cog-geo-3-geo-sudo-03.md)

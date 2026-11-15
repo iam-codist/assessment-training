@@ -42,10 +42,6 @@ The adjacent swaps move 5 rightward: [1,5,4,2], [1,4,5,2], [1,4,2,5]. One pass d
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P10](p10-building-a-string.md) · [Topic index](README.md) · [P20 →](p20-two-matrix-diagonals.md)

@@ -32,10 +32,6 @@ Remove 4 and add 1: 13 - 4 + 1 = 10.
 
 </details>
 
-## Source context
-
-Classroom questions.
-
 ---
 
 [← K03](k03-fixed-window-size.md) · [Topic index](README.md)

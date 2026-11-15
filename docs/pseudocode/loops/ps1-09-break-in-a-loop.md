@@ -32,10 +32,6 @@ The loop adds 3, then exits at 0 before reaching 8.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 9.
-
 ---
 
 [← PS1-05](ps1-05-nested-loop-count.md) · [Topic index](README.md) · [PS2-01 →](ps2-01-repeated-doubling-and-addition.md)

@@ -32,10 +32,6 @@ The loop adds 1, 2, and 3 to the starting value 2.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 1.
-
 ---
 
 [← P14](p14-euclidean-style-updates.md) · [Topic index](README.md) · [PS1-04 →](ps1-04-integer-division-loop.md)

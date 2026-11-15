@@ -30,10 +30,6 @@ a + b = (a AND b) + (a OR b). Subtracting 8 from 22 gives 14.
 
 </details>
 
-## Source context
-
-Additional worked examples.
-
 ---
 
 [← E04](e04-bitwise-challenge-with-6-and-3.md) · [Topic index](README.md) · [E07 →](e07-recover-xor-using-addition-and-and.md)

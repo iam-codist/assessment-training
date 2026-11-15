@@ -92,10 +92,6 @@ red-blue-green
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C04](c04-registration-identifier-check.md) · [Topic index](README.md) · [C12 →](c12-circular-letter-shift.md)

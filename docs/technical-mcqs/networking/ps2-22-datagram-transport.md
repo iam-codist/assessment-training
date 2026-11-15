@@ -32,10 +32,6 @@ UDP provides datagrams without TCP-style acknowledgments or retransmission.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 22.
-
 ---
 
 [← PS2-21](ps2-21-ipv4-subnet-mask.md) · [Topic index](README.md) · [PS3-18 →](ps3-18-physical-signal-regeneration.md)

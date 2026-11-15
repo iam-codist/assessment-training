@@ -61,10 +61,6 @@ Every path from START to EXIT must cross one of those doors, so EXIT cannot be r
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 21.
-
 ---
 
 [← COG-set1-q16](cog-set1-q16-first-key.md) · [Topic index](README.md) · [COG-set1-q18 →](cog-set1-q18-key-removed-longer-way.md)

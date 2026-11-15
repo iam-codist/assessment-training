@@ -32,10 +32,6 @@ The first and last items exchange places.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 3.
-
 ---
 
 [← PS1-03](ps1-03-array-element-update.md) · [Topic index](README.md) · [PS3-02 →](ps3-02-zero-based-array-access.md)

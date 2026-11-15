@@ -36,10 +36,6 @@ Add 4 each time: 3, 7, 11, 15, 19.
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 1.
-
 ---
 
 [Topic index](README.md) · [COG-sequence-2 →](cog-sequence-2-triple-trail.md)

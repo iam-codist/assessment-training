@@ -42,10 +42,6 @@ Multiples divide evenly by the named number, with no remainder. Select every mat
 
 </details>
 
-## Source context
-
-easy35. bubble-popping-practice-35.html; slide / round 20.
-
 ---
 
 [← COG-bubble-pop-easy35-19](cog-bubble-pop-easy35-19-fractions-19.md) · [Topic index](README.md) · [COG-bubble-pop-easy35-21 →](cog-bubble-pop-easy35-21-numbers-21.md)

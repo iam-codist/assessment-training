@@ -67,10 +67,6 @@ Read n (at least 2), then n nonnegative heights. Print maximum container area.
 
 </details>
 
-## Source context
-
-Day 2.
-
 ---
 
 [← LC9](lc9-palindrome-number.md) · [Topic index](README.md) · [LC125 →](lc125-valid-palindrome.md)

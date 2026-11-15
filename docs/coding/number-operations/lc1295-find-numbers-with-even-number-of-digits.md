@@ -63,10 +63,6 @@ Read n followed by n positive integers. Print how many have an even number of de
 
 </details>
 
-## Source context
-
-Additional coding lesson.
-
 ---
 
 [← D01](d01-difference-of-sums.md) · [Topic index](README.md) · [LC2894 →](lc2894-divisible-and-non-divisible-sums-difference.md)

@@ -97,10 +97,6 @@ Read n and n integers. Print second-distinct-maximum and frequency, or NONE.
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [Topic index](README.md) · [C20 →](c20-digit-rearrangement-test.md)

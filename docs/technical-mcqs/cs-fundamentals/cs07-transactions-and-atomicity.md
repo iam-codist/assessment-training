@@ -28,10 +28,6 @@ A transaction commits its changes together or rolls them back together. Other pr
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← CS06](cs06-choosing-a-queue-for-service-order.md) · [Topic index](README.md) · [CS08 →](cs08-normalization-and-repeated-department-names.md)

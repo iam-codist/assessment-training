@@ -32,10 +32,6 @@ DHCP can supply the client address, subnet mask, default gateway, and other opti
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 21.
-
 ---
 
 [← PS1-20](ps1-20-routing-across-networks.md) · [Topic index](README.md) · [PS1-22 →](ps1-22-resolving-an-ipv4-neighbor.md)

@@ -42,10 +42,6 @@ Only i=1,3,5 contribute. Their contributions are 2,6,10.
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← M20](m20-complex-while-loop.md) · [Topic index](README.md) · [P04 →](p04-repeated-halving.md)

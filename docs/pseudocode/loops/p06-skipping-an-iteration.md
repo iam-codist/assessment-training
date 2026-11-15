@@ -43,10 +43,6 @@ continue skips the addition for 3 and 6. The sum is 1+2+4+5.
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P05](p05-nested-loop-count.md) · [Topic index](README.md) · [P07 →](p07-early-loop-exit.md)

@@ -47,10 +47,6 @@ Following the numbers to the bottom-right corner gives 4 routes.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 13.
-
 ---
 
 [← COG-set1-q9](cog-set1-q9-large-grid.md) · [Topic index](README.md) · [COG-set2-q1 →](cog-set2-q1-shortest-route.md)

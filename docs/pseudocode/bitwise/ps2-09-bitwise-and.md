@@ -32,10 +32,6 @@ Binary 1100 AND 1010 gives 1000.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 9.
-
 ---
 
 [← PS1-10](ps1-10-bitwise-xor.md) · [Topic index](README.md) · [PS3-08 →](ps3-08-bitwise-or.md)

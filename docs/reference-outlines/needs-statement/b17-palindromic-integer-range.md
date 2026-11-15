@@ -18,10 +18,6 @@ List palindromic integers between the specified bounds.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B16](b16-multiplication-table.md) · [Topic index](README.md) · [B18 →](b18-three-point-distance.md)

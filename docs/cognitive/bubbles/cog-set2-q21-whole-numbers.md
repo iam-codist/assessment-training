@@ -58,10 +58,6 @@ The answer is 37.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 26.
-
 ---
 
 [← COG-set1-q30](cog-set1-q30-powers-and-roots.md) · [Topic index](README.md) · [COG-set2-q22 →](cog-set2-q22-descending-order.md)

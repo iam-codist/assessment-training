@@ -95,10 +95,6 @@ Bqq 9!
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C10](c10-normalize-a-label.md) · [Topic index](README.md) · [D04 →](d04-password-validation.md)

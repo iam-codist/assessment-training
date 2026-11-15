@@ -32,10 +32,6 @@ Only 2, 4, and 6 are added.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 2.
-
 ---
 
 [← PS2-01](ps2-01-repeated-doubling-and-addition.md) · [Topic index](README.md) · [PS2-05 →](ps2-05-rectangular-nested-loop.md)

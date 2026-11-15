@@ -23,10 +23,6 @@ Useful cases include empty input when allowed, one item, duplicates, negative va
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← INT02](int02-explain-an-algorithm-before-coding.md) · [Topic index](README.md) · [INT04 →](int04-explain-an-api-request-and-response.md)

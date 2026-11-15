@@ -37,10 +37,6 @@ Use rows and columns as landmarks; selection order does not matter.
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 5.
-
 ---
 
 [← COG-memory-4](cog-memory-4-shape-sequence-2.md) · [Topic index](README.md) · [COG-memory-6 →](cog-memory-6-direction-recall-2.md)

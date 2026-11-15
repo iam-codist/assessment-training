@@ -32,10 +32,6 @@ An inner join returns only combinations that satisfy its join predicate.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 39.
-
 ---
 
 [← PS2-38](ps2-38-testing-for-sql-null.md) · [Topic index](README.md) · [PS2-40 →](ps2-40-indexing-an-email-lookup.md)

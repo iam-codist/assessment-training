@@ -32,10 +32,6 @@ COUNT(column) counts non-NULL values. COUNT(\*) would count all four rows.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 39.
-
 ---
 
 [← PS1-38](ps1-38-filtering-grouped-counts.md) · [Topic index](README.md) · [PS1-40 →](ps1-40-transaction-atomicity.md)

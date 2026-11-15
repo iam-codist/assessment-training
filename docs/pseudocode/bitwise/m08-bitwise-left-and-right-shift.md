@@ -41,10 +41,6 @@ C. 10
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M02](m02-bitwise-and-and-xor.md) · [Topic index](README.md) · [M13 →](m13-xor-inside-a-loop.md)

@@ -56,10 +56,6 @@ The answer is 5².
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 35.
-
 ---
 
 [← COG-set2-q29](cog-set2-q29-sum-of-the-first-three.md) · [Topic index](README.md)

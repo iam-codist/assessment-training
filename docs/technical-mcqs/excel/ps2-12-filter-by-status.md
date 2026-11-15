@@ -32,10 +32,6 @@ A filter hides rows that fail its selected criteria.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 12.
-
 ---
 
 [← PS2-11](ps2-11-average-a-range.md) · [Topic index](README.md) · [PS2-13 →](ps2-13-pass-or-fail-formula.md)

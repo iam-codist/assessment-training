@@ -32,10 +32,6 @@ A primary key uniquely identifies a row and its columns cannot contain NULL.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 36.
-
 ---
 
 [Topic index](README.md) · [PS1-37 →](ps1-37-preserving-departments-in-a-join.md)

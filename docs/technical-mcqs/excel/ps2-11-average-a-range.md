@@ -32,10 +32,6 @@ AVERAGE divides the sum by the count of numeric cells.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 11.
-
 ---
 
 [← PS1-13](ps1-13-department-totals-with-a-pivottable.md) · [Topic index](README.md) · [PS2-12 →](ps2-12-filter-by-status.md)

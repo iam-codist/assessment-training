@@ -32,10 +32,6 @@ A PivotTable groups records by department and can sum values for each group.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 13.
-
 ---
 
 [← PS1-12](ps1-12-counting-scores-by-condition.md) · [Topic index](README.md) · [PS2-11 →](ps2-11-average-a-range.md)

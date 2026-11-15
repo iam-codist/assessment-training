@@ -18,10 +18,6 @@ Sum the pairwise distances between three points.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B17](b17-palindromic-integer-range.md) · [Topic index](README.md) · [B19 →](b19-largest-value-and-index.md)

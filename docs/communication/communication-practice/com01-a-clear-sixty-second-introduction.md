@@ -23,10 +23,6 @@ A practice template is: “I am studying [course]. I have been building [skill] 
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [Topic index](README.md) · [COM02 →](com02-a-concise-project-status-email.md)

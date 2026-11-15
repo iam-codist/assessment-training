@@ -32,10 +32,6 @@ The mask marks which address bits identify the network prefix.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 21.
-
 ---
 
 [← PS2-20](ps2-20-ping-protocol.md) · [Topic index](README.md) · [PS2-22 →](ps2-22-datagram-transport.md)

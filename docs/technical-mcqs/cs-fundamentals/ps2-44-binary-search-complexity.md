@@ -32,10 +32,6 @@ Each comparison halves the remaining search interval.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 44.
-
 ---
 
 [← PS2-43](ps2-43-recursive-base-case.md) · [Topic index](README.md) · [PS2-45 →](ps2-45-java-interface-contract.md)

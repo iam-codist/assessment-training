@@ -27,10 +27,6 @@ Check five details, one point each, then reread the script to discuss any mismat
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← COM04](com04-read-carefully-before-inferring.md) · [Topic index](README.md) · [COM06 →](com06-explain-a-technical-idea-to-a-beginner.md)

@@ -32,10 +32,6 @@ The relative row in B2 moves down one. Both coordinates in $F$1 stay fixed.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 11.
-
 ---
 
 [← G02](g02-categorical-summaries.md) · [Topic index](README.md) · [PS1-12 →](ps1-12-counting-scores-by-condition.md)

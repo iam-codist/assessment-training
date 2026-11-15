@@ -66,10 +66,6 @@ banana
 
 </details>
 
-## Source context
-
-Day 1 original.
-
 ---
 
 [← C20](c20-digit-rearrangement-test.md) · [Topic index](README.md) · [LC49 →](lc49-group-anagrams.md)

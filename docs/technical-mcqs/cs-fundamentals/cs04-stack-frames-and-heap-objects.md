@@ -28,10 +28,6 @@ A stack frame holds call-specific execution data. Heap object lifetime is manage
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← CS03](cs03-processes-and-threads.md) · [Topic index](README.md) · [CS05 →](cs05-binary-search-complexity.md)

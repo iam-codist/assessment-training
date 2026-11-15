@@ -41,10 +41,6 @@ Evaluate each expression first, then compare the values. Equal values can appear
 
 </details>
 
-## Source context
-
-Gamified_Aptitude Final (1).pptx. Gamified_Aptitude Final (1).pptx; slide / round 28.
-
 ---
 
 [← COG-bubble-extra-6](cog-bubble-extra-6-close-decimals.md) · [Topic index](README.md) · [COG-bubble-extra-8 →](cog-bubble-extra-8-equal-values.md)

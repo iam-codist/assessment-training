@@ -67,10 +67,6 @@ true
 
 </details>
 
-## Source context
-
-Demo lesson.
-
 ---
 
 [← LC49](lc49-group-anagrams.md) · [Topic index](README.md) · [LC387 →](lc387-first-unique-character-in-a-string.md)

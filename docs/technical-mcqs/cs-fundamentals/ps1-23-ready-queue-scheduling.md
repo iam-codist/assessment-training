@@ -32,10 +32,6 @@ The CPU scheduler selects a runnable process or thread from the ready queue.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 23.
-
 ---
 
 [← CS08](cs08-normalization-and-repeated-department-names.md) · [Topic index](README.md) · [PS1-24 →](ps1-24-demand-paging.md)

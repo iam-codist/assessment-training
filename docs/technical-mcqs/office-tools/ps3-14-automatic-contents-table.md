@@ -32,10 +32,6 @@ An automatic contents table uses heading levels and can update its page referenc
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 14.
-
 ---
 
 [← PS2-17](ps2-17-reordering-slides.md) · [Topic index](README.md) · [PS3-15 →](ps3-15-mixed-page-orientation.md)

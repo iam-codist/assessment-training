@@ -44,10 +44,6 @@ After reversal the array is [5,4,3,2,1]. arr[1]+arr[3] = 4+2 = 6.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M09](m09-array-index-and-parity-conditions.md) · [Topic index](README.md) · [M19 →](m19-prefix-sum-array.md)

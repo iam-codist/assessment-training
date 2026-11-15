@@ -92,10 +92,6 @@ Read a nonempty digit string. Print its weighted checksum modulo 10.
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C09](c09-compare-two-numerals.md) · [Topic index](README.md) · [C14 →](c14-odd-part-decomposition.md)

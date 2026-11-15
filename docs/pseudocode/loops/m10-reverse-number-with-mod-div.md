@@ -43,10 +43,6 @@ The reversed number is 4321; 4321 MOD 100 = 21.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M07](m07-for-loop-with-continue.md) · [Topic index](README.md) · [M11 →](m11-nested-loops-with-a-condition.md)

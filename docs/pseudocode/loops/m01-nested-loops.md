@@ -42,10 +42,6 @@ The four inner-loop totals are 1, 3, 6 and 10. Their sum is 20. This original qu
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← G06](g06-adding-loop-values-to-x.md) · [Topic index](README.md) · [M04 →](m04-while-loop-with-mod-div.md)

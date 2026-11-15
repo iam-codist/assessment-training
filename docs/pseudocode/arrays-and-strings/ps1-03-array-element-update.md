@@ -32,10 +32,6 @@ Indices 0 and 2 contain 4 and 2, so index 1 is overwritten with 6.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 3.
-
 ---
 
 [← P20](p20-two-matrix-diagonals.md) · [Topic index](README.md) · [PS2-03 →](ps2-03-swap-array-endpoints.md)

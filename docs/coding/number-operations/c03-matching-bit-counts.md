@@ -105,10 +105,6 @@ YES
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [Topic index](README.md) · [C06 →](c06-exclusive-multiples.md)

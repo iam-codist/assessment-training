@@ -63,10 +63,6 @@ Red has the most locked doors.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 24.
-
 ---
 
 [← COG-set1-q19](cog-set1-q19-doors-passed.md) · [Topic index](README.md) · [COG-set2-q11 →](cog-set2-q11-reach-the-exit.md)

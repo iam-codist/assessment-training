@@ -32,10 +32,6 @@ DNS maps names to address information. Failure of name resolution points to DNS 
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← PS3-22](ps3-22-default-gateway.md) · [Topic index](README.md) · [T14 →](t14-automatic-network-configuration.md)

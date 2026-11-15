@@ -48,10 +48,6 @@ The first IF changes x to 3. The second IF is false, so x becomes 3+6 = 9.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← E08](e08-panel-demo-output-prediction.md) · [Topic index](README.md) · [P01 →](p01-sequential-assignment.md)

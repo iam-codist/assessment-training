@@ -92,10 +92,6 @@ VALID
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [Topic index](README.md) · [C10 →](c10-normalize-a-label.md)

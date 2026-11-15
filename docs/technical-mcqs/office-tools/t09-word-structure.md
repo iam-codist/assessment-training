@@ -32,10 +32,6 @@ Built-in heading styles supply document structure that Word can use for an autom
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T08](t08-word-review.md) · [Topic index](README.md) · [T10 →](t10-powerpoint-consistency.md)

@@ -40,10 +40,6 @@ Evaluate each expression before comparing the values. Multiplication comes befor
 
 </details>
 
-## Source context
-
-set2. bubble-popping-test-set2.html; slide / round 9.
-
 ---
 
 [← COG-bubble-pop-set2-8](cog-bubble-pop-set2-8-expressions-08.md) · [Topic index](README.md) · [COG-bubble-pop-set2-10 →](cog-bubble-pop-set2-10-multiples-10.md)

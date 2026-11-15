@@ -18,10 +18,6 @@ Output an array's largest element and its index.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B18](b18-three-point-distance.md) · [Topic index](README.md) · [B20 →](b20-autobiographical-number.md)

@@ -23,10 +23,6 @@ For [5,5,3], the second position in descending order is 5 but the second distinc
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← COM06](com06-explain-a-technical-idea-to-a-beginner.md) · [Topic index](README.md) · [COM08 →](com08-summarize-a-meeting-with-actions.md)

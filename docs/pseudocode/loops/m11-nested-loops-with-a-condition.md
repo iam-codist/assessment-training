@@ -46,10 +46,6 @@ The matching pairs are (1,5), (2,4), (3,3), (4,2), (5,1).
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M10](m10-reverse-number-with-mod-div.md) · [Topic index](README.md) · [M15 →](m15-while-loop-with-integer-division.md)

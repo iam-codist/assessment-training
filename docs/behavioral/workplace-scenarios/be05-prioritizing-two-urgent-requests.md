@@ -23,10 +23,6 @@ Do not silently choose based only on who asks most loudly. Explain what can be d
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← BE04](be04-responding-to-feedback.md) · [Topic index](README.md) · [BE06 →](be06-an-unfamiliar-task-and-a-learning-plan.md)

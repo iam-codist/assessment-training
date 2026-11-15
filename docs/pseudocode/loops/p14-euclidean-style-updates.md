@@ -43,10 +43,6 @@ The pairs (a,b) become (30,12), (12,6), (6,0); the last nonzero divisor is 6.
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P07](p07-early-loop-exit.md) · [Topic index](README.md) · [PS1-01 →](ps1-01-loop-accumulation.md)

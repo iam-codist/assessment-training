@@ -32,10 +32,6 @@ COUNT counts numeric cells, including zero.
 
 </details>
 
-## Source context
-
-Panel demo.
-
 ---
 
 [Topic index](README.md) · [G02 →](g02-categorical-summaries.md)

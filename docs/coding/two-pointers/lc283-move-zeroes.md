@@ -53,10 +53,6 @@ Read n and n integers. Move zeros to the end while preserving nonzero order. Pri
 
 </details>
 
-## Source context
-
-Earlier demo example.
-
 ---
 
 [← LC189](lc189-rotate-array.md) · [Topic index](README.md) · [LC977 →](lc977-squares-of-a-sorted-array.md)

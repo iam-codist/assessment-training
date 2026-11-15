@@ -32,10 +32,6 @@ Mail Merge combines a reusable document with per-recipient fields from a data so
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← PS3-17](ps3-17-presenter-view.md) · [Topic index](README.md) · [T08 →](t08-word-review.md)

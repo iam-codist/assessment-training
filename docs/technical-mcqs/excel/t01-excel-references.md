@@ -32,10 +32,6 @@ Copying down three rows changes relative C3 to C6. Both the column and row in $F
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← PS3-13](ps3-13-formatting-low-inventory.md) · [Topic index](README.md) · [T02 →](t02-excel-conditions.md)

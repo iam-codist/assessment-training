@@ -32,10 +32,6 @@ FCFS uses arrival order and lets the running task retain the CPU until it blocks
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 27.
-
 ---
 
 [← PS2-26](ps2-26-excessive-paging.md) · [Topic index](README.md) · [PS2-41 →](ps2-41-class-inheritance.md)

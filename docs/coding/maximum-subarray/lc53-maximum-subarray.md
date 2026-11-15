@@ -69,10 +69,6 @@ Read positive n and n integers. Print the maximum sum of a nonempty contiguous s
 
 </details>
 
-## Source context
-
-Day 1 challenge; Day 2; demo.
-
 ---
 
 [Topic index](README.md) · [LC918 →](lc918-maximum-sum-circular-subarray.md)

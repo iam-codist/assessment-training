@@ -66,10 +66,6 @@ aB12_cd
 
 </details>
 
-## Source context
-
-Day 1 original.
-
 ---
 
 [← C12](c12-circular-letter-shift.md) · [Topic index](README.md) · [LC2299 →](lc2299-strong-password-checker-ii.md)

@@ -23,9 +23,10 @@ A bubbling event can pass through ancestor listeners. currentTarget changes with
 
 </details>
 
-## Source context
 
-Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+## Further reading
+
+[MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

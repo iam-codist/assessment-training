@@ -32,10 +32,6 @@ The default gateway is the next hop for destinations without a specific route.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 22.
-
 ---
 
 [← PS3-21](ps3-21-network-latency.md) · [Topic index](README.md) · [T13 →](t13-name-resolution.md)

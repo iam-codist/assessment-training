@@ -32,10 +32,6 @@ COUNTIF counts cells meeting a criterion. SUMIF adds qualifying values.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 12.
-
 ---
 
 [← PS1-11](ps1-11-copying-a-cell-formula.md) · [Topic index](README.md) · [PS1-13 →](ps1-13-department-totals-with-a-pivottable.md)

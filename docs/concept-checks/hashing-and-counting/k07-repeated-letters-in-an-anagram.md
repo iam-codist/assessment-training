@@ -32,10 +32,6 @@ Both strings contain two a, two b and two c characters.
 
 </details>
 
-## Source context
-
-Classroom questions.
-
 ---
 
 [Topic index](README.md)

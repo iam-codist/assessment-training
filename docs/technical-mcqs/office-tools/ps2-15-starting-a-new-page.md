@@ -32,10 +32,6 @@ A page break starts a new page at a stable document position.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 15.
-
 ---
 
 [← PS2-14](ps2-14-shared-heading-styles.md) · [Topic index](README.md) · [PS2-16 →](ps2-16-speaker-notes.md)

@@ -23,10 +23,6 @@ Avoid a memorized “weakness” that is only disguised praise. Choose something
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← HR01](hr01-why-are-you-interested-in-this-role.md) · [Topic index](README.md) · [HR03 →](hr03-a-conflict-using-star.md)

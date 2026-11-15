@@ -32,10 +32,6 @@ A repeater operates at the physical layer to extend the signal.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 18.
-
 ---
 
 [← PS2-22](ps2-22-datagram-transport.md) · [Topic index](README.md) · [PS3-19 →](ps3-19-ipv6-dns-record.md)

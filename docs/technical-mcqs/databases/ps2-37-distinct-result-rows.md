@@ -32,10 +32,6 @@ DISTINCT keeps one copy of each distinct output row.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 37.
-
 ---
 
 [← PS2-36](ps2-36-foreign-key-constraints.md) · [Topic index](README.md) · [PS2-38 →](ps2-38-testing-for-sql-null.md)

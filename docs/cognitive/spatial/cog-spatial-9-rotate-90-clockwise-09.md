@@ -76,10 +76,6 @@ Track a distinctive corner or notch, then compare the whole shape.
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 9.
-
 ---
 
 [← COG-spatial-8](cog-spatial-8-mirror-top-bottom-08.md) · [Topic index](README.md) · [COG-spatial-10 →](cog-spatial-10-rotate-180-10.md)

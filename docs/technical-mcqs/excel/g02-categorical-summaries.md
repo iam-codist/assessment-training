@@ -32,10 +32,6 @@ PivotTable groups records and summarizes them by category.
 
 </details>
 
-## Source context
-
-Panel demo.
-
 ---
 
 [← G01](g01-numeric-cells.md) · [Topic index](README.md) · [PS1-11 →](ps1-11-copying-a-cell-formula.md)

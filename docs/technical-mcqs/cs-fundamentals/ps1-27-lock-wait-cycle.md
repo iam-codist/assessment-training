@@ -32,10 +32,6 @@ Each thread waits for the other to release a resource, forming a cycle that prev
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 27.
-
 ---
 
 [← PS1-26](ps1-26-round-robin-preemption.md) · [Topic index](README.md) · [PS1-41 →](ps1-41-encapsulating-account-state.md)

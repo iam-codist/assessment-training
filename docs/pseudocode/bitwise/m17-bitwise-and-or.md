@@ -41,10 +41,6 @@ C. 9
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M13](m13-xor-inside-a-loop.md) · [Topic index](README.md) · [P11 →](p11-bitwise-operations.md)

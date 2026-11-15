@@ -95,10 +95,6 @@ MATCH
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C19](c19-runner-up-value-and-frequency.md) · [Topic index](README.md) · [D03 →](d03-distinct-character-count.md)

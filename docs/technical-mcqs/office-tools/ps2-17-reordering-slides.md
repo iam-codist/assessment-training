@@ -32,10 +32,6 @@ Slide Sorter presents multiple slide thumbnails for reordering.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 17.
-
 ---
 
 [← PS2-16](ps2-16-speaker-notes.md) · [Topic index](README.md) · [PS3-14 →](ps3-14-automatic-contents-table.md)

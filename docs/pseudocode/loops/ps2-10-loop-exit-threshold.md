@@ -32,10 +32,6 @@ The loop advances through 3 and 9 to 27.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 10.
-
 ---
 
 [← PS2-06](ps2-06-skipping-an-iteration.md) · [Topic index](README.md) · [PS3-01 →](ps3-01-loop-subtraction.md)

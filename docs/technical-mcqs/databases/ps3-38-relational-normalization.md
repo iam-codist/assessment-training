@@ -32,10 +32,6 @@ Normalization organizes facts by their dependencies to reduce duplication and in
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 38.
-
 ---
 
 [← PS3-37](ps3-37-cross-join-row-count.md) · [Topic index](README.md) · [PS3-39 →](ps3-39-committing-changes.md)

@@ -63,10 +63,6 @@ Scan one row at a time and compare both shape and fill. Every other cell is iden
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 4.
-
 ---
 
 [← COG-attention-3](cog-attention-3-exact-match-2.md) · [Topic index](README.md) · [COG-attention-5 →](cog-attention-5-exact-match-3.md)

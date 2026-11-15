@@ -32,10 +32,6 @@ Removing account privileges and ending active sessions prevents continued author
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 34.
-
 ---
 
 [← PS1-33](ps1-33-password-storage.md) · [Topic index](README.md) · [PS1-35 →](ps1-35-authentication-factors.md)

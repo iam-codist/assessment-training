@@ -47,6 +47,7 @@ for (const file of (await files('content')).filter(f => f.endsWith('.mdx'))) {
   if (!match) throw new Error(`${file}: YAML frontmatter is required`);
   const meta = YAML.parse(match[1]);
   const body = match[2].trim() + '\n';
+  if (/^## Source context\s*$/m.test(body)) throw new Error(`${file}: store attribution in source metadata and use Further reading for public study links`);
   for (const key of ['id', 'title', 'category', 'topic', 'status', 'updated', 'source']) {
     if (typeof meta[key] !== 'string' || !meta[key].trim()) throw new Error(`${file}: missing string field ${key}`);
   }

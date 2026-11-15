@@ -95,10 +95,6 @@ Read n, followed by n integers. Print the longest strictly increasing contiguous
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [Topic index](README.md) · [C02 →](c02-orders-within-capacity.md)

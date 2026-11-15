@@ -28,9 +28,10 @@ A native button supports keyboard activation and focus semantics. Give it type=b
 
 </details>
 
-## Source context
 
-Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+## Further reading
+
+[MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

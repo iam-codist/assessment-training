@@ -32,10 +32,6 @@ The task goes back to the ready queue so other runnable tasks can receive CPU ti
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 26.
-
 ---
 
 [← PS1-25](ps1-25-shared-thread-memory.md) · [Topic index](README.md) · [PS1-27 →](ps1-27-lock-wait-cycle.md)

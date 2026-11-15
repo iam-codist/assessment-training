@@ -44,10 +44,6 @@ A multiple divides evenly by the named number, with no remainder.
 
 </details>
 
-## Source context
-
-set2. bubble-popping-test-set2.html; slide / round 30.
-
 ---
 
 [← COG-bubble-pop-set2-29](cog-bubble-pop-set2-29-fractions-29.md) · [Topic index](README.md)

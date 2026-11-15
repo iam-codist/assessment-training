@@ -23,10 +23,6 @@ Isolate rules so a failing test tells you which behavior is wrong. Include empty
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← INT05](int05-explain-a-left-join-in-an-interview.md) · [Topic index](README.md)

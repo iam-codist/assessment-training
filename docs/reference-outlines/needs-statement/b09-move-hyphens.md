@@ -18,10 +18,6 @@ Move every hyphen to the start of the string.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B08](b08-decimal-to-base-n.md) · [Topic index](README.md) · [B10 →](b10-carry-counting.md)

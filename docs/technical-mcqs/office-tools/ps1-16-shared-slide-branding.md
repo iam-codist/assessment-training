@@ -32,10 +32,6 @@ The master supplies shared design elements to slides that use it, subject to lay
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 16.
-
 ---
 
 [← PS1-15](ps1-15-personalized-letters.md) · [Topic index](README.md) · [PS1-17 →](ps1-17-revealing-slide-content.md)

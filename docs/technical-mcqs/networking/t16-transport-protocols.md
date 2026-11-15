@@ -32,10 +32,6 @@ TCP provides an ordered byte stream and uses acknowledgments and retransmission 
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T15](t15-ipv4-subnetting.md) · [Topic index](README.md)

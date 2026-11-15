@@ -66,10 +66,6 @@ Read divisor n, then range limit m. Print nondivisible-sum minus divisible-sum.
 
 </details>
 
-## Source context
-
-Day 1 original.
-
 ---
 
 [← C14](c14-odd-part-decomposition.md) · [Topic index](README.md) · [LC1295 →](lc1295-find-numbers-with-even-number-of-digits.md)

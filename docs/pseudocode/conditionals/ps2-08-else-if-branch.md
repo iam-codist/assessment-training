@@ -32,10 +32,6 @@ The first condition fails and the second succeeds.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 8.
-
 ---
 
 [← PS1-08](ps1-08-boolean-evaluation.md) · [Topic index](README.md) · [PS3-05 →](ps3-05-strict-boolean-comparison.md)

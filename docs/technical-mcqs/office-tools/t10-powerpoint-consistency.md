@@ -32,10 +32,6 @@ The slide master and its inherited layouts control shared design elements. The q
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T09](t09-word-structure.md) · [Topic index](README.md) · [T11 →](t11-outlook-recipient-fields.md)

@@ -32,10 +32,6 @@ HTTPS uses TLS to protect data in transit and authenticate the server. A fraudul
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← PS3-35](ps3-35-security-patching.md) · [Topic index](README.md) · [T18 →](t18-suspicious-messages.md)

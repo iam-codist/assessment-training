@@ -103,10 +103,6 @@ ADD 2
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C08](c08-three-item-shopping-budget.md) · [Topic index](README.md) · [C18 →](c18-grid-delivery-route.md)

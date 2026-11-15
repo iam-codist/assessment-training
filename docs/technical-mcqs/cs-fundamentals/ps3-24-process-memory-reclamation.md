@@ -32,10 +32,6 @@ The OS reclaims resources such as allocated pages when cleaning up a process.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 24.
-
 ---
 
 [← PS3-23](ps3-23-privileged-instructions.md) · [Topic index](README.md) · [PS3-25 →](ps3-25-counter-race-condition.md)

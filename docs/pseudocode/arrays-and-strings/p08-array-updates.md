@@ -40,10 +40,6 @@ Updates are immediate: A becomes [2,6,6,8], then [2,6,12,8], then [2,6,12,20].
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← M19](m19-prefix-sum-array.md) · [Topic index](README.md) · [P09 →](p09-strict-comparison-and-duplicates.md)

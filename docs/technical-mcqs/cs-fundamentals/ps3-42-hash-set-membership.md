@@ -32,10 +32,6 @@ A hash set stores unique elements and normally supports fast membership tests.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 42.
-
 ---
 
 [← PS3-41](ps3-41-java-constructors.md) · [Topic index](README.md) · [PS3-43 →](ps3-43-do-while-loop.md)

@@ -18,10 +18,6 @@ Swap every occurrence of two specified characters.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B10](b10-carry-counting.md) · [Topic index](README.md) · [B12 →](b12-operation-selector.md)

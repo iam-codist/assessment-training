@@ -28,10 +28,6 @@ After k halvings, about n / 2^k candidates remain. Reaching one candidate takes 
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← CS04](cs04-stack-frames-and-heap-objects.md) · [Topic index](README.md) · [CS06 →](cs06-choosing-a-queue-for-service-order.md)

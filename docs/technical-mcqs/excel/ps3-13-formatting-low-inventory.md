@@ -32,10 +32,6 @@ A formatting rule applies automatically when a cell value meets its condition.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 13.
-
 ---
 
 [← PS3-12](ps3-12-drop-down-data-validation.md) · [Topic index](README.md) · [T01 →](t01-excel-references.md)

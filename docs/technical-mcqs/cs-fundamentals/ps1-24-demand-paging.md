@@ -32,10 +32,6 @@ The OS handles the fault, brings the page into memory, and can resume the instru
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 24.
-
 ---
 
 [← PS1-23](ps1-23-ready-queue-scheduling.md) · [Topic index](README.md) · [PS1-25 →](ps1-25-shared-thread-memory.md)

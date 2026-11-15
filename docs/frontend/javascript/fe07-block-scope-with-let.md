@@ -37,9 +37,10 @@ The inner let creates a different binding scoped to its block. It shadows the ou
 
 </details>
 
-## Source context
 
-Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+## Further reading
+
+[MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

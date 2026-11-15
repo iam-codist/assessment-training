@@ -29,10 +29,6 @@ The word is EDUCATION. Read the outer ring counter-clockwise, then the centre.
 
 </details>
 
-## Source context
-
-Gamified_Aptitude Final (1).pptx. Gamified_Aptitude Final (1).pptx; slide / round 11.
-
 ---
 
 [← COG-word-1](cog-word-1-the-reptile-circuit.md) · [Topic index](README.md) · [COG-word-3 →](cog-word-3-fuel-for-the-body.md)

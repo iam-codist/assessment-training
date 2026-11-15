@@ -32,10 +32,6 @@ C. B
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 2.
-
 ---
 
 [← P18](p18-boolean-grouping.md) · [Topic index](README.md) · [PS1-08 →](ps1-08-boolean-evaluation.md)

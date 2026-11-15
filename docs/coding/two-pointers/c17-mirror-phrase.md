@@ -92,10 +92,6 @@ YES
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [Topic index](README.md) · [LC9 →](lc9-palindrome-number.md)

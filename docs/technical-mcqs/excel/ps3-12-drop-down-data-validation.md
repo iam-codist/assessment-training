@@ -32,10 +32,6 @@ Data Validation can show a list and reject other entries according to its settin
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 12.
-
 ---
 
 [← PS3-11](ps3-11-conditional-sum-by-region.md) · [Topic index](README.md) · [PS3-13 →](ps3-13-formatting-low-inventory.md)

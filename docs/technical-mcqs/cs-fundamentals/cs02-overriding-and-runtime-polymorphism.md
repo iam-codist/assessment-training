@@ -28,10 +28,6 @@ The runtime object determines the implementation for an overridden instance meth
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← CS01](cs01-encapsulation-and-a-bank-account.md) · [Topic index](README.md) · [CS03 →](cs03-processes-and-threads.md)

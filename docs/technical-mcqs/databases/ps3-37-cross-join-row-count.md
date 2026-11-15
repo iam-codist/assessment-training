@@ -32,10 +32,6 @@ The Cartesian product pairs each of the 3 rows with all 4 rows.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 37.
-
 ---
 
 [← PS3-36](ps3-36-descending-sort-order.md) · [Topic index](README.md) · [PS3-38 →](ps3-38-relational-normalization.md)

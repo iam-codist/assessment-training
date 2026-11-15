@@ -32,10 +32,6 @@ DESC orders the specified expression from high to low.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 36.
-
 ---
 
 [← PS2-40](ps2-40-indexing-an-email-lookup.md) · [Topic index](README.md) · [PS3-37 →](ps3-37-cross-join-row-count.md)

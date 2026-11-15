@@ -32,10 +32,6 @@ Encapsulation bundles state and behavior and controls how other code can change 
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 41.
-
 ---
 
 [← PS1-27](ps1-27-lock-wait-cycle.md) · [Topic index](README.md) · [PS1-42 →](ps1-42-java-dynamic-dispatch.md)

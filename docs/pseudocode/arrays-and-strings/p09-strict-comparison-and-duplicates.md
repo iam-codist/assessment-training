@@ -45,10 +45,6 @@ The first 9 sets pos to 1. The later equal 9 fails the strict > test, so the ear
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P08](p08-array-updates.md) · [Topic index](README.md) · [P10 →](p10-building-a-string.md)

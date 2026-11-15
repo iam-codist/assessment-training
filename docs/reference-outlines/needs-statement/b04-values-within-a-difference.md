@@ -18,10 +18,6 @@ Count array values satisfying |value - num| &lt;= diff.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B03](b03-password-validation-with-four-character-minimum.md) · [Topic index](README.md) · [B05 →](b05-difference-of-sums.md)

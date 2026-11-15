@@ -32,10 +32,6 @@ The password is something you know and the hardware key is something you have. A
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T18](t18-suspicious-messages.md) · [Topic index](README.md)

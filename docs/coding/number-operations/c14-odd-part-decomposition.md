@@ -92,10 +92,6 @@ Read positive n. Print odd-part and exponent-of-two.
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C11](c11-weighted-digit-checksum.md) · [Topic index](README.md) · [D01 →](d01-difference-of-sums.md)

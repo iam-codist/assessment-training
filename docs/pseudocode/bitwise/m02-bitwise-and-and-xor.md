@@ -38,10 +38,6 @@ B. 14
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← G07](g07-bitwise-and.md) · [Topic index](README.md) · [M08 →](m08-bitwise-left-and-right-shift.md)

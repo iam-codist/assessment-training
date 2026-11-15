@@ -32,10 +32,6 @@ IS NULL tests for a missing SQL value.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 38.
-
 ---
 
 [← PS2-37](ps2-37-distinct-result-rows.md) · [Topic index](README.md) · [PS2-39 →](ps2-39-inner-join-matches.md)

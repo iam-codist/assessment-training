@@ -66,10 +66,6 @@ true
 
 </details>
 
-## Source context
-
-Day 1 LeetCode.
-
 ---
 
 [← D04](d04-password-validation.md) · [Topic index](README.md)

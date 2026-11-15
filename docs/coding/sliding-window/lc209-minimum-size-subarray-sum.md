@@ -57,10 +57,6 @@ For target 7, expand until the sum reaches the target, then shrink while it rema
 
 </details>
 
-## Source context
-
-Day 2 planned.
-
 ---
 
 [← LC3](lc3-longest-substring-without-repeating-characters.md) · [Topic index](README.md) · [LC1004 →](lc1004-max-consecutive-ones-iii.md)

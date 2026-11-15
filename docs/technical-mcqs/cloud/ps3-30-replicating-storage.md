@@ -32,10 +32,6 @@ Replication places copies on separate storage nodes.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 30.
-
 ---
 
 [← PS3-29](ps3-29-horizontal-scaling.md) · [Topic index](README.md) · [PS3-31 →](ps3-31-private-bucket-policy.md)

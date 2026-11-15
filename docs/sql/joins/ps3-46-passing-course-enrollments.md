@@ -57,10 +57,6 @@ Enrollments connect students to courses by ID. The two joins attach the names an
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 46.
-
 ---
 
 [← PS2-46](ps2-46-paid-order-totals.md) · [Topic index](README.md) · [SQL01 →](sql01-inner-join-employees-and-departments.md)

@@ -48,10 +48,6 @@ The inner loop contributes 1+2+3+4 = 10.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M15](m15-while-loop-with-integer-division.md) · [Topic index](README.md) · [M20 →](m20-complex-while-loop.md)

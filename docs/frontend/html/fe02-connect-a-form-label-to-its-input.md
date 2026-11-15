@@ -26,9 +26,10 @@ The label’s for value matches the input’s unique id. name identifies the sub
 
 </details>
 
-## Source context
 
-Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+## Further reading
+
+[MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

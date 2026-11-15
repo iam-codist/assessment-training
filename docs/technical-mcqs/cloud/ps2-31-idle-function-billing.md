@@ -32,10 +32,6 @@ With per-execution billing and no reserved capacity, idle periods normally incur
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 31.
-
 ---
 
 [← PS2-30](ps2-30-restoring-a-backup.md) · [Topic index](README.md) · [PS3-28 →](ps3-28-software-as-a-service.md)

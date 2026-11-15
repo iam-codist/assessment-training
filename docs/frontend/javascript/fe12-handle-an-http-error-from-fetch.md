@@ -31,9 +31,10 @@ fetch can resolve normally for an HTTP 404 or 500 response, so inspect response.
 
 </details>
 
-## Source context
 
-Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+## Further reading
+
+[MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

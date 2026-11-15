@@ -36,10 +36,6 @@ Alternate ×2 and −2. After 10, multiply by 2 to get 20, then subtract 2 to ge
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 6.
-
 ---
 
 [← COG-sequence-5](cog-sequence-5-counting-backwards.md) · [Topic index](README.md) · [COG-sequence-7 →](cog-sequence-7-add-the-last-two.md)

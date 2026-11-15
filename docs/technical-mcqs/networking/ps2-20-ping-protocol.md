@@ -32,10 +32,6 @@ Ping typically sends an ICMP Echo Request and waits for an Echo Reply.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 20.
-
 ---
 
 [← PS2-19](ps2-19-switch-forwarding.md) · [Topic index](README.md) · [PS2-21 →](ps2-21-ipv4-subnet-mask.md)

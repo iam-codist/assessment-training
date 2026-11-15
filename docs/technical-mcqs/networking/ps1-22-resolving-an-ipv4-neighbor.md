@@ -32,10 +32,6 @@ ARP maps a local-link IPv4 address to a link-layer address.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 22.
-
 ---
 
 [← PS1-21](ps1-21-automatic-address-leases.md) · [Topic index](README.md) · [PS2-18 →](ps2-18-tcp-destination-port.md)

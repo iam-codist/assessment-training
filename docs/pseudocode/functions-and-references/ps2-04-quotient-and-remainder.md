@@ -32,10 +32,6 @@ The quotient is 3 and the remainder is 2.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 4.
-
 ---
 
 [← PS1-06](ps1-06-sequential-assignments.md) · [Topic index](README.md) · [PS3-07 →](ps3-07-swap-with-a-temporary-variable.md)

@@ -79,10 +79,6 @@ A LEFT JOIN keeps all departments. Filtering active employees in ON preserves de
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 46.
-
 ---
 
 [Topic index](README.md) · [PS2-46 →](ps2-46-paid-order-totals.md)

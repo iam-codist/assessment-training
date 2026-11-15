@@ -34,10 +34,6 @@ The correct identity is (a XOR b) + 2*(a AND b) = a + b. Therefore 22 - 16 = 6.
 
 </details>
 
-## Source context
-
-Additional worked examples.
-
 ---
 
 [← E06](e06-recover-or-using-addition-and-and.md) · [Topic index](README.md) · [G07 →](g07-bitwise-and.md)

@@ -32,10 +32,6 @@ Page tables map virtual pages to physical frames, with the MMU performing transl
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 27.
-
 ---
 
 [← PS3-26](ps3-26-mutex-exclusion.md) · [Topic index](README.md) · [PS3-41 →](ps3-41-java-constructors.md)

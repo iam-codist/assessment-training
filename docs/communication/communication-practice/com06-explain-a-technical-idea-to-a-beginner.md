@@ -23,10 +23,6 @@ The analogy establishes the order, the operations make it precise and the exampl
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← COM05](com05-listening-and-note-taking-practice.md) · [Topic index](README.md) · [COM07 →](com07-ask-a-useful-clarification-question.md)

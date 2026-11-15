@@ -42,10 +42,6 @@ A prime is an integer greater than 1 with exactly two positive divisors: 1 and i
 
 </details>
 
-## Source context
-
-set2. bubble-popping-test-set2.html; slide / round 17.
-
 ---
 
 [← COG-bubble-pop-set2-16](cog-bubble-pop-set2-16-powers-roots-16.md) · [Topic index](README.md) · [COG-bubble-pop-set2-18 →](cog-bubble-pop-set2-18-expressions-18.md)

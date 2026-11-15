@@ -32,10 +32,6 @@ Privileged instructions are restricted to kernel mode.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 23.
-
 ---
 
 [← PS2-45](ps2-45-java-interface-contract.md) · [Topic index](README.md) · [PS3-24 →](ps3-24-process-memory-reclamation.md)

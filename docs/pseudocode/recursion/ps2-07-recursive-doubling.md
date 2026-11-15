@@ -32,10 +32,6 @@ Three doublings of 1 give 8.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 7.
-
 ---
 
 [← PS1-07](ps1-07-recursive-sum.md) · [Topic index](README.md) · [PS3-06 →](ps3-06-recursive-factorial.md)

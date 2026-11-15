@@ -32,10 +32,6 @@ Filtering changes which rows are visible. It does not delete the other records.
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T03](t03-excel-counting.md) · [Topic index](README.md) · [T05 →](t05-excel-formatting.md)

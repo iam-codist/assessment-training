@@ -32,10 +32,6 @@ Zero-based indices 1 and 3 hold 3 and 7.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 2.
-
 ---
 
 [← PS2-03](ps2-03-swap-array-endpoints.md) · [Topic index](README.md) · [PS3-09 →](ps3-09-counting-values-above-a-threshold.md)

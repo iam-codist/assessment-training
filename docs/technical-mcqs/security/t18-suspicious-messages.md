@@ -32,10 +32,6 @@ The urgency and look-alike sign-in page are phishing warning signs. Use the appr
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T17](t17-encrypted-connections.md) · [Topic index](README.md) · [T19 →](t19-authentication-factors.md)

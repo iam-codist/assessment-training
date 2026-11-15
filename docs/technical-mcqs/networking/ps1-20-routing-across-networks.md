@@ -32,10 +32,6 @@ A router uses destination IP addresses and routing information to forward packet
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 20.
-
 ---
 
 [← PS1-19](ps1-19-reliable-transport.md) · [Topic index](README.md) · [PS1-21 →](ps1-21-automatic-address-leases.md)

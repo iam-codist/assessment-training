@@ -61,10 +61,6 @@ Locked doors crossed: H-I (Blue), I-F (Blue), F-C (Red).
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 16.
-
 ---
 
 [← COG-set1-q11](cog-set1-q11-reach-the-exit.md) · [Topic index](README.md) · [COG-set1-q13 →](cog-set1-q13-keys-and-doors.md)

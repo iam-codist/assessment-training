@@ -18,10 +18,6 @@ Print ten entries of a multiplication table and their total.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B15](b15-second-largest-values-by-index-parity.md) · [Topic index](README.md) · [B17 →](b17-palindromic-integer-range.md)

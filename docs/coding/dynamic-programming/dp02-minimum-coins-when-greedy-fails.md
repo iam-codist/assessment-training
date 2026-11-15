@@ -47,10 +47,6 @@ Read coin count n and amount (0 through 10000), then n positive coin values. Pri
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← DP01](dp01-climbing-stairs-with-two-choices.md) · [Topic index](README.md) · [DP03 →](dp03-longest-common-subsequence.md)

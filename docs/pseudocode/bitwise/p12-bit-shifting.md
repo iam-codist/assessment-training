@@ -39,10 +39,6 @@ D. 14
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P11](p11-bitwise-operations.md) · [Topic index](README.md) · [PS1-10 →](ps1-10-bitwise-xor.md)

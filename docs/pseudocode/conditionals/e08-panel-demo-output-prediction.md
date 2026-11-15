@@ -4,7 +4,7 @@
 
 **ID:** E08 · **Practice type:** Worked solution
 
-# Panel demo output prediction
+# Predict the output of a conditional
 
 ## Question
 
@@ -36,10 +36,6 @@ PRINT a, b
 After i=1: a=3,b=6. After i=2: a=5,b=8. After i=3: a=8,b=0.
 
 </details>
-
-## Source context
-
-Additional worked examples.
 
 ---
 

@@ -69,10 +69,6 @@ ate
 
 </details>
 
-## Source context
-
-Day 1 challenge.
-
 ---
 
 [← D03](d03-distinct-character-count.md) · [Topic index](README.md) · [LC242 →](lc242-valid-anagram.md)

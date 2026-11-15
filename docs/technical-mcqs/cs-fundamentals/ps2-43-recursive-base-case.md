@@ -32,10 +32,6 @@ The base case returns directly and terminates a chain of calls.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 43.
-
 ---
 
 [← PS2-42](ps2-42-fifo-job-scheduling.md) · [Topic index](README.md) · [PS2-44 →](ps2-44-binary-search-complexity.md)

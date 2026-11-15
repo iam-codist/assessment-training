@@ -47,10 +47,6 @@ ace
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← DP02](dp02-minimum-coins-when-greedy-fails.md) · [Topic index](README.md)

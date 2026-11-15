@@ -28,10 +28,6 @@ The grammatical subject is “Each,” which is singular, so use “has.” The 
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← COM02](com02-a-concise-project-status-email.md) · [Topic index](README.md) · [COM04 →](com04-read-carefully-before-inferring.md)

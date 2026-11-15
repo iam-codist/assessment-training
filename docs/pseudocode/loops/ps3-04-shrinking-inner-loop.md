@@ -32,10 +32,6 @@ The inner loop has 3, 2, and 1 iterations.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 4.
-
 ---
 
 [← PS3-03](ps3-03-dividing-until-odd.md) · [Topic index](README.md) · [PS3-10 →](ps3-10-post-test-loop.md)

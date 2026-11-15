@@ -40,10 +40,6 @@ The right-to-left loop reads each previous element before it is changed. The fin
 
 </details>
 
-## Source context
-
-Additional worked examples.
-
 ---
 
 [Topic index](README.md) · [M03 →](m03-array-manipulation.md)

@@ -99,10 +99,6 @@ Read n, then n coordinate pairs. Print total Manhattan distance including the re
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C13](c13-command-accumulator.md) · [Topic index](README.md) · [LC12 →](lc12-integer-to-roman.md)

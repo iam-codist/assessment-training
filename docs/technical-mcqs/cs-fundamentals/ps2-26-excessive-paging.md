@@ -32,10 +32,6 @@ Frequent page faults and transfers can dominate execution.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 26.
-
 ---
 
 [← PS2-25](ps2-25-process-memory-isolation.md) · [Topic index](README.md) · [PS2-27 →](ps2-27-first-come-scheduling.md)

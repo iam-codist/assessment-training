@@ -32,10 +32,6 @@ An entrance animation controls when an object appears on a slide. Transitions ap
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 17.
-
 ---
 
 [← PS1-16](ps1-16-shared-slide-branding.md) · [Topic index](README.md) · [PS2-14 →](ps2-14-shared-heading-styles.md)

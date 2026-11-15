@@ -32,10 +32,6 @@ Horizontal scaling distributes work across more instances.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 29.
-
 ---
 
 [← PS3-28](ps3-28-software-as-a-service.md) · [Topic index](README.md) · [PS3-30 →](ps3-30-replicating-storage.md)

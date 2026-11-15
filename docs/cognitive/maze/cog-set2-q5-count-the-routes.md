@@ -50,10 +50,6 @@ Only cells that lie on some shortest route are numbered on the map.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 8.
-
 ---
 
 [← COG-set2-q4](cog-set2-q4-fewest-turns.md) · [Topic index](README.md) · [COG-set2-q6 →](cog-set2-q6-collect-the-star.md)

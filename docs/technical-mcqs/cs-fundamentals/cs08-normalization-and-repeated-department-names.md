@@ -28,10 +28,6 @@ If department_id determines department_name, storing that name once avoids incon
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← CS07](cs07-transactions-and-atomicity.md) · [Topic index](README.md) · [PS1-23 →](ps1-23-ready-queue-scheduling.md)

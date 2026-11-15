@@ -32,10 +32,6 @@ GROUP BY forms one group per category and SUM aggregates each group.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 40.
-
 ---
 
 [← PS3-39](ps3-39-committing-changes.md) · [Topic index](README.md) · [T12 →](t12-access-data-integrity.md)

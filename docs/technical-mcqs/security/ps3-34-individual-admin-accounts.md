@@ -32,10 +32,6 @@ Individual accounts support accountability and access can be scoped and revoked 
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 34.
-
 ---
 
 [← PS3-33](ps3-33-data-integrity.md) · [Topic index](README.md) · [PS3-35 →](ps3-35-security-patching.md)

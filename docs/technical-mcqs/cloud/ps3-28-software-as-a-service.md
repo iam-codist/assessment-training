@@ -32,10 +32,6 @@ SaaS delivers a ready-to-use managed application.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 28.
-
 ---
 
 [← PS2-31](ps2-31-idle-function-billing.md) · [Topic index](README.md) · [PS3-29 →](ps3-29-horizontal-scaling.md)

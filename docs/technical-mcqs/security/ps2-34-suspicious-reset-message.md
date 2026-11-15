@@ -32,10 +32,6 @@ Navigating independently avoids the suspicious link while reporting supports inv
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 34.
-
 ---
 
 [← PS2-33](ps2-33-offline-backups.md) · [Topic index](README.md) · [PS2-35 →](ps2-35-verifying-a-file-digest.md)

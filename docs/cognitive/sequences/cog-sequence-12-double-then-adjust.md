@@ -36,10 +36,6 @@ Double each term and subtract 1. 33 × 2 − 1 = 65; 65 × 2 − 1 = 129.
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 12.
-
 ---
 
 [← COG-sequence-11](cog-sequence-11-growing-multipliers.md) · [Topic index](README.md)

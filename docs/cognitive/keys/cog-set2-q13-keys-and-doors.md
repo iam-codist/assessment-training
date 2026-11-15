@@ -61,10 +61,6 @@ Locked doors crossed: I-F (Green), F-I (Green), H-G (Blue), G-D (Green), D-A (Gr
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 17.
-
 ---
 
 [← COG-set2-q12](cog-set2-q12-unlock-the-way.md) · [Topic index](README.md) · [COG-set2-q14 →](cog-set2-q14-longest-detour.md)

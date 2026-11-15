@@ -23,10 +23,6 @@ Avoid hiding the problem or blaming the tester. Confirm the scope before promisi
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← BE02](be02-disagreeing-during-a-code-review.md) · [Topic index](README.md) · [BE04 →](be04-responding-to-feedback.md)

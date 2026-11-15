@@ -38,10 +38,6 @@ B. 7
 
 </details>
 
-## Source context
-
-Additional worked examples.
-
 ---
 
 [Topic index](README.md) · [E06 →](e06-recover-or-using-addition-and-and.md)

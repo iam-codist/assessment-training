@@ -32,10 +32,6 @@ Object storage stores each file as an object retrievable by a key.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 30.
-
 ---
 
 [← PS1-29](ps1-29-elastic-capacity.md) · [Topic index](README.md) · [PS1-31 →](ps1-31-multi-zone-availability.md)

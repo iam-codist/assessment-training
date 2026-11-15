@@ -46,10 +46,6 @@ Sum 1..8 is 36. Skip 3 and 6: 36-9 = 27.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M04](m04-while-loop-with-mod-div.md) · [Topic index](README.md) · [M10 →](m10-reverse-number-with-mod-div.md)

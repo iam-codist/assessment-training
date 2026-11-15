@@ -32,10 +32,6 @@ Speaker notes are associated with the current slide and accessible in Presenter 
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 16.
-
 ---
 
 [← PS2-15](ps2-15-starting-a-new-page.md) · [Topic index](README.md) · [PS2-17 →](ps2-17-reordering-slides.md)

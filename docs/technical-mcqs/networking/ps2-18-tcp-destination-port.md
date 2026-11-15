@@ -32,10 +32,6 @@ The destination port identifies the receiving transport endpoint.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 18.
-
 ---
 
 [← PS1-22](ps1-22-resolving-an-ipv4-neighbor.md) · [Topic index](README.md) · [PS2-19 →](ps2-19-switch-forwarding.md)

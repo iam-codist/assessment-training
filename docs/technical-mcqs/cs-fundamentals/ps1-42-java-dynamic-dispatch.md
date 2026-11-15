@@ -32,10 +32,6 @@ Java dynamically dispatches overridden instance methods according to the object'
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 42.
-
 ---
 
 [← PS1-41](ps1-41-encapsulating-account-state.md) · [Topic index](README.md) · [PS1-43 →](ps1-43-finding-an-array-maximum.md)

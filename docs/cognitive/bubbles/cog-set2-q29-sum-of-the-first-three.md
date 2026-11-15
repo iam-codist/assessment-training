@@ -56,10 +56,6 @@ First three: 40 + 25 + 18 = 83.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 34.
-
 ---
 
 [← COG-set2-q28](cog-set2-q28-filter-and-order.md) · [Topic index](README.md) · [COG-set2-q30 →](cog-set2-q30-powers-and-roots.md)

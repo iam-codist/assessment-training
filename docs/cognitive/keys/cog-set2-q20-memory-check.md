@@ -63,10 +63,6 @@ Green has the most locked doors.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 24.
-
 ---
 
 [← COG-set2-q19](cog-set2-q19-doors-passed.md) · [Topic index](README.md)

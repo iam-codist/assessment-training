@@ -28,10 +28,6 @@ The class controls how its state changes and protects its invariant, such as rej
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [Topic index](README.md) · [CS02 →](cs02-overriding-and-runtime-polymorphism.md)

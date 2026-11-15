@@ -75,10 +75,6 @@ Compare the position of every filled square, row by row. The correct option has 
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 1.
-
 ---
 
 [Topic index](README.md) · [COG-attention-2 →](cog-attention-2-spot-the-difference-1.md)

@@ -61,10 +61,6 @@ The first one is the Blue key, collected before any locked door blocks the way.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 20.
-
 ---
 
 [← COG-set2-q15](cog-set2-q15-fewest-keys.md) · [Topic index](README.md) · [COG-set2-q17 →](cog-set2-q17-missing-key.md)

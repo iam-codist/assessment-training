@@ -32,10 +32,6 @@ A mutex makes cooperating threads take turns entering protected code.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 26.
-
 ---
 
 [← PS3-25](ps3-25-counter-race-condition.md) · [Topic index](README.md) · [PS3-27 →](ps3-27-page-table-translation.md)

@@ -42,10 +42,6 @@ Evaluate each expression first, then compare the values in the direction request
 
 </details>
 
-## Source context
-
-easy35. bubble-popping-practice-35.html; slide / round 24.
-
 ---
 
 [← COG-bubble-pop-easy35-23](cog-bubble-pop-easy35-23-fractions-23.md) · [Topic index](README.md) · [COG-bubble-pop-easy35-25 →](cog-bubble-pop-easy35-25-negatives-25.md)

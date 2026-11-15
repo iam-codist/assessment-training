@@ -54,10 +54,6 @@ The answer is 30% of 90.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 32.
-
 ---
 
 [← COG-set2-q26](cog-set2-q26-fractions.md) · [Topic index](README.md) · [COG-set2-q28 →](cog-set2-q28-filter-and-order.md)

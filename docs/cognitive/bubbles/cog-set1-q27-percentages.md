@@ -54,10 +54,6 @@ The answer is 10% of 250.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 32.
-
 ---
 
 [← COG-set1-q26](cog-set1-q26-fractions.md) · [Topic index](README.md) · [COG-set1-q28 →](cog-set1-q28-filter-and-order.md)

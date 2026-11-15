@@ -32,10 +32,6 @@ Valid indices are 0 and 1. Java checks bounds at runtime.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 45.
-
 ---
 
 [← PS3-44](ps3-44-programming-abstraction.md) · [Topic index](README.md)

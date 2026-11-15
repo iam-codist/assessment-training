@@ -18,10 +18,6 @@ Require at least four characters, a digit and an uppercase letter; prohibit spac
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B02](b02-binary-operation-expression.md) · [Topic index](README.md) · [B04 →](b04-values-within-a-difference.md)

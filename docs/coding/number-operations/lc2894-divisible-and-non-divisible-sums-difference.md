@@ -66,10 +66,6 @@ Read range limit n, then divisor m (the reverse of D01). Print nondivisible-sum 
 
 </details>
 
-## Source context
-
-Day 1 LeetCode.
-
 ---
 
 [← LC1295](lc1295-find-numbers-with-even-number-of-digits.md) · [Topic index](README.md)

@@ -32,10 +32,6 @@ A /27 leaves 32-27=5 host bits: 2^5=32 addresses. Excluding the conventional net
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T14](t14-automatic-network-configuration.md) · [Topic index](README.md) · [T16 →](t16-transport-protocols.md)

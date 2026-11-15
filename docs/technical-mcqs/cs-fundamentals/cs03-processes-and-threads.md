@@ -28,10 +28,6 @@ Shared memory makes communication convenient but also creates races. Each thread
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← CS02](cs02-overriding-and-runtime-polymorphism.md) · [Topic index](README.md) · [CS04 →](cs04-stack-frames-and-heap-objects.md)

@@ -31,10 +31,6 @@ When index i enters a fixed window of length k, index i-k exits.
 
 </details>
 
-## Source context
-
-Classroom questions.
-
 ---
 
 [Topic index](README.md) · [K02 →](k02-maximum-sum-with-k-equal-to-2.md)

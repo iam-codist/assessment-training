@@ -38,10 +38,6 @@ A. 1
 
 </details>
 
-## Source context
-
-Additional worked examples.
-
 ---
 
 [← E07](e07-recover-xor-using-addition-and-and.md) · [Topic index](README.md) · [M02 →](m02-bitwise-and-and-xor.md)

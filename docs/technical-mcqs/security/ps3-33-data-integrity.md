@@ -32,10 +32,6 @@ Integrity concerns the accuracy and protection of data from unauthorized alterat
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 33.
-
 ---
 
 [← PS3-32](ps3-32-laptop-disk-encryption.md) · [Topic index](README.md) · [PS3-34 →](ps3-34-individual-admin-accounts.md)

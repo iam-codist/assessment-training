@@ -32,10 +32,6 @@ A FIFO queue removes the earliest inserted item first.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 42.
-
 ---
 
 [← PS2-41](ps2-41-class-inheritance.md) · [Topic index](README.md) · [PS2-43 →](ps2-43-recursive-base-case.md)

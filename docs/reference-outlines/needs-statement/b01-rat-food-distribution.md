@@ -18,10 +18,6 @@ Determine how many houses, starting from the first, provide enough food for rats
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [Topic index](README.md) · [B02 →](b02-binary-operation-expression.md)

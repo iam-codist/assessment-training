@@ -42,10 +42,6 @@ Evaluate each expression before comparing the values. Multiplication comes befor
 
 </details>
 
-## Source context
-
-set2. bubble-popping-test-set2.html; slide / round 15.
-
 ---
 
 [← COG-bubble-pop-set2-14](cog-bubble-pop-set2-14-mixed-values-14.md) · [Topic index](README.md) · [COG-bubble-pop-set2-16 →](cog-bubble-pop-set2-16-powers-roots-16.md)

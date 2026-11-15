@@ -95,10 +95,6 @@ Read n and capacity, then n order sizes. Print accepted-count and remaining-capa
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C01](c01-longest-rising-stretch.md) · [Topic index](README.md) · [C05 →](c05-closest-measurement.md)

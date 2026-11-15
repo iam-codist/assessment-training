@@ -69,10 +69,6 @@ Read n and n integers. Print the second-largest distinct value, or -1 if absent.
 
 </details>
 
-## Source context
-
-Day 1 original.
-
 ---
 
 [← C16](c16-row-with-the-greatest-total.md) · [Topic index](README.md) · [LC414 →](lc414-third-maximum-number.md)

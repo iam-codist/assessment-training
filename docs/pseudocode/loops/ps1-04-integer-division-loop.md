@@ -32,10 +32,6 @@ The updates are 20 → 10 → 5 → 2. The condition fails after update three.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 4.
-
 ---
 
 [← PS1-01](ps1-01-loop-accumulation.md) · [Topic index](README.md) · [PS1-05 →](ps1-05-nested-loop-count.md)

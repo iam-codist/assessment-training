@@ -48,10 +48,6 @@ x starts odd and always increases by 2, so the MOD 4 branch is never taken. Valu
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M16](m16-nested-loops-with-break.md) · [Topic index](README.md) · [P03 →](p03-odd-position-accumulation.md)

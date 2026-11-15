@@ -57,10 +57,6 @@ In the sample, the first three zeros cannot all stay in a window when k=2. Advan
 
 </details>
 
-## Source context
-
-Day 2 planned.
-
 ---
 
 [← LC209](lc209-minimum-size-subarray-sum.md) · [Topic index](README.md)

@@ -61,10 +61,6 @@ New route (10 moves): G > D > E > B > E > D > G > H > I > F > C.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 22.
-
 ---
 
 [← COG-set1-q17](cog-set1-q17-missing-key.md) · [Topic index](README.md) · [COG-set1-q19 →](cog-set1-q19-doors-passed.md)

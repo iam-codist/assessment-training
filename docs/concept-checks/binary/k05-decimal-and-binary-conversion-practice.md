@@ -23,10 +23,6 @@ Add powers of two, or divide repeatedly by two and read the remainders bottom to
 
 </details>
 
-## Source context
-
-Classroom questions.
-
 ---
 
 [Topic index](README.md)

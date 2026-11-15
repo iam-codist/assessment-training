@@ -58,10 +58,6 @@ A LEFT JOIN keeps all customers. Put the paid-status condition in ON so customer
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 46.
-
 ---
 
 [← PS1-46](ps1-46-active-employees-by-department.md) · [Topic index](README.md) · [PS3-46 →](ps3-46-passing-course-enrollments.md)

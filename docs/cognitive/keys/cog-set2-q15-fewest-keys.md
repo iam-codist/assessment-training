@@ -63,10 +63,6 @@ Only 2 keys are needed, even if the route is not the shortest overall.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 19.
-
 ---
 
 [← COG-set2-q14](cog-set2-q14-longest-detour.md) · [Topic index](README.md) · [COG-set2-q16 →](cog-set2-q16-first-key.md)

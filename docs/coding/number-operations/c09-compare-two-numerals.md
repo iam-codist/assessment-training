@@ -95,10 +95,6 @@ EQUAL
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C06](c06-exclusive-multiples.md) · [Topic index](README.md) · [C11 →](c11-weighted-digit-checksum.md)

@@ -32,10 +32,6 @@ The qualifying values are 50, 75 and 50. The >= condition includes values equal 
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T01](t01-excel-references.md) · [Topic index](README.md) · [T03 →](t03-excel-counting.md)

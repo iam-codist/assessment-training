@@ -23,10 +23,6 @@ The invariant is that the current window contains no duplicate. A last-seen map 
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← INT01](int01-explain-your-project-with-evidence.md) · [Topic index](README.md) · [INT03 →](int03-debugging-a-failing-result.md)

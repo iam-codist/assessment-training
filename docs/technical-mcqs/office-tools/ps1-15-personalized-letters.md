@@ -32,10 +32,6 @@ Mail Merge fills template fields from each recipient record.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 15.
-
 ---
 
 [← PS1-14](ps1-14-recording-word-revisions.md) · [Topic index](README.md) · [PS1-16 →](ps1-16-shared-slide-branding.md)

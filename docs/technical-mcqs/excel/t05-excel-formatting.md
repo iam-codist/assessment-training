@@ -32,10 +32,6 @@ Conditional formatting applies visual formatting when a rule is true; it does no
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T04](t04-excel-filtering.md) · [Topic index](README.md) · [T06 →](t06-excel-summaries.md)

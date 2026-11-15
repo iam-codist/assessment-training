@@ -45,10 +45,6 @@ Every value has the same parity as its index, so all values contribute: 57.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M03](m03-array-manipulation.md) · [Topic index](README.md) · [M14 →](m14-array-reversal-using-swapping.md)

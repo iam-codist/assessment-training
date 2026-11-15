@@ -32,10 +32,6 @@ A backup provides an earlier copy that can be restored.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 30.
-
 ---
 
 [← PS2-29](ps2-29-load-balancing.md) · [Topic index](README.md) · [PS2-31 →](ps2-31-idle-function-billing.md)

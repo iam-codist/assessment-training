@@ -32,10 +32,6 @@ A password represents knowledge and an authenticator app code represents possess
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 35.
-
 ---
 
 [← PS1-34](ps1-34-offboarding-access.md) · [Topic index](README.md) · [PS2-32 →](ps2-32-https-transport-protection.md)

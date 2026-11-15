@@ -32,10 +32,6 @@ For an ordinary IaaS VM, the customer manages guest-OS patching and application 
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T21](t21-managed-application-platforms.md) · [Topic index](README.md) · [T23 →](t23-scaling.md)

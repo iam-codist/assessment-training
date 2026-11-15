@@ -23,10 +23,6 @@ A credible plan names what you already know and what you must learn. Time-box ex
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← BE05](be05-prioritizing-two-urgent-requests.md) · [Topic index](README.md)

@@ -36,10 +36,6 @@ Each term is the sum of the previous two. 5 + 8 = 13; 8 + 13 = 21.
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 7.
-
 ---
 
 [← COG-sequence-6](cog-sequence-6-two-alternating-moves.md) · [Topic index](README.md) · [COG-sequence-8 →](cog-sequence-8-paired-products.md)

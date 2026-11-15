@@ -36,10 +36,6 @@ Subtract 5 each time. 40 − 5 = 35 and 35 − 5 = 30.
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 5.
-
 ---
 
 [← COG-sequence-4](cog-sequence-4-growing-gaps.md) · [Topic index](README.md) · [COG-sequence-6 →](cog-sequence-6-two-alternating-moves.md)

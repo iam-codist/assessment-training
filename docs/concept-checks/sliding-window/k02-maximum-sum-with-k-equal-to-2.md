@@ -31,10 +31,6 @@ The window sums are 5, 6, 9 and 10. The best window is [7,3].
 
 </details>
 
-## Source context
-
-Classroom questions.
-
 ---
 
 [← K01](k01-outgoing-element-in-a-fixed-window.md) · [Topic index](README.md) · [K03 →](k03-fixed-window-size.md)

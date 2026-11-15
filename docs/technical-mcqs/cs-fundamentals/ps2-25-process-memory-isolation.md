@@ -32,10 +32,6 @@ Page mappings and permissions restrict access to another process's memory.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 25.
-
 ---
 
 [← PS2-24](ps2-24-waiting-for-disk-i-o.md) · [Topic index](README.md) · [PS2-26 →](ps2-26-excessive-paging.md)

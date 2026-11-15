@@ -40,10 +40,6 @@ After a becomes 11, b uses that updated value: 11-7=4. Assignment is sequential.
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← M06](m06-conditional-statements-with-mod-div.md) · [Topic index](README.md) · [P02 →](p02-branch-selection.md)

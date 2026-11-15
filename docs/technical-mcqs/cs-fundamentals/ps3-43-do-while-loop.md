@@ -32,10 +32,6 @@ A do-while executes its body before checking the condition.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 43.
-
 ---
 
 [← PS3-42](ps3-42-hash-set-membership.md) · [Topic index](README.md) · [PS3-44 →](ps3-44-programming-abstraction.md)

@@ -29,10 +29,6 @@ The message gives status, blocker, action and timing. It avoids blaming an indiv
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← COM01](com01-a-clear-sixty-second-introduction.md) · [Topic index](README.md) · [COM03 →](com03-grammar-and-subject-verb-agreement.md)

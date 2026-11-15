@@ -27,10 +27,6 @@ Write down a rule that fits the visible pattern. Check it against each shape, th
 
 </details>
 
-## Source context
-
-Gamified_Aptitude Final (1).pptx. Gamified_Aptitude Final (1).pptx; slide / round 7.
-
 ---
 
 [← COG-visual-5](cog-visual-5-shape-assembly-i.md) · [Topic index](README.md) · [COG-visual-7 →](cog-visual-7-arrow-assembly.md)

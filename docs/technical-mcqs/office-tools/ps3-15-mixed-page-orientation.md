@@ -32,10 +32,6 @@ Sections can have independent page setup settings such as orientation.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 15.
-
 ---
 
 [← PS3-14](ps3-14-automatic-contents-table.md) · [Topic index](README.md) · [PS3-16 →](ps3-16-slide-transitions.md)

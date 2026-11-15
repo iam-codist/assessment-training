@@ -32,10 +32,6 @@ A foreign key links each non-null reference to a valid parent key for a simple s
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 36.
-
 ---
 
 [← PS1-40](ps1-40-transaction-atomicity.md) · [Topic index](README.md) · [PS2-37 →](ps2-37-distinct-result-rows.md)

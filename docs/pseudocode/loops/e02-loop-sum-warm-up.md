@@ -40,10 +40,6 @@ C. 10
 
 </details>
 
-## Source context
-
-Additional worked examples.
-
 ---
 
 [Topic index](README.md) · [E03 →](e03-nested-loop-variant-adding-i.md)

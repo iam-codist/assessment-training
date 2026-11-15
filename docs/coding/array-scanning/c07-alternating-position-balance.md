@@ -95,10 +95,6 @@ Read n and n integers. Print the absolute difference of sums at even and odd ind
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C05](c05-closest-measurement.md) · [Topic index](README.md) · [C15 →](c15-missing-roll-number.md)

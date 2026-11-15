@@ -32,10 +32,6 @@ Only 9 and 6 exceed 5.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 9.
-
 ---
 
 [← PS3-02](ps3-02-zero-based-array-access.md) · [Topic index](README.md)

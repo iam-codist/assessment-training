@@ -32,10 +32,6 @@ Track Changes records insertions and deletions for later acceptance or rejection
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T07](t07-word-personalized-documents.md) · [Topic index](README.md) · [T09 →](t09-word-structure.md)

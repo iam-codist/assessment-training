@@ -36,10 +36,6 @@ Divide by 2 each time. 24 ÷ 2 = 12 and 12 ÷ 2 = 6.
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 9.
-
 ---
 
 [← COG-sequence-8](cog-sequence-8-paired-products.md) · [Topic index](README.md) · [COG-sequence-10 →](cog-sequence-10-interleaved-patterns.md)

@@ -50,10 +50,6 @@ Its length is 12 moves (the minimum possible is 12), but the question asks for t
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 7.
-
 ---
 
 [← COG-set1-q3](cog-set1-q3-path-to-the-target.md) · [Topic index](README.md) · [COG-set1-q5 →](cog-set1-q5-count-the-routes.md)

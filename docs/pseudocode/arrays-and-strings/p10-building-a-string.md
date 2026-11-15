@@ -41,10 +41,6 @@ Each character is added before the existing t. The successive strings are a, ba,
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P09](p09-strict-comparison-and-duplicates.md) · [Topic index](README.md) · [P19 →](p19-one-sorting-pass.md)

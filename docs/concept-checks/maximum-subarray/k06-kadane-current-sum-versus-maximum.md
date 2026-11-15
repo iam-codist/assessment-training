@@ -32,10 +32,6 @@ The best suffix ends at 2 and is [3,2], with sum 5. It is also the global maximu
 
 </details>
 
-## Source context
-
-Classroom questions.
-
 ---
 
 [Topic index](README.md)

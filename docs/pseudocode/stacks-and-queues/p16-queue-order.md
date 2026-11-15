@@ -43,10 +43,6 @@ The first dequeue removes 4; appending 9 leaves the queue [6,9]. The next remova
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P15](p15-stack-order.md) · [Topic index](README.md)

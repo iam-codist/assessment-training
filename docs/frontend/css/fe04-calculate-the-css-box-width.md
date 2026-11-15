@@ -28,9 +28,10 @@ With content-box, width describes only content: 200+20+20+2+2=244px. With border
 
 </details>
 
-## Source context
 
-Further reading: [MDN box model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model).
+## Further reading
+
+[MDN box model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model).
 
 ---
 

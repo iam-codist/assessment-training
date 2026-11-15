@@ -32,10 +32,6 @@ Atomicity makes all operations in the transaction succeed as one unit or roll ba
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 40.
-
 ---
 
 [← PS1-39](ps1-39-counting-non-null-values.md) · [Topic index](README.md) · [PS2-36 →](ps2-36-foreign-key-constraints.md)

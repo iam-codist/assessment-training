@@ -23,10 +23,6 @@ Use a real project and distinguish your own work from your teammates’ work. A 
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [Topic index](README.md) · [INT02 →](int02-explain-an-algorithm-before-coding.md)

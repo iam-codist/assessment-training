@@ -56,10 +56,6 @@ The answer is 0.305.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 28.
-
 ---
 
 [← COG-set2-q22](cog-set2-q22-descending-order.md) · [Topic index](README.md) · [COG-set2-q24 →](cog-set2-q24-arithmetic-bubbles.md)

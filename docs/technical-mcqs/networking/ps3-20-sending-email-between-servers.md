@@ -32,10 +32,6 @@ SMTP handles sending and relaying mail.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 20.
-
 ---
 
 [← PS3-19](ps3-19-ipv6-dns-record.md) · [Topic index](README.md) · [PS3-21 →](ps3-21-network-latency.md)

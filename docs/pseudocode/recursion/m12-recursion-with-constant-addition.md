@@ -44,10 +44,6 @@ The function adds 2 five times: 10.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M05](m05-recursion.md) · [Topic index](README.md) · [P13 →](p13-small-recursion.md)

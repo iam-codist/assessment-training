@@ -67,10 +67,6 @@ Read positive n and n integers. Print the maximum nonempty circular subarray sum
 
 </details>
 
-## Source context
-
-Day 2.
-
 ---
 
 [← LC53](lc53-maximum-subarray.md) · [Topic index](README.md)

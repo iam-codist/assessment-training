@@ -18,10 +18,6 @@ Separate the array by even and odd indices; add both groups' second-largest valu
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B14](b14-sum-multiples-of-fifteen.md) · [Topic index](README.md) · [B16 →](b16-multiplication-table.md)

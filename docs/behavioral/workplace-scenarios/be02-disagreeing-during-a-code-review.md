@@ -23,10 +23,6 @@ Discuss behavior and evidence rather than the person. For example, compare testa
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← BE01](be01-a-deadline-is-at-risk.md) · [Topic index](README.md) · [BE03 →](be03-owning-a-mistake.md)

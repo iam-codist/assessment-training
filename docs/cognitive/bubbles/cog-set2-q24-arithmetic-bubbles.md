@@ -56,10 +56,6 @@ The answer is 27 + 38.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 29.
-
 ---
 
 [← COG-set2-q23](cog-set2-q23-decimal-trap.md) · [Topic index](README.md) · [COG-set2-q25 →](cog-set2-q25-negative-numbers.md)

@@ -32,10 +32,6 @@ DNS resolves domain names to address information.
 
 </details>
 
-## Source context
-
-Panel demo.
-
 ---
 
 [Topic index](README.md) · [PS1-18 →](ps1-18-host-name-resolution.md)

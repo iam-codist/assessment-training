@@ -67,10 +67,6 @@ Read positive n and k (1 through n), then n integers. Print the maximum sum over
 
 </details>
 
-## Source context
-
-Day 2; demo.
-
 ---
 
 [Topic index](README.md) · [LC3 →](lc3-longest-substring-without-repeating-characters.md)

@@ -66,10 +66,6 @@ MMMDCCXLIX
 
 </details>
 
-## Source context
-
-Day 2.
-
 ---
 
 [← C18](c18-grid-delivery-route.md) · [Topic index](README.md) · [LC1518 →](lc1518-water-bottles.md)

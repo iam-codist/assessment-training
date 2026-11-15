@@ -95,10 +95,6 @@ Lowercasing both strings makes substring matching case-insensitive. Trimming rem
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 47.
-
 ---
 
 [← PS2-47](ps2-47-ticket-price-calculator.md) · [Topic index](README.md)

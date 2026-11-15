@@ -58,10 +58,6 @@ The answer is -15.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 30.
-
 ---
 
 [← COG-set1-q24](cog-set1-q24-arithmetic-bubbles.md) · [Topic index](README.md) · [COG-set1-q26 →](cog-set1-q26-fractions.md)

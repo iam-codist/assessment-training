@@ -49,10 +49,6 @@ One shortest route: DDRRRURURRRDDDDLD.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 12.
-
 ---
 
 [← COG-set2-q8](cog-set2-q8-which-program-works.md) · [Topic index](README.md) · [COG-set2-q10 →](cog-set2-q10-right-and-down-only.md)

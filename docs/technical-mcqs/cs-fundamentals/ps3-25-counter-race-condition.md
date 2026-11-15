@@ -32,10 +32,6 @@ An uncoordinated read-modify-write can overwrite another thread's update.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 25.
-
 ---
 
 [← PS3-24](ps3-24-process-memory-reclamation.md) · [Topic index](README.md) · [PS3-26 →](ps3-26-mutex-exclusion.md)

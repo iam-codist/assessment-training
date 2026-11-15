@@ -56,10 +56,6 @@ First three: 5 + 9 + 14 = 28.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 34.
-
 ---
 
 [← COG-set1-q28](cog-set1-q28-filter-and-order.md) · [Topic index](README.md) · [COG-set1-q30 →](cog-set1-q30-powers-and-roots.md)

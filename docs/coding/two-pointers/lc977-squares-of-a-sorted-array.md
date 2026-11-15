@@ -67,10 +67,6 @@ Read n and a sorted array of n integers. Print squares in nondecreasing order.
 
 </details>
 
-## Source context
-
-Additional coding lesson.
-
 ---
 
 [← LC283](lc283-move-zeroes.md) · [Topic index](README.md)

@@ -32,10 +32,6 @@ The product is 4 times 3 times 2 times 1.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 6.
-
 ---
 
 [← PS2-07](ps2-07-recursive-doubling.md) · [Topic index](README.md)

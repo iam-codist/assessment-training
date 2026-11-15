@@ -32,10 +32,6 @@ The algorithm must inspect all n values because the maximum can be anywhere.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 43.
-
 ---
 
 [← PS1-42](ps1-42-java-dynamic-dispatch.md) · [Topic index](README.md) · [PS1-44 →](ps1-44-undo-with-a-stack.md)

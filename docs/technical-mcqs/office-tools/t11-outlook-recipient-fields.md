@@ -32,10 +32,6 @@ Bcc hides that recipient from the To/Cc recipients. It does not stop the Bcc rec
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T10](t10-powerpoint-consistency.md) · [Topic index](README.md)

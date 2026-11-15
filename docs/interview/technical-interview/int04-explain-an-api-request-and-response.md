@@ -23,10 +23,6 @@ A stronger answer mentions authorization where needed, useful error handling and
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← INT03](int03-debugging-a-failing-result.md) · [Topic index](README.md) · [INT05 →](int05-explain-a-left-join-in-an-interview.md)

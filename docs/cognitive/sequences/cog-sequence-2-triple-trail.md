@@ -36,10 +36,6 @@ Multiply each term by 3. After 18 comes 54, then 162.
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 2.
-
 ---
 
 [← COG-sequence-1](cog-sequence-1-steady-steps.md) · [Topic index](README.md) · [COG-sequence-3 →](cog-sequence-3-square-numbers.md)

@@ -32,10 +32,6 @@ An access policy limits which identities can perform which operations.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 31.
-
 ---
 
 [← PS3-30](ps3-30-replicating-storage.md) · [Topic index](README.md) · [T20 →](t20-cloud-service-models.md)

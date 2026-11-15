@@ -32,10 +32,6 @@ Binary 1001 OR 0110 sets all four bits.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 8.
-
 ---
 
 [← PS2-09](ps2-09-bitwise-and.md) · [Topic index](README.md)

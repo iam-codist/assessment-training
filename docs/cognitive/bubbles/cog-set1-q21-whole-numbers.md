@@ -58,10 +58,6 @@ The answer is 47.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 26.
-
 ---
 
 [← COG-bubble-extra-8](cog-bubble-extra-8-equal-values.md) · [Topic index](README.md) · [COG-set1-q22 →](cog-set1-q22-descending-order.md)

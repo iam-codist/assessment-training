@@ -31,10 +31,6 @@ Work backwards from the target. Check the brackets and the order of operations b
 
 </details>
 
-## Source context
-
-Gamified_Aptitude Final (1).pptx. Gamified_Aptitude Final (1).pptx; slide / round 16.
-
 ---
 
 [← COG-numbers-3](cog-numbers-3-sum-to-seventeen.md) · [Topic index](README.md) · [COG-numbers-5 →](cog-numbers-5-subtract-and-add.md)

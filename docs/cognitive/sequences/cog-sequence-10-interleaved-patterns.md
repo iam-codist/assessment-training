@@ -36,10 +36,6 @@ Odd positions are 2, 4, 6, 8. Even positions are 10, 20, 30, 40. The missing six
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 10.
-
 ---
 
 [← COG-sequence-9](cog-sequence-9-halving-ladder.md) · [Topic index](README.md) · [COG-sequence-11 →](cog-sequence-11-growing-multipliers.md)

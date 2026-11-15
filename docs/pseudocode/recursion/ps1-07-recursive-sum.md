@@ -32,10 +32,6 @@ Expand the calls to 4 + 3 + 2 + 1 + 0 = 10.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 7.
-
 ---
 
 [← P22](p22-recursive-printing.md) · [Topic index](README.md) · [PS2-07 →](ps2-07-recursive-doubling.md)

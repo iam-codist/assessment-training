@@ -62,10 +62,6 @@ Read full bottle count and exchange rate (at least 2). Print total bottles drunk
 
 </details>
 
-## Source context
-
-Additional coding lesson.
-
 ---
 
 [← LC12](lc12-integer-to-roman.md) · [Topic index](README.md)

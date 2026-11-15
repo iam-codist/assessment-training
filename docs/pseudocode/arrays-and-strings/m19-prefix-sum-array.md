@@ -42,10 +42,6 @@ Prefix array: [2,6,7,10,15]. Print 10+15 = 25.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M14](m14-array-reversal-using-swapping.md) · [Topic index](README.md) · [P08 →](p08-array-updates.md)

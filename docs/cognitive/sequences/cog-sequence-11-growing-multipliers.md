@@ -36,10 +36,6 @@ Multiply successively by 2, 3, 4, 5, 6. 24 × 5 = 120; 120 × 6 = 720.
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 11.
-
 ---
 
 [← COG-sequence-10](cog-sequence-10-interleaved-patterns.md) · [Topic index](README.md) · [COG-sequence-12 →](cog-sequence-12-double-then-adjust.md)

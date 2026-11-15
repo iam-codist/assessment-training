@@ -32,10 +32,6 @@ The values are 24, 12, 6, and 3. The loop stops at the first odd value.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 3.
-
 ---
 
 [← PS3-01](ps3-01-loop-subtraction.md) · [Topic index](README.md) · [PS3-04 →](ps3-04-shrinking-inner-loop.md)

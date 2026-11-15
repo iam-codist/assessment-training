@@ -43,10 +43,6 @@ After adding 5, the running sum is 15 and exceeds 12. The loop exits with i=5.
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P06](p06-skipping-an-iteration.md) · [Topic index](README.md) · [P14 →](p14-euclidean-style-updates.md)

@@ -32,10 +32,6 @@ Track Changes records revisions and lets the author accept or reject them indivi
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 14.
-
 ---
 
 [Topic index](README.md) · [PS1-15 →](ps1-15-personalized-letters.md)

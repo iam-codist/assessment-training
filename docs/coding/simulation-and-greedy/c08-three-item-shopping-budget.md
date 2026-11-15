@@ -95,10 +95,6 @@ Read n and budget, then n prices. Print minimum-total and change, or IMPOSSIBLE.
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [Topic index](README.md) · [C13 →](c13-command-accumulator.md)

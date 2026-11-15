@@ -29,10 +29,6 @@ The word is CROCODILE. Read the outer ring clockwise, then the centre.
 
 </details>
 
-## Source context
-
-Gamified_Aptitude Final (1).pptx. Gamified_Aptitude Final (1).pptx; slide / round 10.
-
 ---
 
 [Topic index](README.md) · [COG-word-2 →](cog-word-2-a-learning-circuit.md)

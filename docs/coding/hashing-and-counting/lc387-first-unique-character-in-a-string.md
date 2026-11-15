@@ -66,10 +66,6 @@ loveleetcode
 
 </details>
 
-## Source context
-
-Day 1 LeetCode.
-
 ---
 
 [← LC242](lc242-valid-anagram.md) · [Topic index](README.md)

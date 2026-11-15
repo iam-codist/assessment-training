@@ -32,10 +32,6 @@ Presenter View separates private controls and notes from the audience display.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 17.
-
 ---
 
 [← PS3-16](ps3-16-slide-transitions.md) · [Topic index](README.md) · [T07 →](t07-word-personalized-documents.md)

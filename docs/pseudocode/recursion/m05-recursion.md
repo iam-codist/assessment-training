@@ -44,10 +44,6 @@ fun(7) = 7 + 5 + 3 + 1 = 16.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [Topic index](README.md) · [M12 →](m12-recursion-with-constant-addition.md)

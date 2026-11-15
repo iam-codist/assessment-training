@@ -23,10 +23,6 @@ The summary separates agreed actions from an unresolved dependency. Do not inven
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← COM07](com07-ask-a-useful-clarification-question.md) · [Topic index](README.md)

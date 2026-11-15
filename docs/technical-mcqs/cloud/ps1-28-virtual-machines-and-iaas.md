@@ -32,10 +32,6 @@ Infrastructure as a Service provides virtualized infrastructure while you manage
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 28.
-
 ---
 
 [← G04](g04-gmail-service-model.md) · [Topic index](README.md) · [PS1-29 →](ps1-29-elastic-capacity.md)

@@ -32,10 +32,6 @@ COMMIT finalizes the transaction. ROLLBACK discards its pending changes.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 39.
-
 ---
 
 [← PS3-38](ps3-38-relational-normalization.md) · [Topic index](README.md) · [PS3-40 →](ps3-40-grouped-sums.md)

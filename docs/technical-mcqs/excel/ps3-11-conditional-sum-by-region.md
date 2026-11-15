@@ -32,10 +32,6 @@ SUMIF evaluates the criterion range and adds corresponding values from the sum r
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 11.
-
 ---
 
 [← PS2-13](ps2-13-pass-or-fail-formula.md) · [Topic index](README.md) · [PS3-12 →](ps3-12-drop-down-data-validation.md)

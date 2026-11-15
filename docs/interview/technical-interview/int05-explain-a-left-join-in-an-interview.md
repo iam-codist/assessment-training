@@ -23,10 +23,6 @@ Use a customer with zero orders as the distinguishing example. If counting order
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← INT04](int04-explain-an-api-request-and-response.md) · [Topic index](README.md) · [INT06 →](int06-choose-meaningful-tests.md)

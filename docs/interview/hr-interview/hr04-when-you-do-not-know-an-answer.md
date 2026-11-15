@@ -23,10 +23,6 @@ For a problem-solving question, ask whether you may work through it aloud. Disti
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← HR03](hr03-a-conflict-using-star.md) · [Topic index](README.md)

@@ -32,10 +32,6 @@ Patches correct known defects, including security vulnerabilities.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 35.
-
 ---
 
 [← PS3-34](ps3-34-individual-admin-accounts.md) · [Topic index](README.md) · [T17 →](t17-encrypted-connections.md)

@@ -83,10 +83,6 @@ valueAsNumber returns NaN when the input is blank. Number.isInteger rejects NaN 
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 47.
-
 ---
 
 [← PS1-47](ps1-47-workshop-seat-counter.md) · [Topic index](README.md) · [PS3-47 →](ps3-47-live-course-search.md)

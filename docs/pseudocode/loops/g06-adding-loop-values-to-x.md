@@ -40,10 +40,6 @@ x changes 2 → 3 → 5 → 8.
 
 </details>
 
-## Source context
-
-Additional worked examples.
-
 ---
 
 [← E03](e03-nested-loop-variant-adding-i.md) · [Topic index](README.md) · [M01 →](m01-nested-loops.md)

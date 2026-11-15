@@ -18,10 +18,6 @@ Multiply the two smallest array values if their sum meets a limit.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B06](b06-second-values-at-even-and-odd-indices.md) · [Topic index](README.md) · [B08 →](b08-decimal-to-base-n.md)

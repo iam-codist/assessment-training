@@ -32,10 +32,6 @@ Adding more unchanged instances is horizontal scaling. Increasing the resources 
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T22](t22-cloud-responsibilities.md) · [Topic index](README.md)

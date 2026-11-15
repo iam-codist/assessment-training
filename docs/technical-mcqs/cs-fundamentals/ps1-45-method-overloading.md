@@ -32,10 +32,6 @@ Overloads share a method name but have different parameter lists. Overriding rep
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 45.
-
 ---
 
 [← PS1-44](ps1-44-undo-with-a-stack.md) · [Topic index](README.md) · [PS2-23 →](ps2-23-context-switching.md)

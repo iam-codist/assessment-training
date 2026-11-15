@@ -43,10 +43,6 @@ x becomes 50,25,12,6,3: five divisions.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [← M11](m11-nested-loops-with-a-condition.md) · [Topic index](README.md) · [M16 →](m16-nested-loops-with-break.md)

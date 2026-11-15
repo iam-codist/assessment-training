@@ -61,10 +61,6 @@ Total locked doors crossed = 2.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 23.
-
 ---
 
 [← COG-set2-q18](cog-set2-q18-key-removed-longer-way.md) · [Topic index](README.md) · [COG-set2-q20 →](cog-set2-q20-memory-check.md)

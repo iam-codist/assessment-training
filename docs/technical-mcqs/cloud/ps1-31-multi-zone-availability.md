@@ -32,10 +32,6 @@ Spreading instances across zones gives the load balancer healthy destinations wh
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 31.
-
 ---
 
 [← PS1-30](ps1-30-object-storage.md) · [Topic index](README.md) · [PS2-28 →](ps2-28-managed-application-runtime.md)

@@ -32,10 +32,6 @@ AAAA stores IPv6 addresses. A stores IPv4 addresses.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 19.
-
 ---
 
 [← PS3-18](ps3-18-physical-signal-regeneration.md) · [Topic index](README.md) · [PS3-20 →](ps3-20-sending-email-between-servers.md)

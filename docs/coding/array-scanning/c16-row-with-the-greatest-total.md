@@ -100,10 +100,6 @@ Read r and c, then r rows of c integers. Print the earliest best-row index and r
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C15](c15-missing-roll-number.md) · [Topic index](README.md) · [D02 →](d02-second-largest-element.md)

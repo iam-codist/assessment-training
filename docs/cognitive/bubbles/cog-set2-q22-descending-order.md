@@ -56,10 +56,6 @@ The answer is 160.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 27.
-
 ---
 
 [← COG-set2-q21](cog-set2-q21-whole-numbers.md) · [Topic index](README.md) · [COG-set2-q23 →](cog-set2-q23-decimal-trap.md)

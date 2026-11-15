@@ -32,10 +32,6 @@ The switch looks up the destination MAC in its forwarding table.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 19.
-
 ---
 
 [← PS2-18](ps2-18-tcp-destination-port.md) · [Topic index](README.md) · [PS2-20 →](ps2-20-ping-protocol.md)

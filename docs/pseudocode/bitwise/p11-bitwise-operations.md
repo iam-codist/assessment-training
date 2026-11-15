@@ -39,10 +39,6 @@ A. 11
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← M17](m17-bitwise-and-or.md) · [Topic index](README.md) · [P12 →](p12-bit-shifting.md)

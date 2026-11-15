@@ -40,10 +40,6 @@ Evaluate each expression first, then compare the values in the direction request
 
 </details>
 
-## Source context
-
-easy35. bubble-popping-practice-35.html; slide / round 9.
-
 ---
 
 [← COG-bubble-pop-easy35-8](cog-bubble-pop-easy35-8-expressions-08.md) · [Topic index](README.md) · [COG-bubble-pop-easy35-10 →](cog-bubble-pop-easy35-10-multiples-10.md)

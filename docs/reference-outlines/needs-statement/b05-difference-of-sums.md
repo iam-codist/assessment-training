@@ -18,10 +18,6 @@ For 1 through m, subtract the sum divisible by n from the sum not divisible by n
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B04](b04-values-within-a-difference.md) · [Topic index](README.md) · [B06 →](b06-second-values-at-even-and-odd-indices.md)

@@ -62,10 +62,6 @@ abcabcbb
 
 </details>
 
-## Source context
-
-Day 1 challenge.
-
 ---
 
 [← F01](f01-maximum-sum-subarray-of-size-k.md) · [Topic index](README.md) · [LC209 →](lc209-minimum-size-subarray-sum.md)

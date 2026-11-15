@@ -56,10 +56,6 @@ The answer is 7/10.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 31.
-
 ---
 
 [← COG-set1-q25](cog-set1-q25-negative-numbers.md) · [Topic index](README.md) · [COG-set1-q27 →](cog-set1-q27-percentages.md)

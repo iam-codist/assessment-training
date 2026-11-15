@@ -32,10 +32,6 @@ Granting read access alone restricts the dashboard to the operation it needs.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 32.
-
 ---
 
 [Topic index](README.md) · [PS1-33 →](ps1-33-password-storage.md)

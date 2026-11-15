@@ -32,10 +32,6 @@ PaaS manages the application platform so the customer can deploy code.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 28.
-
 ---
 
 [← PS1-31](ps1-31-multi-zone-availability.md) · [Topic index](README.md) · [PS2-29 →](ps2-29-load-balancing.md)

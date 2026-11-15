@@ -47,10 +47,6 @@ B. 20
 
 </details>
 
-## Source context
-
-Additional worked examples.
-
 ---
 
 [Topic index](README.md) · [E08 →](e08-panel-demo-output-prediction.md)

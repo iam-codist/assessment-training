@@ -32,10 +32,6 @@ The first assignment loses the original 3. Both variables end up holding 5.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 6.
-
 ---
 
 [← P21](p21-object-references.md) · [Topic index](README.md) · [PS2-04 →](ps2-04-quotient-and-remainder.md)

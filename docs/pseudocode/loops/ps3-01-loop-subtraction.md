@@ -32,10 +32,6 @@ Subtracting 1, 2, and 3 from 5 gives -1.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 1.
-
 ---
 
 [← PS2-10](ps2-10-loop-exit-threshold.md) · [Topic index](README.md) · [PS3-03 →](ps3-03-dividing-until-odd.md)

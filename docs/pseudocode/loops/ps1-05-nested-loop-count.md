@@ -32,10 +32,6 @@ The inner loop runs 1, 2, and 3 times on successive outer iterations.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 5.
-
 ---
 
 [← PS1-04](ps1-04-integer-division-loop.md) · [Topic index](README.md) · [PS1-09 →](ps1-09-break-in-a-loop.md)

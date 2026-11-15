@@ -95,10 +95,6 @@ Read n and target, then n integers. Print value and zero-based index; keep the e
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C02](c02-orders-within-capacity.md) · [Topic index](README.md) · [C07 →](c07-alternating-position-balance.md)

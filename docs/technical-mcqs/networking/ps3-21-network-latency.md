@@ -32,10 +32,6 @@ Latency measures delay. Bandwidth measures capacity over time.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 21.
-
 ---
 
 [← PS3-20](ps3-20-sending-email-between-servers.md) · [Topic index](README.md) · [PS3-22 →](ps3-22-default-gateway.md)

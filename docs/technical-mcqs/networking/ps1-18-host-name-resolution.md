@@ -32,10 +32,6 @@ DNS records associate names with addresses. DHCP supplies network configuration 
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 18.
-
 ---
 
 [← G05](g05-domain-name-translation.md) · [Topic index](README.md) · [PS1-19 →](ps1-19-reliable-transport.md)

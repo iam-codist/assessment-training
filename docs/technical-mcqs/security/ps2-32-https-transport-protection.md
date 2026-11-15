@@ -32,10 +32,6 @@ TLS encrypts traffic and authenticates the server when certificate validation su
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 32.
-
 ---
 
 [← PS1-35](ps1-35-authentication-factors.md) · [Topic index](README.md) · [PS2-33 →](ps2-33-offline-backups.md)

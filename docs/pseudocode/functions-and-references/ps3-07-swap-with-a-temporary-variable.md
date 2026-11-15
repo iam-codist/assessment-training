@@ -32,10 +32,6 @@ The temporary variable preserves the original x during the swap.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 7.
-
 ---
 
 [← PS2-04](ps2-04-quotient-and-remainder.md) · [Topic index](README.md)

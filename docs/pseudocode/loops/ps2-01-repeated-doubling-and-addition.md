@@ -32,10 +32,6 @@ Each update gives 3, 7, 15, then 31.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 1.
-
 ---
 
 [← PS1-09](ps1-09-break-in-a-loop.md) · [Topic index](README.md) · [PS2-02 →](ps2-02-sum-of-even-values.md)

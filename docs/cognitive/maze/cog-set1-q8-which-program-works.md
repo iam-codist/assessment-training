@@ -50,10 +50,6 @@ D) hits a wall at move 6
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 11.
-
 ---
 
 [← COG-set1-q7](cog-set1-q7-command-sequence.md) · [Topic index](README.md) · [COG-set1-q9 →](cog-set1-q9-large-grid.md)

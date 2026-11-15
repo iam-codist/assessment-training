@@ -111,10 +111,6 @@ The render function derives both the visible message and the button state from t
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 47.
-
 ---
 
 [← FE12](fe12-handle-an-http-error-from-fetch.md) · [Topic index](README.md) · [PS2-47 →](ps2-47-ticket-price-calculator.md)

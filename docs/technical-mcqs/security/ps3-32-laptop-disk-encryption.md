@@ -32,10 +32,6 @@ Encryption makes raw disk contents unreadable without the decryption material.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 32.
-
 ---
 
 [← PS2-35](ps2-35-verifying-a-file-digest.md) · [Topic index](README.md) · [PS3-33 →](ps3-33-data-integrity.md)

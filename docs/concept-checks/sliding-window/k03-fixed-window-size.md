@@ -31,10 +31,6 @@ The fixed length is part of the requirement.
 
 </details>
 
-## Source context
-
-Classroom questions.
-
 ---
 
 [← K02](k02-maximum-sum-with-k-equal-to-2.md) · [Topic index](README.md) · [K08 →](k08-one-sliding-window-update.md)

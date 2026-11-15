@@ -32,10 +32,6 @@ An offline copy can be restored even if the live share is encrypted.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 33.
-
 ---
 
 [← PS2-32](ps2-32-https-transport-protection.md) · [Topic index](README.md) · [PS2-34 →](ps2-34-suspicious-reset-message.md)

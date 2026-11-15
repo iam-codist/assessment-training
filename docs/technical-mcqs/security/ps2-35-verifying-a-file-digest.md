@@ -32,10 +32,6 @@ A matching hash checks integrity if the expected digest came from a trusted sour
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 35.
-
 ---
 
 [← PS2-34](ps2-34-suspicious-reset-message.md) · [Topic index](README.md) · [PS3-32 →](ps3-32-laptop-disk-encryption.md)

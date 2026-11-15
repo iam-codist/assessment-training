@@ -32,10 +32,6 @@ Three outer iterations each run two inner iterations.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 5.
-
 ---
 
 [← PS2-02](ps2-02-sum-of-even-values.md) · [Topic index](README.md) · [PS2-06 →](ps2-06-skipping-an-iteration.md)

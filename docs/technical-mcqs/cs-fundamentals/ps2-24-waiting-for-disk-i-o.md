@@ -32,10 +32,6 @@ It cannot proceed until the I/O event occurs.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 24.
-
 ---
 
 [← PS2-23](ps2-23-context-switching.md) · [Topic index](README.md) · [PS2-25 →](ps2-25-process-memory-isolation.md)

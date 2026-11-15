@@ -32,10 +32,6 @@ Abstraction exposes the behavior the caller needs through a simpler interface.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 44.
-
 ---
 
 [← PS3-43](ps3-43-do-while-loop.md) · [Topic index](README.md) · [PS3-45 →](ps3-45-java-array-bounds.md)

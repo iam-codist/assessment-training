@@ -18,10 +18,6 @@ Perform addition, subtraction, multiplication or division based on an operation 
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B11](b11-swap-specified-characters.md) · [Topic index](README.md) · [B13 →](b13-most-factors-of-two-in-a-range.md)

@@ -18,10 +18,6 @@ Test whether a number is autobiographical; if valid, return its distinct-digit c
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B19](b19-largest-value-and-index.md) · [Topic index](README.md)

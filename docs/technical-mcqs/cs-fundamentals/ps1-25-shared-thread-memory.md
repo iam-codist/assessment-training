@@ -32,10 +32,6 @@ Threads share the process address space, including its heap. Each has its own ex
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 25.
-
 ---
 
 [← PS1-24](ps1-24-demand-paging.md) · [Topic index](README.md) · [PS1-26 →](ps1-26-round-robin-preemption.md)

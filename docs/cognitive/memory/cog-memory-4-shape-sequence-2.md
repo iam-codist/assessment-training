@@ -35,10 +35,6 @@ Recall one item at a time in the original order. Group the sequence into small c
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 4.
-
 ---
 
 [← COG-memory-3](cog-memory-3-direction-recall-1.md) · [Topic index](README.md) · [COG-memory-5 →](cog-memory-5-position-recall-2.md)

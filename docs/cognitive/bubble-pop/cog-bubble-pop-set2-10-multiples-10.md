@@ -40,10 +40,6 @@ A multiple divides evenly by the named number, with no remainder.
 
 </details>
 
-## Source context
-
-set2. bubble-popping-test-set2.html; slide / round 10.
-
 ---
 
 [← COG-bubble-pop-set2-9](cog-bubble-pop-set2-9-fractions-09.md) · [Topic index](README.md) · [COG-bubble-pop-set2-11 →](cog-bubble-pop-set2-11-numbers-11.md)

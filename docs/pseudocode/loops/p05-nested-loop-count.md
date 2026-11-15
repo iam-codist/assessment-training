@@ -42,10 +42,6 @@ The inner-loop counts are 1,2,3,4, so the total is 10.
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P04](p04-repeated-halving.md) · [Topic index](README.md) · [P06 →](p06-skipping-an-iteration.md)

@@ -60,10 +60,6 @@ Skipped bubbles: 34, 45.
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 33.
-
 ---
 
 [← COG-set2-q27](cog-set2-q27-percentages.md) · [Topic index](README.md) · [COG-set2-q29 →](cog-set2-q29-sum-of-the-first-three.md)

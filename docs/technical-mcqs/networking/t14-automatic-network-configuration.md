@@ -32,10 +32,6 @@ DHCP can provide a leased IPv4 address plus settings such as a subnet mask, gate
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T13](t13-name-resolution.md) · [Topic index](README.md) · [T15 →](t15-ipv4-subnetting.md)

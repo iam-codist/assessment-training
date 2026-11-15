@@ -42,10 +42,6 @@ F(6)=F(4)+6, F(4)=F(2)+4, F(2)=F(0)+2, and F(0)=1. The result is 13.
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← M12](m12-recursion-with-constant-addition.md) · [Topic index](README.md) · [P22 →](p22-recursive-printing.md)

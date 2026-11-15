@@ -32,10 +32,6 @@ A constructor runs during object creation to establish initial state.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 41.
-
 ---
 
 [← PS3-27](ps3-27-page-table-translation.md) · [Topic index](README.md) · [PS3-42 →](ps3-42-hash-set-membership.md)

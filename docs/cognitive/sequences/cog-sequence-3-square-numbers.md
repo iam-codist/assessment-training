@@ -36,10 +36,6 @@ These are consecutive squares: 1², 2², 3², 4², 5². The missing value is 4²
 
 </details>
 
-## Source context
-
-Cognitive Lab practice, round 3.
-
 ---
 
 [← COG-sequence-2](cog-sequence-2-triple-trail.md) · [Topic index](README.md) · [COG-sequence-4 →](cog-sequence-4-growing-gaps.md)

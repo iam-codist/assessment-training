@@ -44,10 +44,6 @@ With scalar pass-by-value, a remains 7. modify(7) returns 11, so a+b = 18.
 
 </details>
 
-## Source context
-
-20 medium questions.
-
 ---
 
 [Topic index](README.md) · [P17 →](p17-value-parameter.md)

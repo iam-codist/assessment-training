@@ -61,10 +61,6 @@ Locked doors crossed: B-C (Red), C-B (Red), B-A (Green).
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 16.
-
 ---
 
 [← COG-set2-q11](cog-set2-q11-reach-the-exit.md) · [Topic index](README.md) · [COG-set2-q13 →](cog-set2-q13-keys-and-doors.md)

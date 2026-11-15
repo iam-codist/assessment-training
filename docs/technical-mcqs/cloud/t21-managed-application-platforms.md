@@ -32,10 +32,6 @@ In PaaS, the provider manages the underlying platform and operating system while
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← T20](t20-cloud-service-models.md) · [Topic index](README.md) · [T22 →](t22-cloud-responsibilities.md)

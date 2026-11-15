@@ -32,10 +32,6 @@ A stack uses last-in, first-out order. The last action pushed is the first one p
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 44.
-
 ---
 
 [← PS1-43](ps1-43-finding-an-array-maximum.md) · [Topic index](README.md) · [PS1-45 →](ps1-45-method-overloading.md)

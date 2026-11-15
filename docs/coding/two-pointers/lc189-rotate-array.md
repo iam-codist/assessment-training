@@ -63,10 +63,6 @@ Read positive n and nonnegative k, then n integers. Print the array after rotati
 
 </details>
 
-## Source context
-
-Day 1 challenge.
-
 ---
 
 [← LC125](lc125-valid-palindrome.md) · [Topic index](README.md) · [LC283 →](lc283-move-zeroes.md)

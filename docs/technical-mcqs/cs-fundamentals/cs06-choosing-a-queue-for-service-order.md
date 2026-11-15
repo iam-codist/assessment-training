@@ -28,10 +28,6 @@ Enqueue adds to the back and dequeue removes from the front. A stack would serve
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← CS05](cs05-binary-search-complexity.md) · [Topic index](README.md) · [CS07 →](cs07-transactions-and-atomicity.md)

@@ -32,10 +32,6 @@ Binary 110 XOR 011 is 101. XOR sets each bit where the two input bits differ.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 10.
-
 ---
 
 [← P12](p12-bit-shifting.md) · [Topic index](README.md) · [PS2-09 →](ps2-09-bitwise-and.md)

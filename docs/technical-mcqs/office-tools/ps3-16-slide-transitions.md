@@ -32,10 +32,6 @@ A transition is associated with switching between slides.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 16.
-
 ---
 
 [← PS3-15](ps3-15-mixed-page-orientation.md) · [Topic index](README.md) · [PS3-17 →](ps3-17-presenter-view.md)

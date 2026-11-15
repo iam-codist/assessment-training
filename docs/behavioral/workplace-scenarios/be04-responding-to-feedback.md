@@ -23,10 +23,6 @@ Turn broad feedback into observable behavior. Explain input, approach, one examp
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← BE03](be03-owning-a-mistake.md) · [Topic index](README.md) · [BE05 →](be05-prioritizing-two-urgent-requests.md)

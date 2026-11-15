@@ -32,10 +32,6 @@ Elasticity is the ability to adjust provisioned resources as demand changes.
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 29.
-
 ---
 
 [← PS1-28](ps1-28-virtual-machines-and-iaas.md) · [Topic index](README.md) · [PS1-30 →](ps1-30-object-storage.md)

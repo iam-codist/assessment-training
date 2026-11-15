@@ -42,10 +42,6 @@ The function changes its local scalar x and returns 15. The caller variable a re
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← M18](m18-functions-and-parameters.md) · [Topic index](README.md) · [P21 →](p21-object-references.md)

@@ -32,10 +32,6 @@ CONTINUE skips the rest of the iteration for 4.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 6.
-
 ---
 
 [← PS2-05](ps2-05-rectangular-nested-loop.md) · [Topic index](README.md) · [PS2-10 →](ps2-10-loop-exit-threshold.md)

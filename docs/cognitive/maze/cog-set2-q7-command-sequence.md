@@ -49,10 +49,6 @@ D) works - reaches T in 10 moves
 
 </details>
 
-## Source context
-
-Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 10.
-
 ---
 
 [← COG-set2-q6](cog-set2-q6-collect-the-star.md) · [Topic index](README.md) · [COG-set2-q8 →](cog-set2-q8-which-program-works.md)

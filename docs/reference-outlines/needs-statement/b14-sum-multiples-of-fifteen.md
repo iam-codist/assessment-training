@@ -18,10 +18,6 @@ Sum multiples of 15 within the given bounds.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B13](b13-most-factors-of-two-in-a-range.md) · [Topic index](README.md) · [B15 →](b15-second-largest-values-by-index-parity.md)

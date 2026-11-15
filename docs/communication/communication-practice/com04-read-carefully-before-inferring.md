@@ -25,10 +25,6 @@ Use the passage’s explicit details. Do not confuse the workshop start time wit
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← COM03](com03-grammar-and-subject-verb-agreement.md) · [Topic index](README.md) · [COM05 →](com05-listening-and-note-taking-practice.md)

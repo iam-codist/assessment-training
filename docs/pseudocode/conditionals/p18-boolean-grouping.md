@@ -43,10 +43,6 @@ The left conjunction is false, but b MOD 2=1 is true. False OR true is true.
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P02](p02-branch-selection.md) · [Topic index](README.md) · [PS1-02 →](ps1-02-even-or-odd-branch.md)

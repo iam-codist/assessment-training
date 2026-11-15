@@ -23,10 +23,6 @@ Research the current role before the interview. Explain what interests you speci
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [Topic index](README.md) · [HR02 →](hr02-strengths-and-areas-to-improve.md)

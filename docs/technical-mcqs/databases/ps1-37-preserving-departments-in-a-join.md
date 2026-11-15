@@ -32,10 +32,6 @@ LEFT JOIN preserves Department rows and fills unmatched employee columns with NU
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 37.
-
 ---
 
 [← PS1-36](ps1-36-primary-key-constraints.md) · [Topic index](README.md) · [PS1-38 →](ps1-38-filtering-grouped-counts.md)

@@ -32,10 +32,6 @@ The second comparison is false because 6 is equal to 6.
 
 </details>
 
-## Source context
-
-Assessment practice set 3, question 5.
-
 ---
 
 [← PS2-08](ps2-08-else-if-branch.md) · [Topic index](README.md)

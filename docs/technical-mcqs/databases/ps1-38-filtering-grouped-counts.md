@@ -32,10 +32,6 @@ HAVING filters groups after aggregation. WHERE filters individual rows before gr
 
 </details>
 
-## Source context
-
-Assessment practice set 1, question 38.
-
 ---
 
 [← PS1-37](ps1-37-preserving-departments-in-a-join.md) · [Topic index](README.md) · [PS1-39 →](ps1-39-counting-non-null-values.md)

@@ -32,10 +32,6 @@ Inheritance lets a subclass reuse or specialize inherited members.
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 41.
-
 ---
 
 [← PS2-27](ps2-27-first-come-scheduling.md) · [Topic index](README.md) · [PS2-42 →](ps2-42-fifo-job-scheduling.md)

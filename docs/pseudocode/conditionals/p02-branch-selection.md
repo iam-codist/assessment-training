@@ -43,10 +43,6 @@ C. 17
 
 </details>
 
-## Source context
-
-22-question practice pack.
-
 ---
 
 [← P01](p01-sequential-assignment.md) · [Topic index](README.md) · [P18 →](p18-boolean-grouping.md)

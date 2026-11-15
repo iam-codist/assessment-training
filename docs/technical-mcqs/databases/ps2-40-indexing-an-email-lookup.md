@@ -32,10 +32,6 @@ An index offers an access path to matching values, though it uses storage and ad
 
 </details>
 
-## Source context
-
-Assessment practice set 2, question 40.
-
 ---
 
 [← PS2-39](ps2-39-inner-join-matches.md) · [Topic index](README.md) · [PS3-36 →](ps3-36-descending-sort-order.md)

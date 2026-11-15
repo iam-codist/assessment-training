@@ -62,10 +62,6 @@ true
 
 </details>
 
-## Source context
-
-Additional coding lesson.
-
 ---
 
 [← C17](c17-mirror-phrase.md) · [Topic index](README.md) · [LC11 →](lc11-container-with-most-water.md)

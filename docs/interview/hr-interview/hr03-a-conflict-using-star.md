@@ -23,10 +23,6 @@ Use a real event from study, volunteering or work. Spend most of the time on you
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [← HR02](hr02-strengths-and-areas-to-improve.md) · [Topic index](README.md) · [HR04 →](hr04-when-you-do-not-know-an-answer.md)

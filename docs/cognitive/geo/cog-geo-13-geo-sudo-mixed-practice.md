@@ -42,10 +42,6 @@ There is 1 valid completion of this board. Explain which row or column eliminate
 
 </details>
 
-## Source context
-
-Gamified_Aptitude Final (1).pptx. Gamified_Aptitude Final (1).pptx; slide / round 18.
-
 ---
 
 [← COG-geo-12](cog-geo-12-geo-sudo-12.md) · [Topic index](README.md)

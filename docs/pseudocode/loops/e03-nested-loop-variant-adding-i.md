@@ -33,10 +33,6 @@ Each i is added i times: 1² + 2² + 3² + 4² = 30. This differs from M01, whos
 
 </details>
 
-## Source context
-
-Additional worked examples.
-
 ---
 
 [← E02](e02-loop-sum-warm-up.md) · [Topic index](README.md) · [G06 →](g06-adding-loop-values-to-x.md)

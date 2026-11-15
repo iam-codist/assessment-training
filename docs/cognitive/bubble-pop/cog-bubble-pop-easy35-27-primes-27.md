@@ -44,10 +44,6 @@ Prime numbers have exactly two positive divisors: 1 and themselves. Select every
 
 </details>
 
-## Source context
-
-easy35. bubble-popping-practice-35.html; slide / round 27.
-
 ---
 
 [← COG-bubble-pop-easy35-26](cog-bubble-pop-easy35-26-powers-roots-26.md) · [Topic index](README.md) · [COG-bubble-pop-easy35-28 →](cog-bubble-pop-easy35-28-expressions-28.md)

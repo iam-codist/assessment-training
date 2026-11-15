@@ -18,10 +18,6 @@ Evaluate a binary expression from left to right using AND, OR and XOR.
 
 For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
-## Source context
-
-20-item blog summary.
-
 ---
 
 [← B01](b01-rat-food-distribution.md) · [Topic index](README.md) · [B03 →](b03-password-validation-with-four-character-minimum.md)

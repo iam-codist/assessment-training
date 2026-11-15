@@ -23,10 +23,6 @@ A useful response separates facts from estimates: explain what is complete, what
 
 </details>
 
-## Source context
-
-Original practice.
-
 ---
 
 [Topic index](README.md) · [BE02 →](be02-disagreeing-during-a-code-review.md)

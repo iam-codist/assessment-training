@@ -92,10 +92,6 @@ Read L R a b. Print the sum of numbers divisible by exactly one divisor.
 
 </details>
 
-## Source context
-
-Original practice pack.
-
 ---
 
 [← C03](c03-matching-bit-counts.md) · [Topic index](README.md) · [C09 →](c09-compare-two-numerals.md)
