@@ -56,7 +56,7 @@ for (const cat of categories) sourceRoutes.set(`docs/${cat}/README.md`, category
 for (const topic of topics) sourceRoutes.set(`docs/${topic}/README.md`, `topics/${topic}/`);
 sourceRoutes.set('docs/README.md', 'topics/');
 sourceRoutes.set('README.md', '');
-const guides = [['COVERAGE.md', 'assessment-roadmap', 'All ten areas in your preparation plan'], ['SOLUTIONS.md', 'running-solutions', 'Choose a language. Run an example. Test an edge case.'], ['SQL-PRACTICE.md', 'sql-practice', 'One small dataset for every SQL exercise'], ['STUDY-GUIDE.md', 'study-guide', 'Find your starting point'], ['CONVENTIONS.md', 'conventions', 'Small rules. Fewer mistakes.'], ['KNOWN-GAPS.md', 'known-gaps', 'What is still being reviewed'], ['SOURCES.md', 'sources', 'About this collection']];
+const guides = [['PRINTABLE-PRACTICE.md', 'printable-practice', 'Three assessment practice sets with student handouts and worked solutions'], ['COVERAGE.md', 'assessment-roadmap', 'All ten areas in your preparation plan'], ['SOLUTIONS.md', 'running-solutions', 'Choose a language. Run an example. Test an edge case.'], ['SQL-PRACTICE.md', 'sql-practice', 'One small dataset for every SQL exercise'], ['STUDY-GUIDE.md', 'study-guide', 'Find your starting point'], ['CONVENTIONS.md', 'conventions', 'Small rules. Fewer mistakes.'], ['KNOWN-GAPS.md', 'known-gaps', 'What is still being reviewed'], ['SOURCES.md', 'sources', 'About this collection']];
 for (const [file, route] of guides) sourceRoutes.set(file, `guide/${route}/`);
 const codeSources = new Set();
 
@@ -138,6 +138,7 @@ await cp(path.join(root, 'assets'), path.join(out, 'assets'), { recursive: true 
 await cp(path.join(root, 'solutions'), path.join(out, 'solutions'), { recursive: true });
 await cp(path.join(root, 'cognitive-lab/dist'), path.join(out, 'lab'), { recursive: true });
 await cp(path.join(root, 'practice/sql'), path.join(out, 'practice/sql'), { recursive: true });
+await cp(path.join(root, 'practice/printable'), path.join(out, 'practice/printable'), { recursive: true });
 await writeFile(path.join(out, '.nojekyll'), '');
 
 function labBanner() {
@@ -146,6 +147,7 @@ function labBanner() {
 const home = `<section class="hero"><div><div class="eyebrow"><span></span> YOUR PRACTICE SPACE</div><h1>Small steps.<br/><em>Stronger thinking.</em></h1><p>Explore a topic. Work through a question. Understand the answer. Your next breakthrough starts with a little practice.</p><div class="hero-actions"><a class="button primary" href="${href('topics/')}">Find a topic <span>→</span></a><a class="text-link" href="${href('guide/study-guide/')}">Not sure where to start? ↗</a></div></div><aside class="study-note"><div class="note-heading">A GOOD WAY TO LEARN <span>✳</span></div><ol><li><b>Choose your topic</b><span>Start small. Follow your curiosity.</span></li><li><b>Try it yourself</b><span>A rough trace is a great beginning.</span></li><li><b>Check your thinking</b><span>Open the answer. Learn the why.</span></li></ol><div class="note-footer">Progress comes from understanding.</div></aside></section>
   <div class="stats-strip"><div><b>${catalog.total}</b><span>practice entries</span></div><div><b>${topics.length}</b><span>topics to explore</span></div><div><b>${categories.length}</b><span>library sections</span></div><p>From the first loop<br/>to a clearer solution.</p></div>
   <section class="section"><div class="section-heading"><div><div class="eyebrow">FIND YOUR FOCUS</div><h2>What will you practise today?</h2></div><a class="text-link" href="${href('search/')}">Search the library →</a></div><div class="category-grid">${categories.map(categoryCard).join('')}</div></section>
+  <section class="start-banner"><span class="start-symbol" aria-hidden="true">↗</span><div><h2>Printable practice sets</h2><p>Three sets of 45 MCQs, each with a SQL joins exercise and a frontend exercise.</p></div><a class="button secondary" href="${href('guide/printable-practice/')}">View printable PDFs →</a></section>
   ${labBanner()}
   <section class="start-banner"><span class="start-symbol">↗</span><div><h2>A little structure goes a long way.</h2><p>Follow the study guide from tracing basics to efficient coding patterns.</p></div><a class="button secondary" href="${href('guide/study-guide/')}">Open the study guide →</a></section>
   <p class="library-note">${catalog.statuses.ready} complete exercises, ${catalog.statuses.planned} planned lessons, ${catalog.statuses['needs-review']} puzzles needing review and ${catalog.statuses.outline} outlines. Variants are labelled. <a href="${href('guide/known-gaps/')}">See what is still being reviewed.</a></p>`;
