@@ -1,12 +1,10 @@
 <!-- Generated from content/behavioral/workplace-scenarios/be06-an-unfamiliar-task-and-a-learning-plan.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/behavioral/workplace-scenarios/be06-an-unfamiliar-task-and-a-learning-plan.mdx)
+[Topic index](README.md)
 
-**ID:** BE06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** BE06 · **Practice type:** Worked solution
 
 # An unfamiliar task and a learning plan
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ A credible plan names what you already know and what you must learn. Time-box ex
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

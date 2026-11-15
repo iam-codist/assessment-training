@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/rocket/cog-rocket-9-rocket-route-09.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/rocket/cog-rocket-9-rocket-route-09.mdx)
+[Topic index](README.md)
 
-**ID:** COG-rocket-9 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-rocket-9 · **Practice type:** Worked solution
 
 # Rocket route 09
 
@@ -30,7 +30,7 @@ Connect both sides of every shared edge. A straight tile cannot turn; a corner t
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 9.
+Cognitive Lab practice, round 9.
 
 ---
 

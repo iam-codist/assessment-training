@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/two-pointers/lc125-valid-palindrome.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/two-pointers/lc125-valid-palindrome.mdx)
+[Topic index](README.md)
 
-**ID:** LC125 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC125 · **Practice type:** Worked solution
 
 # Valid Palindrome
 

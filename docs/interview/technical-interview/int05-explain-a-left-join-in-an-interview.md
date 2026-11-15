@@ -1,12 +1,10 @@
 <!-- Generated from content/interview/technical-interview/int05-explain-a-left-join-in-an-interview.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/interview/technical-interview/int05-explain-a-left-join-in-an-interview.mdx)
+[Topic index](README.md)
 
-**ID:** INT05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** INT05 · **Practice type:** Worked solution
 
 # Explain a left join in an interview
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ Use a customer with zero orders as the distinguishing example. If counting order
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

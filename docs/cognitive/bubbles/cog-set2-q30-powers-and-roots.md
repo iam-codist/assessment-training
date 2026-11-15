@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubbles/cog-set2-q30-powers-and-roots.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-set2-q30-powers-and-roots.mdx)
+[Topic index](README.md)
 
-**ID:** COG-set2-q30 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-set2-q30 · **Practice type:** Worked solution
 
 # Powers and Roots
 

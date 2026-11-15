@@ -1,8 +1,8 @@
 <!-- Generated from content/concept-checks/sliding-window/k02-maximum-sum-with-k-equal-to-2.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/concept-checks/sliding-window/k02-maximum-sum-with-k-equal-to-2.mdx)
+[Topic index](README.md)
 
-**ID:** K02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** K02 · **Practice type:** Worked solution
 
 # Maximum sum with K equal to 2
 

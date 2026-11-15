@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubble-pop/cog-bubble-pop-set2-5-negatives-05.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubble-pop/cog-bubble-pop-set2-5-negatives-05.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-pop-set2-5 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-pop-set2-5 · **Practice type:** Worked solution
 
 # Negatives · 05
 

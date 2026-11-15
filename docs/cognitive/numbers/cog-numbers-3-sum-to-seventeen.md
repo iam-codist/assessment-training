@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/numbers/cog-numbers-3-sum-to-seventeen.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/numbers/cog-numbers-3-sum-to-seventeen.mdx)
+[Topic index](README.md)
 
-**ID:** COG-numbers-3 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-numbers-3 · **Practice type:** Worked solution
 
 # Sum to seventeen
 

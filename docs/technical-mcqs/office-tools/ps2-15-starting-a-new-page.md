@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps2-15-starting-a-new-page.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps2-15-starting-a-new-page.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-15 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-15 · **Practice type:** Worked solution
 
 # Starting a new page
 
@@ -34,7 +34,7 @@ A page break starts a new page at a stable document position.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 15.
+Assessment practice set 2, question 15.
 
 ---
 

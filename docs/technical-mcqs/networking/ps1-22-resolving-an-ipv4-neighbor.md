@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps1-22-resolving-an-ipv4-neighbor.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps1-22-resolving-an-ipv4-neighbor.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-22 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-22 · **Practice type:** Worked solution
 
 # Resolving an IPv4 neighbor
 
@@ -34,7 +34,7 @@ ARP maps a local-link IPv4 address to a link-layer address.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 22.
+Assessment practice set 1, question 22.
 
 ---
 

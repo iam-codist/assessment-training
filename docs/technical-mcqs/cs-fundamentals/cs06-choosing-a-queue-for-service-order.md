@@ -1,12 +1,10 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/cs06-choosing-a-queue-for-service-order.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/cs06-choosing-a-queue-for-service-order.mdx)
+[Topic index](README.md)
 
-**ID:** CS06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** CS06 · **Practice type:** Worked solution
 
 # Choosing a queue for service order
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -32,7 +30,7 @@ Enqueue adds to the back and dequeue removes from the front. A stack would serve
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

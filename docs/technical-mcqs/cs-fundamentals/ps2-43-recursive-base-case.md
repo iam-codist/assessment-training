@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps2-43-recursive-base-case.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps2-43-recursive-base-case.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-43 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-43 · **Practice type:** Worked solution
 
 # Recursive base case
 
@@ -34,7 +34,7 @@ The base case returns directly and terminates a chain of calls.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 43.
+Assessment practice set 2, question 43.
 
 ---
 

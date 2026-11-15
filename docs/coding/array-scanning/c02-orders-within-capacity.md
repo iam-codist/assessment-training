@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/array-scanning/c02-orders-within-capacity.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/c02-orders-within-capacity.mdx)
+[Topic index](README.md)
 
-**ID:** C02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C02 · **Practice type:** Worked solution
 
 # Orders within capacity
 

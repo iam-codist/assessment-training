@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubble-pop/cog-bubble-pop-easy35-4-mixed-values-04.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubble-pop/cog-bubble-pop-easy35-4-mixed-values-04.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-pop-easy35-4 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-pop-easy35-4 · **Practice type:** Worked solution
 
 # Mixed values · 04
 

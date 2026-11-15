@@ -1,12 +1,10 @@
 <!-- Generated from content/frontend/css/fe06-specificity-within-the-same-cascade-layer.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/css/fe06-specificity-within-the-same-cascade-layer.mdx)
+[Topic index](README.md)
 
-**ID:** FE06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** FE06 · **Practice type:** Worked solution
 
 # Specificity within the same cascade layer
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -37,7 +35,7 @@ Under the stated origin, importance and layer conditions, the class selector has
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. Reference: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

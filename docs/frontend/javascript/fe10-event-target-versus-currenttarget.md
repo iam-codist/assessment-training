@@ -1,12 +1,10 @@
 <!-- Generated from content/frontend/javascript/fe10-event-target-versus-currenttarget.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/fe10-event-target-versus-currenttarget.mdx)
+[Topic index](README.md)
 
-**ID:** FE10 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** FE10 · **Practice type:** Worked solution
 
 # Event target versus currentTarget
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ A bubbling event can pass through ancestor listeners. currentTarget changes with
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. Reference: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

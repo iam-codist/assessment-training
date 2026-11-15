@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/strings-and-validation/c10-normalize-a-label.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/strings-and-validation/c10-normalize-a-label.mdx)
+[Topic index](README.md)
 
-**ID:** C10 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C10 · **Practice type:** Worked solution
 
 # Normalize a label
 

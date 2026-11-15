@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/t04-excel-filtering.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/t04-excel-filtering.mdx)
+[Topic index](README.md)
 
-**ID:** T04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T04 · **Practice type:** Worked solution
 
 # Excel filtering
 

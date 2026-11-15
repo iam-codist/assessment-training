@@ -1,12 +1,10 @@
 <!-- Generated from content/communication/communication-practice/com06-explain-a-technical-idea-to-a-beginner.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/communication/communication-practice/com06-explain-a-technical-idea-to-a-beginner.mdx)
+[Topic index](README.md)
 
-**ID:** COM06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COM06 · **Practice type:** Worked solution
 
 # Explain a technical idea to a beginner
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ The analogy establishes the order, the operations make it precise and the exampl
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

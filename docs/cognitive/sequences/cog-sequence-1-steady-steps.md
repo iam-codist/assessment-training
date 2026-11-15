@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-1-steady-steps.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-1-steady-steps.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-1 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-1 · **Practice type:** Worked solution
 
 # Steady steps
 
@@ -38,7 +38,7 @@ Add 4 each time: 3, 7, 11, 15, 19.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 1.
+Cognitive Lab practice, round 1.
 
 ---
 

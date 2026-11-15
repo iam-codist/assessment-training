@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/g06-adding-loop-values-to-x.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/g06-adding-loop-values-to-x.mdx)
+[Topic index](README.md)
 
-**ID:** G06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** G06 · **Practice type:** Worked solution
 
 # Adding loop values to x
 

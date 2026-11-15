@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/p14-euclidean-style-updates.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/p14-euclidean-style-updates.mdx)
+[Topic index](README.md)
 
-**ID:** P14 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P14 · **Practice type:** Worked solution
 
 # Euclidean-style updates
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/recursion/p13-small-recursion.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/recursion/p13-small-recursion.mdx)
+[Topic index](README.md)
 
-**ID:** P13 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P13 · **Practice type:** Worked solution
 
 # Small recursion
 

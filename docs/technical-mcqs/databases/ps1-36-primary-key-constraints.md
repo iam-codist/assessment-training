@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps1-36-primary-key-constraints.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps1-36-primary-key-constraints.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-36 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-36 · **Practice type:** Worked solution
 
 # Primary key constraints
 
@@ -34,7 +34,7 @@ A primary key uniquely identifies a row and its columns cannot contain NULL.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 36.
+Assessment practice set 1, question 36.
 
 ---
 

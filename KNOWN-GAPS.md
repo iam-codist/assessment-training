@@ -1,11 +1,9 @@
-# Known gaps and review queue
+# Practise open-ended questions
 
-- **20 reference outlines:** only the short prompts were retained. Full statements, constraints, examples and solutions are pending. See [the outline index](docs/reference-outlines/README.md).
-- **11 visual puzzles:** the supplied images do not include a verified answer key. See [visual discussion puzzles](docs/cognitive/visual/README.md).
-- **Geo-Sudo 06:** the supplied clues have no valid row-and-column completion. Keep it as a contradiction discussion until a corrected source is available.
-- **LC1004 and LC209 historical context:** these appeared in a Day 2 plan. Newly authored worked references now complete the website lessons, but the original detailed classroom discussions were not recovered.
-- **Truncated early pseudocode warm-up:** the third question ended mid-expression. It is recorded here instead of being reconstructed as a solvable question.
+**Problem-planning warm-ups** help you turn a short idea into a solvable coding question. Define the input and output, trace a small example, then sketch an algorithm. Compare your approach with a related worked exercise in the [coding library](docs/coding/README.md).
 
-An initial status of `ready` means a complete prompt and answer/approach are present. It does not assert that every item was taught live or independently reviewed. Report a correction with the question ID and the reasoning that supports it.
+**Visual reasoning practice** helps you explain why a pattern fits. Write down a rule, check it against every shape and see whether a second rule also works. These activities are unscored.
 
-[Return to topics](docs/README.md)
+**Geo-Sudo 06** is a contradiction exercise. Follow the clues until two of them conflict, then explain why no placement satisfies both.
+
+[Browse all topics](docs/README.md) · [Suggested study order](STUDY-GUIDE.md)

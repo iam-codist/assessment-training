@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubbles/cog-bubble-extra-6-close-decimals.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-bubble-extra-6-close-decimals.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-extra-6 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-extra-6 · **Practice type:** Worked solution
 
 # Close decimals
 

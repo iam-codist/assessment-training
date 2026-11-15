@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/bitwise/m08-bitwise-left-and-right-shift.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/m08-bitwise-left-and-right-shift.mdx)
+[Topic index](README.md)
 
-**ID:** M08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M08 · **Practice type:** Worked solution
 
 # Bitwise Left and Right Shift
 

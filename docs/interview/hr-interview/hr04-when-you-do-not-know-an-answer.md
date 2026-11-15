@@ -1,12 +1,10 @@
 <!-- Generated from content/interview/hr-interview/hr04-when-you-do-not-know-an-answer.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/interview/hr-interview/hr04-when-you-do-not-know-an-answer.mdx)
+[Topic index](README.md)
 
-**ID:** HR04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** HR04 · **Practice type:** Worked solution
 
 # When you do not know an answer
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ For a problem-solving question, ask whether you may work through it aloud. Disti
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

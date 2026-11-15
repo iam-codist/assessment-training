@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/t21-managed-application-platforms.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/t21-managed-application-platforms.mdx)
+[Topic index](README.md)
 
-**ID:** T21 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T21 · **Practice type:** Worked solution
 
 # Managed application platforms
 

@@ -1,12 +1,10 @@
 <!-- Generated from content/interview/hr-interview/hr03-a-conflict-using-star.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/interview/hr-interview/hr03-a-conflict-using-star.mdx)
+[Topic index](README.md)
 
-**ID:** HR03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** HR03 · **Practice type:** Worked solution
 
 # A conflict using STAR
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ Use a real event from study, volunteering or work. Spend most of the time on you
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

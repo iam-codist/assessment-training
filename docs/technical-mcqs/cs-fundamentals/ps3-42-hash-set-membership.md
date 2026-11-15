@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps3-42-hash-set-membership.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps3-42-hash-set-membership.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-42 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-42 · **Practice type:** Worked solution
 
 # Hash set membership
 
@@ -34,7 +34,7 @@ A hash set stores unique elements and normally supports fast membership tests.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 42.
+Assessment practice set 3, question 42.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/strings-and-validation/d04-password-validation.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/strings-and-validation/d04-password-validation.mdx)
+[Topic index](README.md)
 
-**ID:** D04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** D04 · **Practice type:** Worked solution
 
 # Password Validation
 
@@ -43,7 +43,7 @@ Check structural rules, then scan with uppercase and digit flags. O(n) time.
 
 These standalone programs use the same input and output contract. Choose a language on the website, or open a source file below.
 
-Read one ASCII password line. Apply the classroom rule (at least 7 characters); print 1 or 0.
+Read one ASCII password line. Apply the rules above, including the minimum of seven characters; print 1 or 0.
 
 **Sample program input**
 

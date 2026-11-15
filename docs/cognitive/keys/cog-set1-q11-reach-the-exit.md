@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/keys/cog-set1-q11-reach-the-exit.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/keys/cog-set1-q11-reach-the-exit.mdx)
+[Topic index](README.md)
 
-**ID:** COG-set1-q11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-set1-q11 · **Practice type:** Worked solution
 
 # Reach the Exit
 

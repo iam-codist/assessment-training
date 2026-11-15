@@ -1,16 +1,16 @@
 <!-- Generated from content/cognitive/visual/cog-visual-2-square-sequence.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/visual/cog-visual-2-square-sequence.mdx)
+[Topic index](README.md)
 
-**ID:** COG-visual-2 · **Status:** needs-review · **Updated:** 2026-11-15
+**ID:** COG-visual-2 · **Practice type:** Reasoning practice
 
 # Square sequence
 
-> **Review needed** — Use for discussion; do not score this as a verified exercise.
+> **Reasoning practice** · Write down the clues behind your answer before comparing possible rules.
 
 ## Question
 
-Invite everyone to propose an answer and explain the rule. Compare approaches before the trainer closes the discussion.
+Sketch a possible answer and explain your rule. Check whether the rule also fits the earlier shapes.
 
 ![Square sequence — original puzzle image](../../../assets/puzzles/gamified-3.png)
 
@@ -19,11 +19,11 @@ Invite everyone to propose an answer and explain the rule. Compare approaches be
 
 ## Answer
 
-Awaiting a verified answer key.
+Use this as an open-ended reasoning exercise. Try to find a rule that fits every visible clue.
 
 ## Explanation
 
-This image-only source provides no verified answer key. Record the class reasoning and use trainer review. This round is excluded from automatic accuracy.
+Write down a rule that fits the visible pattern. Check it against each shape, then look for a second rule that could also fit. This is an unscored exercise.
 
 </details>
 

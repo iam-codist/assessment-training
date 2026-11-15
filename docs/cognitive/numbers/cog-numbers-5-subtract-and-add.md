@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/numbers/cog-numbers-5-subtract-and-add.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/numbers/cog-numbers-5-subtract-and-add.mdx)
+[Topic index](README.md)
 
-**ID:** COG-numbers-5 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-numbers-5 · **Practice type:** Worked solution
 
 # Subtract and add
 

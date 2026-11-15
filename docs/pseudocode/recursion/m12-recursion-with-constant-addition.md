@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/recursion/m12-recursion-with-constant-addition.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/recursion/m12-recursion-with-constant-addition.mdx)
+[Topic index](README.md)
 
-**ID:** M12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M12 · **Practice type:** Worked solution
 
 # Recursion with Constant Addition
 

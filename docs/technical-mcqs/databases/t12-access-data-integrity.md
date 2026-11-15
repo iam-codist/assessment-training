@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/t12-access-data-integrity.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/t12-access-data-integrity.mdx)
+[Topic index](README.md)
 
-**ID:** T12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T12 · **Practice type:** Worked solution
 
 # Access data integrity
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/sql/joins/ps3-46-passing-course-enrollments.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/sql/joins/ps3-46-passing-course-enrollments.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-46 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-46 · **Practice type:** Worked solution
 
 # Passing course enrollments
 
@@ -59,7 +59,7 @@ Enrollments connect students to courses by ID. The two joins attach the names an
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 46.
+Assessment practice set 3, question 46.
 
 ---
 

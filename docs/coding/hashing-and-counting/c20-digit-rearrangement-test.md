@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/hashing-and-counting/c20-digit-rearrangement-test.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/hashing-and-counting/c20-digit-rearrangement-test.mdx)
+[Topic index](README.md)
 
-**ID:** C20 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C20 · **Practice type:** Worked solution
 
 # Digit rearrangement test
 

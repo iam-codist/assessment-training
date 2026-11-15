@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/g02-categorical-summaries.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/g02-categorical-summaries.mdx)
+[Topic index](README.md)
 
-**ID:** G02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** G02 · **Practice type:** Worked solution
 
 # Categorical summaries
 

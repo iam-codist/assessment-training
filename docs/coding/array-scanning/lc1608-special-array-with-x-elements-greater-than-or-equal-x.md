@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/array-scanning/lc1608-special-array-with-x-elements-greater-than-or-equal-x.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/lc1608-special-array-with-x-elements-greater-than-or-equal-x.mdx)
+[Topic index](README.md)
 
-**ID:** LC1608 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC1608 · **Practice type:** Worked solution
 
 # Special Array With X Elements Greater Than or Equal X
 

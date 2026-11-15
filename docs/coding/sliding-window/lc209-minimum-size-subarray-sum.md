@@ -1,12 +1,10 @@
 <!-- Generated from content/coding/sliding-window/lc209-minimum-size-subarray-sum.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/sliding-window/lc209-minimum-size-subarray-sum.mdx)
+[Topic index](README.md)
 
-**ID:** LC209 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC209 · **Practice type:** Worked solution
 
 # Minimum Size Subarray Sum
-
-> **New worked reference** — The original teaching plan listed this problem. The runnable solutions and worked example were added for this website update; they are not recovered classroom transcripts.
 
 ## Question
 
@@ -14,7 +12,7 @@ Given a positive target and an array of positive integers, return the shortest c
 
 ## Notes
 
-Originally listed in the Day 2 plan. The implementation and dry run below are newly authored practice.
+Trace the window with two pointers. Once its sum reaches the target, move the left pointer to see whether a shorter window still qualifies.
 
 <details>
 <summary>Show answer and explanation</summary>

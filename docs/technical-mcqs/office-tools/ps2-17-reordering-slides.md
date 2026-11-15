@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps2-17-reordering-slides.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps2-17-reordering-slides.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-17 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-17 · **Practice type:** Worked solution
 
 # Reordering slides
 
@@ -34,7 +34,7 @@ Slide Sorter presents multiple slide thumbnails for reordering.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 17.
+Assessment practice set 2, question 17.
 
 ---
 

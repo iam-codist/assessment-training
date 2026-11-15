@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps1-21-automatic-address-leases.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps1-21-automatic-address-leases.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-21 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-21 · **Practice type:** Worked solution
 
 # Automatic address leases
 
@@ -34,7 +34,7 @@ DHCP can supply the client address, subnet mask, default gateway, and other opti
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 21.
+Assessment practice set 1, question 21.
 
 ---
 

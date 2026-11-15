@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/ps2-32-https-transport-protection.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/ps2-32-https-transport-protection.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-32 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-32 · **Practice type:** Worked solution
 
 # HTTPS transport protection
 
@@ -34,7 +34,7 @@ TLS encrypts traffic and authenticates the server when certificate validation su
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 32.
+Assessment practice set 2, question 32.
 
 ---
 

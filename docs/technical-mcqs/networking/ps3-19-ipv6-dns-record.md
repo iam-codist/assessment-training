@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps3-19-ipv6-dns-record.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps3-19-ipv6-dns-record.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-19 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-19 · **Practice type:** Worked solution
 
 # IPv6 DNS record
 
@@ -34,7 +34,7 @@ AAAA stores IPv6 addresses. A stores IPv4 addresses.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 19.
+Assessment practice set 3, question 19.
 
 ---
 

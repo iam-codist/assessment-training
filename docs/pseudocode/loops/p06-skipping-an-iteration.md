@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/p06-skipping-an-iteration.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/p06-skipping-an-iteration.mdx)
+[Topic index](README.md)
 
-**ID:** P06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P06 · **Practice type:** Worked solution
 
 # Skipping an iteration
 

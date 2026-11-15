@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/ps1-33-password-storage.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/ps1-33-password-storage.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-33 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-33 · **Practice type:** Worked solution
 
 # Password storage
 
@@ -34,7 +34,7 @@ Argon2id is designed for password hashing. A unique salt prevents equal password
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 33.
+Assessment practice set 1, question 33.
 
 ---
 

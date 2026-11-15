@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/strings-and-validation/c12-circular-letter-shift.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/strings-and-validation/c12-circular-letter-shift.mdx)
+[Topic index](README.md)
 
-**ID:** C12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C12 · **Practice type:** Worked solution
 
 # Circular letter shift
 

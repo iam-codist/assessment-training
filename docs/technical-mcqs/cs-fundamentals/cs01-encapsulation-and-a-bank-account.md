@@ -1,12 +1,10 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/cs01-encapsulation-and-a-bank-account.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/cs01-encapsulation-and-a-bank-account.mdx)
+[Topic index](README.md)
 
-**ID:** CS01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** CS01 · **Practice type:** Worked solution
 
 # Encapsulation and a bank account
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -32,7 +30,7 @@ The class controls how its state changes and protects its invariant, such as rej
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

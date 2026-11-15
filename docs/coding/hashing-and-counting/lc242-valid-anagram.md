@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/hashing-and-counting/lc242-valid-anagram.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/hashing-and-counting/lc242-valid-anagram.mdx)
+[Topic index](README.md)
 
-**ID:** LC242 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC242 · **Practice type:** Worked solution
 
 # Valid Anagram
 

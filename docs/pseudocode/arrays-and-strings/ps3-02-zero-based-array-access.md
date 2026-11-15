@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/ps3-02-zero-based-array-access.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/ps3-02-zero-based-array-access.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-02 · **Practice type:** Worked solution
 
 # Zero-based array access
 
@@ -34,7 +34,7 @@ Zero-based indices 1 and 3 hold 3 and 7.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 2.
+Assessment practice set 3, question 2.
 
 ---
 

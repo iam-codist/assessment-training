@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-9-halving-ladder.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-9-halving-ladder.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-9 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-9 · **Practice type:** Worked solution
 
 # Halving ladder
 
@@ -38,7 +38,7 @@ Divide by 2 each time. 24 ÷ 2 = 12 and 12 ÷ 2 = 6.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 9.
+Cognitive Lab practice, round 9.
 
 ---
 

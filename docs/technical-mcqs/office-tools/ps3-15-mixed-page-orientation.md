@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps3-15-mixed-page-orientation.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps3-15-mixed-page-orientation.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-15 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-15 · **Practice type:** Worked solution
 
 # Mixed page orientation
 
@@ -34,7 +34,7 @@ Sections can have independent page setup settings such as orientation.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 15.
+Assessment practice set 3, question 15.
 
 ---
 

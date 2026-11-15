@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps2-45-java-interface-contract.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps2-45-java-interface-contract.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-45 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-45 · **Practice type:** Worked solution
 
 # Java interface contract
 
@@ -34,7 +34,7 @@ An interface provides a shared contract that unrelated classes can implement.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 45.
+Assessment practice set 2, question 45.
 
 ---
 

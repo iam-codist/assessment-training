@@ -1,8 +1,8 @@
 <!-- Generated from content/concept-checks/sliding-window/k03-fixed-window-size.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/concept-checks/sliding-window/k03-fixed-window-size.mdx)
+[Topic index](README.md)
 
-**ID:** K03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** K03 · **Practice type:** Worked solution
 
 # Fixed window size
 

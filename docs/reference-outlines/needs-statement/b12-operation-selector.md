@@ -1,27 +1,22 @@
 <!-- Generated from content/reference-outlines/needs-statement/b12-operation-selector.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/reference-outlines/needs-statement/b12-operation-selector.mdx)
+[Topic index](README.md)
 
-**ID:** B12 · **Status:** outline · **Updated:** 2026-11-15
+**ID:** B12 · **Practice type:** Planning prompt
 
 # Operation selector
-
-> **Outline only** — The original discussion contained only a brief prompt. A complete statement, constraints, examples and solution still need to be added.
 
 ## Question
 
 Perform addition, subtraction, multiplication or division based on an operation selector.
 
-## Notes
+## Practice steps
 
-Only the brief outline was retained in the chat. Full constraints, tie rules and samples are not supplied here. The C01–C20 practice pack contains separately authored exercises, not these exact blog questions.
+1. Write down the input, output and any assumptions your solution needs.
+2. Make a small example and trace the expected result by hand.
+3. Sketch an approach and test one edge case. Explain the time and space it uses.
 
-## Completion checklist
-
-- Define precise input, output and constraints.
-- Add examples and edge cases.
-- Write the algorithm, explanation and complexity.
-- Review the answer before changing the status to `ready`.
+For worked examples, visit the [coding practice library](../../../docs/coding/README.md).
 
 ## Source context
 

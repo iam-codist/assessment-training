@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/t03-excel-counting.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/t03-excel-counting.mdx)
+[Topic index](README.md)
 
-**ID:** T03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T03 · **Practice type:** Worked solution
 
 # Excel counting
 

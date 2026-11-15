@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps3-31-private-bucket-policy.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps3-31-private-bucket-policy.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-31 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-31 · **Practice type:** Worked solution
 
 # Private bucket policy
 
@@ -34,7 +34,7 @@ An access policy limits which identities can perform which operations.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 31.
+Assessment practice set 3, question 31.
 
 ---
 

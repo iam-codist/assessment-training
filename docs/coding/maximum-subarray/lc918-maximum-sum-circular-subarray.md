@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/maximum-subarray/lc918-maximum-sum-circular-subarray.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/maximum-subarray/lc918-maximum-sum-circular-subarray.mdx)
+[Topic index](README.md)
 
-**ID:** LC918 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC918 · **Practice type:** Worked solution
 
 # Maximum Sum Circular Subarray
 

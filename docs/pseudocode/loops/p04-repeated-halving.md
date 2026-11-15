@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/p04-repeated-halving.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/p04-repeated-halving.mdx)
+[Topic index](README.md)
 
-**ID:** P04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P04 · **Practice type:** Worked solution
 
 # Repeated halving
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps1-39-counting-non-null-values.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps1-39-counting-non-null-values.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-39 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-39 · **Practice type:** Worked solution
 
 # Counting non-null values
 
@@ -34,7 +34,7 @@ COUNT(column) counts non-NULL values. COUNT(\*) would count all four rows.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 39.
+Assessment practice set 1, question 39.
 
 ---
 

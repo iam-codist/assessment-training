@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/strings-and-validation/c04-registration-identifier-check.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/strings-and-validation/c04-registration-identifier-check.mdx)
+[Topic index](README.md)
 
-**ID:** C04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C04 · **Practice type:** Worked solution
 
 # Registration identifier check
 

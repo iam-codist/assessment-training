@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps1-38-filtering-grouped-counts.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps1-38-filtering-grouped-counts.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-38 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-38 · **Practice type:** Worked solution
 
 # Filtering grouped counts
 
@@ -34,7 +34,7 @@ HAVING filters groups after aggregation. WHERE filters individual rows before gr
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 38.
+Assessment practice set 1, question 38.
 
 ---
 

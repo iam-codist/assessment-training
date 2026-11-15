@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps2-25-process-memory-isolation.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps2-25-process-memory-isolation.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-25 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-25 · **Practice type:** Worked solution
 
 # Process memory isolation
 
@@ -34,7 +34,7 @@ Page mappings and permissions restrict access to another process's memory.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 25.
+Assessment practice set 2, question 25.
 
 ---
 

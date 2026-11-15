@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/array-scanning/c16-row-with-the-greatest-total.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/c16-row-with-the-greatest-total.mdx)
+[Topic index](README.md)
 
-**ID:** C16 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C16 · **Practice type:** Worked solution
 
 # Row with the greatest total
 

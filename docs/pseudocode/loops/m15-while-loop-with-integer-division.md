@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/m15-while-loop-with-integer-division.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/m15-while-loop-with-integer-division.mdx)
+[Topic index](README.md)
 
-**ID:** M15 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M15 · **Practice type:** Worked solution
 
 # WHILE Loop with Integer Division
 

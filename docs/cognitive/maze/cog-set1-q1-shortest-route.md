@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/maze/cog-set1-q1-shortest-route.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/maze/cog-set1-q1-shortest-route.mdx)
+[Topic index](README.md)
 
-**ID:** COG-set1-q1 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-set1-q1 · **Practice type:** Worked solution
 
 # Shortest Route
 

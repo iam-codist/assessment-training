@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps1-01-loop-accumulation.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps1-01-loop-accumulation.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-01 · **Practice type:** Worked solution
 
 # Loop accumulation
 
@@ -34,7 +34,7 @@ The loop adds 1, 2, and 3 to the starting value 2.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 1.
+Assessment practice set 1, question 1.
 
 ---
 

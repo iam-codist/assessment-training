@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps3-18-physical-signal-regeneration.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps3-18-physical-signal-regeneration.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-18 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-18 · **Practice type:** Worked solution
 
 # Physical signal regeneration
 
@@ -34,7 +34,7 @@ A repeater operates at the physical layer to extend the signal.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 18.
+Assessment practice set 3, question 18.
 
 ---
 

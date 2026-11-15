@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubbles/cog-bubble-extra-2-order-of-operations.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-bubble-extra-2-order-of-operations.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-extra-2 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-extra-2 · **Practice type:** Worked solution
 
 # Order of operations
 

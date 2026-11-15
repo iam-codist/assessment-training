@@ -1,12 +1,12 @@
 <!-- Generated from content/cognitive/geo/cog-geo-6-geo-sudo-06.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/geo/cog-geo-6-geo-sudo-06.mdx)
+[Topic index](README.md)
 
-**ID:** COG-geo-6 · **Status:** needs-review · **Updated:** 2026-11-15
+**ID:** COG-geo-6 · **Practice type:** Reasoning practice
 
 # Geo-Sudo 06
 
-> **Review needed** — Use for discussion; do not score this as a verified exercise.
+> **Reasoning practice** · Write down the clues behind your answer before comparing possible rules.
 
 ## Question
 
@@ -39,7 +39,7 @@ No valid completion.
 
 ## Explanation
 
-The supplied clues are inconsistent: no grid can satisfy all the rows and columns. Use this source puzzle to discuss the contradiction. It is excluded from automatic scoring.
+No grid can satisfy all the clues. Trace the forced choices until two clues conflict, then explain where the contradiction occurs.
 There are 0 valid completions of this board. Explain which row or column eliminates each alternative.
 
 </details>

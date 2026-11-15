@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/bitwise/p11-bitwise-operations.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/p11-bitwise-operations.mdx)
+[Topic index](README.md)
 
-**ID:** P11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P11 · **Practice type:** Worked solution
 
 # Bitwise operations
 

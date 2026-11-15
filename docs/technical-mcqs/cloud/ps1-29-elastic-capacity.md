@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps1-29-elastic-capacity.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps1-29-elastic-capacity.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-29 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-29 · **Practice type:** Worked solution
 
 # Elastic capacity
 
@@ -34,7 +34,7 @@ Elasticity is the ability to adjust provisioned resources as demand changes.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 29.
+Assessment practice set 1, question 29.
 
 ---
 

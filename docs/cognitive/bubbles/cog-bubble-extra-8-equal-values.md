@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubbles/cog-bubble-extra-8-equal-values.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-bubble-extra-8-equal-values.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-extra-8 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-extra-8 · **Practice type:** Worked solution
 
 # Equal values
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/concept-checks/hashing-and-counting/k07-repeated-letters-in-an-anagram.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/concept-checks/hashing-and-counting/k07-repeated-letters-in-an-anagram.mdx)
+[Topic index](README.md)
 
-**ID:** K07 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** K07 · **Practice type:** Worked solution
 
 # Repeated letters in an anagram
 

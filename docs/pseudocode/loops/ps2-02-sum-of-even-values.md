@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps2-02-sum-of-even-values.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps2-02-sum-of-even-values.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-02 · **Practice type:** Worked solution
 
 # Sum of even values
 
@@ -34,7 +34,7 @@ Only 2, 4, and 6 are added.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 2.
+Assessment practice set 2, question 2.
 
 ---
 

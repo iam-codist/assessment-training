@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/simulation-and-greedy/c08-three-item-shopping-budget.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/simulation-and-greedy/c08-three-item-shopping-budget.mdx)
+[Topic index](README.md)
 
-**ID:** C08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C08 · **Practice type:** Worked solution
 
 # Three-item shopping budget
 

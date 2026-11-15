@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps2-05-rectangular-nested-loop.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps2-05-rectangular-nested-loop.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-05 · **Practice type:** Worked solution
 
 # Rectangular nested loop
 
@@ -34,7 +34,7 @@ Three outer iterations each run two inner iterations.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 5.
+Assessment practice set 2, question 5.
 
 ---
 

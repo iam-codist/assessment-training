@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/t05-excel-formatting.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/t05-excel-formatting.mdx)
+[Topic index](README.md)
 
-**ID:** T05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T05 · **Practice type:** Worked solution
 
 # Excel formatting
 

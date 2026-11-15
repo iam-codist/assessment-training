@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/m11-nested-loops-with-a-condition.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/m11-nested-loops-with-a-condition.mdx)
+[Topic index](README.md)
 
-**ID:** M11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M11 · **Practice type:** Worked solution
 
 # Nested Loops with a Condition
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps2-38-testing-for-sql-null.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps2-38-testing-for-sql-null.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-38 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-38 · **Practice type:** Worked solution
 
 # Testing for SQL NULL
 
@@ -34,7 +34,7 @@ IS NULL tests for a missing SQL value.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 38.
+Assessment practice set 2, question 38.
 
 ---
 

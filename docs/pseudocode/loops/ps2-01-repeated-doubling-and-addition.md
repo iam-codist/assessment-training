@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps2-01-repeated-doubling-and-addition.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps2-01-repeated-doubling-and-addition.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-01 · **Practice type:** Worked solution
 
 # Repeated doubling and addition
 
@@ -34,7 +34,7 @@ Each update gives 3, 7, 15, then 31.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 1.
+Assessment practice set 2, question 1.
 
 ---
 

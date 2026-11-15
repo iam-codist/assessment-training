@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/t16-transport-protocols.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/t16-transport-protocols.mdx)
+[Topic index](README.md)
 
-**ID:** T16 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T16 · **Practice type:** Worked solution
 
 # Transport protocols
 

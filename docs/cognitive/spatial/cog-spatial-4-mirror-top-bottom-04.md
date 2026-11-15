@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/spatial/cog-spatial-4-mirror-top-bottom-04.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/spatial/cog-spatial-4-mirror-top-bottom-04.mdx)
+[Topic index](README.md)
 
-**ID:** COG-spatial-4 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-spatial-4 · **Practice type:** Worked solution
 
 # Mirror top ↔ bottom · 04
 
@@ -78,7 +78,7 @@ Track a distinctive corner or notch, then compare the whole shape.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 4.
+Cognitive Lab practice, round 4.
 
 ---
 

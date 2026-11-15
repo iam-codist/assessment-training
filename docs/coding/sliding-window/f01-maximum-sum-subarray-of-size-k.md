@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/sliding-window/f01-maximum-sum-subarray-of-size-k.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/sliding-window/f01-maximum-sum-subarray-of-size-k.mdx)
+[Topic index](README.md)
 
-**ID:** F01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** F01 · **Practice type:** Worked solution
 
 # Maximum Sum Subarray of Size K
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubble-pop/cog-bubble-pop-set2-24-mixed-values-24.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubble-pop/cog-bubble-pop-set2-24-mixed-values-24.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-pop-set2-24 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-pop-set2-24 · **Practice type:** Worked solution
 
 # Mixed values · 24
 

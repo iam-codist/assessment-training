@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/bitwise/m17-bitwise-and-or.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/m17-bitwise-and-or.mdx)
+[Topic index](README.md)
 
-**ID:** M17 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M17 · **Practice type:** Worked solution
 
 # Bitwise AND + OR
 

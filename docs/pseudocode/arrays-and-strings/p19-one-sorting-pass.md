@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/p19-one-sorting-pass.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/p19-one-sorting-pass.mdx)
+[Topic index](README.md)
 
-**ID:** P19 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P19 · **Practice type:** Worked solution
 
 # One sorting pass
 

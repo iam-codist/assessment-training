@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/ps3-35-security-patching.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/ps3-35-security-patching.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-35 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-35 · **Practice type:** Worked solution
 
 # Security patching
 
@@ -34,7 +34,7 @@ Patches correct known defects, including security vulnerabilities.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 35.
+Assessment practice set 3, question 35.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps2-19-switch-forwarding.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps2-19-switch-forwarding.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-19 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-19 · **Practice type:** Worked solution
 
 # Switch forwarding
 
@@ -34,7 +34,7 @@ The switch looks up the destination MAC in its forwarding table.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 19.
+Assessment practice set 2, question 19.
 
 ---
 

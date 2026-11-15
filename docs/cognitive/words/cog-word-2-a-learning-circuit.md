@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/words/cog-word-2-a-learning-circuit.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/words/cog-word-2-a-learning-circuit.mdx)
+[Topic index](README.md)
 
-**ID:** COG-word-2 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-word-2 · **Practice type:** Worked solution
 
 # A learning circuit
 

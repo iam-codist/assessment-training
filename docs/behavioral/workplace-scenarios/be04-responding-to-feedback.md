@@ -1,16 +1,14 @@
 <!-- Generated from content/behavioral/workplace-scenarios/be04-responding-to-feedback.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/behavioral/workplace-scenarios/be04-responding-to-feedback.mdx)
+[Topic index](README.md)
 
-**ID:** BE04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** BE04 · **Practice type:** Worked solution
 
 # Responding to feedback
 
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
-
 ## Question
 
-A trainer says your solutions work but your explanations are hard to follow. How would you respond?
+A classmate can run your solution and has trouble following your explanation. How would you respond?
 
 <details>
 <summary>Show answer and explanation</summary>
@@ -27,7 +25,7 @@ Turn broad feedback into observable behavior. Explain input, approach, one examp
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

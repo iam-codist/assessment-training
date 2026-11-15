@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-2-triple-trail.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-2-triple-trail.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-2 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-2 · **Practice type:** Worked solution
 
 # Triple trail
 
@@ -38,7 +38,7 @@ Multiply each term by 3. After 18 comes 54, then 162.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 2.
+Cognitive Lab practice, round 2.
 
 ---
 

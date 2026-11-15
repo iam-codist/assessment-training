@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps2-18-tcp-destination-port.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps2-18-tcp-destination-port.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-18 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-18 · **Practice type:** Worked solution
 
 # TCP destination port
 
@@ -34,7 +34,7 @@ The destination port identifies the receiving transport endpoint.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 18.
+Assessment practice set 2, question 18.
 
 ---
 

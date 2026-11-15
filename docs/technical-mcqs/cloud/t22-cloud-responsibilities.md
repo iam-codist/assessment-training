@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/t22-cloud-responsibilities.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/t22-cloud-responsibilities.mdx)
+[Topic index](README.md)
 
-**ID:** T22 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T22 · **Practice type:** Worked solution
 
 # Cloud responsibilities
 

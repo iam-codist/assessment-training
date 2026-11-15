@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/recursion/ps1-07-recursive-sum.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/recursion/ps1-07-recursive-sum.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-07 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-07 · **Practice type:** Worked solution
 
 # Recursive sum
 
@@ -34,7 +34,7 @@ Expand the calls to 4 + 3 + 2 + 1 + 0 = 10.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 7.
+Assessment practice set 1, question 7.
 
 ---
 

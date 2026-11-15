@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/p08-array-updates.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/p08-array-updates.mdx)
+[Topic index](README.md)
 
-**ID:** P08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P08 · **Practice type:** Worked solution
 
 # Array updates
 

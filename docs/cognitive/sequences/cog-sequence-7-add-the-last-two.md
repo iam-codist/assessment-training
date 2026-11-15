@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-7-add-the-last-two.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-7-add-the-last-two.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-7 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-7 · **Practice type:** Worked solution
 
 # Add the last two
 
@@ -38,7 +38,7 @@ Each term is the sum of the previous two. 5 + 8 = 13; 8 + 13 = 21.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 7.
+Cognitive Lab practice, round 7.
 
 ---
 

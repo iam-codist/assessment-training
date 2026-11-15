@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/t17-encrypted-connections.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/t17-encrypted-connections.mdx)
+[Topic index](README.md)
 
-**ID:** T17 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T17 · **Practice type:** Worked solution
 
 # Encrypted connections
 

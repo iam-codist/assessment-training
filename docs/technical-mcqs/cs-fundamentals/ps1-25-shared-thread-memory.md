@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps1-25-shared-thread-memory.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps1-25-shared-thread-memory.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-25 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-25 · **Practice type:** Worked solution
 
 # Shared thread memory
 
@@ -34,7 +34,7 @@ Threads share the process address space, including its heap. Each has its own ex
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 25.
+Assessment practice set 1, question 25.
 
 ---
 

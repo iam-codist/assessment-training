@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/bitwise/p12-bit-shifting.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/p12-bit-shifting.mdx)
+[Topic index](README.md)
 
-**ID:** P12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P12 · **Practice type:** Worked solution
 
 # Bit shifting
 

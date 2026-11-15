@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/recursion/ps3-06-recursive-factorial.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/recursion/ps3-06-recursive-factorial.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-06 · **Practice type:** Worked solution
 
 # Recursive factorial
 
@@ -34,7 +34,7 @@ The product is 4 times 3 times 2 times 1.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 6.
+Assessment practice set 3, question 6.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps1-24-demand-paging.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps1-24-demand-paging.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-24 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-24 · **Practice type:** Worked solution
 
 # Demand paging
 
@@ -34,7 +34,7 @@ The OS handles the fault, brings the page into memory, and can resume the instru
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 24.
+Assessment practice set 1, question 24.
 
 ---
 

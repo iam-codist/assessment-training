@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps3-28-software-as-a-service.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps3-28-software-as-a-service.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-28 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-28 · **Practice type:** Worked solution
 
 # Software as a service
 
@@ -34,7 +34,7 @@ SaaS delivers a ready-to-use managed application.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 28.
+Assessment practice set 3, question 28.
 
 ---
 

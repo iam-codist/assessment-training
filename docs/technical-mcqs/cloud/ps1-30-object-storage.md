@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps1-30-object-storage.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps1-30-object-storage.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-30 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-30 · **Practice type:** Worked solution
 
 # Object storage
 
@@ -34,7 +34,7 @@ Object storage stores each file as an object retrievable by a key.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 30.
+Assessment practice set 1, question 30.
 
 ---
 

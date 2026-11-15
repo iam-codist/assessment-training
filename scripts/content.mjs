@@ -10,6 +10,7 @@ const mode = process.argv[2];
 if (!['sync', 'check'].includes(mode)) throw new Error('Use: node scripts/content.mjs sync|check');
 const labels = JSON.parse(await readFile(path.join(root, 'scripts/labels.json'), 'utf8'));
 const label = key => labels[key] ?? key.split('-').map(s => s[0].toUpperCase() + s.slice(1)).join(' ');
+const studentStatus = { ready: 'Worked solution', planned: 'Guided practice', 'needs-review': 'Reasoning practice', outline: 'Planning prompt' };
 const statuses = ['ready', 'planned', 'needs-review', 'outline'];
 const categoryOrder = ['technical-mcqs', 'pseudocode', 'coding', 'concept-checks', 'sql', 'frontend', 'cognitive', 'behavioral', 'communication', 'interview', 'reference-outlines'];
 const collator = new Intl.Collator('en', { numeric: true });
@@ -57,7 +58,7 @@ for (const file of (await files('content')).filter(f => f.endsWith('.mdx'))) {
   if (!file.startsWith(`content/${meta.category}/${meta.topic}/`)) throw new Error(`${file}: folder and metadata disagree`);
   if (!path.basename(file).startsWith(meta.id.toLowerCase() + '-')) throw new Error(`${file}: filename must start with the stable ID`);
   if (/\/Users\/|codex:\/\/|chatgpt\.com\/c\/|gh[pousr]_[a-zA-Z0-9]{20,}|sk-proj-[a-zA-Z0-9]{20,}/.test(raw)) throw new Error(`${file}: private source or credential-like text`);
-  for (const heading of ['Question', ...(meta.status === 'outline' ? ['Completion checklist'] : ['Answer', 'Explanation'])]) {
+  for (const heading of ['Question', ...(meta.status === 'outline' ? ['Practice steps'] : ['Answer', 'Explanation'])]) {
     if (!body.includes(`## ${heading}\n`)) throw new Error(`${file}: missing ${heading} section`);
   }
   const links = [];
@@ -88,13 +89,12 @@ for (const topic of topics) {
   for (let i = 0; i < group.length; i++) {
     const e = group[i];
     const previous = group[i - 1]; const next = group[i + 1];
-    const source = path.posix.relative(path.posix.dirname(e.readPath), e.file);
-    const header = `<!-- Generated from ${e.file}. Edit the MDX source. -->\n\n[Topic index](README.md) · [Edit MDX](${source})\n\n**ID:** ${e.id} · **Status:** ${e.status} · **Updated:** ${e.updated}\n\n`;
+    const header = `<!-- Generated from ${e.file}. Edit the MDX source. -->\n\n[Topic index](README.md)\n\n**ID:** ${e.id} · **Practice type:** ${studentStatus[e.status]}\n\n`;
     const footer = '\n---\n\n' + [previous && `[← ${previous.id}](${path.posix.basename(previous.readPath)})`, '[Topic index](README.md)', next && `[${next.id} →](${path.posix.basename(next.readPath)})`].filter(Boolean).join(' · ') + '\n';
     const body = e.body.replace(/(\]\([^\s)]*)\.mdx(?=[)#])/g, '$1.md');
     outputs.set(e.readPath, header + body + footer);
   }
-  outputs.set(`docs/${topic}/README.md`, `# ${label(group[0].topic)}\n\n${group.length} entries. Try each question before opening its answer panel.\n\n` + table(['ID', 'Question', 'Status'], group.map(e => [e.id, `[${e.title}](${path.posix.basename(e.readPath)})`, e.status])) + nav);
+  outputs.set(`docs/${topic}/README.md`, `# ${label(group[0].topic)}\n\n${group.length} entries. Try each question before opening its answer panel.\n\n` + table(['ID', 'Question', 'Practice type'], group.map(e => [e.id, `[${e.title}](${path.posix.basename(e.readPath)})`, studentStatus[e.status]])) + nav);
 }
 
 for (const category of categoryOrder) {
@@ -105,8 +105,7 @@ for (const category of categoryOrder) {
   })) + '\n\n[All topics](../README.md) · [Study guide](../../STUDY-GUIDE.md)\n');
 }
 
-outputs.set('docs/README.md', `# Assessment training: topic index\n\nStudy by topic, then use each question's **Show answer and explanation** panel to check your reasoning.\n\n` + table(['Category', 'Entries'], categoryOrder.map(c => [`[${label(c)}](${c}/README.md)`, counts[c]])) + `\n\n**${entries.length} entries:** ${statusCounts.ready} ready, ${statusCounts.planned} planned, ${statusCounts['needs-review']} needing review, and ${statusCounts.outline} outlines. Counts include labelled variants.\n\n` +
-  '## Status guide\n\n- **ready:** a complete question and answer/approach are available. This is a content-completeness label, not a certification of every answer.\n- **planned:** a brief question and approach were retained from a lesson plan; the full worked lesson is pending.\n- **needs-review:** the source puzzle lacks a verified answer or has inconsistent clues.\n- **outline:** only a brief historical prompt is available; it is not a complete scored exercise.\n\n[Suggested study order](../STUDY-GUIDE.md) · [Conventions](../CONVENTIONS.md) · [Corrections and contributions](../CONTRIBUTING.md)\n');
+outputs.set('docs/README.md', `# Assessment training: topic index\n\nStudy by topic, then use each question's **Show answer and explanation** panel to check your reasoning.\n\n` + table(['Category', 'Entries'], categoryOrder.map(c => [`[${label(c)}](${c}/README.md)`, counts[c]])) + '\n\nWorked lessons include answers or solution approaches. Use reasoning practice to explain your thinking and planning prompts to sketch a solution.\n\n[Suggested study order](../STUDY-GUIDE.md) · [Conventions](../CONVENTIONS.md)\n');
 
 outputs.set('catalog.json', JSON.stringify({ counts, statuses: statusCounts, total: entries.length, questions: entries.map(({ body, ...e }) => e) }, null, 2) + '\n');
 

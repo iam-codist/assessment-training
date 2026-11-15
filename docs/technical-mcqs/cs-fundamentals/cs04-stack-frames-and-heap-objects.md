@@ -1,12 +1,10 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/cs04-stack-frames-and-heap-objects.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/cs04-stack-frames-and-heap-objects.mdx)
+[Topic index](README.md)
 
-**ID:** CS04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** CS04 · **Practice type:** Worked solution
 
 # Stack frames and heap objects
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -32,7 +30,7 @@ A stack frame holds call-specific execution data. Heap object lifetime is manage
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

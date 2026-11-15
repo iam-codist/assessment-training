@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubble-pop/cog-bubble-pop-easy35-18-expressions-18.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubble-pop/cog-bubble-pop-easy35-18-expressions-18.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-pop-easy35-18 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-pop-easy35-18 · **Practice type:** Worked solution
 
 # Expressions · 18
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/t10-powerpoint-consistency.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/t10-powerpoint-consistency.mdx)
+[Topic index](README.md)
 
-**ID:** T10 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T10 · **Practice type:** Worked solution
 
 # PowerPoint consistency
 

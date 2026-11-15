@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps3-21-network-latency.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps3-21-network-latency.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-21 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-21 · **Practice type:** Worked solution
 
 # Network latency
 
@@ -34,7 +34,7 @@ Latency measures delay. Bandwidth measures capacity over time.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 21.
+Assessment practice set 3, question 21.
 
 ---
 

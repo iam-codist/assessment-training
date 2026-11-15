@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps2-39-inner-join-matches.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps2-39-inner-join-matches.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-39 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-39 · **Practice type:** Worked solution
 
 # Inner join matches
 
@@ -34,7 +34,7 @@ An inner join returns only combinations that satisfy its join predicate.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 39.
+Assessment practice set 2, question 39.
 
 ---
 

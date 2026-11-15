@@ -1,12 +1,10 @@
 <!-- Generated from content/sql/queries/sql06-second-highest-distinct-salary.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/sql/queries/sql06-second-highest-distinct-salary.mdx)
+[Topic index](README.md)
 
-**ID:** SQL06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** SQL06 · **Practice type:** Worked solution
 
 # Second highest distinct salary
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -37,7 +35,7 @@ First find the maximum, 70000. Then find the maximum strictly below it, 60000. T
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. SQL references: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
+Further reading: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
 
 ---
 

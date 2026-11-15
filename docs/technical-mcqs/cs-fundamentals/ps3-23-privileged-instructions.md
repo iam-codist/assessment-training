@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps3-23-privileged-instructions.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps3-23-privileged-instructions.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-23 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-23 · **Practice type:** Worked solution
 
 # Privileged instructions
 
@@ -34,7 +34,7 @@ Privileged instructions are restricted to kernel mode.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 23.
+Assessment practice set 3, question 23.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/ps3-12-drop-down-data-validation.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/ps3-12-drop-down-data-validation.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-12 · **Practice type:** Worked solution
 
 # Drop-down data validation
 
@@ -34,7 +34,7 @@ Data Validation can show a list and reject other entries according to its settin
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 12.
+Assessment practice set 3, question 12.
 
 ---
 

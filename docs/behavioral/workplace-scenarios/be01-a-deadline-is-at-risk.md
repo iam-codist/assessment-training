@@ -1,12 +1,10 @@
 <!-- Generated from content/behavioral/workplace-scenarios/be01-a-deadline-is-at-risk.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/behavioral/workplace-scenarios/be01-a-deadline-is-at-risk.mdx)
+[Topic index](README.md)
 
-**ID:** BE01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** BE01 · **Practice type:** Worked solution
 
 # A deadline is at risk
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ A useful response separates facts from estimates: explain what is complete, what
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

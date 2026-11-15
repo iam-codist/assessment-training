@@ -1,12 +1,10 @@
 <!-- Generated from content/communication/communication-practice/com04-read-carefully-before-inferring.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/communication/communication-practice/com04-read-carefully-before-inferring.mdx)
+[Topic index](README.md)
 
-**ID:** COM04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COM04 · **Practice type:** Worked solution
 
 # Read carefully before inferring
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -29,7 +27,7 @@ Use the passage’s explicit details. Do not confuse the workshop start time wit
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

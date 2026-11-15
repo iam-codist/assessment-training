@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/functions-and-references/ps3-07-swap-with-a-temporary-variable.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/functions-and-references/ps3-07-swap-with-a-temporary-variable.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-07 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-07 · **Practice type:** Worked solution
 
 # Swap with a temporary variable
 
@@ -34,7 +34,7 @@ The temporary variable preserves the original x during the swap.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 7.
+Assessment practice set 3, question 7.
 
 ---
 

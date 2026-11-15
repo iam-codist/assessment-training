@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/bitwise/e04-bitwise-challenge-with-6-and-3.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/e04-bitwise-challenge-with-6-and-3.mdx)
+[Topic index](README.md)
 
-**ID:** E04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** E04 · **Practice type:** Worked solution
 
 # Bitwise challenge with 6 and 3
 

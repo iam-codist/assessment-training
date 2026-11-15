@@ -1,12 +1,10 @@
 <!-- Generated from content/behavioral/workplace-scenarios/be05-prioritizing-two-urgent-requests.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/behavioral/workplace-scenarios/be05-prioritizing-two-urgent-requests.mdx)
+[Topic index](README.md)
 
-**ID:** BE05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** BE05 · **Practice type:** Worked solution
 
 # Prioritizing two urgent requests
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ Do not silently choose based only on who asks most loudly. Explain what can be d
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

@@ -1,12 +1,10 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/cs05-binary-search-complexity.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/cs05-binary-search-complexity.mdx)
+[Topic index](README.md)
 
-**ID:** CS05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** CS05 · **Practice type:** Worked solution
 
 # Binary search complexity
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -32,7 +30,7 @@ After k halvings, about n / 2^k candidates remain. Reaching one candidate takes 
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

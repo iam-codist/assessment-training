@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/conditionals/ps1-08-boolean-evaluation.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/ps1-08-boolean-evaluation.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-08 · **Practice type:** Worked solution
 
 # Boolean evaluation
 
@@ -34,7 +34,7 @@ The OR expression is true because y = 9. The comparison 4 \< 9 is also true.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 8.
+Assessment practice set 1, question 8.
 
 ---
 

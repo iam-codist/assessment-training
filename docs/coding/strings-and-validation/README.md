@@ -2,12 +2,12 @@
 
 5 entries. Try each question before opening its answer panel.
 
-| ID | Question | Status |
+| ID | Question | Practice type |
 | --- | --- | --- |
-| C04 | [Registration identifier check](c04-registration-identifier-check.md) | ready |
-| C10 | [Normalize a label](c10-normalize-a-label.md) | ready |
-| C12 | [Circular letter shift](c12-circular-letter-shift.md) | ready |
-| D04 | [Password Validation](d04-password-validation.md) | ready |
-| LC2299 | [Strong Password Checker II](lc2299-strong-password-checker-ii.md) | ready |
+| C04 | [Registration identifier check](c04-registration-identifier-check.md) | Worked solution |
+| C10 | [Normalize a label](c10-normalize-a-label.md) | Worked solution |
+| C12 | [Circular letter shift](c12-circular-letter-shift.md) | Worked solution |
+| D04 | [Password Validation](d04-password-validation.md) | Worked solution |
+| LC2299 | [Strong Password Checker II](lc2299-strong-password-checker-ii.md) | Worked solution |
 
 [All topics](../../README.md) · [Category index](../README.md)

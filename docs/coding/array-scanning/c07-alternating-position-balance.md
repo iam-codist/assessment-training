@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/array-scanning/c07-alternating-position-balance.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/c07-alternating-position-balance.mdx)
+[Topic index](README.md)
 
-**ID:** C07 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C07 · **Practice type:** Worked solution
 
 # Alternating position balance
 

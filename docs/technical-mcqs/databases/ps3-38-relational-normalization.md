@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps3-38-relational-normalization.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps3-38-relational-normalization.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-38 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-38 · **Practice type:** Worked solution
 
 # Relational normalization
 
@@ -34,7 +34,7 @@ Normalization organizes facts by their dependencies to reduce duplication and in
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 38.
+Assessment practice set 3, question 38.
 
 ---
 

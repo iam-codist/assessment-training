@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/two-pointers/lc977-squares-of-a-sorted-array.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/two-pointers/lc977-squares-of-a-sorted-array.mdx)
+[Topic index](README.md)
 
-**ID:** LC977 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC977 · **Practice type:** Worked solution
 
 # Squares of a Sorted Array
 

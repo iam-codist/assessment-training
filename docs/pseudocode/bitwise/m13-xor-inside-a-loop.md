@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/bitwise/m13-xor-inside-a-loop.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/m13-xor-inside-a-loop.mdx)
+[Topic index](README.md)
 
-**ID:** M13 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M13 · **Practice type:** Worked solution
 
 # XOR Inside a Loop
 

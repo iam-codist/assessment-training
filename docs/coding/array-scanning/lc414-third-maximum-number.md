@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/array-scanning/lc414-third-maximum-number.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/lc414-third-maximum-number.mdx)
+[Topic index](README.md)
 
-**ID:** LC414 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC414 · **Practice type:** Worked solution
 
 # Third Maximum Number
 

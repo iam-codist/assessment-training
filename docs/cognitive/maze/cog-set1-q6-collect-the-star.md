@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/maze/cog-set1-q6-collect-the-star.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/maze/cog-set1-q6-collect-the-star.mdx)
+[Topic index](README.md)
 
-**ID:** COG-set1-q6 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-set1-q6 · **Practice type:** Worked solution
 
 # Collect the Star
 

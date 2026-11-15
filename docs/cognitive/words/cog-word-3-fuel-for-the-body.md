@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/words/cog-word-3-fuel-for-the-body.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/words/cog-word-3-fuel-for-the-body.mdx)
+[Topic index](README.md)
 
-**ID:** COG-word-3 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-word-3 · **Practice type:** Worked solution
 
 # Fuel for the body
 

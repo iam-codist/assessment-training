@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps3-36-descending-sort-order.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps3-36-descending-sort-order.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-36 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-36 · **Practice type:** Worked solution
 
 # Descending sort order
 
@@ -34,7 +34,7 @@ DESC orders the specified expression from high to low.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 36.
+Assessment practice set 3, question 36.
 
 ---
 

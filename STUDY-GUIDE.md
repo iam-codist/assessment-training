@@ -39,7 +39,7 @@ Read the complete scenario, eliminate choices that contradict it and explain why
 
 Begin without a timer. Write arithmetic values before sorting bubbles. For routes, track location plus any collected key or required visit. For shape tasks, compare each row or track a distinctive corner through the transformation. Add timing only after your reasoning is consistent.
 
-Use the [cognitive topic index](docs/cognitive/README.md). Memory panels must be closed before recall. Visual entries marked `needs-review` are discussions, not verified tests.
+Use the [cognitive topic index](docs/cognitive/README.md). Memory panels must be closed before recall. For open-ended visual questions, explain a rule that fits every clue.
 
 ## 7. Build dynamic programming from small states
 
@@ -51,7 +51,11 @@ Use the [SQL dataset](SQL-PRACTICE.md) to predict join results before executing 
 
 ## 9. Practise explaining and reflecting
 
-Combine one [behavioral scenario](docs/behavioral/README.md), one [communication exercise](docs/communication/README.md) and one [interview question](docs/interview/README.md). Give truthful examples and ask a partner which part was clear or missing. For partner listening, use the provided script; automated speech scoring is not included.
+Combine one [behavioral scenario](docs/behavioral/README.md), one [communication exercise](docs/communication/README.md) and one [interview question](docs/interview/README.md). Give truthful examples and ask a partner which part was clear or missing. For listening practice, ask a partner to read the script once, then summarize the key details from your notes.
+
+## 10. Attempt a timed mock
+
+Choose one of the [three assessment sets](ASSESSMENT-PRACTICE.md). After submitting, review the questions you missed or marked and retry them before starting another set.
 
 ## A repeatable practice session
 

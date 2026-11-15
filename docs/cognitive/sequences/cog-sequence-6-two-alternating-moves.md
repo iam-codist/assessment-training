@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-6-two-alternating-moves.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-6-two-alternating-moves.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-6 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-6 · **Practice type:** Worked solution
 
 # Two alternating moves
 
@@ -38,7 +38,7 @@ Alternate ×2 and −2. After 10, multiply by 2 to get 20, then subtract 2 to ge
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 6.
+Cognitive Lab practice, round 6.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/m16-nested-loops-with-break.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/m16-nested-loops-with-break.mdx)
+[Topic index](README.md)
 
-**ID:** M16 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M16 · **Practice type:** Worked solution
 
 # Nested Loops with BREAK
 

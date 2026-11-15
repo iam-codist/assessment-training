@@ -1,12 +1,10 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/cs03-processes-and-threads.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/cs03-processes-and-threads.mdx)
+[Topic index](README.md)
 
-**ID:** CS03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** CS03 · **Practice type:** Worked solution
 
 # Processes and threads
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -32,7 +30,7 @@ Shared memory makes communication convenient but also creates races. Each thread
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

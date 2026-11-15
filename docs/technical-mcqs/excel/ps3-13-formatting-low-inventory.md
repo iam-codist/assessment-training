@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/ps3-13-formatting-low-inventory.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/ps3-13-formatting-low-inventory.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-13 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-13 · **Practice type:** Worked solution
 
 # Formatting low inventory
 
@@ -34,7 +34,7 @@ A formatting rule applies automatically when a cell value meets its condition.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 13.
+Assessment practice set 3, question 13.
 
 ---
 

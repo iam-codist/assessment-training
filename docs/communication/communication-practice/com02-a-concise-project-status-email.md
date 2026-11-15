@@ -1,12 +1,10 @@
 <!-- Generated from content/communication/communication-practice/com02-a-concise-project-status-email.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/communication/communication-practice/com02-a-concise-project-status-email.mdx)
+[Topic index](README.md)
 
-**ID:** COM02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COM02 · **Practice type:** Worked solution
 
 # A concise project status email
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -33,7 +31,7 @@ The message gives status, blocker, action and timing. It avoids blaming an indiv
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

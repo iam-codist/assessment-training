@@ -1,12 +1,10 @@
 <!-- Generated from content/interview/technical-interview/int04-explain-an-api-request-and-response.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/interview/technical-interview/int04-explain-an-api-request-and-response.mdx)
+[Topic index](README.md)
 
-**ID:** INT04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** INT04 · **Practice type:** Worked solution
 
 # Explain an API request and response
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ A stronger answer mentions authorization where needed, useful error handling and
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

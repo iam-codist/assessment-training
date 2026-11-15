@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps2-41-class-inheritance.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps2-41-class-inheritance.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-41 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-41 · **Practice type:** Worked solution
 
 # Class inheritance
 
@@ -34,7 +34,7 @@ Inheritance lets a subclass reuse or specialize inherited members.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 41.
+Assessment practice set 2, question 41.
 
 ---
 

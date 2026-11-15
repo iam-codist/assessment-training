@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/p07-early-loop-exit.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/p07-early-loop-exit.mdx)
+[Topic index](README.md)
 
-**ID:** P07 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P07 · **Practice type:** Worked solution
 
 # Early loop exit
 

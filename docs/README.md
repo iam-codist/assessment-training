@@ -14,15 +14,8 @@ Study by topic, then use each question's **Show answer and explanation** panel t
 | [Behavioral assessment](behavioral/README.md) | 6 |
 | [Communication assessment](communication/README.md) | 8 |
 | [Technical and HR interview](interview/README.md) | 10 |
-| [Reference outlines](reference-outlines/README.md) | 20 |
+| [Problem-planning warm-ups](reference-outlines/README.md) | 20 |
 
-**577 entries:** 545 ready, 0 planned, 12 needing review, and 20 outlines. Counts include labelled variants.
+Worked lessons include answers or solution approaches. Use reasoning practice to explain your thinking and planning prompts to sketch a solution.
 
-## Status guide
-
-- **ready:** a complete question and answer/approach are available. This is a content-completeness label, not a certification of every answer.
-- **planned:** a brief question and approach were retained from a lesson plan; the full worked lesson is pending.
-- **needs-review:** the source puzzle lacks a verified answer or has inconsistent clues.
-- **outline:** only a brief historical prompt is available; it is not a complete scored exercise.
-
-[Suggested study order](../STUDY-GUIDE.md) · [Conventions](../CONVENTIONS.md) · [Corrections and contributions](../CONTRIBUTING.md)
+[Suggested study order](../STUDY-GUIDE.md) · [Conventions](../CONVENTIONS.md)

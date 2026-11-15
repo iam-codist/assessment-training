@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps3-03-dividing-until-odd.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps3-03-dividing-until-odd.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-03 · **Practice type:** Worked solution
 
 # Dividing until odd
 
@@ -34,7 +34,7 @@ The values are 24, 12, 6, and 3. The loop stops at the first odd value.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 3.
+Assessment practice set 3, question 3.
 
 ---
 

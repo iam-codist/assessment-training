@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/t08-word-review.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/t08-word-review.mdx)
+[Topic index](README.md)
 
-**ID:** T08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T08 · **Practice type:** Worked solution
 
 # Word review
 

@@ -1,12 +1,10 @@
 <!-- Generated from content/interview/technical-interview/int01-explain-your-project-with-evidence.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/interview/technical-interview/int01-explain-your-project-with-evidence.mdx)
+[Topic index](README.md)
 
-**ID:** INT01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** INT01 · **Practice type:** Worked solution
 
 # Explain your project with evidence
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ Use a real project and distinguish your own work from your teammates’ work. A 
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

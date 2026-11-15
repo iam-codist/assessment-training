@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/bitwise/e06-recover-or-using-addition-and-and.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/e06-recover-or-using-addition-and-and.mdx)
+[Topic index](README.md)
 
-**ID:** E06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** E06 · **Practice type:** Worked solution
 
 # Recover OR using addition and AND
 

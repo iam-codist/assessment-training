@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps3-22-default-gateway.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps3-22-default-gateway.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-22 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-22 · **Practice type:** Worked solution
 
 # Default gateway
 
@@ -34,7 +34,7 @@ The default gateway is the next hop for destinations without a specific route.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 22.
+Assessment practice set 3, question 22.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/recursion/m05-recursion.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/recursion/m05-recursion.mdx)
+[Topic index](README.md)
 
-**ID:** M05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M05 · **Practice type:** Worked solution
 
 # Recursion
 

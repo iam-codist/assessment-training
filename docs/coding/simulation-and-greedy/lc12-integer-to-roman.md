@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/simulation-and-greedy/lc12-integer-to-roman.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/simulation-and-greedy/lc12-integer-to-roman.mdx)
+[Topic index](README.md)
 
-**ID:** LC12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC12 · **Practice type:** Worked solution
 
 # Integer to Roman
 

@@ -1,12 +1,10 @@
 <!-- Generated from content/sql/queries/sql03-where-before-grouping-and-having-after.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/sql/queries/sql03-where-before-grouping-and-having-after.mdx)
+[Topic index](README.md)
 
-**ID:** SQL03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** SQL03 · **Practice type:** Worked solution
 
 # WHERE before grouping and HAVING after
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -42,7 +40,7 @@ WHERE removes non-paid rows before aggregation. HAVING checks each resulting gro
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. SQL references: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
+Further reading: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
 
 ---
 

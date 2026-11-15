@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/spatial/cog-spatial-7-mirror-left-right-07.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/spatial/cog-spatial-7-mirror-left-right-07.mdx)
+[Topic index](README.md)
 
-**ID:** COG-spatial-7 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-spatial-7 · **Practice type:** Worked solution
 
 # Mirror left ↔ right · 07
 
@@ -78,7 +78,7 @@ Track a distinctive corner or notch, then compare the whole shape.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 7.
+Cognitive Lab practice, round 7.
 
 ---
 

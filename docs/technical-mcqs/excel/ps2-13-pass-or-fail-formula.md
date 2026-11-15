@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/ps2-13-pass-or-fail-formula.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/ps2-13-pass-or-fail-formula.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-13 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-13 · **Practice type:** Worked solution
 
 # Pass or fail formula
 
@@ -34,7 +34,7 @@ IF returns its second argument when the condition is true and its third otherwis
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 13.
+Assessment practice set 2, question 13.
 
 ---
 

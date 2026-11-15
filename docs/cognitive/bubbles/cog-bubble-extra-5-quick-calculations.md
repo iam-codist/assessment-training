@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubbles/cog-bubble-extra-5-quick-calculations.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-bubble-extra-5-quick-calculations.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-extra-5 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-extra-5 · **Practice type:** Worked solution
 
 # Quick calculations
 

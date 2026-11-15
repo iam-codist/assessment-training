@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/number-operations/d01-difference-of-sums.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/number-operations/d01-difference-of-sums.mdx)
+[Topic index](README.md)
 
-**ID:** D01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** D01 · **Practice type:** Worked solution
 
 # Difference of Sums
 
@@ -26,7 +26,7 @@ Given positive divisor n and positive range limit m, examine every integer from 
 
 ## Notes
 
-The classroom input order differs from LeetCode 2894.
+Check the input order before running the sample.
 
 <details>
 <summary>Show answer and explanation</summary>

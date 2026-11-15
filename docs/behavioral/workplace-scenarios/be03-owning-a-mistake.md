@@ -1,12 +1,10 @@
 <!-- Generated from content/behavioral/workplace-scenarios/be03-owning-a-mistake.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/behavioral/workplace-scenarios/be03-owning-a-mistake.mdx)
+[Topic index](README.md)
 
-**ID:** BE03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** BE03 · **Practice type:** Worked solution
 
 # Owning a mistake
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ Avoid hiding the problem or blaming the tester. Confirm the scope before promisi
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

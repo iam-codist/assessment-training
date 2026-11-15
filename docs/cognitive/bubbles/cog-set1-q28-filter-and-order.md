@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubbles/cog-set1-q28-filter-and-order.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-set1-q28-filter-and-order.mdx)
+[Topic index](README.md)
 
-**ID:** COG-set1-q28 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-set1-q28 · **Practice type:** Worked solution
 
 # Filter and Order
 

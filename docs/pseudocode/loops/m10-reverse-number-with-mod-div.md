@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/m10-reverse-number-with-mod-div.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/m10-reverse-number-with-mod-div.mdx)
+[Topic index](README.md)
 
-**ID:** M10 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M10 · **Practice type:** Worked solution
 
 # Reverse Number with MOD &amp; DIV
 

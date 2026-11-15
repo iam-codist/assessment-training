@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/strings-and-validation/lc2299-strong-password-checker-ii.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/strings-and-validation/lc2299-strong-password-checker-ii.mdx)
+[Topic index](README.md)
 
-**ID:** LC2299 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC2299 · **Practice type:** Worked solution
 
 # Strong Password Checker II
 

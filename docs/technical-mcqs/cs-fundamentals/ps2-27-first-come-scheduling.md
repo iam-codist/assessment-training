@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps2-27-first-come-scheduling.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps2-27-first-come-scheduling.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-27 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-27 · **Practice type:** Worked solution
 
 # First-come scheduling
 
@@ -34,7 +34,7 @@ FCFS uses arrival order and lets the running task retain the CPU until it blocks
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 27.
+Assessment practice set 2, question 27.
 
 ---
 

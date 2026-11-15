@@ -1,12 +1,10 @@
 <!-- Generated from content/frontend/css/fe05-a-responsive-grid-of-topic-cards.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/css/fe05-a-responsive-grid-of-topic-cards.mdx)
+[Topic index](README.md)
 
-**ID:** FE05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** FE05 · **Practice type:** Worked solution
 
 # A responsive grid of topic cards
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -33,7 +31,7 @@ auto-fit creates columns that fit the container. minmax gives each track a minim
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. Reference: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

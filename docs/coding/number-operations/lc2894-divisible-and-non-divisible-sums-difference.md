@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/number-operations/lc2894-divisible-and-non-divisible-sums-difference.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/number-operations/lc2894-divisible-and-non-divisible-sums-difference.mdx)
+[Topic index](README.md)
 
-**ID:** LC2894 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC2894 · **Practice type:** Worked solution
 
 # Divisible and Non-divisible Sums Difference
 

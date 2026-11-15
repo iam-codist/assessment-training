@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/p20-two-matrix-diagonals.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/p20-two-matrix-diagonals.mdx)
+[Topic index](README.md)
 
-**ID:** P20 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P20 · **Practice type:** Worked solution
 
 # Two matrix diagonals
 

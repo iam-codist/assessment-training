@@ -1,18 +1,16 @@
 <!-- Generated from content/communication/communication-practice/com05-listening-and-note-taking-practice.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/communication/communication-practice/com05-listening-and-note-taking-practice.mdx)
+[Topic index](README.md)
 
-**ID:** COM05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COM05 · **Practice type:** Worked solution
 
 # Listening and note-taking practice
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
 Partner exercise: one person reads this once while the listener looks away from the screen.
 
-“Tomorrow’s practice begins at 2 p.m. in Room 204. Bring a laptop and headphones. Complete the SQL warm-up before arriving. If you cannot attend, inform the trainer by 11 a.m.”
+“Tomorrow’s practice begins at 2 p.m. in Room 204. Bring a laptop and headphones. Complete the SQL warm-up before arriving. If you cannot attend, email the session organizer by 11 a.m.”
 
 The listener should recall the time, room, equipment, preparation and absence deadline.
 
@@ -21,7 +19,7 @@ The listener should recall the time, room, equipment, preparation and absence de
 
 ## Answer
 
-2 p.m.; Room 204; laptop and headphones; complete the SQL warm-up; inform the trainer by 11 a.m. if unable to attend.
+2 p.m.; Room 204; laptop and headphones; complete the SQL warm-up; email the session organizer by 11 a.m. if unable to attend.
 
 ## Explanation
 
@@ -31,7 +29,7 @@ Check five details, one point each, then reread the script to discuss any mismat
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

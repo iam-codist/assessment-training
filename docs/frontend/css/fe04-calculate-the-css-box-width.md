@@ -1,12 +1,10 @@
 <!-- Generated from content/frontend/css/fe04-calculate-the-css-box-width.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/css/fe04-calculate-the-css-box-width.mdx)
+[Topic index](README.md)
 
-**ID:** FE04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** FE04 · **Practice type:** Worked solution
 
 # Calculate the CSS box width
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -32,7 +30,7 @@ With content-box, width describes only content: 200+20+20+2+2=244px. With border
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. Reference: [MDN box model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model).
+Further reading: [MDN box model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model).
 
 ---
 

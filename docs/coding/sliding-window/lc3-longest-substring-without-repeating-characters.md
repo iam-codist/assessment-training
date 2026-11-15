@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/sliding-window/lc3-longest-substring-without-repeating-characters.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/sliding-window/lc3-longest-substring-without-repeating-characters.mdx)
+[Topic index](README.md)
 
-**ID:** LC3 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC3 · **Practice type:** Worked solution
 
 # Longest Substring Without Repeating Characters
 

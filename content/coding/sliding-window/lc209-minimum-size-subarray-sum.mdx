@@ -10,15 +10,13 @@ source: "Day 2 planned"
 
 # Minimum Size Subarray Sum
 
-> **New worked reference** — The original teaching plan listed this problem. The runnable solutions and worked example were added for this website update; they are not recovered classroom transcripts.
-
 ## Question
 
 Given a positive target and an array of positive integers, return the shortest contiguous subarray length with sum at least target. Return 0 if no such segment exists.
 
 ## Notes
 
-Originally listed in the Day 2 plan. The implementation and dry run below are newly authored practice.
+Trace the window with two pointers. Once its sum reaches the target, move the left pointer to see whether a shorter window still qualifies.
 
 <details>
 <summary>Show answer and explanation</summary>

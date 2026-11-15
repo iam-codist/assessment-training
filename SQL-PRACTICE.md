@@ -1,6 +1,6 @@
 # SQL practice dataset
 
-Every SQL lesson uses the small dataset below. Run the [setup script](practice/sql/setup.sql) in a fresh SQLite database. It creates four tables and inserts the rows. Queries use standard joins, grouping and window functions supported by current SQLite and PostgreSQL. The setup script’s `PRAGMA` line is SQLite-specific; remove that line when adapting the fixture to PostgreSQL.
+Use this dataset for the SQL lessons that link here. The assessment practice sets include their own starter data. Run the [setup script](practice/sql/setup.sql) in a fresh SQLite database. It creates four tables and inserts the rows. Queries use standard joins, grouping and window functions supported by current SQLite and PostgreSQL. The setup script’s `PRAGMA` line is SQLite-specific; remove that line when adapting the fixture to PostgreSQL.
 
 No live service or account is required. You can use a local SQLite installation:
 

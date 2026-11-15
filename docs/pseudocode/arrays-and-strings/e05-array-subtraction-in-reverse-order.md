@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/e05-array-subtraction-in-reverse-order.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/e05-array-subtraction-in-reverse-order.mdx)
+[Topic index](README.md)
 
-**ID:** E05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** E05 · **Practice type:** Worked solution
 
 # Array subtraction in reverse order
 

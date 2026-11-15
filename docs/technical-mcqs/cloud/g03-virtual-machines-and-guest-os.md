@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/g03-virtual-machines-and-guest-os.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/g03-virtual-machines-and-guest-os.mdx)
+[Topic index](README.md)
 
-**ID:** G03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** G03 · **Practice type:** Worked solution
 
 # Virtual machines and guest OS
 

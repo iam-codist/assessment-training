@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/m07-for-loop-with-continue.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/m07-for-loop-with-continue.mdx)
+[Topic index](README.md)
 
-**ID:** M07 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M07 · **Practice type:** Worked solution
 
 # FOR Loop with CONTINUE
 

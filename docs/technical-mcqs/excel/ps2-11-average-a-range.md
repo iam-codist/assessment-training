@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/ps2-11-average-a-range.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/ps2-11-average-a-range.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-11 · **Practice type:** Worked solution
 
 # Average a range
 
@@ -34,7 +34,7 @@ AVERAGE divides the sum by the count of numeric cells.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 11.
+Assessment practice set 2, question 11.
 
 ---
 

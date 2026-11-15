@@ -1,12 +1,10 @@
 <!-- Generated from content/communication/communication-practice/com08-summarize-a-meeting-with-actions.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/communication/communication-practice/com08-summarize-a-meeting-with-actions.mdx)
+[Topic index](README.md)
 
-**ID:** COM08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COM08 · **Practice type:** Worked solution
 
 # Summarize a meeting with actions
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ The summary separates agreed actions from an unresolved dependency. Do not inven
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

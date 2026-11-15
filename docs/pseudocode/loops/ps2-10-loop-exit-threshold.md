@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps2-10-loop-exit-threshold.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps2-10-loop-exit-threshold.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-10 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-10 · **Practice type:** Worked solution
 
 # Loop exit threshold
 
@@ -34,7 +34,7 @@ The loop advances through 3 and 9 to 27.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 10.
+Assessment practice set 2, question 10.
 
 ---
 

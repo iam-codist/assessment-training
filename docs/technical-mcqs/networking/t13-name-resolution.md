@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/t13-name-resolution.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/t13-name-resolution.mdx)
+[Topic index](README.md)
 
-**ID:** T13 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T13 · **Practice type:** Worked solution
 
 # Name resolution
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/frontend/javascript/ps1-47-workshop-seat-counter.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/ps1-47-workshop-seat-counter.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-47 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-47 · **Practice type:** Worked solution
 
 # Workshop seat counter
 
@@ -113,7 +113,7 @@ The render function derives both the visible message and the button state from t
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 47.
+Assessment practice set 1, question 47.
 
 ---
 

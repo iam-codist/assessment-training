@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-8-paired-products.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-8-paired-products.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-8 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-8 · **Practice type:** Worked solution
 
 # Paired products
 
@@ -38,7 +38,7 @@ These are n × (n + 1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7. The missing value is
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 8.
+Cognitive Lab practice, round 8.
 
 ---
 

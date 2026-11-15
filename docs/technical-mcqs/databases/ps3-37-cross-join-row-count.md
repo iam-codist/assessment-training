@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps3-37-cross-join-row-count.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps3-37-cross-join-row-count.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-37 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-37 · **Practice type:** Worked solution
 
 # Cross join row count
 
@@ -34,7 +34,7 @@ The Cartesian product pairs each of the 3 rows with all 4 rows.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 37.
+Assessment practice set 3, question 37.
 
 ---
 

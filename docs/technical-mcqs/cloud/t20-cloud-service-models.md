@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/t20-cloud-service-models.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/t20-cloud-service-models.mdx)
+[Topic index](README.md)
 
-**ID:** T20 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T20 · **Practice type:** Worked solution
 
 # Cloud service models
 

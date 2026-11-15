@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/m19-prefix-sum-array.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/m19-prefix-sum-array.mdx)
+[Topic index](README.md)
 
-**ID:** M19 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M19 · **Practice type:** Worked solution
 
 # Prefix Sum Array
 

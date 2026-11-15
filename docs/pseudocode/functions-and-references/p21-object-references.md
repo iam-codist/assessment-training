@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/functions-and-references/p21-object-references.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/functions-and-references/p21-object-references.mdx)
+[Topic index](README.md)
 
-**ID:** P21 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P21 · **Practice type:** Worked solution
 
 # Object references
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/conditionals/m06-conditional-statements-with-mod-div.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/m06-conditional-statements-with-mod-div.mdx)
+[Topic index](README.md)
 
-**ID:** M06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M06 · **Practice type:** Worked solution
 
 # Conditional Statements with MOD &amp; DIV
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/ps3-09-counting-values-above-a-threshold.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/ps3-09-counting-values-above-a-threshold.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-09 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-09 · **Practice type:** Worked solution
 
 # Counting values above a threshold
 
@@ -34,7 +34,7 @@ Only 9 and 6 exceed 5.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 9.
+Assessment practice set 3, question 9.
 
 ---
 

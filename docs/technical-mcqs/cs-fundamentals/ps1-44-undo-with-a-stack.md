@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps1-44-undo-with-a-stack.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps1-44-undo-with-a-stack.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-44 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-44 · **Practice type:** Worked solution
 
 # Undo with a stack
 
@@ -34,7 +34,7 @@ A stack uses last-in, first-out order. The last action pushed is the first one p
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 44.
+Assessment practice set 1, question 44.
 
 ---
 

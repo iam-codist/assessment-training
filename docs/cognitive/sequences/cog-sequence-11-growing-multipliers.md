@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-11-growing-multipliers.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-11-growing-multipliers.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-11 · **Practice type:** Worked solution
 
 # Growing multipliers
 
@@ -38,7 +38,7 @@ Multiply successively by 2, 3, 4, 5, 6. 24 × 5 = 120; 120 × 6 = 720.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 11.
+Cognitive Lab practice, round 11.
 
 ---
 

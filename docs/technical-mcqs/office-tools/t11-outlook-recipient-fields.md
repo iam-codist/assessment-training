@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/t11-outlook-recipient-fields.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/t11-outlook-recipient-fields.mdx)
+[Topic index](README.md)
 
-**ID:** T11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T11 · **Practice type:** Worked solution
 
 # Outlook recipient fields
 

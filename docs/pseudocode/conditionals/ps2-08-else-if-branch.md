@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/conditionals/ps2-08-else-if-branch.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/ps2-08-else-if-branch.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-08 · **Practice type:** Worked solution
 
 # Else-if branch
 
@@ -34,7 +34,7 @@ The first condition fails and the second succeeds.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 8.
+Assessment practice set 2, question 8.
 
 ---
 

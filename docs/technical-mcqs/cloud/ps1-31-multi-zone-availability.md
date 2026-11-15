@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps1-31-multi-zone-availability.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps1-31-multi-zone-availability.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-31 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-31 · **Practice type:** Worked solution
 
 # Multi-zone availability
 
@@ -34,7 +34,7 @@ Spreading instances across zones gives the load balancer healthy destinations wh
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 31.
+Assessment practice set 1, question 31.
 
 ---
 

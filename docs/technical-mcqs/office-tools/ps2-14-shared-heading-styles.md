@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps2-14-shared-heading-styles.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps2-14-shared-heading-styles.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-14 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-14 · **Practice type:** Worked solution
 
 # Shared heading styles
 
@@ -34,7 +34,7 @@ Editing a style updates all text that uses it.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 14.
+Assessment practice set 2, question 14.
 
 ---
 

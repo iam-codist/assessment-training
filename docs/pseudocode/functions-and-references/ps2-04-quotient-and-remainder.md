@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/functions-and-references/ps2-04-quotient-and-remainder.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/functions-and-references/ps2-04-quotient-and-remainder.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-04 · **Practice type:** Worked solution
 
 # Quotient and remainder
 
@@ -34,7 +34,7 @@ The quotient is 3 and the remainder is 2.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 4.
+Assessment practice set 2, question 4.
 
 ---
 

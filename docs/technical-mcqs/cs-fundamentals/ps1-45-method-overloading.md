@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps1-45-method-overloading.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps1-45-method-overloading.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-45 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-45 · **Practice type:** Worked solution
 
 # Method overloading
 
@@ -34,7 +34,7 @@ Overloads share a method name but have different parameter lists. Overriding rep
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 45.
+Assessment practice set 1, question 45.
 
 ---
 

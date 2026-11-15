@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/two-pointers/lc11-container-with-most-water.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/two-pointers/lc11-container-with-most-water.mdx)
+[Topic index](README.md)
 
-**ID:** LC11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC11 · **Practice type:** Worked solution
 
 # Container With Most Water
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/bitwise/g07-bitwise-and.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/g07-bitwise-and.mdx)
+[Topic index](README.md)
 
-**ID:** G07 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** G07 · **Practice type:** Worked solution
 
 # Bitwise AND
 

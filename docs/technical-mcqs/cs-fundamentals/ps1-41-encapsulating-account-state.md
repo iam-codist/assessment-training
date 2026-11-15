@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps1-41-encapsulating-account-state.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps1-41-encapsulating-account-state.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-41 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-41 · **Practice type:** Worked solution
 
 # Encapsulating account state
 
@@ -34,7 +34,7 @@ Encapsulation bundles state and behavior and controls how other code can change 
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 41.
+Assessment practice set 1, question 41.
 
 ---
 

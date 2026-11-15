@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps3-25-counter-race-condition.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps3-25-counter-race-condition.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-25 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-25 · **Practice type:** Worked solution
 
 # Counter race condition
 
@@ -34,7 +34,7 @@ An uncoordinated read-modify-write can overwrite another thread's update.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 25.
+Assessment practice set 3, question 25.
 
 ---
 

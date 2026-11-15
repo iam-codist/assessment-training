@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps1-26-round-robin-preemption.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps1-26-round-robin-preemption.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-26 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-26 · **Practice type:** Worked solution
 
 # Round-robin preemption
 
@@ -34,7 +34,7 @@ The task goes back to the ready queue so other runnable tasks can receive CPU ti
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 26.
+Assessment practice set 1, question 26.
 
 ---
 

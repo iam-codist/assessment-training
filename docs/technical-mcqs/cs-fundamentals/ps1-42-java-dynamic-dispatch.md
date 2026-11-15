@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps1-42-java-dynamic-dispatch.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps1-42-java-dynamic-dispatch.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-42 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-42 · **Practice type:** Worked solution
 
 # Java dynamic dispatch
 
@@ -34,7 +34,7 @@ Java dynamically dispatches overridden instance methods according to the object'
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 42.
+Assessment practice set 1, question 42.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps2-06-skipping-an-iteration.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps2-06-skipping-an-iteration.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-06 · **Practice type:** Worked solution
 
 # Skipping an iteration
 
@@ -34,7 +34,7 @@ CONTINUE skips the rest of the iteration for 4.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 6.
+Assessment practice set 2, question 6.
 
 ---
 

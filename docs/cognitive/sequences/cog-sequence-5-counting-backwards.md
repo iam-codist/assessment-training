@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-5-counting-backwards.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-5-counting-backwards.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-5 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-5 · **Practice type:** Worked solution
 
 # Counting backwards
 
@@ -38,7 +38,7 @@ Subtract 5 each time. 40 − 5 = 35 and 35 − 5 = 30.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 5.
+Cognitive Lab practice, round 5.
 
 ---
 

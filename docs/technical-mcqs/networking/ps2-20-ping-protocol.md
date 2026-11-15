@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps2-20-ping-protocol.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps2-20-ping-protocol.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-20 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-20 · **Practice type:** Worked solution
 
 # Ping protocol
 
@@ -34,7 +34,7 @@ Ping typically sends an ICMP Echo Request and waits for an Echo Reply.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 20.
+Assessment practice set 2, question 20.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/simulation-and-greedy/lc1518-water-bottles.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/simulation-and-greedy/lc1518-water-bottles.mdx)
+[Topic index](README.md)
 
-**ID:** LC1518 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC1518 · **Practice type:** Worked solution
 
 # Water Bottles
 

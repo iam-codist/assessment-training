@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps3-17-presenter-view.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps3-17-presenter-view.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-17 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-17 · **Practice type:** Worked solution
 
 # Presenter View
 
@@ -34,7 +34,7 @@ Presenter View separates private controls and notes from the audience display.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 17.
+Assessment practice set 3, question 17.
 
 ---
 

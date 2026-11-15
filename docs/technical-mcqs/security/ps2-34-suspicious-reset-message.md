@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/ps2-34-suspicious-reset-message.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/ps2-34-suspicious-reset-message.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-34 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-34 · **Practice type:** Worked solution
 
 # Suspicious reset message
 
@@ -34,7 +34,7 @@ Navigating independently avoids the suspicious link while reporting supports inv
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 34.
+Assessment practice set 2, question 34.
 
 ---
 

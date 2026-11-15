@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps2-24-waiting-for-disk-i-o.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps2-24-waiting-for-disk-i-o.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-24 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-24 · **Practice type:** Worked solution
 
 # Waiting for disk I/O
 
@@ -34,7 +34,7 @@ It cannot proceed until the I/O event occurs.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 24.
+Assessment practice set 2, question 24.
 
 ---
 

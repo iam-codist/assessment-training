@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps3-44-programming-abstraction.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps3-44-programming-abstraction.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-44 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-44 · **Practice type:** Worked solution
 
 # Programming abstraction
 
@@ -34,7 +34,7 @@ Abstraction exposes the behavior the caller needs through a simpler interface.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 44.
+Assessment practice set 3, question 44.
 
 ---
 

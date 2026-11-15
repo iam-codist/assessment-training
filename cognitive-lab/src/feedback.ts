@@ -3,7 +3,7 @@ import {memoryResponse,cellLabel} from './practiceEngine';
 
 export function answerFeedback(p:Puzzle,response=''){
  const notes=p.explanation.filter(line=>!line.startsWith('Answer:')).flatMap(line=>line.split(' | ')).filter(line=>!line.includes('Numbers on the map')&&!line.includes('Route numbers on the map'));
- if(p.ungraded)return {label:'Discussion guidance',answer:'No verified answer for this round',explanation:notes.slice(0,2).join(' ')};
+ if(p.ungraded)return {label:'Reasoning tips',answer:'Check your reasoning',explanation:notes.slice(0,2).join(' ')};
  if(p.rocket)return {label:'Shortest route',answer:`${p.rocket.shortest} moves · ${p.rocket.solution.map(n=>cellLabel(n,p.rocket!.size)).join(' → ')}`,explanation:notes[1]};
  if(p.memory)return {label:p.memory.mode==='positions'?'Correct positions':'Correct sequence',answer:memoryResponse(p.memory,p.memory.items),explanation:notes[1]};
  if(p.options&&p.answer!==undefined)return {label:'Correct answer',answer:p.options[p.answer],explanation:notes.slice(0,2).join(' ')};

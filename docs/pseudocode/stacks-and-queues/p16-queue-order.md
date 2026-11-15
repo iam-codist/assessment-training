@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/stacks-and-queues/p16-queue-order.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/stacks-and-queues/p16-queue-order.mdx)
+[Topic index](README.md)
 
-**ID:** P16 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P16 · **Practice type:** Worked solution
 
 # Queue order
 

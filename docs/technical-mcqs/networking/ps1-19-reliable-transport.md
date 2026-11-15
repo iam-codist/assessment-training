@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps1-19-reliable-transport.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps1-19-reliable-transport.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-19 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-19 · **Practice type:** Worked solution
 
 # Reliable transport
 
@@ -34,7 +34,7 @@ TCP uses sequence numbers, acknowledgments, and retransmission to deliver an ord
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 19.
+Assessment practice set 1, question 19.
 
 ---
 

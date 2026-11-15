@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/m20-complex-while-loop.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/m20-complex-while-loop.mdx)
+[Topic index](README.md)
 
-**ID:** M20 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M20 · **Practice type:** Worked solution
 
 # Complex WHILE Loop
 

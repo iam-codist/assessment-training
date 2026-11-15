@@ -1,12 +1,10 @@
 <!-- Generated from content/frontend/javascript/fe07-block-scope-with-let.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/fe07-block-scope-with-let.mdx)
+[Topic index](README.md)
 
-**ID:** FE07 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** FE07 · **Practice type:** Worked solution
 
 # Block scope with let
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -41,7 +39,7 @@ The inner let creates a different binding scoped to its block. It shadows the ou
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. Reference: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

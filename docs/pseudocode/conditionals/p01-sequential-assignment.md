@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/conditionals/p01-sequential-assignment.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/p01-sequential-assignment.mdx)
+[Topic index](README.md)
 
-**ID:** P01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P01 · **Practice type:** Worked solution
 
 # Sequential assignment
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/bitwise/ps3-08-bitwise-or.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/ps3-08-bitwise-or.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-08 · **Practice type:** Worked solution
 
 # Bitwise OR
 
@@ -34,7 +34,7 @@ Binary 1001 OR 0110 sets all four bits.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 8.
+Assessment practice set 3, question 8.
 
 ---
 

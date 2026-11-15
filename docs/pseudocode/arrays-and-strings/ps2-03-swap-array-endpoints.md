@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/ps2-03-swap-array-endpoints.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/ps2-03-swap-array-endpoints.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-03 · **Practice type:** Worked solution
 
 # Swap array endpoints
 
@@ -34,7 +34,7 @@ The first and last items exchange places.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 3.
+Assessment practice set 2, question 3.
 
 ---
 

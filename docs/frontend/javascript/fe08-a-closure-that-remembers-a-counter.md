@@ -1,12 +1,10 @@
 <!-- Generated from content/frontend/javascript/fe08-a-closure-that-remembers-a-counter.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/fe08-a-closure-that-remembers-a-counter.mdx)
+[Topic index](README.md)
 
-**ID:** FE08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** FE08 · **Practice type:** Worked solution
 
 # A closure that remembers a counter
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -37,7 +35,7 @@ The returned function retains access to the count binding created by that call t
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. Reference: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

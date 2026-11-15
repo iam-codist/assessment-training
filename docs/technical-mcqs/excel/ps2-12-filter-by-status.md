@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/ps2-12-filter-by-status.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/ps2-12-filter-by-status.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-12 · **Practice type:** Worked solution
 
 # Filter by status
 
@@ -34,7 +34,7 @@ A filter hides rows that fail its selected criteria.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 12.
+Assessment practice set 2, question 12.
 
 ---
 

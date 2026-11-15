@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps3-29-horizontal-scaling.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps3-29-horizontal-scaling.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-29 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-29 · **Practice type:** Worked solution
 
 # Horizontal scaling
 
@@ -34,7 +34,7 @@ Horizontal scaling distributes work across more instances.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 29.
+Assessment practice set 3, question 29.
 
 ---
 

@@ -1,12 +1,10 @@
 <!-- Generated from content/interview/hr-interview/hr01-why-are-you-interested-in-this-role.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/interview/hr-interview/hr01-why-are-you-interested-in-this-role.mdx)
+[Topic index](README.md)
 
-**ID:** HR01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** HR01 · **Practice type:** Worked solution
 
 # Why are you interested in this role
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ Research the current role before the interview. Explain what interests you speci
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

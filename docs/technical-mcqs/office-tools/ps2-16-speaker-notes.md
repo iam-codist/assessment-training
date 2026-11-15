@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps2-16-speaker-notes.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps2-16-speaker-notes.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-16 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-16 · **Practice type:** Worked solution
 
 # Speaker notes
 
@@ -34,7 +34,7 @@ Speaker notes are associated with the current slide and accessible in Presenter 
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 16.
+Assessment practice set 2, question 16.
 
 ---
 

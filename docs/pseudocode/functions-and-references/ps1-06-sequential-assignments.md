@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/functions-and-references/ps1-06-sequential-assignments.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/functions-and-references/ps1-06-sequential-assignments.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-06 · **Practice type:** Worked solution
 
 # Sequential assignments
 
@@ -34,7 +34,7 @@ The first assignment loses the original 3. Both variables end up holding 5.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 6.
+Assessment practice set 1, question 6.
 
 ---
 

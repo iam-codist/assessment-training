@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/m03-array-manipulation.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/m03-array-manipulation.mdx)
+[Topic index](README.md)
 
-**ID:** M03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M03 · **Practice type:** Worked solution
 
 # Array Manipulation
 

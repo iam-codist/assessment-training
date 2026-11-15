@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/number-operations/lc1295-find-numbers-with-even-number-of-digits.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/number-operations/lc1295-find-numbers-with-even-number-of-digits.mdx)
+[Topic index](README.md)
 
-**ID:** LC1295 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC1295 · **Practice type:** Worked solution
 
 # Find Numbers with Even Number of Digits
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/e02-loop-sum-warm-up.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/e02-loop-sum-warm-up.mdx)
+[Topic index](README.md)
 
-**ID:** E02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** E02 · **Practice type:** Worked solution
 
 # Loop sum warm-up
 

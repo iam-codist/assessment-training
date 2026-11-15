@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/e03-nested-loop-variant-adding-i.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/e03-nested-loop-variant-adding-i.mdx)
+[Topic index](README.md)
 
-**ID:** E03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** E03 · **Practice type:** Worked solution
 
 # Nested loop variant adding i
 

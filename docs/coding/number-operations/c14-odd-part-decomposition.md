@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/number-operations/c14-odd-part-decomposition.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/number-operations/c14-odd-part-decomposition.mdx)
+[Topic index](README.md)
 
-**ID:** C14 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C14 · **Practice type:** Worked solution
 
 # Odd-part decomposition
 

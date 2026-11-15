@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubbles/cog-bubble-extra-7-mixed-expressions.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-bubble-extra-7-mixed-expressions.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-extra-7 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-extra-7 · **Practice type:** Worked solution
 
 # Mixed expressions
 

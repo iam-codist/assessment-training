@@ -1,12 +1,10 @@
 <!-- Generated from content/sql/queries/sql04-customers-with-no-orders-using-not-exists.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/sql/queries/sql04-customers-with-no-orders-using-not-exists.mdx)
+[Topic index](README.md)
 
-**ID:** SQL04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** SQL04 · **Practice type:** Worked solution
 
 # Customers with no orders using NOT EXISTS
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -40,7 +38,7 @@ The correlated subquery asks whether any order belongs to the current customer. 
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. SQL references: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
+Further reading: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
 
 ---
 

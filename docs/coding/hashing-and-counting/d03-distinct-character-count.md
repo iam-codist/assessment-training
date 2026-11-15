@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/hashing-and-counting/d03-distinct-character-count.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/hashing-and-counting/d03-distinct-character-count.mdx)
+[Topic index](README.md)
 
-**ID:** D03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** D03 · **Practice type:** Worked solution
 
 # Distinct Character Count
 

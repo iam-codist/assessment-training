@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubbles/cog-bubble-extra-4-negative-warm-up.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-bubble-extra-4-negative-warm-up.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-extra-4 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-extra-4 · **Practice type:** Worked solution
 
 # Negative warm-up
 

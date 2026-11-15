@@ -4,7 +4,7 @@ import {puzzles} from '../src/content.ts';
 import {answerFeedback} from '../src/feedback.ts';
 const get=(id:string)=>puzzles.find(p=>p.id===id)!;
 test('Every round has explicit answer feedback or honest discussion guidance',()=>{
- for(const p of puzzles){const feedback=answerFeedback(p);assert.ok(feedback.answer&&feedback.explanation,p.id);assert.ok(!feedback.answer.includes('undefined'),p.id);if(p.ungraded)assert.equal(feedback.label,'Discussion guidance');}
+ for(const p of puzzles){const feedback=answerFeedback(p);assert.ok(feedback.answer&&feedback.explanation,p.id);assert.ok(!feedback.answer.includes('undefined'),p.id);if(p.ungraded)assert.equal(feedback.label,'Reasoning tips');}
 });
 test('Multiple-choice feedback answers the source question, including bubble questions',()=>{
  for(const p of puzzles.filter(p=>p.options&&p.answer!==undefined&&!p.ungraded))assert.equal(answerFeedback(p,'Incorrect response').answer,p.options![p.answer!]);
@@ -25,5 +25,5 @@ test('Number feedback gives a true equation and preserves a valid alternative re
 test('Word answers and source inconsistencies remain explicit',()=>{
  assert.equal(answerFeedback(get('word-1')).answer,'CROCODILE');
  assert.match(answerFeedback(get('geo-6')).explanation,/inconsistent/);
- assert.equal(answerFeedback(get('visual-1')).answer,'No verified answer for this round');
+ assert.equal(answerFeedback(get('visual-1')).answer,'Check your reasoning');
 });

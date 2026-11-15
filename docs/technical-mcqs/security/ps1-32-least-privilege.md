@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/ps1-32-least-privilege.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/ps1-32-least-privilege.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-32 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-32 · **Practice type:** Worked solution
 
 # Least privilege
 
@@ -34,7 +34,7 @@ Granting read access alone restricts the dashboard to the operation it needs.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 32.
+Assessment practice set 1, question 32.
 
 ---
 

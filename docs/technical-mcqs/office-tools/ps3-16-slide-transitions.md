@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps3-16-slide-transitions.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps3-16-slide-transitions.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-16 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-16 · **Practice type:** Worked solution
 
 # Slide transitions
 
@@ -34,7 +34,7 @@ A transition is associated with switching between slides.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 16.
+Assessment practice set 3, question 16.
 
 ---
 

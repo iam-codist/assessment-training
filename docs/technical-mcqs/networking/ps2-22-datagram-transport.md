@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps2-22-datagram-transport.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps2-22-datagram-transport.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-22 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-22 · **Practice type:** Worked solution
 
 # Datagram transport
 
@@ -34,7 +34,7 @@ UDP provides datagrams without TCP-style acknowledgments or retransmission.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 22.
+Assessment practice set 2, question 22.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/memory/cog-memory-5-position-recall-2.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/memory/cog-memory-5-position-recall-2.mdx)
+[Topic index](README.md)
 
-**ID:** COG-memory-5 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-memory-5 · **Practice type:** Worked solution
 
 # Position recall · 2
 
@@ -39,7 +39,7 @@ Use rows and columns as landmarks; selection order does not matter.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 5.
+Cognitive Lab practice, round 5.
 
 ---
 

@@ -1,12 +1,10 @@
 <!-- Generated from content/communication/communication-practice/com03-grammar-and-subject-verb-agreement.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/communication/communication-practice/com03-grammar-and-subject-verb-agreement.mdx)
+[Topic index](README.md)
 
-**ID:** COM03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COM03 · **Practice type:** Worked solution
 
 # Grammar and subject–verb agreement
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -32,7 +30,7 @@ The grammatical subject is “Each,” which is singular, so use “has.” The 
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

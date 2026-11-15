@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/number-operations/c06-exclusive-multiples.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/number-operations/c06-exclusive-multiples.mdx)
+[Topic index](README.md)
 
-**ID:** C06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C06 · **Practice type:** Worked solution
 
 # Exclusive multiples
 

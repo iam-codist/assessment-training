@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubble-pop/cog-bubble-pop-easy35-25-negatives-25.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubble-pop/cog-bubble-pop-easy35-25-negatives-25.mdx)
+[Topic index](README.md)
 
-**ID:** COG-bubble-pop-easy35-25 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-bubble-pop-easy35-25 · **Practice type:** Worked solution
 
 # Negatives · 25
 

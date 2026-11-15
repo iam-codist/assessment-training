@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/functions-and-references/p17-value-parameter.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/functions-and-references/p17-value-parameter.mdx)
+[Topic index](README.md)
 
-**ID:** P17 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P17 · **Practice type:** Worked solution
 
 # Value parameter
 

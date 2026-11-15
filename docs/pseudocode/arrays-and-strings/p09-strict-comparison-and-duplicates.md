@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/p09-strict-comparison-and-duplicates.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/p09-strict-comparison-and-duplicates.mdx)
+[Topic index](README.md)
 
-**ID:** P09 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P09 · **Practice type:** Worked solution
 
 # Strict comparison and duplicates
 

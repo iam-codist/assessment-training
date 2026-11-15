@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/two-pointers/lc283-move-zeroes.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/two-pointers/lc283-move-zeroes.mdx)
+[Topic index](README.md)
 
-**ID:** LC283 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC283 · **Practice type:** Worked solution
 
 # Move Zeroes
 

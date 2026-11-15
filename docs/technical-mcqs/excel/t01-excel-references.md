@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/t01-excel-references.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/t01-excel-references.mdx)
+[Topic index](README.md)
 
-**ID:** T01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T01 · **Practice type:** Worked solution
 
 # Excel references
 

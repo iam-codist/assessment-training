@@ -1,12 +1,10 @@
 <!-- Generated from content/frontend/html/fe03-an-accessible-action-control.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/html/fe03-an-accessible-action-control.mdx)
+[Topic index](README.md)
 
-**ID:** FE03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** FE03 · **Practice type:** Worked solution
 
 # An accessible action control
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -32,7 +30,7 @@ A native button supports keyboard activation and focus semantics. Give it type=b
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. Reference: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

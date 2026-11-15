@@ -1,10 +1,10 @@
 # Assessment Training
 
-Topic-wise preparation covering all ten requested assessment areas, combining recovered training material with clearly labelled new practice. Every complete exercise includes an answer and explanation or a coding approach. Expand the answer only after trying the question.
+Prepare for aptitude, technical and interview assessments with topic practice, worked examples and timed mocks. Try each question before opening its answer.
 
 **[Open the student website →](https://iam-codist.github.io/assessment-training/)** · **[Read on GitHub](docs/README.md)** · **[How to contribute](CONTRIBUTING.md)**
 
-The website has topic navigation, search, expandable answers, C/C++/Python/Java solution tabs, mobile navigation and a stable page for every question. The integrated Cognitive Lab provides interactive solo and classroom practice. The repository and website remain public; no account or invitation is needed. Question content comes directly from the MDX files in this repository.
+The website has topic navigation, search, expandable answers, C/C++/Python/Java solution tabs, mobile navigation and a stable page for every question. Use Cognitive Lab for timed or untimed practice in memory, arithmetic and visual reasoning.
 
 ## Browse the collection
 
@@ -22,7 +22,7 @@ The website has topic navigation, search, expandable answers, C/C++/Python/Java 
 | [Technical and HR interview](docs/interview/README.md) | Projects, technical explanations and honest response frameworks |
 | [Concept checks](docs/concept-checks/README.md) | Short checks to explain why an algorithm or formula works |
 | [Cognitive practice](docs/cognitive/README.md) | Arithmetic bubbles, routes, shape grids, sequences, memory and spatial reasoning |
-| [Reference outlines](docs/reference-outlines/README.md) | Brief prompts waiting for complete statements and reviewed solutions |
+| [Problem-planning warm-ups](docs/reference-outlines/README.md) | Outline an input, trace an example and sketch an algorithm |
 
 **[See the ten-area preparation roadmap](COVERAGE.md)** · **[Launch Cognitive Lab](https://iam-codist.github.io/assessment-training/lab/)** · **[Run code examples](SOLUTIONS.md)**
 
@@ -35,7 +35,7 @@ The [topic index](docs/README.md) contains the current counts and review status.
 3. Compare your reasoning with the explanation. For coding, test an edge case as well as the example.
 4. Report an unclear question or wrong answer using its ID in an [issue](https://github.com/iam-codist/assessment-training/issues).
 
-`ready` means the question and solution content are present. `planned`, `needs-review` and `outline` entries are visibly labelled and should not be used as verified scored questions. Repeated discussions of the same coding lesson were merged; variants with different rules remain separate.
+Use worked solutions to check your answers. For reasoning practice, explain which clues support your approach. For planning prompts, sketch a solution and compare it with a related worked exercise.
 
 ## For maintainers
 

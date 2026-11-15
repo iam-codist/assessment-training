@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps3-40-grouped-sums.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps3-40-grouped-sums.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-40 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-40 · **Practice type:** Worked solution
 
 # Grouped sums
 
@@ -34,7 +34,7 @@ GROUP BY forms one group per category and SUM aggregates each group.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 40.
+Assessment practice set 3, question 40.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/number-operations/c11-weighted-digit-checksum.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/number-operations/c11-weighted-digit-checksum.mdx)
+[Topic index](README.md)
 
-**ID:** C11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C11 · **Practice type:** Worked solution
 
 # Weighted digit checksum
 

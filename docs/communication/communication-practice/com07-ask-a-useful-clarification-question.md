@@ -1,12 +1,10 @@
 <!-- Generated from content/communication/communication-practice/com07-ask-a-useful-clarification-question.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/communication/communication-practice/com07-ask-a-useful-clarification-question.mdx)
+[Topic index](README.md)
 
-**ID:** COM07 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COM07 · **Practice type:** Worked solution
 
 # Ask a useful clarification question
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ For [5,5,3], the second position in descending order is 5 but the second distinc
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

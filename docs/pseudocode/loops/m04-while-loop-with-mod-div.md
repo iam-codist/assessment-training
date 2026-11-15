@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/m04-while-loop-with-mod-div.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/m04-while-loop-with-mod-div.mdx)
+[Topic index](README.md)
 
-**ID:** M04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M04 · **Practice type:** Worked solution
 
 # WHILE Loop with MOD &amp; DIV
 

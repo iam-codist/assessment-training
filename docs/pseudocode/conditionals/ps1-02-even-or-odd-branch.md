@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/conditionals/ps1-02-even-or-odd-branch.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/ps1-02-even-or-odd-branch.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-02 · **Practice type:** Worked solution
 
 # Even or odd branch
 
@@ -34,7 +34,7 @@ C. B
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 2.
+Assessment practice set 1, question 2.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/attention/cog-attention-2-spot-the-difference-1.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/attention/cog-attention-2-spot-the-difference-1.mdx)
+[Topic index](README.md)
 
-**ID:** COG-attention-2 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-attention-2 · **Practice type:** Worked solution
 
 # Spot the difference · 1
 
@@ -65,7 +65,7 @@ Scan one row at a time and compare both shape and fill. Every other cell is iden
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 2.
+Cognitive Lab practice, round 2.
 
 ---
 

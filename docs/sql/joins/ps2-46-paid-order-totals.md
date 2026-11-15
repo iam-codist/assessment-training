@@ -1,8 +1,8 @@
 <!-- Generated from content/sql/joins/ps2-46-paid-order-totals.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/sql/joins/ps2-46-paid-order-totals.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-46 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-46 · **Practice type:** Worked solution
 
 # Paid order totals
 
@@ -60,7 +60,7 @@ A LEFT JOIN keeps all customers. Put the paid-status condition in ON so customer
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 46.
+Assessment practice set 2, question 46.
 
 ---
 

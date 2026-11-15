@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/ps2-35-verifying-a-file-digest.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/ps2-35-verifying-a-file-digest.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-35 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-35 · **Practice type:** Worked solution
 
 # Verifying a file digest
 
@@ -34,7 +34,7 @@ A matching hash checks integrity if the expected digest came from a trusted sour
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 35.
+Assessment practice set 2, question 35.
 
 ---
 

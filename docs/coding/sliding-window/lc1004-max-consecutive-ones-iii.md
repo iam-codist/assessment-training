@@ -1,12 +1,10 @@
 <!-- Generated from content/coding/sliding-window/lc1004-max-consecutive-ones-iii.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/sliding-window/lc1004-max-consecutive-ones-iii.mdx)
+[Topic index](README.md)
 
-**ID:** LC1004 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC1004 · **Practice type:** Worked solution
 
 # Max Consecutive Ones III
-
-> **New worked reference** — The original teaching plan listed this problem. The runnable solutions and worked example were added for this website update; they are not recovered classroom transcripts.
 
 ## Question
 
@@ -14,7 +12,7 @@ Given a binary array and a nonnegative k, find the longest contiguous segment co
 
 ## Notes
 
-Originally listed in the Day 2 plan. The implementation and dry run below are newly authored practice.
+Track how many zeros are in the current window. When the count exceeds the allowed flips, move the left pointer until the window is valid again.
 
 <details>
 <summary>Show answer and explanation</summary>

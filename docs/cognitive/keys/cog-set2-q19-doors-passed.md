@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/keys/cog-set2-q19-doors-passed.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/keys/cog-set2-q19-doors-passed.mdx)
+[Topic index](README.md)
 
-**ID:** COG-set2-q19 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-set2-q19 · **Practice type:** Worked solution
 
 # Doors Passed
 

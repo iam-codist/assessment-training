@@ -1,8 +1,8 @@
 <!-- Generated from content/concept-checks/sliding-window/k08-one-sliding-window-update.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/concept-checks/sliding-window/k08-one-sliding-window-update.mdx)
+[Topic index](README.md)
 
-**ID:** K08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** K08 · **Practice type:** Worked solution
 
 # One sliding window update
 

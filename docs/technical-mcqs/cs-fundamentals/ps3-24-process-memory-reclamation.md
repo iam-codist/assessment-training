@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps3-24-process-memory-reclamation.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps3-24-process-memory-reclamation.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-24 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-24 · **Practice type:** Worked solution
 
 # Process memory reclamation
 
@@ -34,7 +34,7 @@ The OS reclaims resources such as allocated pages when cleaning up a process.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 24.
+Assessment practice set 3, question 24.
 
 ---
 

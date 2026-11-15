@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/ps3-34-individual-admin-accounts.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/ps3-34-individual-admin-accounts.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-34 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-34 · **Practice type:** Worked solution
 
 # Individual admin accounts
 
@@ -34,7 +34,7 @@ Individual accounts support accountability and access can be scoped and revoked 
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 34.
+Assessment practice set 3, question 34.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps2-36-foreign-key-constraints.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps2-36-foreign-key-constraints.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-36 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-36 · **Practice type:** Worked solution
 
 # Foreign key constraints
 
@@ -34,7 +34,7 @@ A foreign key links each non-null reference to a valid parent key for a simple s
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 36.
+Assessment practice set 2, question 36.
 
 ---
 

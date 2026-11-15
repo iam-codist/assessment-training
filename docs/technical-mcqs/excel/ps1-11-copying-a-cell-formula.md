@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/ps1-11-copying-a-cell-formula.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/ps1-11-copying-a-cell-formula.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-11 · **Practice type:** Worked solution
 
 # Copying a cell formula
 
@@ -34,7 +34,7 @@ The relative row in B2 moves down one. Both coordinates in $F$1 stay fixed.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 11.
+Assessment practice set 1, question 11.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/memory/cog-memory-12-direction-recall-4.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/memory/cog-memory-12-direction-recall-4.mdx)
+[Topic index](README.md)
 
-**ID:** COG-memory-12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-memory-12 · **Practice type:** Worked solution
 
 # Direction recall · 4
 
@@ -37,7 +37,7 @@ Recall one item at a time in the original order. Group the sequence into small c
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 12.
+Cognitive Lab practice, round 12.
 
 ---
 

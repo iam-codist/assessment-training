@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/words/cog-word-1-the-reptile-circuit.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/words/cog-word-1-the-reptile-circuit.mdx)
+[Topic index](README.md)
 
-**ID:** COG-word-1 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-word-1 · **Practice type:** Worked solution
 
 # The reptile circuit
 

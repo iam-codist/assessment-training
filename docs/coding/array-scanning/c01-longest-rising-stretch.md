@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/array-scanning/c01-longest-rising-stretch.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/c01-longest-rising-stretch.mdx)
+[Topic index](README.md)
 
-**ID:** C01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C01 · **Practice type:** Worked solution
 
 # Longest rising stretch
 

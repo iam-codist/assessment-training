@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps3-39-committing-changes.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps3-39-committing-changes.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-39 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-39 · **Practice type:** Worked solution
 
 # Committing changes
 
@@ -34,7 +34,7 @@ COMMIT finalizes the transaction. ROLLBACK discards its pending changes.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 39.
+Assessment practice set 3, question 39.
 
 ---
 

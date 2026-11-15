@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/bitwise/ps2-09-bitwise-and.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/ps2-09-bitwise-and.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-09 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-09 · **Practice type:** Worked solution
 
 # Bitwise AND
 
@@ -34,7 +34,7 @@ Binary 1100 AND 1010 gives 1000.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 9.
+Assessment practice set 2, question 9.
 
 ---
 

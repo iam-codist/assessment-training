@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/two-pointers/lc189-rotate-array.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/two-pointers/lc189-rotate-array.mdx)
+[Topic index](README.md)
 
-**ID:** LC189 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC189 · **Practice type:** Worked solution
 
 # Rotate Array
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/array-scanning/d02-second-largest-element.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/d02-second-largest-element.mdx)
+[Topic index](README.md)
 
-**ID:** D02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** D02 · **Practice type:** Worked solution
 
 # Second Largest Element
 

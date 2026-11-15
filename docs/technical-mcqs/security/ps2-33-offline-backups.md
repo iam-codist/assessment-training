@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/ps2-33-offline-backups.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/ps2-33-offline-backups.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-33 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-33 · **Practice type:** Worked solution
 
 # Offline backups
 
@@ -34,7 +34,7 @@ An offline copy can be restored even if the live share is encrypted.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 33.
+Assessment practice set 2, question 33.
 
 ---
 

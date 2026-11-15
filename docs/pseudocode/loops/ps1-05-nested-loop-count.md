@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps1-05-nested-loop-count.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps1-05-nested-loop-count.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-05 · **Practice type:** Worked solution
 
 # Nested loop count
 
@@ -34,7 +34,7 @@ The inner loop runs 1, 2, and 3 times on successive outer iterations.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 5.
+Assessment practice set 1, question 5.
 
 ---
 

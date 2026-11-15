@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps2-30-restoring-a-backup.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps2-30-restoring-a-backup.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-30 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-30 · **Practice type:** Worked solution
 
 # Restoring a backup
 
@@ -34,7 +34,7 @@ A backup provides an earlier copy that can be restored.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 30.
+Assessment practice set 2, question 30.
 
 ---
 

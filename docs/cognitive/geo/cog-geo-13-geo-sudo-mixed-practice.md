@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/geo/cog-geo-13-geo-sudo-mixed-practice.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/geo/cog-geo-13-geo-sudo-mixed-practice.mdx)
+[Topic index](README.md)
 
-**ID:** COG-geo-13 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-geo-13 · **Practice type:** Worked solution
 
 # Geo-Sudo · mixed practice
 

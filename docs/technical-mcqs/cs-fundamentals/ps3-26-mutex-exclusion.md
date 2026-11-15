@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps3-26-mutex-exclusion.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps3-26-mutex-exclusion.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-26 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-26 · **Practice type:** Worked solution
 
 # Mutex exclusion
 
@@ -34,7 +34,7 @@ A mutex makes cooperating threads take turns entering protected code.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 26.
+Assessment practice set 3, question 26.
 
 ---
 

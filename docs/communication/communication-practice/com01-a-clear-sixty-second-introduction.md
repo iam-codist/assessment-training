@@ -1,12 +1,10 @@
 <!-- Generated from content/communication/communication-practice/com01-a-clear-sixty-second-introduction.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/communication/communication-practice/com01-a-clear-sixty-second-introduction.mdx)
+[Topic index](README.md)
 
-**ID:** COM01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COM01 · **Practice type:** Worked solution
 
 # A clear sixty-second introduction
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ A practice template is: “I am studying [course]. I have been building [skill] 
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

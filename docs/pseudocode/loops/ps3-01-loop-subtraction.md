@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps3-01-loop-subtraction.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps3-01-loop-subtraction.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-01 · **Practice type:** Worked solution
 
 # Loop subtraction
 
@@ -34,7 +34,7 @@ Subtracting 1, 2, and 3 from 5 gives -1.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 1.
+Assessment practice set 3, question 1.
 
 ---
 

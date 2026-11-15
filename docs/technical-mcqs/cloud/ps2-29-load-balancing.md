@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps2-29-load-balancing.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps2-29-load-balancing.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-29 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-29 · **Practice type:** Worked solution
 
 # Load balancing
 
@@ -34,7 +34,7 @@ A load balancer selects backend instances to handle incoming requests.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 29.
+Assessment practice set 2, question 29.
 
 ---
 

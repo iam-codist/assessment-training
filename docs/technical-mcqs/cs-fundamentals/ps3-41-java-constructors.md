@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps3-41-java-constructors.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps3-41-java-constructors.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-41 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-41 · **Practice type:** Worked solution
 
 # Java constructors
 
@@ -34,7 +34,7 @@ A constructor runs during object creation to establish initial state.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 41.
+Assessment practice set 3, question 41.
 
 ---
 

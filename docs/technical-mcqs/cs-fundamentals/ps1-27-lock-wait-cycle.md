@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps1-27-lock-wait-cycle.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps1-27-lock-wait-cycle.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-27 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-27 · **Practice type:** Worked solution
 
 # Lock wait cycle
 
@@ -34,7 +34,7 @@ Each thread waits for the other to release a resource, forming a cycle that prev
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 27.
+Assessment practice set 1, question 27.
 
 ---
 

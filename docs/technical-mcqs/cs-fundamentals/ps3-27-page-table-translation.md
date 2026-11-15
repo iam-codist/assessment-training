@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps3-27-page-table-translation.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps3-27-page-table-translation.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-27 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-27 · **Practice type:** Worked solution
 
 # Page-table translation
 
@@ -34,7 +34,7 @@ Page tables map virtual pages to physical frames, with the MMU performing transl
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 27.
+Assessment practice set 3, question 27.
 
 ---
 

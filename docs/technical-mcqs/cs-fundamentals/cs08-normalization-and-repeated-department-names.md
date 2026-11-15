@@ -1,12 +1,10 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/cs08-normalization-and-repeated-department-names.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/cs08-normalization-and-repeated-department-names.mdx)
+[Topic index](README.md)
 
-**ID:** CS08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** CS08 · **Practice type:** Worked solution
 
 # Normalization and repeated department names
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -32,7 +30,7 @@ If department_id determines department_name, storing that name once avoids incon
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

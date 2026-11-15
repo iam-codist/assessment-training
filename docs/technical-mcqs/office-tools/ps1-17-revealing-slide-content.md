@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps1-17-revealing-slide-content.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps1-17-revealing-slide-content.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-17 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-17 · **Practice type:** Worked solution
 
 # Revealing slide content
 
@@ -34,7 +34,7 @@ An entrance animation controls when an object appears on a slide. Transitions ap
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 17.
+Assessment practice set 1, question 17.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps3-45-java-array-bounds.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps3-45-java-array-bounds.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-45 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-45 · **Practice type:** Worked solution
 
 # Java array bounds
 
@@ -34,7 +34,7 @@ Valid indices are 0 and 1. Java checks bounds at runtime.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 45.
+Assessment practice set 3, question 45.
 
 ---
 

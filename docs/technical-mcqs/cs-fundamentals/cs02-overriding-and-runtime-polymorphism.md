@@ -1,12 +1,10 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/cs02-overriding-and-runtime-polymorphism.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/cs02-overriding-and-runtime-polymorphism.mdx)
+[Topic index](README.md)
 
-**ID:** CS02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** CS02 · **Practice type:** Worked solution
 
 # Overriding and runtime polymorphism
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -32,7 +30,7 @@ The runtime object determines the implementation for an overridden instance meth
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

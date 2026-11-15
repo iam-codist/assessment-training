@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps3-04-shrinking-inner-loop.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps3-04-shrinking-inner-loop.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-04 · **Practice type:** Worked solution
 
 # Shrinking inner loop
 
@@ -34,7 +34,7 @@ The inner loop has 3, 2, and 1 iterations.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 4.
+Assessment practice set 3, question 4.
 
 ---
 

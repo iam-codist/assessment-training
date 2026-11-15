@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps3-20-sending-email-between-servers.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps3-20-sending-email-between-servers.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-20 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-20 · **Practice type:** Worked solution
 
 # Sending email between servers
 
@@ -34,7 +34,7 @@ SMTP handles sending and relaying mail.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 20.
+Assessment practice set 3, question 20.
 
 ---
 

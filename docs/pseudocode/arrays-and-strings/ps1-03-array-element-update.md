@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/ps1-03-array-element-update.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/ps1-03-array-element-update.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-03 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-03 · **Practice type:** Worked solution
 
 # Array element update
 
@@ -34,7 +34,7 @@ Indices 0 and 2 contain 4 and 2, so index 1 is overwritten with 6.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 3.
+Assessment practice set 1, question 3.
 
 ---
 

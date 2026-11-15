@@ -1,12 +1,10 @@
 <!-- Generated from content/frontend/javascript/fe11-promise-callbacks-and-synchronous-code.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/fe11-promise-callbacks-and-synchronous-code.mdx)
+[Topic index](README.md)
 
-**ID:** FE11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** FE11 · **Practice type:** Worked solution
 
 # Promise callbacks and synchronous code
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -33,7 +31,7 @@ The current synchronous code finishes first. The then callback is queued as a pr
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. Reference: [MDN using promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises).
+Further reading: [MDN using promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises).
 
 ---
 

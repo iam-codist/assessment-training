@@ -1,6 +1,6 @@
 import type {Puzzle,PatternTransform,RocketPuzzle} from './engine';
 import {cellLabel,directionBetween,shortestRocketRoute,transformPattern,connectedRocketRoute,memoryResponse} from './practiceEngine';
-const source={source:'Cognitive Lab original classroom practice',sourceKind:'authored' as const};
+const source={source:'Cognitive Lab practice',sourceKind:'authored' as const};
 const paths=[
  [0,1,2,5,8],[0,3,6,7,8],[6,3,4,1,2],[0,1,4,7,8],
  [0,1,2,3,7,11,15],[0,4,8,12,13,14,15],[12,8,9,5,6,2,3],

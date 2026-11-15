@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/array-scanning/c15-missing-roll-number.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/c15-missing-roll-number.mdx)
+[Topic index](README.md)
 
-**ID:** C15 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C15 · **Practice type:** Worked solution
 
 # Missing roll number
 

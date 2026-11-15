@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps1-43-finding-an-array-maximum.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps1-43-finding-an-array-maximum.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-43 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-43 · **Practice type:** Worked solution
 
 # Finding an array maximum
 
@@ -34,7 +34,7 @@ The algorithm must inspect all n values because the maximum can be anywhere.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 43.
+Assessment practice set 1, question 43.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/m14-array-reversal-using-swapping.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/m14-array-reversal-using-swapping.mdx)
+[Topic index](README.md)
 
-**ID:** M14 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M14 · **Practice type:** Worked solution
 
 # Array Reversal Using Swapping
 

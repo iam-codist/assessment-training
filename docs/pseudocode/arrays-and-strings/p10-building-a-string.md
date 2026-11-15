@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/p10-building-a-string.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/p10-building-a-string.mdx)
+[Topic index](README.md)
 
-**ID:** P10 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P10 · **Practice type:** Worked solution
 
 # Building a string
 

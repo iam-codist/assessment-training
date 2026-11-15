@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/functions-and-references/m18-functions-and-parameters.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/functions-and-references/m18-functions-and-parameters.mdx)
+[Topic index](README.md)
 
-**ID:** M18 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M18 · **Practice type:** Worked solution
 
 # Functions and Parameters
 

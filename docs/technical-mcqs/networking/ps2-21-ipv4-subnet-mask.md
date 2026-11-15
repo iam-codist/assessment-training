@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps2-21-ipv4-subnet-mask.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps2-21-ipv4-subnet-mask.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-21 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-21 · **Practice type:** Worked solution
 
 # IPv4 subnet mask
 
@@ -34,7 +34,7 @@ The mask marks which address bits identify the network prefix.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 21.
+Assessment practice set 2, question 21.
 
 ---
 

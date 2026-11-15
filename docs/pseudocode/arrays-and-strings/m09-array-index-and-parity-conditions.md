@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/arrays-and-strings/m09-array-index-and-parity-conditions.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/arrays-and-strings/m09-array-index-and-parity-conditions.mdx)
+[Topic index](README.md)
 
-**ID:** M09 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M09 · **Practice type:** Worked solution
 
 # Array Index and Parity Conditions
 

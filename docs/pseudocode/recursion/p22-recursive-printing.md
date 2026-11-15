@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/recursion/p22-recursive-printing.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/recursion/p22-recursive-printing.mdx)
+[Topic index](README.md)
 
-**ID:** P22 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P22 · **Practice type:** Worked solution
 
 # Recursive printing
 

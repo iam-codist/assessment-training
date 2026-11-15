@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/t14-automatic-network-configuration.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/t14-automatic-network-configuration.mdx)
+[Topic index](README.md)
 
-**ID:** T14 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T14 · **Practice type:** Worked solution
 
 # Automatic network configuration
 

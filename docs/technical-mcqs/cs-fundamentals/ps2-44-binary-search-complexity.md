@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps2-44-binary-search-complexity.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps2-44-binary-search-complexity.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-44 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-44 · **Practice type:** Worked solution
 
 # Binary search complexity
 
@@ -34,7 +34,7 @@ Each comparison halves the remaining search interval.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 44.
+Assessment practice set 2, question 44.
 
 ---
 

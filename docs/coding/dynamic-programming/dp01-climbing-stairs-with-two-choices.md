@@ -1,12 +1,10 @@
 <!-- Generated from content/coding/dynamic-programming/dp01-climbing-stairs-with-two-choices.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/dynamic-programming/dp01-climbing-stairs-with-two-choices.mdx)
+[Topic index](README.md)
 
-**ID:** DP01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** DP01 · **Practice type:** Worked solution
 
 # Climbing stairs with two choices
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -50,7 +48,7 @@ Read n from 0 through 90. Print ways to climb n steps using moves of 1 or 2 step
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/t23-scaling.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/t23-scaling.mdx)
+[Topic index](README.md)
 
-**ID:** T23 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T23 · **Practice type:** Worked solution
 
 # Scaling
 

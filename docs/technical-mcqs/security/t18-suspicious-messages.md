@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/t18-suspicious-messages.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/t18-suspicious-messages.mdx)
+[Topic index](README.md)
 
-**ID:** T18 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T18 · **Practice type:** Worked solution
 
 # Suspicious messages
 

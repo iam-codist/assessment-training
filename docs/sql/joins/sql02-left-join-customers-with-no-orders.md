@@ -1,12 +1,10 @@
 <!-- Generated from content/sql/joins/sql02-left-join-customers-with-no-orders.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/sql/joins/sql02-left-join-customers-with-no-orders.mdx)
+[Topic index](README.md)
 
-**ID:** SQL02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** SQL02 · **Practice type:** Worked solution
 
 # Left join customers with no orders
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -42,7 +40,7 @@ LEFT JOIN preserves Omar even without an order. COUNT(o.id) ignores the NULL pla
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. SQL references: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
+Further reading: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
 
 ---
 

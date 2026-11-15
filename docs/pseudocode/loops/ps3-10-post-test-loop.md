@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps3-10-post-test-loop.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps3-10-post-test-loop.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-10 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-10 · **Practice type:** Worked solution
 
 # Post-test loop
 
@@ -34,7 +34,7 @@ The loop checks after each decrement and stops after reaching 0.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 10.
+Assessment practice set 3, question 10.
 
 ---
 

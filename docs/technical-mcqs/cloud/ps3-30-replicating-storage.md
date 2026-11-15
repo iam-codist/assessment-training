@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps3-30-replicating-storage.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps3-30-replicating-storage.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-30 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-30 · **Practice type:** Worked solution
 
 # Replicating storage
 
@@ -34,7 +34,7 @@ Replication places copies on separate storage nodes.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 30.
+Assessment practice set 3, question 30.
 
 ---
 

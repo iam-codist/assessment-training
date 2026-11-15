@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/p05-nested-loop-count.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/p05-nested-loop-count.mdx)
+[Topic index](README.md)
 
-**ID:** P05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P05 · **Practice type:** Worked solution
 
 # Nested loop count
 

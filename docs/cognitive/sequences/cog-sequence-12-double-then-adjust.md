@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-12-double-then-adjust.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-12-double-then-adjust.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-12 · **Practice type:** Worked solution
 
 # Double, then adjust
 
@@ -38,7 +38,7 @@ Double each term and subtract 1. 33 × 2 − 1 = 65; 65 × 2 − 1 = 129.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 12.
+Cognitive Lab practice, round 12.
 
 ---
 

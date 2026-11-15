@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps2-23-context-switching.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps2-23-context-switching.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-23 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-23 · **Practice type:** Worked solution
 
 # Context switching
 
@@ -34,7 +34,7 @@ A context switch changes which execution context a CPU runs.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 23.
+Assessment practice set 2, question 23.
 
 ---
 

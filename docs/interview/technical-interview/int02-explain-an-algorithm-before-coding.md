@@ -1,12 +1,10 @@
 <!-- Generated from content/interview/technical-interview/int02-explain-an-algorithm-before-coding.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/interview/technical-interview/int02-explain-an-algorithm-before-coding.mdx)
+[Topic index](README.md)
 
-**ID:** INT02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** INT02 · **Practice type:** Worked solution
 
 # Explain an algorithm before coding
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ The invariant is that the current window contains no duplicate. A last-seen map 
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

@@ -1,12 +1,10 @@
 <!-- Generated from content/sql/queries/sql09-dense-ranking-with-tied-salaries.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/sql/queries/sql09-dense-ranking-with-tied-salaries.mdx)
+[Topic index](README.md)
 
-**ID:** SQL09 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** SQL09 · **Practice type:** Worked solution
 
 # Dense ranking with tied salaries
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -43,7 +41,7 @@ DENSE_RANK assigns 1,2,3,4,4,5 here. RANK would leave a gap after the tie, givin
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. SQL references: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
+Further reading: [joins](https://www.postgresql.org/docs/current/tutorial-join.html), [aggregates](https://www.postgresql.org/docs/current/tutorial-agg.html), and [window functions](https://www.postgresql.org/docs/current/tutorial-window.html). Queries are checked against the included SQLite fixture.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/number-operations/c09-compare-two-numerals.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/number-operations/c09-compare-two-numerals.mdx)
+[Topic index](README.md)
 
-**ID:** C09 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C09 · **Practice type:** Worked solution
 
 # Compare two numerals
 

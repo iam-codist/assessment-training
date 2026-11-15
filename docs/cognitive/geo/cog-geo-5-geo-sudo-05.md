@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/geo/cog-geo-5-geo-sudo-05.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/geo/cog-geo-5-geo-sudo-05.mdx)
+[Topic index](README.md)
 
-**ID:** COG-geo-5 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-geo-5 · **Practice type:** Worked solution
 
 # Geo-Sudo 05
 

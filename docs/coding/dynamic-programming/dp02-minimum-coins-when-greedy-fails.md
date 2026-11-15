@@ -1,12 +1,10 @@
 <!-- Generated from content/coding/dynamic-programming/dp02-minimum-coins-when-greedy-fails.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/dynamic-programming/dp02-minimum-coins-when-greedy-fails.mdx)
+[Topic index](README.md)
 
-**ID:** DP02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** DP02 · **Practice type:** Worked solution
 
 # Minimum coins when greedy fails
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -51,7 +49,7 @@ Read coin count n and amount (0 through 10000), then n positive coin values. Pri
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

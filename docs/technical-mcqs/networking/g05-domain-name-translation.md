@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/g05-domain-name-translation.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/g05-domain-name-translation.mdx)
+[Topic index](README.md)
 
-**ID:** G05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** G05 · **Practice type:** Worked solution
 
 # Domain name translation
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps3-14-automatic-contents-table.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps3-14-automatic-contents-table.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-14 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-14 · **Practice type:** Worked solution
 
 # Automatic contents table
 
@@ -34,7 +34,7 @@ An automatic contents table uses heading levels and can update its page referenc
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 14.
+Assessment practice set 3, question 14.
 
 ---
 

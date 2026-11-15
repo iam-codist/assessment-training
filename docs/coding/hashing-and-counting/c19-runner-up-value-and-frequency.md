@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/hashing-and-counting/c19-runner-up-value-and-frequency.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/hashing-and-counting/c19-runner-up-value-and-frequency.mdx)
+[Topic index](README.md)
 
-**ID:** C19 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C19 · **Practice type:** Worked solution
 
 # Runner-up value and frequency
 

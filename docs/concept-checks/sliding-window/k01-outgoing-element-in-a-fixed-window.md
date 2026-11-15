@@ -1,8 +1,8 @@
 <!-- Generated from content/concept-checks/sliding-window/k01-outgoing-element-in-a-fixed-window.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/concept-checks/sliding-window/k01-outgoing-element-in-a-fixed-window.mdx)
+[Topic index](README.md)
 
-**ID:** K01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** K01 · **Practice type:** Worked solution
 
 # Outgoing element in a fixed window
 

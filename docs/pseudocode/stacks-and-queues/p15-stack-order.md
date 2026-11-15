@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/stacks-and-queues/p15-stack-order.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/stacks-and-queues/p15-stack-order.mdx)
+[Topic index](README.md)
 
-**ID:** P15 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P15 · **Practice type:** Worked solution
 
 # Stack order
 

@@ -60,7 +60,7 @@ if (searchForm) {
   category.value = params.get('category') ?? '';
   status.value = params.get('status') ?? '';
   let questions = []; let limit = 30; let timer;
-  const statusLabel = { ready: 'Ready to practise', planned: 'Planned lesson', 'needs-review': 'Needs review', outline: 'Outline only' };
+  const statusLabel = { ready: 'Worked solution', planned: 'Guided practice', 'needs-review': 'Reasoning practice', outline: 'Planning prompt' };
   function render(updateURL = true) {
     const matches = searchQuestions(questions, { query: query.value, category: category.value, status: status.value });
     if (updateURL) {

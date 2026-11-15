@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-4-growing-gaps.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-4-growing-gaps.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-4 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-4 · **Practice type:** Worked solution
 
 # Growing gaps
 
@@ -38,7 +38,7 @@ The gaps are +3, +5, +7, +9, +11. Add 9 to 17 to get 26.
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 4.
+Cognitive Lab practice, round 4.
 
 ---
 

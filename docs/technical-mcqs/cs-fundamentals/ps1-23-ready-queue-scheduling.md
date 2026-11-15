@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps1-23-ready-queue-scheduling.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps1-23-ready-queue-scheduling.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-23 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-23 · **Practice type:** Worked solution
 
 # Ready queue scheduling
 
@@ -34,7 +34,7 @@ The CPU scheduler selects a runnable process or thread from the ready queue.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 23.
+Assessment practice set 1, question 23.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/maze/cog-set2-q4-fewest-turns.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/maze/cog-set2-q4-fewest-turns.mdx)
+[Topic index](README.md)
 
-**ID:** COG-set2-q4 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-set2-q4 · **Practice type:** Worked solution
 
 # Fewest Turns
 

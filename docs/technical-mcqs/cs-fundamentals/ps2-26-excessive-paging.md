@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps2-26-excessive-paging.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps2-26-excessive-paging.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-26 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-26 · **Practice type:** Worked solution
 
 # Excessive paging
 
@@ -34,7 +34,7 @@ Frequent page faults and transfers can dominate execution.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 26.
+Assessment practice set 2, question 26.
 
 ---
 

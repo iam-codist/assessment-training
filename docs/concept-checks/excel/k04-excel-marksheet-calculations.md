@@ -1,8 +1,8 @@
 <!-- Generated from content/concept-checks/excel/k04-excel-marksheet-calculations.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/concept-checks/excel/k04-excel-marksheet-calculations.mdx)
+[Topic index](README.md)
 
-**ID:** K04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** K04 · **Practice type:** Worked solution
 
 # Excel marksheet calculations
 

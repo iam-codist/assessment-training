@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/hashing-and-counting/lc387-first-unique-character-in-a-string.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/hashing-and-counting/lc387-first-unique-character-in-a-string.mdx)
+[Topic index](README.md)
 
-**ID:** LC387 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC387 · **Practice type:** Worked solution
 
 # First Unique Character in a String
 

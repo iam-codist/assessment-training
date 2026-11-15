@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps2-40-indexing-an-email-lookup.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps2-40-indexing-an-email-lookup.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-40 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-40 · **Practice type:** Worked solution
 
 # Indexing an email lookup
 
@@ -34,7 +34,7 @@ An index offers an access path to matching values, though it uses storage and ad
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 40.
+Assessment practice set 2, question 40.
 
 ---
 

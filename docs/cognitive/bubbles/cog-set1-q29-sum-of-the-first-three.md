@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/bubbles/cog-set1-q29-sum-of-the-first-three.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-set1-q29-sum-of-the-first-three.mdx)
+[Topic index](README.md)
 
-**ID:** COG-set1-q29 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-set1-q29 · **Practice type:** Worked solution
 
 # Sum of the First Three
 

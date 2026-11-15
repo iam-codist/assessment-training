@@ -1,14 +1,14 @@
 <!-- Generated from content/coding/maximum-subarray/lc53-maximum-subarray.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/maximum-subarray/lc53-maximum-subarray.mdx)
+[Topic index](README.md)
 
-**ID:** LC53 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC53 · **Practice type:** Worked solution
 
 # Maximum Subarray
 
 ## Question
 
-For a nonempty integer array, find the greatest sum of any contiguous nonempty subarray. The extended classroom version also reports the start index, end index and actual subarray.
+For a nonempty integer array, find the greatest sum of any contiguous nonempty subarray. The extended version also reports the start index, end index and actual subarray.
 
 ## Example 1
 

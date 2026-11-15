@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/attention/cog-attention-11-exact-match-6.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/attention/cog-attention-11-exact-match-6.mdx)
+[Topic index](README.md)
 
-**ID:** COG-attention-11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-attention-11 · **Practice type:** Worked solution
 
 # Exact match · 6
 
@@ -77,7 +77,7 @@ Compare the position of every filled square, row by row. The correct option has 
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 11.
+Cognitive Lab practice, round 11.
 
 ---
 

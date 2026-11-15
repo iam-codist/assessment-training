@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/ps3-33-data-integrity.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/ps3-33-data-integrity.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-33 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-33 · **Practice type:** Worked solution
 
 # Data integrity
 
@@ -34,7 +34,7 @@ Integrity concerns the accuracy and protection of data from unauthorized alterat
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 33.
+Assessment practice set 3, question 33.
 
 ---
 

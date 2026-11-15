@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps1-37-preserving-departments-in-a-join.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps1-37-preserving-departments-in-a-join.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-37 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-37 · **Practice type:** Worked solution
 
 # Preserving departments in a join
 
@@ -34,7 +34,7 @@ LEFT JOIN preserves Department rows and fills unmatched employee columns with NU
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 37.
+Assessment practice set 1, question 37.
 
 ---
 

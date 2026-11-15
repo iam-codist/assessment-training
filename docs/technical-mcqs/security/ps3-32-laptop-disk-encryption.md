@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/security/ps3-32-laptop-disk-encryption.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/security/ps3-32-laptop-disk-encryption.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-32 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-32 · **Practice type:** Worked solution
 
 # Laptop disk encryption
 
@@ -34,7 +34,7 @@ Encryption makes raw disk contents unreadable without the decryption material.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 32.
+Assessment practice set 3, question 32.
 
 ---
 

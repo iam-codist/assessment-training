@@ -1,6 +1,6 @@
 # Assessment practice sets
 
-Each set includes 45 technical MCQs, one SQL joins exercise and one frontend exercise. Open each question and try it before expanding the answer.
+Each set includes 45 technical MCQs, one SQL joins exercise and one frontend exercise. Use the timed mocks when you want to practise pacing. To study one skill at a time, open a question below and try it before expanding the answer.
 
 ## Set 1
 

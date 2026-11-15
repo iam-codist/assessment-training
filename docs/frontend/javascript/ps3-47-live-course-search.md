@@ -1,8 +1,8 @@
 <!-- Generated from content/frontend/javascript/ps3-47-live-course-search.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/ps3-47-live-course-search.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-47 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-47 · **Practice type:** Worked solution
 
 # Live course search
 
@@ -97,7 +97,7 @@ Lowercasing both strings makes substring matching case-insensitive. Trimming rem
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 47.
+Assessment practice set 3, question 47.
 
 ---
 

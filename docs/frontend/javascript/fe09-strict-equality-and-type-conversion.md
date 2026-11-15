@@ -1,12 +1,10 @@
 <!-- Generated from content/frontend/javascript/fe09-strict-equality-and-type-conversion.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/fe09-strict-equality-and-type-conversion.mdx)
+[Topic index](README.md)
 
-**ID:** FE09 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** FE09 · **Practice type:** Worked solution
 
 # Strict equality and type conversion
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -37,7 +35,7 @@ Strict equality does not coerce number and string to the same type. Loose equali
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. Reference: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

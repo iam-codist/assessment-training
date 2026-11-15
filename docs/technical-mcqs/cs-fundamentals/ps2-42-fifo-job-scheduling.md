@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps2-42-fifo-job-scheduling.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps2-42-fifo-job-scheduling.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-42 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-42 · **Practice type:** Worked solution
 
 # FIFO job scheduling
 
@@ -34,7 +34,7 @@ A FIFO queue removes the earliest inserted item first.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 42.
+Assessment practice set 2, question 42.
 
 ---
 

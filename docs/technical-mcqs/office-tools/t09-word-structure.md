@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/t09-word-structure.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/t09-word-structure.mdx)
+[Topic index](README.md)
 
-**ID:** T09 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T09 · **Practice type:** Worked solution
 
 # Word structure
 

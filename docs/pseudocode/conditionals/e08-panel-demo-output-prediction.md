@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/conditionals/e08-panel-demo-output-prediction.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/e08-panel-demo-output-prediction.mdx)
+[Topic index](README.md)
 
-**ID:** E08 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** E08 · **Practice type:** Worked solution
 
 # Panel demo output prediction
 

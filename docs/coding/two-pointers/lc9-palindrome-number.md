@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/two-pointers/lc9-palindrome-number.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/two-pointers/lc9-palindrome-number.mdx)
+[Topic index](README.md)
 
-**ID:** LC9 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC9 · **Practice type:** Worked solution
 
 # Palindrome Number
 

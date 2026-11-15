@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps1-15-personalized-letters.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps1-15-personalized-letters.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-15 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-15 · **Practice type:** Worked solution
 
 # Personalized letters
 
@@ -34,7 +34,7 @@ Mail Merge fills template fields from each recipient record.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 15.
+Assessment practice set 1, question 15.
 
 ---
 

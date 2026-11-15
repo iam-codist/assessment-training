@@ -1,12 +1,10 @@
 <!-- Generated from content/frontend/javascript/fe12-handle-an-http-error-from-fetch.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/fe12-handle-an-http-error-from-fetch.mdx)
+[Topic index](README.md)
 
-**ID:** FE12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** FE12 · **Practice type:** Worked solution
 
 # Handle an HTTP error from fetch
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -35,7 +33,7 @@ fetch can resolve normally for an HTTP 404 or 500 response, so inspect response.
 
 ## Source context
 
-Original educational practice added for the curriculum expansion. Reference: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+Further reading: [MDN web development curriculum](https://developer.mozilla.org/en-US/docs/Learn_web_development).
 
 ---
 

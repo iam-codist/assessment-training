@@ -1,8 +1,8 @@
 <!-- Generated from content/frontend/javascript/ps2-47-ticket-price-calculator.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/ps2-47-ticket-price-calculator.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-47 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-47 · **Practice type:** Worked solution
 
 # Ticket price calculator
 
@@ -85,7 +85,7 @@ valueAsNumber returns NaN when the input is blank. Number.isInteger rejects NaN 
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 47.
+Assessment practice set 2, question 47.
 
 ---
 

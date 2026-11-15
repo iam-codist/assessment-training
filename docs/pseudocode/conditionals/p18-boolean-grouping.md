@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/conditionals/p18-boolean-grouping.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/p18-boolean-grouping.mdx)
+[Topic index](README.md)
 
-**ID:** P18 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P18 · **Practice type:** Worked solution
 
 # Boolean grouping
 

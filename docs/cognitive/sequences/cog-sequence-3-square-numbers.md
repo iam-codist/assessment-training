@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-3-square-numbers.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-3-square-numbers.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-3 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-3 · **Practice type:** Worked solution
 
 # Square numbers
 
@@ -38,7 +38,7 @@ These are consecutive squares: 1², 2², 3², 4², 5². The missing value is 4²
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 3.
+Cognitive Lab practice, round 3.
 
 ---
 

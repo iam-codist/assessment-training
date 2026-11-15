@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/conditionals/p02-branch-selection.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/p02-branch-selection.mdx)
+[Topic index](README.md)
 
-**ID:** P02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** P02 · **Practice type:** Worked solution
 
 # Branch selection
 

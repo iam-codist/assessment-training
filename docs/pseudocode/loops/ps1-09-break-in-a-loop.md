@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/ps1-09-break-in-a-loop.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/ps1-09-break-in-a-loop.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-09 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-09 · **Practice type:** Worked solution
 
 # Break in a loop
 
@@ -34,7 +34,7 @@ The loop adds 3, then exits at 0 before reaching 8.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 9.
+Assessment practice set 1, question 9.
 
 ---
 

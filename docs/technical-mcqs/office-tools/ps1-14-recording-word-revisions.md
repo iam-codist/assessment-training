@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/office-tools/ps1-14-recording-word-revisions.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/office-tools/ps1-14-recording-word-revisions.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-14 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-14 · **Practice type:** Worked solution
 
 # Recording Word revisions
 
@@ -34,7 +34,7 @@ Track Changes records revisions and lets the author accept or reject them indivi
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 14.
+Assessment practice set 1, question 14.
 
 ---
 

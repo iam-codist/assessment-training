@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/hashing-and-counting/lc49-group-anagrams.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/hashing-and-counting/lc49-group-anagrams.mdx)
+[Topic index](README.md)
 
-**ID:** LC49 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** LC49 · **Practice type:** Worked solution
 
 # Group Anagrams
 

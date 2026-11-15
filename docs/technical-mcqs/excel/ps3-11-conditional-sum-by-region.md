@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/ps3-11-conditional-sum-by-region.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/ps3-11-conditional-sum-by-region.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-11 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-11 · **Practice type:** Worked solution
 
 # Conditional sum by region
 
@@ -34,7 +34,7 @@ SUMIF evaluates the criterion range and adds corresponding values from the sum r
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 11.
+Assessment practice set 3, question 11.
 
 ---
 

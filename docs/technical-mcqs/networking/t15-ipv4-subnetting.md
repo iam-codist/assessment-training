@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/t15-ipv4-subnetting.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/t15-ipv4-subnetting.mdx)
+[Topic index](README.md)
 
-**ID:** T15 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T15 · **Practice type:** Worked solution
 
 # IPv4 subnetting
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/networking/ps1-18-host-name-resolution.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/networking/ps1-18-host-name-resolution.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-18 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-18 · **Practice type:** Worked solution
 
 # Host name resolution
 
@@ -34,7 +34,7 @@ DNS records associate names with addresses. DHCP supplies network configuration 
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 18.
+Assessment practice set 1, question 18.
 
 ---
 

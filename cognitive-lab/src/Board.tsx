@@ -52,7 +52,7 @@ export function Board({p,state,active,reveal,elapsed,move,pop,update}:Props){
   <div className="geo-grid" style={{gridTemplateColumns:`repeat(${p.size},1fr)`}} role="group" aria-label="Shape logic grid">{p.grid!.map((v,i)=><div key={i} aria-label={`Row ${Math.floor(i/p.size!)+1}, column ${i%p.size!+1}: ${i===p.targetCell?'question':shapeNames[v]||'blank'}`} className={`geo-cell ${i===p.targetCell?'target-cell':''} shape-${v||geoSolution?.[i]}`}>
    {v?shapes[v]:i===p.targetCell?(reveal&&p.answer!==undefined?shapes[p.answer+1]:state.selected!==null?shapes[state.selected+1]:'?'):reveal&&geoSolution?<span className="solved-shape">{shapes[geoSolution[i]]}</span>:<span className="empty-dot"/>}
   </div>)}</div>
-  <p className="board-help">Choose the missing shape in the answer panel.{p.ungraded?' Trainer discussion only.':''}</p>
+  <p className="board-help">Choose the missing shape in the answer panel.{p.ungraded?' This round is unscored.':''}</p>
  </div>;
  if(p.type==='numbers'){
   const slot=(i:number)=><button className="digit-slot" disabled={!active} onClick={()=>update({digits:state.digits.slice(0,i)})} aria-label={`Digit ${i+1}${state.digits[i]?`: ${state.digits[i]}`:', empty'}`}>{state.digits[i]??'?'}</button>;
@@ -65,5 +65,5 @@ export function Board({p,state,active,reveal,elapsed,move,pop,update}:Props){
   </div>;
  }
  if(p.type==='words')return <div className="words-wrap"><div className="order-label">{p.direction==='clockwise'?'↻':'↺'} Read {p.direction}. Finish at the centre.</div><div className="word-grid">{p.letters!.map((letter,i)=><div className={`letter-cell ${i===4?'centre-letter':''} ${!letter?'missing-letter':''}`} key={i}>{letter||'?'}</div>)}</div><label className="word-answer">Your nine-letter word<input disabled={!active} maxLength={9} value={state.word} placeholder="Type the word…" onChange={e=>update({word:e.target.value.replace(/[^a-z]/gi,'').toUpperCase()})} autoComplete="off" spellCheck={false}/></label>{reveal&&<div className="word-solution">{p.word}</div>}</div>;
- return <div className="visual-wrap"><img src={p.image} alt={`${p.title}. Original classroom puzzle from slide ${p.slide}.`} /><p className="board-help">Original visual prompt · Trainer-reviewed discussion · No automatic score</p></div>;
+ return <div className="visual-wrap"><img src={p.image} alt={`${p.title}. Visual reasoning puzzle.`} /><p className="board-help">Explain the pattern you see. This round is unscored.</p></div>;
 }

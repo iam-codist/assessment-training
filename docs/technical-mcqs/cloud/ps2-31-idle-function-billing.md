@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps2-31-idle-function-billing.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps2-31-idle-function-billing.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-31 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-31 · **Practice type:** Worked solution
 
 # Idle function billing
 
@@ -34,7 +34,7 @@ With per-execution billing and no reserved capacity, idle periods normally incur
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 31.
+Assessment practice set 2, question 31.
 
 ---
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/conditionals/e01-conditional-warm-up.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/e01-conditional-warm-up.mdx)
+[Topic index](README.md)
 
-**ID:** E01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** E01 · **Practice type:** Worked solution
 
 # Conditional warm-up
 
@@ -32,7 +32,7 @@ END IF
 
 ## Notes
 
-Complete warm-up recovered from the first chat message.
+Pseudocode warm-up.
 
 <details>
 <summary>Show answer and explanation</summary>

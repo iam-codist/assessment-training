@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/simulation-and-greedy/c18-grid-delivery-route.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/simulation-and-greedy/c18-grid-delivery-route.mdx)
+[Topic index](README.md)
 
-**ID:** C18 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C18 · **Practice type:** Worked solution
 
 # Grid delivery route
 

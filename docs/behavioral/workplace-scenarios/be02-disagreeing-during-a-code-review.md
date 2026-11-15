@@ -1,12 +1,10 @@
 <!-- Generated from content/behavioral/workplace-scenarios/be02-disagreeing-during-a-code-review.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/behavioral/workplace-scenarios/be02-disagreeing-during-a-code-review.mdx)
+[Topic index](README.md)
 
-**ID:** BE02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** BE02 · **Practice type:** Worked solution
 
 # Disagreeing during a code review
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ Discuss behavior and evidence rather than the person. For example, compare testa
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

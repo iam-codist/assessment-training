@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/t02-excel-conditions.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/t02-excel-conditions.mdx)
+[Topic index](README.md)
 
-**ID:** T02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** T02 · **Practice type:** Worked solution
 
 # Excel conditions
 

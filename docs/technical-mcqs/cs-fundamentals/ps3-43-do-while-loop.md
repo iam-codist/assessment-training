@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cs-fundamentals/ps3-43-do-while-loop.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cs-fundamentals/ps3-43-do-while-loop.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-43 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-43 · **Practice type:** Worked solution
 
 # Do-while loop
 
@@ -34,7 +34,7 @@ A do-while executes its body before checking the condition.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 43.
+Assessment practice set 3, question 43.
 
 ---
 

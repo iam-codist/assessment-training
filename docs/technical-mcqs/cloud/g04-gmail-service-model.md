@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/g04-gmail-service-model.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/g04-gmail-service-model.mdx)
+[Topic index](README.md)
 
-**ID:** G04 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** G04 · **Practice type:** Worked solution
 
 # Gmail service model
 

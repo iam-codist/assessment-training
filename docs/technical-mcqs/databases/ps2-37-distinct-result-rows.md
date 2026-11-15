@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/databases/ps2-37-distinct-result-rows.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/databases/ps2-37-distinct-result-rows.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-37 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-37 · **Practice type:** Worked solution
 
 # Distinct result rows
 
@@ -34,7 +34,7 @@ DISTINCT keeps one copy of each distinct output row.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 37.
+Assessment practice set 2, question 37.
 
 ---
 

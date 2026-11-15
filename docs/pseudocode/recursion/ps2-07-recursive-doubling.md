@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/recursion/ps2-07-recursive-doubling.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/recursion/ps2-07-recursive-doubling.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-07 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-07 · **Practice type:** Worked solution
 
 # Recursive doubling
 
@@ -34,7 +34,7 @@ Three doublings of 1 give 8.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 7.
+Assessment practice set 2, question 7.
 
 ---
 

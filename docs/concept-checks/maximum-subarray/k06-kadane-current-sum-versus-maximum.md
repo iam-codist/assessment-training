@@ -1,8 +1,8 @@
 <!-- Generated from content/concept-checks/maximum-subarray/k06-kadane-current-sum-versus-maximum.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/concept-checks/maximum-subarray/k06-kadane-current-sum-versus-maximum.mdx)
+[Topic index](README.md)
 
-**ID:** K06 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** K06 · **Practice type:** Worked solution
 
 # Kadane current sum versus maximum
 

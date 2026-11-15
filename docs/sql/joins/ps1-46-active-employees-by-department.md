@@ -1,8 +1,8 @@
 <!-- Generated from content/sql/joins/ps1-46-active-employees-by-department.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/sql/joins/ps1-46-active-employees-by-department.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-46 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-46 · **Practice type:** Worked solution
 
 # Active employees by department
 
@@ -81,7 +81,7 @@ A LEFT JOIN keeps all departments. Filtering active employees in ON preserves de
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 46.
+Assessment practice set 1, question 46.
 
 ---
 

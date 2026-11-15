@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/numbers/cog-numbers-4-multiply-and-add.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/numbers/cog-numbers-4-multiply-and-add.mdx)
+[Topic index](README.md)
 
-**ID:** COG-numbers-4 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-numbers-4 · **Practice type:** Worked solution
 
 # Multiply and add
 

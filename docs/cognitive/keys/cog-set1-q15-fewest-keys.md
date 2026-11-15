@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/keys/cog-set1-q15-fewest-keys.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/keys/cog-set1-q15-fewest-keys.mdx)
+[Topic index](README.md)
 
-**ID:** COG-set1-q15 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-set1-q15 · **Practice type:** Worked solution
 
 # Fewest Keys
 

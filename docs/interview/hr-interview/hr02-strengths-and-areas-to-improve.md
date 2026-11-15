@@ -1,12 +1,10 @@
 <!-- Generated from content/interview/hr-interview/hr02-strengths-and-areas-to-improve.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/interview/hr-interview/hr02-strengths-and-areas-to-improve.mdx)
+[Topic index](README.md)
 
-**ID:** HR02 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** HR02 · **Practice type:** Worked solution
 
 # Strengths and areas to improve
-
-> Newly authored practice to complete the training roadmap. This is not a recovered chat question or an official assessment item.
 
 ## Question
 
@@ -27,7 +25,7 @@ Avoid a memorized “weakness” that is only disguised praise. Choose something
 
 ## Source context
 
-Original educational practice added for the curriculum expansion.
+Original practice.
 
 ---
 

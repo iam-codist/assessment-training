@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/loops/m01-nested-loops.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/loops/m01-nested-loops.mdx)
+[Topic index](README.md)
 
-**ID:** M01 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** M01 · **Practice type:** Worked solution
 
 # Nested loops
 

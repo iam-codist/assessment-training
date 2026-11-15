@@ -1,8 +1,8 @@
 <!-- Generated from content/cognitive/sequences/cog-sequence-10-interleaved-patterns.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/cognitive/sequences/cog-sequence-10-interleaved-patterns.mdx)
+[Topic index](README.md)
 
-**ID:** COG-sequence-10 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** COG-sequence-10 · **Practice type:** Worked solution
 
 # Interleaved patterns
 
@@ -38,7 +38,7 @@ Odd positions are 2, 4, 6, 8. Even positions are 10, 20, 30, 40. The missing six
 
 ## Source context
 
-Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 10.
+Cognitive Lab practice, round 10.
 
 ---
 

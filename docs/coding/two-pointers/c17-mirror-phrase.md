@@ -1,8 +1,8 @@
 <!-- Generated from content/coding/two-pointers/c17-mirror-phrase.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/coding/two-pointers/c17-mirror-phrase.mdx)
+[Topic index](README.md)
 
-**ID:** C17 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** C17 · **Practice type:** Worked solution
 
 # Mirror phrase
 

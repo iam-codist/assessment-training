@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/ps1-13-department-totals-with-a-pivottable.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/ps1-13-department-totals-with-a-pivottable.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-13 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-13 · **Practice type:** Worked solution
 
 # Department totals with a PivotTable
 
@@ -34,7 +34,7 @@ A PivotTable groups records by department and can sum values for each group.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 13.
+Assessment practice set 1, question 13.
 
 ---
 

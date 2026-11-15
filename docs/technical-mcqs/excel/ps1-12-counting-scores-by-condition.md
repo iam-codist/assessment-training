@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/excel/ps1-12-counting-scores-by-condition.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/excel/ps1-12-counting-scores-by-condition.mdx)
+[Topic index](README.md)
 
-**ID:** PS1-12 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS1-12 · **Practice type:** Worked solution
 
 # Counting scores by condition
 
@@ -34,7 +34,7 @@ COUNTIF counts cells meeting a criterion. SUMIF adds qualifying values.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 1, question 12.
+Assessment practice set 1, question 12.
 
 ---
 

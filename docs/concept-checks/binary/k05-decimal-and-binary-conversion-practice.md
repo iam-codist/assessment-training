@@ -1,8 +1,8 @@
 <!-- Generated from content/concept-checks/binary/k05-decimal-and-binary-conversion-practice.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/concept-checks/binary/k05-decimal-and-binary-conversion-practice.mdx)
+[Topic index](README.md)
 
-**ID:** K05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** K05 · **Practice type:** Worked solution
 
 # Decimal and binary conversion practice
 

@@ -1,8 +1,8 @@
 <!-- Generated from content/pseudocode/conditionals/ps3-05-strict-boolean-comparison.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/ps3-05-strict-boolean-comparison.mdx)
+[Topic index](README.md)
 
-**ID:** PS3-05 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS3-05 · **Practice type:** Worked solution
 
 # Strict Boolean comparison
 
@@ -34,7 +34,7 @@ The second comparison is false because 6 is equal to 6.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 3, question 5.
+Assessment practice set 3, question 5.
 
 ---
 

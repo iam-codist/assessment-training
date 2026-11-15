@@ -1,8 +1,8 @@
 <!-- Generated from content/technical-mcqs/cloud/ps2-28-managed-application-runtime.mdx. Edit the MDX source. -->
 
-[Topic index](README.md) · [Edit MDX](../../../content/technical-mcqs/cloud/ps2-28-managed-application-runtime.mdx)
+[Topic index](README.md)
 
-**ID:** PS2-28 · **Status:** ready · **Updated:** 2026-11-15
+**ID:** PS2-28 · **Practice type:** Worked solution
 
 # Managed application runtime
 
@@ -34,7 +34,7 @@ PaaS manages the application platform so the customer can deploy code.
 
 ## Source context
 
-Original classroom practice sets, November 2026. Set 2, question 28.
+Assessment practice set 2, question 28.
 
 ---
 
