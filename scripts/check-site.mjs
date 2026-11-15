@@ -52,4 +52,23 @@ for (const q of catalog.questions) {
     assert.doesNotMatch(lesson, /<details[^>]*\bopen/, `${q.id}: answers must start closed`);
   }
 }
+const practiceGuide = await readFile(path.join(dist, 'guide', 'assessment-practice', 'index.html'), 'utf8');
+for (const set of [1, 2, 3]) {
+  const route = `mock-tests/set-${set}/`;
+  const mock = await readFile(path.join(dist, route, 'index.html'), 'utf8');
+  const review = JSON.parse(await readFile(path.join(dist, route, 'review.json'), 'utf8'));
+  assert.ok(practiceGuide.includes(`href="${basePath}${route}"`));
+  assert.equal((mock.match(/type="radio"/g) ?? []).length, 45 * 4);
+  assert.equal((mock.match(/<textarea /g) ?? []).length, 2);
+  assert.equal((mock.match(/data-review hidden><\/div>/g) ?? []).length, 47);
+  assert.doesNotMatch(mock, /<h2>Explanation<\/h2>|Show answer and explanation/);
+  assert.equal(review.length, 47);
+  for (const [i, item] of review.entries()) {
+    assert.equal(item.id, `PS${set}-${String(i + 1).padStart(2, '0')}`);
+    assert.ok(mock.includes(`data-question="${item.id}"`));
+    assert.match(item.review, /<h2>Explanation<\/h2>/);
+    if (i < 45) assert.match(item.key, /^[A-D]$/);
+    else assert.equal(item.key, null);
+  }
+}
 console.log(`Site checks passed: ${htmlCount} HTML pages, ${catalog.total} question routes, full search coverage, collapsed answers and all local links/assets.`);

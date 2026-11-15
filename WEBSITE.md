@@ -54,6 +54,12 @@ Search runs in the visitor's browser from a generated local index. Questions and
 
 Question URLs use `/questions/<lowercase-id>/` so title changes do not break student links. All local assets and links include the configured `/assessment-training/` base path. If the repository is renamed or moved, update `site.config.json`, the live links in the guides and the GitHub Pages settings together.
 
+## Assessment mock tests
+
+The [assessment practice guide](https://iam-codist.github.io/assessment-training/guide/assessment-practice/) links to all three mock tests. Each mock uses the same MDX lessons as the question bank. Submitting scores the 45 MCQs and reveals the explanations and both worked solutions. SQL and frontend responses are reviewed by the learner. Attempts stay on the current page and are cleared on refresh.
+
+The site is public. The submission step controls when the mock displays the review material for classroom practice.
+
 ## Cognitive Lab and public access
 
 Both the repository and website are public, as requested. A link is sufficient for students to visit; the URL is not a password or access restriction. The lab is available at [the same website under /lab/](https://iam-codist.github.io/assessment-training/lab/). It stores session results only in the current tab. Export reports before refresh or closing.

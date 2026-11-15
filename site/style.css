@@ -25,3 +25,19 @@
 .solution-note{font-size:14px;color:#5c6d63}
 @media(max-width:760px){.lab-banner{flex-direction:column;align-items:flex-start;padding:22px}.lab-banner h2{font-size:24px}.solution-tabs button{padding:9px 14px}.solution-panel-heading{align-items:flex-start;flex-direction:column}}
 @media print{.solution-tabs{display:none}.solution-panel[hidden]{display:block}.solution-panel pre{max-height:none;overflow:visible}.lab-link{display:none}}
+
+.mock-actions{margin:0 0 24px;flex-wrap:wrap}
+.mock-progress,.mock-submit{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 18px}
+.mock-progress{justify-content:space-between}
+.mock-card{min-width:0;margin:0 0 18px;overflow-wrap:anywhere}
+.mock-card h2:first-child{margin-top:0}
+.mock-card fieldset{border:0;padding:0;margin:0;min-width:0}
+.mock-option{display:flex;align-items:baseline;gap:10px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;margin:6px 0;cursor:pointer}
+.mock-option input{flex-shrink:0;accent-color:var(--green)}
+.mock-option:has(input:checked){background:#e8f2e9;border-color:var(--green)}
+.mock-card textarea{display:block;width:100%;margin-top:6px;padding:12px;border:1px solid var(--line);border-radius:8px;font:14px/1.5 monospace;resize:vertical}
+.mock-card [data-review]{border-top:1px solid var(--line);margin-top:18px;padding-top:12px}
+.mock-card .mock-feedback{font-weight:700}
+.mock-submit[hidden]{display:none}
+#mock-error:empty{display:none}
+#mock-result{scroll-margin-top:75px}

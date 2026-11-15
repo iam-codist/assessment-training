@@ -167,6 +167,7 @@ for (const t of topics) {
   await save(route, page({ title: label(topic), route, category: cat, topic, content }));
 }
 
+const mockSets = new Map([1, 2, 3].map(set => [set, []]));
 const searchIndex = [];
 for (const q of entries) {
   const raw = await readFile(path.join(root, q.file), 'utf8');
@@ -184,6 +185,24 @@ for (const q of entries) {
   const index = group.findIndex(item => item.id === q.id); const previous = group[index - 1]; const next = group[index + 1];
   const content = `${crumb([[label(q.category), categoryRoute(q.category)], [label(q.topic), topicRoute(q)], [q.id]])}<div class="lesson-heading"><div class="eyebrow">${esc(q.id)} · ${esc(label(q.topic))}</div><h1>${esc(q.title)}</h1><div class="lesson-meta">${statusBadge(q.status)}${q.difficulty ? `<span>${esc(q.difficulty)}</span>` : ''}<span>Updated ${esc(q.updated)}</span></div></div><div class="lesson-toolbar"><p>Take a moment to work it out before revealing the answer.</p><div><button id="copy-link" class="quiet-button">Copy link</button><button id="print-question" class="quiet-button">Print</button></div></div><article class="prose lesson-body">${markup}</article><nav class="lesson-pagination" aria-label="Question navigation">${previous ? `<a href="${href(questionRoute(previous))}"><small>← PREVIOUS QUESTION</small><span>${esc(previous.title)}</span></a>` : '<div></div>'}${next ? `<a href="${href(questionRoute(next))}"><small>NEXT QUESTION →</small><span>${esc(next.title)}</span></a>` : `<a href="${href(topicRoute(q))}"><small>TOPIC COMPLETE →</small><span>Back to ${esc(label(q.topic))}</span></a>`}</nav><div class="edit-note">Something unclear? <a href="${config.repository}/issues/new?template=correction.yml&amp;title=${encodeURIComponent(`[${q.id}] `)}">Suggest a correction</a> · <a href="${config.repository}/edit/main/${q.file}">Edit this question on GitHub ↗</a></div>`;
   const prompt = body.split('<details>')[0];
+  const mockId = /^PS([123])-(\d{2})$/.exec(q.id);
+  if (mockId) {
+    const [, set, number] = mockId;
+    const [, question, review] = markup.match(/^([\s\S]*?)<details><summary>Show answer and explanation<\/summary>([\s\S]*?)<\/details>/) ?? [];
+    const choices = [...prompt.matchAll(/^\| ([A-D]) \| (.*?) \|$/gm)];
+    const key = body.match(/^## Answer\n\n([A-D])\. /m)?.[1] ?? null;
+    const isMcq = Number(number) <= 45;
+    if (!review || (isMcq ? choices.map(choice => choice[1]).join('') !== 'ABCD' || !key : choices.length || key)) {
+      throw new Error(`${q.id}: invalid mock question or answer format`);
+    }
+    const withoutHeadingIds = html => html.replace(/(<h[1-6]) id="[^"]*"/g, '$1');
+    mockSets.get(Number(set)).push({
+      id: q.id, title: q.title, number: Number(number), key,
+      question: withoutHeadingIds(question.replace(/^<h2 id="question">Question<\/h2>\s*/, '').split('<h2 id="options">')[0]),
+      choices: choices.map(([, letter, text]) => [letter, text.replace(/\\([!-/:-@[-`{-~])/g, '$1')]),
+      review: withoutHeadingIds(review)
+    });
+  }
   const plain = value => value.replace(/```[^\n]*\n/g, '').replace(/```/g, '').replace(/!\[([^\]]*)\]\([^)]*\)/g, '$1').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/&lt;/g, '<').replace(/&amp;/g, '&').replace(/&#123;/g, '{').replace(/&#125;/g, '}').replace(/[#*`|]/g, ' ').replace(/\s+/g, ' ').trim();
   const excerpt = plain(prompt.match(/## Question\n+([\s\S]*?)(?=\n##|$)/)?.[1] ?? prompt).slice(0, 200);
   searchIndex.push({ id: q.id, title: q.title, category: q.category, topic: q.topic, categoryLabel: label(q.category), topicLabel: label(q.topic), status: q.status, text: plain(prompt), excerpt, url: href(questionRoute(q)) });
@@ -191,13 +210,46 @@ for (const q of entries) {
 }
 await writeFile(path.join(out, 'search-index.json'), JSON.stringify(searchIndex));
 
+for (const [set, questions] of mockSets) {
+  questions.sort((a, b) => a.number - b.number);
+  if (questions.length !== 47 || questions.some((q, i) => q.number !== i + 1)) {
+    throw new Error(`Mock Set ${set} must have questions 1 through 47`);
+  }
+  const route = `mock-tests/set-${set}/`;
+  const reviewPath = `${route}review.json`;
+  const cards = questions.map(q => {
+    const choices = q.choices.map(([letter, text]) =>
+      `<label class="mock-option"><input type="radio" name="${q.id}" value="${letter}"><span>${letter}. ${esc(text)}</span></label>`
+    ).join('');
+    const heading = `${q.number}. ${esc(q.title)}`;
+    const input = choices
+      ? `<fieldset aria-labelledby="${q.id}-title" aria-describedby="${q.id}-prompt">${choices}</fieldset>`
+      : `<label for="${q.id}-response">Your ${q.number === 46 ? 'SQL query' : 'frontend code'} (optional)</label><textarea id="${q.id}-response" name="${q.id}" rows="8" spellcheck="false" autocapitalize="off"></textarea>`;
+    return `<section class="prose mock-card" data-question="${q.id}"><h2 id="${q.id}-title">${heading}</h2><div id="${q.id}-prompt">${q.question}</div>${input}<div data-review hidden></div></section>`;
+  }).join('');
+  const content = `${crumb([['Assessment practice sets', 'guide/assessment-practice/'], [`Mock test · Set ${set}`]])}
+    <div class="page-heading"><div class="eyebrow">ASSESSMENT PRACTICE</div><h1>Mock test · Set ${set}</h1><p>45 scored MCQs, one SQL joins exercise and one frontend exercise. Unanswered MCQs count as incorrect. Compare your hands-on responses with the worked solutions after you submit.</p><p>FOR bounds are inclusive. Arrays start at index 0. DIV is integer division and MOD is remainder. Keep this page open to retain your attempt.</p></div>
+    <div id="mock-result" class="prose mock-card" tabindex="-1" hidden></div>
+    <noscript><p>Enable JavaScript to submit the mock test and see your score.</p></noscript>
+    <form id="mock-test" data-review-url="${href(reviewPath)}" autocomplete="off">
+      <div class="mock-progress"><output id="mock-progress">0 of 45 MCQs answered</output><a href="#mock-submit">Go to submit ↓</a></div>
+      ${cards}
+      <div class="mock-submit" id="mock-submit"><button class="button primary" type="submit" disabled>Submit mock test</button><p id="mock-error" role="alert"></p></div>
+    </form><script type="module" src="${href('site/mock-test.mjs')}"></script>`;
+  await save(route, page({ title: `Mock test · Set ${set}`, route, content }));
+  await writeFile(path.join(out, reviewPath), JSON.stringify(questions.map(({ id, key, review }) => ({ id, key, review }))));
+}
+
 const searchContent = `${crumb([['Search']])}<div class="page-heading"><div class="eyebrow">FOLLOW YOUR CURIOSITY</div><h1>Find your next question.</h1><p>Search by a topic, question ID or a phrase. Try “sliding window”, “M20” or “Excel”.</p></div><form id="search-form" class="search-panel" role="search" data-index="${href('search-index.json')}"><label for="search-query">What would you like to practise?</label><div class="search-input-row">${searchIcon}<input id="search-query" name="q" type="search" placeholder="Search all ${catalog.total} entries…" autocomplete="off"/><button class="button primary" type="submit">Search</button></div><div class="search-filters"><label>Learning area<select id="category-filter"><option value="">All learning areas</option>${categories.map(c => `<option value="${c}">${label(c)}</option>`).join('')}</select></label><label>Question status<select id="status-filter"><option value="">All statuses</option>${Object.entries(statusLabel).map(([value, name]) => `<option value="${value}">${name}</option>`).join('')}</select></label><button id="clear-search" type="button" class="quiet-button">Clear filters</button></div></form><p id="search-summary" class="search-summary" role="status" aria-live="polite">Loading the question library…</p><noscript><p>Search needs JavaScript. You can still <a href="${href('topics/')}">browse every topic</a> and read all questions.</p></noscript><div id="search-results"></div><button id="load-more" class="button secondary" hidden>Show more questions</button>`;
 await save('search/', page({ title: 'Search the library', route: 'search/', content: searchContent, kind: 'search-page' }));
 
 for (const [file, name, subtitle] of guides) {
   const raw = await readFile(path.join(root, file), 'utf8'); const title = raw.match(/^# (.*)/)?.[1] ?? subtitle;
   const body = raw.replace(/^# [^\n]+\n+/, ''); const route = `guide/${name}/`;
-  await save(route, page({ title, route, content: `${crumb([[title]])}<div class="page-heading"><div class="eyebrow">LEARNING WELL</div><h1>${esc(title)}</h1><p>${esc(subtitle)}</p></div><article class="prose guide-body">${await renderMdx(body, file)}</article>` }));
+  const practiceActions = name === 'assessment-practice'
+    ? `<div class="hero-actions mock-actions">${[...mockSets.keys()].map(set => `<a class="button primary" href="${href(`mock-tests/set-${set}/`)}">Attempt Set ${set} as a mock test</a>`).join('')}</div>`
+    : '';
+  await save(route, page({ title, route, content: `${crumb([[title]])}<div class="page-heading"><div class="eyebrow">LEARNING WELL</div><h1>${esc(title)}</h1><p>${esc(subtitle)}</p></div>${practiceActions}<article class="prose guide-body">${await renderMdx(body, file)}</article>` }));
 }
 for (const file of codeSources) {
   const code = await readFile(path.join(root, file), 'utf8'); const q = entries.find(item => file.startsWith(`solutions/${item.id}/`));
