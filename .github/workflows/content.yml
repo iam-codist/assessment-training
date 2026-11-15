@@ -1,0 +1,57 @@
+name: Validate and sync content
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: content-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run sync
+      - run: npm test
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reading-pages
+          path: |
+            docs/
+            catalog.json
+
+  publish-reading-pages:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace generated reading pages
+        run: rm -rf docs
+      - uses: actions/download-artifact@v4
+        with:
+          name: reading-pages
+          path: .
+      - name: Commit changed reading pages
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs catalog.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'docs: sync reading pages from MDX'
+            git push origin HEAD:main
+          fi

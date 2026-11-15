@@ -1,0 +1,78 @@
+<!-- Generated from content/coding/array-scanning/c07-alternating-position-balance.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/c07-alternating-position-balance.mdx)
+
+**ID:** C07 · **Status:** ready · **Updated:** 2026-11-15
+
+# Alternating position balance
+
+## Question
+
+An array is indexed from zero. Compute the sum of elements at even indices and the sum at odd indices. Report the absolute difference between these two sums. Negative values are allowed and must retain their signs when included in a sum.
+
+## Input format
+
+Line 1: n. Line 2: n integers.
+
+## Output format
+
+Print one nonnegative integer.
+
+## Constraints
+
+1 &lt;= n &lt;= 100000; -1000000000 &lt;= each element &lt;= 1000000000. Use a sufficiently wide integer type.
+
+## Example 1
+
+**Input**
+
+```text
+5
+7 2 4 8 1
+```
+
+**Output**
+
+```text
+2
+```
+
+## Example 2
+
+**Input**
+
+```text
+3
+-2 5 -3
+```
+
+**Output**
+
+```text
+10
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Maintain one sum for even indices and one for odd indices. Add by index parity and return the absolute difference.
+
+O(n) time; O(1) extra working space.
+
+Index parity is different from value parity. Preserve negative signs and use Java long for sums.
+
+</details>
+
+## Source context
+
+Original practice pack.
+
+---
+
+[← C05](c05-closest-measurement.md) · [Topic index](README.md) · [C15 →](c15-missing-roll-number.md)

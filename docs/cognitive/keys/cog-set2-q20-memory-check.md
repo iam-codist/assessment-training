@@ -1,0 +1,72 @@
+<!-- Generated from content/cognitive/keys/cog-set2-q20-memory-check.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/cognitive/keys/cog-set2-q20-memory-check.mdx)
+
+**ID:** COG-set2-q20 · **Status:** ready · **Updated:** 2026-11-15
+
+# Memory Check
+
+## Question
+
+Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. Memory round: which colour of locked door appears the most times on the whole map?
+
+| Row / Col | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| 1 | A | B | C |
+| 2 | D | E | F |
+| 3 | G | H | I |
+
+Start: **I**. Exit: **A**. Keys: B: R, G: G, H: B. R = red; G = green; B = blue.
+
+Only the following links exist. Each move uses one link, in either direction.
+
+| Rooms connected | Required key |
+| --- | --- |
+| A ↔ B | Open |
+| A ↔ D | R |
+| B ↔ C | G |
+| B ↔ E | G |
+| C ↔ F | Open |
+| D ↔ E | G |
+| D ↔ G | B |
+| E ↔ F | B |
+| E ↔ H | Open |
+| F ↔ I | G |
+| G ↔ H | Open |
+| H ↔ I | Open |
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | All colours are equal |
+| B | Green doors |
+| C | Red doors |
+| D | Blue doors |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+B. Green doors
+
+## Explanation
+
+Red doors: 1
+
+Blue doors: 2
+
+Green doors: 4
+
+Green has the most locked doors.
+
+</details>
+
+## Source context
+
+Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 24.
+
+---
+
+[← COG-set2-q19](cog-set2-q19-doors-passed.md) · [Topic index](README.md)

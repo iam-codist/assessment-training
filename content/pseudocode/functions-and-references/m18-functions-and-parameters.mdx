@@ -1,0 +1,53 @@
+---
+id: "M18"
+title: "Functions and Parameters"
+category: "pseudocode"
+topic: "functions-and-references"
+status: "ready"
+updated: "2026-11-15"
+source: "20 medium questions"
+---
+
+# Functions and Parameters
+
+## Question
+
+What is printed by this pseudocode?
+
+```text
+FUNCTION modify(x)
+    x = x * 2
+    RETURN x - 3
+END FUNCTION
+
+INTEGER a = 7
+INTEGER b = modify(a)
+
+PRINT a + b
+```
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 11 |
+| B | 14 |
+| C | 18 |
+| D | 21 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. 18
+
+## Explanation
+
+With scalar pass-by-value, a remains 7. modify(7) returns 11, so a+b = 18.
+
+</details>
+
+## Source context
+
+20 medium questions.

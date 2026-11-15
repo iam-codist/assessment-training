@@ -1,0 +1,44 @@
+<!-- Generated from content/cognitive/bubbles/cog-bubble-extra-4-negative-warm-up.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-bubble-extra-4-negative-warm-up.mdx)
+
+**ID:** COG-bubble-extra-4 · **Status:** ready · **Updated:** 2026-11-15
+
+# Negative warm-up
+
+## Question
+
+Pop every bubble in ascending order, from smallest to largest. Equal values can be popped in either order.
+
+| Bubble | Expression / number |
+| --- | --- |
+| A | 4 − 5 |
+| B | 11 − 13 |
+| C | 0 + 3 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+11 − 13 → 4 − 5 → 0 + 3
+
+## Explanation
+
+Evaluate each expression first, then compare the values. Equal values can appear in either order.
+
+| Expression / number | Value |
+| --- | --- |
+| 4 − 5 | -1 |
+| 11 − 13 | -2 |
+| 0 + 3 | 3 |
+
+</details>
+
+## Source context
+
+Gamified_Aptitude Final (1).pptx. Gamified_Aptitude Final (1).pptx; slide / round 25.
+
+---
+
+[← COG-bubble-extra-3](cog-bubble-extra-3-roots-and-powers.md) · [Topic index](README.md) · [COG-bubble-extra-5 →](cog-bubble-extra-5-quick-calculations.md)

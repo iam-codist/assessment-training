@@ -1,0 +1,50 @@
+<!-- Generated from content/coding/two-pointers/lc977-squares-of-a-sorted-array.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/coding/two-pointers/lc977-squares-of-a-sorted-array.mdx)
+
+**ID:** LC977 · **Status:** ready · **Updated:** 2026-11-15
+
+# Squares of a Sorted Array
+
+## Question
+
+Square every element of a nondecreasing integer array and return the squares in nondecreasing order.
+
+## Example 1
+
+**Input**
+
+```text
+[-4,-1,0,3,10]
+```
+
+**Output**
+
+```text
+[0,1,9,16,100]
+```
+
+## Notes
+
+(-4) × (-4) = 16. Compare magnitudes or squares, not the original signed values.
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+The largest remaining square comes from one of the ends. Compare squares and fill the output from right to left. O(n) time and O(n) result storage.
+
+</details>
+
+## Source context
+
+Additional coding lesson.
+
+---
+
+[← LC283](lc283-move-zeroes.md) · [Topic index](README.md)

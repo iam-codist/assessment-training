@@ -1,0 +1,46 @@
+<!-- Generated from content/pseudocode/conditionals/e08-panel-demo-output-prediction.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/conditionals/e08-panel-demo-output-prediction.mdx)
+
+**ID:** E08 · **Status:** ready · **Updated:** 2026-11-15
+
+# Panel demo output prediction
+
+## Question
+
+What is printed by this pseudocode?
+
+```text
+a = 2
+b = 5
+FOR i = 1 TO 3
+    a = a + i
+    IF a MOD 2 == 0 THEN
+        b = b - a
+    ELSE
+        b = b + i
+    END IF
+END FOR
+PRINT a, b
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+8 0
+
+## Explanation
+
+After i=1: a=3,b=6. After i=2: a=5,b=8. After i=3: a=8,b=0.
+
+</details>
+
+## Source context
+
+Additional worked examples.
+
+---
+
+[← E01](e01-conditional-warm-up.md) · [Topic index](README.md) · [M06 →](m06-conditional-statements-with-mod-div.md)

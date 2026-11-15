@@ -1,0 +1,46 @@
+---
+id: "LC1518"
+title: "Water Bottles"
+category: "coding"
+topic: "simulation-and-greedy"
+status: "ready"
+updated: "2026-11-15"
+source: "Additional coding lesson"
+---
+
+# Water Bottles
+
+## Question
+
+Start with numBottles full bottles. After drinking, exchange numExchange empty bottles for one full bottle. Find the total number you can drink; numExchange >= 2.
+
+## Example 1
+
+**Input**
+
+```text
+numBottles = 9, numExchange = 3
+```
+
+**Output**
+
+```text
+13
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Track total and empties. newBottles = empty / numExchange; total += newBottles; empty = empty % numExchange + newBottles. The trace is 9 → 3 → 1 empties.
+
+</details>
+
+## Source context
+
+Additional coding lesson.

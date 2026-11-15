@@ -1,0 +1,78 @@
+<!-- Generated from content/coding/strings-and-validation/c12-circular-letter-shift.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/coding/strings-and-validation/c12-circular-letter-shift.mdx)
+
+**ID:** C12 · **Status:** ready · **Updated:** 2026-11-15
+
+# Circular letter shift
+
+## Question
+
+Shift every English letter forward by k places in the alphabet, wrapping after z or Z. Preserve the original letter case. Leave digits, spaces and punctuation unchanged. Read the text as a complete line, including any spaces.
+
+## Input format
+
+Line 1: nonnegative integer k. Line 2: the text.
+
+## Output format
+
+Print the transformed text.
+
+## Constraints
+
+0 &lt;= k &lt;= 1000000000; the text contains at most 100000 ASCII characters and may be empty.
+
+## Example 1
+
+**Input**
+
+```text
+2
+Zoo 9!
+```
+
+**Output**
+
+```text
+Bqq 9!
+```
+
+## Example 2
+
+**Input**
+
+```text
+27
+Ab-z
+```
+
+**Output**
+
+```text
+Bc-a
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Reduce k modulo 26. Shift uppercase and lowercase letters within their own alphabet ranges, and copy every other character unchanged.
+
+O(L) time; O(L) result space.
+
+Preserve spaces and punctuation. Do not shift digits. Building a new string with repeated immutable concatenation can be inefficient.
+
+</details>
+
+## Source context
+
+Original practice pack.
+
+---
+
+[← C10](c10-normalize-a-label.md) · [Topic index](README.md) · [D04 →](d04-password-validation.md)

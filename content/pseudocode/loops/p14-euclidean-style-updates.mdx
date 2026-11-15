@@ -1,0 +1,52 @@
+---
+id: "P14"
+title: "Euclidean-style updates"
+category: "pseudocode"
+topic: "loops"
+status: "ready"
+updated: "2026-11-15"
+source: "22-question practice pack"
+---
+
+# Euclidean-style updates
+
+## Question
+
+What is printed?
+
+```text
+a <- 42
+b <- 30
+WHILE b != 0
+    r <- a MOD b
+    a <- b
+    b <- r
+END WHILE
+PRINT a
+```
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 12 |
+| B | 3 |
+| C | 6 |
+| D | 0 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. 6
+
+## Explanation
+
+The pairs (a,b) become (30,12), (12,6), (6,0); the last nonzero divisor is 6.
+
+</details>
+
+## Source context
+
+22-question practice pack.

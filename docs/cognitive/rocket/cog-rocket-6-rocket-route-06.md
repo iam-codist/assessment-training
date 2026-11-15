@@ -1,0 +1,37 @@
+<!-- Generated from content/cognitive/rocket/cog-rocket-6-rocket-route-06.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/cognitive/rocket/cog-rocket-6-rocket-route-06.mdx)
+
+**ID:** COG-rocket-6 · **Status:** ready · **Updated:** 2026-11-15
+
+# Rocket route 06
+
+## Question
+
+Rotate the path tiles clockwise to connect the rocket to its destination. Launch along the shortest possible route. The rocket and destination tiles are fixed; dark tiles are obstacles.
+
+![Rocket route 06 — starting tile orientations](../../../assets/puzzles/cog-rocket-6.svg)
+
+S and T are fixed. Dark cells are blocked. Turn other tiles clockwise in quarter turns; travel uses adjacent cells with connected openings.
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+6 travel moves.
+
+## Explanation
+
+The shortest route uses 6 moves: R1C1 → R2C1 → R3C1 → R4C1 → R4C2 → R4C3 → R4C4.
+Connect both sides of every shared edge. A straight tile cannot turn; a corner tile must turn. Tile rotations do not count as travel moves. Other equally short routes are accepted.
+
+</details>
+
+## Source context
+
+Cognitive Lab original classroom practice. Cognitive Lab original classroom practice; slide / round 6.
+
+---
+
+[← COG-rocket-5](cog-rocket-5-rocket-route-05.md) · [Topic index](README.md) · [COG-rocket-7 →](cog-rocket-7-rocket-route-07.md)

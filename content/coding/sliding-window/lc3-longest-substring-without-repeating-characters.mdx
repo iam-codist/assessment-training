@@ -1,0 +1,50 @@
+---
+id: "LC3"
+title: "Longest Substring Without Repeating Characters"
+category: "coding"
+topic: "sliding-window"
+status: "ready"
+updated: "2026-11-15"
+source: "Day 1 challenge"
+---
+
+# Longest Substring Without Repeating Characters
+
+## Question
+
+Return the length of the longest contiguous substring without repeated characters. Input may contain letters, digits, symbols and spaces, and may be empty.
+
+## Example 1
+
+**Input**
+
+```text
+abba; bbbbb; empty string
+```
+
+**Output**
+
+```text
+2; 1; 0
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Grow the right boundary and move the left boundary past a repeated character without moving it backward.
+
+## Reference implementations
+
+- [Solution.java](../../../solutions/LC3/Solution.java)
+
+</details>
+
+## Source context
+
+Day 1 challenge.

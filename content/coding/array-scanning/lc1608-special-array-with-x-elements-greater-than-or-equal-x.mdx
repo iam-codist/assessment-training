@@ -1,0 +1,50 @@
+---
+id: "LC1608"
+title: "Special Array With X Elements Greater Than or Equal X"
+category: "coding"
+topic: "array-scanning"
+status: "ready"
+updated: "2026-11-15"
+source: "Additional coding lesson"
+---
+
+# Special Array With X Elements Greater Than or Equal X
+
+## Question
+
+For a nonempty array of nonnegative integers, find x such that exactly x elements are at least x. Return -1 if there is no such x.
+
+## Example 1
+
+**Input**
+
+```text
+[3,5]; [0,0]; [0,4,3,0,4]
+```
+
+**Output**
+
+```text
+2; -1; 3
+```
+
+## Notes
+
+x is both the threshold and the required count.
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Try x from 1 through n and count values >= x. Brute force is O(n²); the discussed sorting approach is O(n log n).
+
+</details>
+
+## Source context
+
+Additional coding lesson.

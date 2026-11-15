@@ -1,0 +1,78 @@
+<!-- Generated from content/coding/array-scanning/c05-closest-measurement.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/c05-closest-measurement.mdx)
+
+**ID:** C05 · **Status:** ready · **Updated:** 2026-11-15
+
+# Closest measurement
+
+## Question
+
+Given a target T and an array, select the element with the smallest absolute difference from T. When several elements are equally close, choose the one with the smallest zero-based index. Return both its value and its index.
+
+## Input format
+
+Line 1: n and T. Line 2: n integers.
+
+## Output format
+
+Print the chosen value followed by its zero-based index.
+
+## Constraints
+
+1 &lt;= n &lt;= 100000; all values and T are between -1000000000 and 1000000000.
+
+## Example 1
+
+**Input**
+
+```text
+5 10
+14 8 12 3 8
+```
+
+**Output**
+
+```text
+8 1
+```
+
+## Example 2
+
+**Input**
+
+```text
+3 -4
+-10 -3 0
+```
+
+**Output**
+
+```text
+-3 1
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Scan while retaining the selected value, its index and its absolute distance from the target. Update only for a strictly smaller distance.
+
+O(n) time; O(1) extra working space.
+
+Strict comparison keeps the first tied index. Use a wide enough type for arithmetic if generalizing the stated limits.
+
+</details>
+
+## Source context
+
+Original practice pack.
+
+---
+
+[← C02](c02-orders-within-capacity.md) · [Topic index](README.md) · [C07 →](c07-alternating-position-balance.md)

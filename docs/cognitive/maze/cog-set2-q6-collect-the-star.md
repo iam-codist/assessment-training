@@ -1,0 +1,59 @@
+<!-- Generated from content/cognitive/maze/cog-set2-q6-collect-the-star.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/cognitive/maze/cog-set2-q6-collect-the-star.mdx)
+
+**ID:** COG-set2-q6 · **Status:** ready · **Updated:** 2026-11-15
+
+# Collect the Star
+
+## Question
+
+The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. The rocket must first collect the star, then reach T. What is the minimum number of moves for the whole trip?
+
+| Row / Col | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | S | · | ■ | ■ | · | · | · |
+| 2 | ■ | · | · | · | ■ | ■ | · |
+| 3 | · | · | · | ■ | · | · | · |
+| 4 | ■ | · | · | · | · | · | ■ |
+| 5 | · | · | ■ | · | · | · | · |
+| 6 | · | ★ | ■ | · | · | · | · |
+| 7 | · | · | ■ | ■ | · | T | · |
+
+S = start; T = target; ■ = wall; · = open cell. Visit ★ before T. Rows and columns are numbered from 1.
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 15 moves |
+| B | 18 moves |
+| C | 17 moves |
+| D | 16 moves |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+A. 15 moves
+
+## Explanation
+
+S to the star takes 6 moves.
+
+Star to T takes 9 moves.
+
+Total = 6 + 9 = 15 moves.
+
+Going straight to T would take only 11, but the star is compulsory.
+
+</details>
+
+## Source context
+
+Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 9.
+
+---
+
+[← COG-set2-q5](cog-set2-q5-count-the-routes.md) · [Topic index](README.md) · [COG-set2-q7 →](cog-set2-q7-command-sequence.md)

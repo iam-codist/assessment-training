@@ -1,0 +1,70 @@
+<!-- Generated from content/cognitive/keys/cog-set1-q16-first-key.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/cognitive/keys/cog-set1-q16-first-key.mdx)
+
+**ID:** COG-set1-q16 · **Status:** ready · **Updated:** 2026-11-15
+
+# First Key
+
+## Question
+
+Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. On the shortest route from START to EXIT, which key is picked up first?
+
+| Row / Col | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| 1 | A | B | C |
+| 2 | D | E | F |
+| 3 | G | H | I |
+
+Start: **C**. Exit: **G**. Keys: A: R, E: B, H: G. R = red; G = green; B = blue.
+
+Only the following links exist. Each move uses one link, in either direction.
+
+| Rooms connected | Required key |
+| --- | --- |
+| A ↔ B | Open |
+| A ↔ D | Open |
+| B ↔ C | Open |
+| B ↔ E | R |
+| C ↔ F | Open |
+| D ↔ E | Open |
+| D ↔ G | B |
+| E ↔ F | G |
+| E ↔ H | Open |
+| F ↔ I | Open |
+| G ↔ H | B |
+| H ↔ I | R |
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | No key is needed |
+| B | Green key |
+| C | Red key |
+| D | Blue key |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. Red key
+
+## Explanation
+
+Shortest route (6 moves): C > B > A > B > E > D > G.
+
+Keys picked up, in order: Red key in A, Blue key in E.
+
+The first one is the Red key, collected before any locked door blocks the way.
+
+</details>
+
+## Source context
+
+Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 20.
+
+---
+
+[← COG-set1-q15](cog-set1-q15-fewest-keys.md) · [Topic index](README.md) · [COG-set1-q17 →](cog-set1-q17-missing-key.md)

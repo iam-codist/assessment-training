@@ -1,0 +1,53 @@
+<!-- Generated from content/pseudocode/recursion/m05-recursion.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/recursion/m05-recursion.mdx)
+
+**ID:** M05 · **Status:** ready · **Updated:** 2026-11-15
+
+# Recursion
+
+## Question
+
+What is printed by this pseudocode?
+
+```text
+FUNCTION fun(n)
+    IF n <= 1 THEN
+        RETURN 1
+    END IF
+
+    RETURN n + fun(n-2)
+END FUNCTION
+
+PRINT fun(7)
+```
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 12 |
+| B | 15 |
+| C | 16 |
+| D | 20 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. 16
+
+## Explanation
+
+fun(7) = 7 + 5 + 3 + 1 = 16.
+
+</details>
+
+## Source context
+
+20 medium questions.
+
+---
+
+[Topic index](README.md) · [M12 →](m12-recursion-with-constant-addition.md)

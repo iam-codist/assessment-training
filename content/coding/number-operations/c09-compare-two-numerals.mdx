@@ -1,0 +1,78 @@
+---
+id: "C09"
+title: "Compare two numerals"
+category: "coding"
+topic: "number-operations"
+status: "ready"
+updated: "2026-11-15"
+source: "Original practice pack"
+---
+
+# Compare two numerals
+
+## Question
+
+Two nonnegative integers are written in possibly different bases. Digits 0-9 have their usual values, and uppercase A-Z represent values 10-35. Compare the numerical values, ignoring leading zeros. Both numerals are valid in their respective bases.
+
+## Input format
+
+Line 1: base1 and numeral1. Line 2: base2 and numeral2.
+
+## Output format
+
+Print LESS, EQUAL or GREATER according to the value of the first numeral compared with the second.
+
+## Constraints
+
+2 &lt;= each base &lt;= 36; each numeral has 1 to 12 characters; each represented value is at most 1000000000000000000.
+
+## Example 1
+
+**Input**
+
+```text
+16 2A
+2 101010
+```
+
+**Output**
+
+```text
+EQUAL
+```
+
+## Example 2
+
+**Input**
+
+```text
+8 17
+10 16
+```
+
+**Output**
+
+```text
+LESS
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Parse each numeral in its stated base, then compare the two resulting values. Manual parsing uses value = value*base + digit.
+
+O(L1+L2) time; O(1) extra working space for bounded integer values.
+
+Treat A-Z as values 10-35; leading zeros are harmless. Java long is sufficient for the stated 10^18 bound.
+
+</details>
+
+## Source context
+
+Original practice pack.

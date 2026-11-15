@@ -1,0 +1,83 @@
+<!-- Generated from content/coding/array-scanning/c01-longest-rising-stretch.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/coding/array-scanning/c01-longest-rising-stretch.mdx)
+
+**ID:** C01 · **Status:** ready · **Updated:** 2026-11-15
+
+# Longest rising stretch
+
+## Question
+
+A sensor records one integer per minute. Find the length of the longest contiguous stretch in which every reading is strictly greater than the preceding reading. Equal readings end a stretch. A single reading is a stretch of length one.
+
+## Input format
+
+Line 1: n. Line 2: n space-separated readings.
+
+## Output format
+
+Print the maximum stretch length.
+
+## Constraints
+
+1 &lt;= n &lt;= 100000; -1000000000 &lt;= each reading &lt;= 1000000000.
+
+## Example 1
+
+**Input**
+
+```text
+7
+2 5 5 6 9 1 4
+```
+
+**Output**
+
+```text
+3
+```
+
+## Example 2
+
+**Input**
+
+```text
+4
+9 7 7 2
+```
+
+**Output**
+
+```text
+1
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Keep current and best lengths, starting at 1. From index 1, extend current if the new value exceeds its predecessor; otherwise reset current to 1. Update best each time.
+
+O(n) time; O(1) extra working space.
+
+A single value gives 1. Equality breaks a streak. Do not sort or skip readings.
+
+## Reference implementations
+
+- [LongestRisingStretch.java](../../../solutions/C01/LongestRisingStretch.java)
+- [longest_rising_stretch.py](../../../solutions/C01/longest_rising_stretch.py)
+
+</details>
+
+## Source context
+
+Original practice pack.
+
+---
+
+[Topic index](README.md) · [C02 →](c02-orders-within-capacity.md)

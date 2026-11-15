@@ -1,0 +1,59 @@
+<!-- Generated from content/cognitive/maze/cog-set1-q8-which-program-works.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/cognitive/maze/cog-set1-q8-which-program-works.mdx)
+
+**ID:** COG-set1-q8 · **Status:** ready · **Updated:** 2026-11-15
+
+# Which Program Works?
+
+## Question
+
+The rocket starts at S and must reach the target T. It moves one cell at a time (up, down, left or right) and cannot pass through dark wall cells. Which command sequence (U = up, D = down, L = left, R = right) takes the rocket from S to T without touching a wall?
+
+| Row / Col | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | · | · | · | · | · | ■ | ■ |
+| 2 | · | S | · | · | · | · | ■ |
+| 3 | ■ | · | ■ | ■ | · | ■ | · |
+| 4 | ■ | · | ■ | ■ | ■ | ■ | ■ |
+| 5 | · | · | ■ | · | · | · | · |
+| 6 | · | · | ■ | · | · | · | ■ |
+| 7 | ■ | · | · | · | ■ | T | · |
+
+S = start; T = target; ■ = wall; · = open cell.  Rows and columns are numbered from 1.
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | DDDDDRRURRD |
+| B | DDDDDRRRRRD |
+| C | DDDDDRRURUD |
+| D | DDUDDRRURRD |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+A. DDDDDRRURRD
+
+## Explanation
+
+A) works - reaches T in 11 moves
+
+B) hits a wall at move 8
+
+C) stops short of T / ends in the wrong cell
+
+D) hits a wall at move 6
+
+</details>
+
+## Source context
+
+Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 11.
+
+---
+
+[← COG-set1-q7](cog-set1-q7-command-sequence.md) · [Topic index](README.md) · [COG-set1-q9 →](cog-set1-q9-large-grid.md)

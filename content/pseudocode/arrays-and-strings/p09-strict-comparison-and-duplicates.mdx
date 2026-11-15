@@ -1,0 +1,54 @@
+---
+id: "P09"
+title: "Strict comparison and duplicates"
+category: "pseudocode"
+topic: "arrays-and-strings"
+status: "ready"
+updated: "2026-11-15"
+source: "22-question practice pack"
+---
+
+# Strict comparison and duplicates
+
+## Question
+
+What is printed?
+
+```text
+A <- [3, 9, 9, 2]
+best <- A[0]
+pos <- 0
+FOR i <- 1 TO 3
+    IF A[i] > best THEN
+        best <- A[i]
+        pos <- i
+    END IF
+END FOR
+PRINT pos
+```
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 2 |
+| B | 1 |
+| C | 3 |
+| D | 9 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+B. 1
+
+## Explanation
+
+The first 9 sets pos to 1. The later equal 9 fails the strict > test, so the earliest maximum remains selected.
+
+</details>
+
+## Source context
+
+22-question practice pack.

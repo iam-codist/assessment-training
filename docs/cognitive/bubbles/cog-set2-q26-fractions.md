@@ -1,0 +1,65 @@
+<!-- Generated from content/cognitive/bubbles/cog-set2-q26-fractions.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/cognitive/bubbles/cog-set2-q26-fractions.mdx)
+
+**ID:** COG-set2-q26 · **Status:** ready · **Updated:** 2026-11-15
+
+# Fractions
+
+## Question
+
+Bubbles with the values shown float on the screen. Pop the fractions in DESCENDING order. Which bubble is popped 3rd?
+
+| Bubble | Expression / number |
+| --- | --- |
+| A | 5/6 |
+| B | 3/5 |
+| C | 7/8 |
+| D | 2/3 |
+| E | 3/4 |
+| F | 4/7 |
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 2/3 |
+| B | 3/4 |
+| C | 5/6 |
+| D | 7/8 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+B. 3/4
+
+## Explanation
+
+Convert every bubble to a plain number first.
+
+Sort the values in descending (largest first) order.
+
+The answer is 3/4.
+
+| Expression / number | Value |
+| --- | --- |
+| 5/6 | 0.833333 |
+| 3/5 | 0.6 |
+| 7/8 | 0.875 |
+| 2/3 | 0.666667 |
+| 3/4 | 0.75 |
+| 4/7 | 0.571429 |
+
+**Eligible pop order:** 7/8 → 5/6 → 3/4 → 2/3 → 3/5 → 4/7.
+
+</details>
+
+## Source context
+
+Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 31.
+
+---
+
+[← COG-set2-q25](cog-set2-q25-negative-numbers.md) · [Topic index](README.md) · [COG-set2-q27 →](cog-set2-q27-percentages.md)

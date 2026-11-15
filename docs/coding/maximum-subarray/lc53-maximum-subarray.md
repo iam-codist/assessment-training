@@ -1,0 +1,54 @@
+<!-- Generated from content/coding/maximum-subarray/lc53-maximum-subarray.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/coding/maximum-subarray/lc53-maximum-subarray.mdx)
+
+**ID:** LC53 · **Status:** ready · **Updated:** 2026-11-15
+
+# Maximum Subarray
+
+## Question
+
+For a nonempty integer array, find the greatest sum of any contiguous nonempty subarray. The extended classroom version also reports the start index, end index and actual subarray.
+
+## Example 1
+
+**Input**
+
+```text
+[-2,1,-3,4,-1,2,1,-5,4]; [4,-6,3,2]; [-5,-2,-8]
+```
+
+**Output**
+
+```text
+6 from indices 3..6 [4,-1,2,1]; 5 from indices 2..3 [3,2]; -2
+```
+
+## Notes
+
+Repeated discussions consolidated here; both sum-only and index-returning variants are preserved.
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Teach O(n³) brute force, then O(n²) running sums, then O(n) Kadane: current = max(value,current+value), best = max(best,current). Initialize from the first element. Track tempStart/start/end for the extended version.
+
+## Reference implementations
+
+- [Solution.java](../../../solutions/LC53/Solution.java)
+
+</details>
+
+## Source context
+
+Day 1 challenge; Day 2; demo.
+
+---
+
+[Topic index](README.md) · [LC918 →](lc918-maximum-sum-circular-subarray.md)

@@ -1,0 +1,50 @@
+---
+id: "LC242"
+title: "Valid Anagram"
+category: "coding"
+topic: "hashing-and-counting"
+status: "ready"
+updated: "2026-11-15"
+source: "Demo lesson"
+---
+
+# Valid Anagram
+
+## Question
+
+Determine whether two lowercase English strings contain exactly the same letters with the same frequencies, regardless of position.
+
+## Example 1
+
+**Input**
+
+```text
+anagram / nagaram; rat / car; aabbcc / abcabc
+```
+
+**Output**
+
+```text
+true; false; true
+```
+
+## Notes
+
+Superseded the earlier palindrome choice in the final demo sequence.
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Compare lengths, increment counts for the first string and decrement for the second. All counts must return to zero. Sorting O(n log n) → counting O(n).
+
+</details>
+
+## Source context
+
+Demo lesson.

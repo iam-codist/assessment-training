@@ -1,0 +1,49 @@
+---
+id: "P21"
+title: "Object references"
+category: "pseudocode"
+topic: "functions-and-references"
+status: "ready"
+updated: "2026-11-15"
+source: "22-question practice pack"
+---
+
+# Object references
+
+## Question
+
+What is printed?
+
+```text
+a <- NEW Box(value = 3)
+b <- a
+b.value <- b.value + 4
+a <- NEW Box(value = 10)
+PRINT a.value, b.value
+```
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 7 7 |
+| B | 10 7 |
+| C | 10 10 |
+| D | 3 7 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+B. 10 7
+
+## Explanation
+
+a and b initially reference the same box, whose value becomes 7. Assigning a a new box does not redirect b.
+
+</details>
+
+## Source context
+
+22-question practice pack.

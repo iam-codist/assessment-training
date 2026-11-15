@@ -1,0 +1,83 @@
+<!-- Generated from content/coding/simulation-and-greedy/c13-command-accumulator.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/coding/simulation-and-greedy/c13-command-accumulator.mdx)
+
+**ID:** C13 · **Status:** ready · **Updated:** 2026-11-15
+
+# Command accumulator
+
+## Question
+
+An accumulator starts at zero. Process commands in order. SET x replaces its value with x; ADD x adds x; SUB x subtracts x; MUL x multiplies it by x. Report the accumulator only after all commands have executed.
+
+## Input format
+
+Line 1: q. The next q lines contain one command and one integer operand.
+
+## Output format
+
+Print the final accumulator value.
+
+## Constraints
+
+1 &lt;= q &lt;= 1000; -1000000 &lt;= each operand &lt;= 1000000. Every intermediate result fits a signed 64-bit integer. All commands are valid.
+
+## Example 1
+
+**Input**
+
+```text
+4
+SET 5
+MUL 3
+SUB 4
+ADD 2
+```
+
+**Output**
+
+```text
+13
+```
+
+## Example 2
+
+**Input**
+
+```text
+3
+ADD 7
+MUL 0
+SUB 3
+```
+
+**Output**
+
+```text
+-3
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Maintain a single accumulator and dispatch each command to SET, ADD, SUB or MUL. Execute in the listed order.
+
+O(q) time; O(1) extra working space.
+
+SET replaces the current value. Use Java long; all intermediate results are promised to fit signed 64-bit.
+
+</details>
+
+## Source context
+
+Original practice pack.
+
+---
+
+[← C08](c08-three-item-shopping-budget.md) · [Topic index](README.md) · [C18 →](c18-grid-delivery-route.md)

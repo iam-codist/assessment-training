@@ -1,0 +1,50 @@
+---
+id: "LC189"
+title: "Rotate Array"
+category: "coding"
+topic: "two-pointers"
+status: "ready"
+updated: "2026-11-15"
+source: "Day 1 challenge"
+---
+
+# Rotate Array
+
+## Question
+
+Rotate a nonempty array to the right by nonnegative k steps, modifying the array.
+
+## Example 1
+
+**Input**
+
+```text
+[1,2,3,4,5], k = 2
+```
+
+**Output**
+
+```text
+[4,5,1,2,3]
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Reduce k modulo n. Reverse the whole array, then the first k elements, then the remainder. O(n) time and O(1) extra space.
+
+## Reference implementations
+
+- [Solution.java](../../../solutions/LC189/Solution.java)
+
+</details>
+
+## Source context
+
+Day 1 challenge.

@@ -1,0 +1,57 @@
+---
+id: "M16"
+title: "Nested Loops with BREAK"
+category: "pseudocode"
+topic: "loops"
+status: "ready"
+updated: "2026-11-15"
+source: "20 medium questions"
+---
+
+# Nested Loops with BREAK
+
+## Question
+
+What is printed by this pseudocode?
+
+```text
+INTEGER count = 0
+
+FOR i = 1 TO 4
+    FOR j = 1 TO 4
+        IF j > i THEN
+            BREAK
+        END IF
+
+        count = count + 1
+    END FOR
+END FOR
+
+PRINT count
+```
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 6 |
+| B | 8 |
+| C | 10 |
+| D | 16 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. 10
+
+## Explanation
+
+The inner loop contributes 1+2+3+4 = 10.
+
+</details>
+
+## Source context
+
+20 medium questions.

@@ -1,0 +1,78 @@
+<!-- Generated from content/coding/hashing-and-counting/c19-runner-up-value-and-frequency.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/coding/hashing-and-counting/c19-runner-up-value-and-frequency.mdx)
+
+**ID:** C19 · **Status:** ready · **Updated:** 2026-11-15
+
+# Runner-up value and frequency
+
+## Question
+
+Find the second-largest distinct value in an integer array and count how many times it occurs. Repeated copies of the largest value do not occupy the second position. If the array contains fewer than two distinct values, print NONE.
+
+## Input format
+
+Line 1: n. Line 2: n integers.
+
+## Output format
+
+Print the second-largest distinct value and its occurrence count, or NONE.
+
+## Constraints
+
+1 &lt;= n &lt;= 100000; -1000000000 &lt;= each element &lt;= 1000000000.
+
+## Example 1
+
+**Input**
+
+```text
+7
+9 4 9 7 7 1 7
+```
+
+**Output**
+
+```text
+7 3
+```
+
+## Example 2
+
+**Input**
+
+```text
+4
+5 5 5 5
+```
+
+**Output**
+
+```text
+NONE
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+For a simple approach, build a frequency map, sort its distinct keys, and select the second-largest key. Return its frequency.
+
+O(n+d log d) time and O(d) space for d distinct values.
+
+Duplicates of the maximum do not create a runner-up. Fewer than two distinct values gives NONE. Negative values are valid.
+
+</details>
+
+## Source context
+
+Original practice pack.
+
+---
+
+[Topic index](README.md) · [C20 →](c20-digit-rearrangement-test.md)

@@ -1,0 +1,22 @@
+name: Question correction
+description: Report an incorrect answer, ambiguous question or broken example.
+title: "[Question ID] Short description"
+body:
+  - type: input
+    id: question
+    attributes:
+      label: Question ID or link
+      placeholder: e.g. M20 or LC53
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What should be corrected?
+      description: Include your reasoning, a trace or a failing example.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested correction

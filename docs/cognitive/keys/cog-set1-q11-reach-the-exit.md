@@ -1,0 +1,70 @@
+<!-- Generated from content/cognitive/keys/cog-set1-q11-reach-the-exit.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/cognitive/keys/cog-set1-q11-reach-the-exit.mdx)
+
+**ID:** COG-set1-q11 · **Status:** ready · **Updated:** 2026-11-15
+
+# Reach the Exit
+
+## Question
+
+Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the minimum number of moves (room to room) to get from START to EXIT?
+
+| Row / Col | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| 1 | A | B | C |
+| 2 | D | E | F |
+| 3 | G | H | I |
+
+Start: **A**. Exit: **I**. Keys: B: G, C: B, G: R. R = red; G = green; B = blue.
+
+Only the following links exist. Each move uses one link, in either direction.
+
+| Rooms connected | Required key |
+| --- | --- |
+| A ↔ B | Open |
+| A ↔ D | G |
+| B ↔ C | B |
+| B ↔ E | Open |
+| C ↔ F | R |
+| D ↔ E | Open |
+| D ↔ G | Open |
+| E ↔ F | R |
+| E ↔ H | R |
+| F ↔ I | G |
+| G ↔ H | B |
+| H ↔ I | B |
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 9 moves |
+| B | 8 moves |
+| C | 11 moves |
+| D | 6 moves |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+B. 8 moves
+
+## Explanation
+
+Shortest route (8 moves): A > B > A > D > G > D > E > F > I.
+
+Keys picked up on the way: Green key in B, Red key in G.
+
+Locked doors crossed: A-D (Green), E-F (Red), F-I (Green).
+
+</details>
+
+## Source context
+
+Accenture_Cognitive_Assessment_Practice.pptx. Accenture_Cognitive_Assessment_Practice.pptx; slide / round 15.
+
+---
+
+[Topic index](README.md) · [COG-set1-q12 →](cog-set1-q12-unlock-the-way.md)

@@ -1,0 +1,70 @@
+<!-- Generated from content/cognitive/keys/cog-set2-q14-longest-detour.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/cognitive/keys/cog-set2-q14-longest-detour.mdx)
+
+**ID:** COG-set2-q14 · **Status:** ready · **Updated:** 2026-11-15
+
+# Longest Detour
+
+## Question
+
+Entering a room picks up its key. A coloured bar is a locked door needing that colour of key (keys are reusable); thin grey links are open. What is the minimum number of moves (room to room) to get from START to EXIT?
+
+| Row / Col | 1 | 2 | 3 |
+| --- | --- | --- | --- |
+| 1 | A | B | C |
+| 2 | D | E | F |
+| 3 | G | H | I |
+
+Start: **B**. Exit: **G**. Keys: A: R, C: G, I: B. R = red; G = green; B = blue.
+
+Only the following links exist. Each move uses one link, in either direction.
+
+| Rooms connected | Required key |
+| --- | --- |
+| A ↔ B | B |
+| A ↔ D | G |
+| B ↔ C | B |
+| B ↔ E | Open |
+| C ↔ F | B |
+| D ↔ E | R |
+| D ↔ G | G |
+| E ↔ F | Open |
+| E ↔ H | Open |
+| F ↔ I | Open |
+| G ↔ H | R |
+| H ↔ I | Open |
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 12 moves |
+| B | 7 moves |
+| C | 9 moves |
+| D | 10 moves |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. 9 moves
+
+## Explanation
+
+Shortest route (9 moves): B > E > F > I > F > C > B > A > D > G.
+
+Keys picked up on the way: Blue key in I, Green key in C, Red key in A.
+
+Locked doors crossed: F-C (Blue), C-B (Blue), B-A (Blue), A-D (Green), D-G (Green).
+
+</details>
+
+## Source context
+
+Accenture_Cognitive_Assessment_Practice_Set2.pptx. Accenture_Cognitive_Assessment_Practice_Set2.pptx; slide / round 18.
+
+---
+
+[← COG-set2-q13](cog-set2-q13-keys-and-doors.md) · [Topic index](README.md) · [COG-set2-q15 →](cog-set2-q15-fewest-keys.md)

@@ -1,0 +1,76 @@
+<!-- Generated from content/coding/number-operations/c14-odd-part-decomposition.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/coding/number-operations/c14-odd-part-decomposition.mdx)
+
+**ID:** C14 · **Status:** ready · **Updated:** 2026-11-15
+
+# Odd-part decomposition
+
+## Question
+
+Express a positive integer n as m multiplied by 2 to the power k, where m is odd and k is a nonnegative integer. Output the uniquely determined m and k. For an odd input, k is zero.
+
+## Input format
+
+One line containing n.
+
+## Output format
+
+Print m and k separated by one space.
+
+## Constraints
+
+1 &lt;= n &lt;= 1000000000000000000.
+
+## Example 1
+
+**Input**
+
+```text
+72
+```
+
+**Output**
+
+```text
+9 3
+```
+
+## Example 2
+
+**Input**
+
+```text
+13
+```
+
+**Output**
+
+```text
+13 0
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+Use the following algorithm to produce the result for any input that satisfies the question rules.
+
+## Explanation
+
+Start k at zero. While n is even, divide by 2 and increment k. The remaining value is the odd part m.
+
+O(log n) time; O(1) extra working space.
+
+n is positive. An odd n has exponent 0; n=1 produces 1 0.
+
+</details>
+
+## Source context
+
+Original practice pack.
+
+---
+
+[← C11](c11-weighted-digit-checksum.md) · [Topic index](README.md) · [D01 →](d01-difference-of-sums.md)
