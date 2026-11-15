@@ -38,4 +38,4 @@ Original practice pack.
 
 ---
 
-[Topic index](README.md)
+[← PS3-40](ps3-40-grouped-sums.md) · [Topic index](README.md)

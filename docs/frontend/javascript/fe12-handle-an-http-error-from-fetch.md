@@ -39,4 +39,4 @@ Original educational practice added for the curriculum expansion. Reference: [MD
 
 ---
 
-[← FE11](fe11-promise-callbacks-and-synchronous-code.md) · [Topic index](README.md)
+[← FE11](fe11-promise-callbacks-and-synchronous-code.md) · [Topic index](README.md) · [PS1-47 →](ps1-47-workshop-seat-counter.md)

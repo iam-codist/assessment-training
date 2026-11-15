@@ -1,6 +1,6 @@
 # Array and string tracing
 
-10 entries. Try each question before opening its answer panel.
+14 entries. Try each question before opening its answer panel.
 
 | ID | Question | Status |
 | --- | --- | --- |
@@ -14,5 +14,9 @@
 | P10 | [Building a string](p10-building-a-string.md) | ready |
 | P19 | [One sorting pass](p19-one-sorting-pass.md) | ready |
 | P20 | [Two matrix diagonals](p20-two-matrix-diagonals.md) | ready |
+| PS1-03 | [Array element update](ps1-03-array-element-update.md) | ready |
+| PS2-03 | [Swap array endpoints](ps2-03-swap-array-endpoints.md) | ready |
+| PS3-02 | [Zero-based array access](ps3-02-zero-based-array-access.md) | ready |
+| PS3-09 | [Counting values above a threshold](ps3-09-counting-values-above-a-threshold.md) | ready |
 
 [All topics](../../README.md) · [Category index](../README.md)

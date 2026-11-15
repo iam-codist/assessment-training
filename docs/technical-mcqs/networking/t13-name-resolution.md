@@ -38,4 +38,4 @@ Original practice pack.
 
 ---
 
-[← G05](g05-domain-name-translation.md) · [Topic index](README.md) · [T14 →](t14-automatic-network-configuration.md)
+[← PS3-22](ps3-22-default-gateway.md) · [Topic index](README.md) · [T14 →](t14-automatic-network-configuration.md)

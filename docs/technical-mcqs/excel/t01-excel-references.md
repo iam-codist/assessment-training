@@ -38,4 +38,4 @@ Original practice pack.
 
 ---
 
-[← G02](g02-categorical-summaries.md) · [Topic index](README.md) · [T02 →](t02-excel-conditions.md)
+[← PS3-13](ps3-13-formatting-low-inventory.md) · [Topic index](README.md) · [T02 →](t02-excel-conditions.md)

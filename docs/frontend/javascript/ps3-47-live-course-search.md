@@ -1,0 +1,104 @@
+<!-- Generated from content/frontend/javascript/ps3-47-live-course-search.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/ps3-47-live-course-search.mdx)
+
+**ID:** PS3-47 · **Status:** ready · **Updated:** 2026-11-15
+
+# Live course search
+
+## Question
+
+Save this starter as `exercise.html` and open it in your browser.
+
+1. Add the placeholder “Filter by course” and style each course with 0.4rem padding and a bottom border.
+2. On every input event, trim the query and match it against course names without regard to case. Hide nonmatching courses.
+3. Show “No matches” only if there are zero matches. Verify “ sql ” shows only SQL Joins, “ruby” shows the message, and clearing shows all courses.
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Live course search</title>
+<style>
+  body { font: 1rem system-ui; margin: 2rem; }
+  /* Add your styles here. */
+</style>
+</head>
+<body>
+<h1>Live course search</h1>
+<label for="search">Search courses</label>
+<input id="search" type="search">
+<ul id="courses">
+  <li>Java Basics</li>
+  <li>SQL Joins</li>
+  <li>Web Essentials</li>
+</ul>
+<p id="empty" hidden aria-live="polite">No matches</p>
+<script>
+  // Add your event handler here.
+</script>
+</body>
+</html>
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Live course search</title>
+<style>
+  body { font: 1rem system-ui; margin: 2rem; }
+  #courses li { padding: .4rem; border-bottom: 1px solid #ddd; }
+</style>
+</head>
+<body>
+<h1>Live course search</h1>
+<label for="search">Search courses</label>
+<input id="search" type="search" placeholder="Filter by course">
+<ul id="courses">
+  <li>Java Basics</li>
+  <li>SQL Joins</li>
+  <li>Web Essentials</li>
+</ul>
+<p id="empty" hidden aria-live="polite">No matches</p>
+<script>
+  const search = document.querySelector('#search');
+  const courses = document.querySelectorAll('#courses li');
+  const empty = document.querySelector('#empty');
+
+  search.addEventListener('input', () => {
+    const query = search.value.trim().toLowerCase();
+    let matches = 0;
+
+    for (const course of courses) {
+      const visible = course.textContent.toLowerCase().includes(query);
+      course.hidden = !visible;
+      if (visible) matches += 1;
+    }
+    empty.hidden = matches !== 0;
+  });
+</script>
+</body>
+</html>
+```
+
+## Explanation
+
+Lowercasing both strings makes substring matching case-insensitive. Trimming removes stray spaces. Updating hidden on each course and the empty message keeps the interface in sync.
+
+</details>
+
+## Source context
+
+Original classroom practice sets, November 2026. Set 3, question 47.
+
+---
+
+[← PS2-47](ps2-47-ticket-price-calculator.md) · [Topic index](README.md)

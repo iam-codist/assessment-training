@@ -1,0 +1,41 @@
+<!-- Generated from content/pseudocode/bitwise/ps1-10-bitwise-xor.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/pseudocode/bitwise/ps1-10-bitwise-xor.mdx)
+
+**ID:** PS1-10 · **Status:** ready · **Updated:** 2026-11-15
+
+# Bitwise XOR
+
+## Question
+
+a = 6; b = 3. What is a XOR b using bitwise XOR?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 7 |
+| B | 2 |
+| C | 5 |
+| D | 6 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. 5
+
+## Explanation
+
+Binary 110 XOR 011 is 101. XOR sets each bit where the two input bits differ.
+
+</details>
+
+## Source context
+
+Original classroom practice sets, November 2026. Set 1, question 10.
+
+---
+
+[← P12](p12-bit-shifting.md) · [Topic index](README.md) · [PS2-09 →](ps2-09-bitwise-and.md)

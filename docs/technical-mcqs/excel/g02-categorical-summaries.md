@@ -38,4 +38,4 @@ Panel demo.
 
 ---
 
-[← G01](g01-numeric-cells.md) · [Topic index](README.md) · [T01 →](t01-excel-references.md)
+[← G01](g01-numeric-cells.md) · [Topic index](README.md) · [PS1-11 →](ps1-11-copying-a-cell-formula.md)

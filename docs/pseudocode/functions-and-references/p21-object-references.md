@@ -46,4 +46,4 @@ a and b initially reference the same box, whose value becomes 7. Assigning a a n
 
 ---
 
-[← P17](p17-value-parameter.md) · [Topic index](README.md)
+[← P17](p17-value-parameter.md) · [Topic index](README.md) · [PS1-06 →](ps1-06-sequential-assignments.md)

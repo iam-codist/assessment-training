@@ -47,4 +47,4 @@ The diagonal sums are 2+5+6=13 and 4+5+7=16. Their difference is -3; the shared 
 
 ---
 
-[← P19](p19-one-sorting-pass.md) · [Topic index](README.md)
+[← P19](p19-one-sorting-pass.md) · [Topic index](README.md) · [PS1-03 →](ps1-03-array-element-update.md)

@@ -1,0 +1,120 @@
+<!-- Generated from content/frontend/javascript/ps1-47-workshop-seat-counter.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/frontend/javascript/ps1-47-workshop-seat-counter.mdx)
+
+**ID:** PS1-47 · **Status:** ready · **Updated:** 2026-11-15
+
+# Workshop seat counter
+
+## Question
+
+Save this starter as `exercise.html` and open it in your browser.
+
+1. Add the counter-card class to main. Give it a 1px solid border, 1rem padding and a 24rem maximum width. Make the remaining count bold.
+2. On Reserve seat, decrement the count. Show “1 seat left” at one and “Sold out” at zero. Disable Reserve at zero and prevent negative counts.
+3. On Reset, restore three seats and enable Reserve. Test the full sequence from three to zero and back.
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seat counter</title>
+<style>
+  body { font: 1rem system-ui; margin: 2rem; }
+  /* Add the .counter-card and #remaining rules here. */
+</style>
+</head>
+<body>
+<main>
+  <h1>Workshop seats</h1>
+  <p id="remaining" aria-live="polite">3 seats left</p>
+  <button id="reserve" type="button">Reserve seat</button>
+  <button id="reset" type="button">Reset</button>
+</main>
+<script>
+  let seats = 3;
+  const remaining = document.querySelector('#remaining');
+  const reserve = document.querySelector('#reserve');
+  const reset = document.querySelector('#reset');
+
+  // Add a render function and two click listeners here.
+</script>
+</body>
+</html>
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seat counter</title>
+<style>
+  body { font: 1rem system-ui; margin: 2rem; }
+  .counter-card {
+    border: 1px solid #555;
+    padding: 1rem;
+    max-width: 24rem;
+  }
+  #remaining { font-weight: bold; }
+</style>
+</head>
+<body>
+<main class="counter-card">
+  <h1>Workshop seats</h1>
+  <p id="remaining" aria-live="polite">3 seats left</p>
+  <button id="reserve" type="button">Reserve seat</button>
+  <button id="reset" type="button">Reset</button>
+</main>
+<script>
+  let seats = 3;
+  const remaining = document.querySelector('#remaining');
+  const reserve = document.querySelector('#reserve');
+  const reset = document.querySelector('#reset');
+
+  function render() {
+    reserve.disabled = seats === 0;
+    if (seats === 0) {
+      remaining.textContent = 'Sold out';
+    } else {
+      remaining.textContent = seats === 1 ? '1 seat left' : seats + ' seats left';
+    }
+  }
+
+  reserve.addEventListener('click', () => {
+    seats = Math.max(0, seats - 1);
+    render();
+  });
+
+  reset.addEventListener('click', () => {
+    seats = 3;
+    render();
+  });
+
+  render();
+</script>
+</body>
+</html>
+```
+
+## Explanation
+
+The render function derives both the visible message and the button state from the number of seats. Reset uses the same rendering function as Reserve, so the two parts of the interface stay in sync.
+
+</details>
+
+## Source context
+
+Original classroom practice sets, November 2026. Set 1, question 47.
+
+---
+
+[← FE12](fe12-handle-an-http-error-from-fetch.md) · [Topic index](README.md) · [PS2-47 →](ps2-47-ticket-price-calculator.md)

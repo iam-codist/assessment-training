@@ -50,4 +50,4 @@ Calls print 3,2,1 before reaching the base case. Returning through those calls p
 
 ---
 
-[← P13](p13-small-recursion.md) · [Topic index](README.md)
+[← P13](p13-small-recursion.md) · [Topic index](README.md) · [PS1-07 →](ps1-07-recursive-sum.md)

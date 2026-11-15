@@ -46,4 +46,4 @@ Original educational practice added for the curriculum expansion. SQL references
 
 ---
 
-[Topic index](README.md) · [SQL02 →](sql02-left-join-customers-with-no-orders.md)
+[← PS3-46](ps3-46-passing-course-enrollments.md) · [Topic index](README.md) · [SQL02 →](sql02-left-join-customers-with-no-orders.md)

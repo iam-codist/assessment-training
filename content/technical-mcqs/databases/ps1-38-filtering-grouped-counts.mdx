@@ -1,0 +1,41 @@
+---
+id: "PS1-38"
+title: "Filtering grouped counts"
+category: "technical-mcqs"
+topic: "databases"
+status: "ready"
+updated: "2026-11-15"
+source: "Original classroom practice sets, November 2026"
+---
+
+# Filtering grouped counts
+
+## Question
+
+Which clause filters departments whose grouped employee count is at least 3?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | WHERE COUNT(\*) \>= 3 |
+| B | ORDER BY COUNT(\*) \>= 3 |
+| C | HAVING COUNT(\*) \>= 3 |
+| D | GROUP BY COUNT(\*) \>= 3 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. HAVING COUNT(\*) \>= 3
+
+## Explanation
+
+HAVING filters groups after aggregation. WHERE filters individual rows before grouping.
+
+</details>
+
+## Source context
+
+Original classroom practice sets, November 2026. Set 1, question 38.

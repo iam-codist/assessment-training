@@ -1,0 +1,66 @@
+<!-- Generated from content/sql/joins/ps3-46-passing-course-enrollments.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/sql/joins/ps3-46-passing-course-enrollments.mdx)
+
+**ID:** PS3-46 · **Status:** ready · **Updated:** 2026-11-15
+
+# Passing course enrollments
+
+## Question
+
+Join the three tables to show each passing enrollment. Return student name, course title and score. A score of 60 passes. Sort by course title, then by descending score, then by student name.
+
+### Starter data
+
+Run this setup in a fresh SQLite database.
+
+```sql
+CREATE TABLE students (id INTEGER PRIMARY KEY, name TEXT);
+CREATE TABLE courses (id INTEGER PRIMARY KEY, title TEXT);
+CREATE TABLE enrollments (
+    student_id INTEGER REFERENCES students(id),
+    course_id INTEGER REFERENCES courses(id),
+    score INTEGER,
+    PRIMARY KEY (student_id, course_id)
+);
+
+INSERT INTO students VALUES (1,'Anu'),(2,'Dev'),(3,'Ira');
+INSERT INTO courses VALUES (1,'SQL'),(2,'Web');
+INSERT INTO enrollments VALUES (1,1,88),(1,2,59),(2,2,60),(3,1,95);
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+```sql
+SELECT s.name, c.title, e.score
+FROM enrollments AS e
+JOIN students AS s ON s.id = e.student_id
+JOIN courses AS c ON c.id = e.course_id
+WHERE e.score >= 60
+ORDER BY c.title, e.score DESC, s.name;
+```
+
+Expected rows:
+
+| name | title | score |
+| --- | --- | --- |
+| Ira | SQL | 95 |
+| Anu | SQL | 88 |
+| Dev | Web | 60 |
+
+## Explanation
+
+Enrollments connect students to courses by ID. The two joins attach the names and titles. WHERE filters individual scores before sorting. The final name sort breaks ties within a course.
+
+</details>
+
+## Source context
+
+Original classroom practice sets, November 2026. Set 3, question 46.
+
+---
+
+[← PS2-46](ps2-46-paid-order-totals.md) · [Topic index](README.md) · [SQL01 →](sql01-inner-join-employees-and-departments.md)

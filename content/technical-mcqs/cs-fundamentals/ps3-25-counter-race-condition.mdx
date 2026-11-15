@@ -1,0 +1,41 @@
+---
+id: "PS3-25"
+title: "Counter race condition"
+category: "technical-mcqs"
+topic: "cs-fundamentals"
+status: "ready"
+updated: "2026-11-15"
+source: "Original classroom practice sets, November 2026"
+---
+
+# Counter race condition
+
+## Question
+
+Two threads update the same counter and lose an increment depending on timing. What is the issue?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Page fault |
+| B | Race condition |
+| C | Disk fragmentation |
+| D | Starvation only |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+B. Race condition
+
+## Explanation
+
+An uncoordinated read-modify-write can overwrite another thread's update.
+
+</details>
+
+## Source context
+
+Original classroom practice sets, November 2026. Set 3, question 25.

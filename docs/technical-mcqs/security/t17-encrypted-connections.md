@@ -38,4 +38,4 @@ Original practice pack.
 
 ---
 
-[Topic index](README.md) · [T18 →](t18-suspicious-messages.md)
+[← PS3-35](ps3-35-security-patching.md) · [Topic index](README.md) · [T18 →](t18-suspicious-messages.md)

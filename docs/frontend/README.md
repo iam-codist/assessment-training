@@ -4,6 +4,6 @@
 | --- | --- |
 | [CSS and responsive layouts](css/README.md) | 3 |
 | [HTML and accessibility](html/README.md) | 3 |
-| [JavaScript fundamentals](javascript/README.md) | 6 |
+| [JavaScript fundamentals](javascript/README.md) | 9 |
 
 [All topics](../README.md) · [Study guide](../../STUDY-GUIDE.md)

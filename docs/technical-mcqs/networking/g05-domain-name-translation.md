@@ -38,4 +38,4 @@ Panel demo.
 
 ---
 
-[Topic index](README.md) · [T13 →](t13-name-resolution.md)
+[Topic index](README.md) · [PS1-18 →](ps1-18-host-name-resolution.md)

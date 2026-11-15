@@ -38,4 +38,4 @@ Original practice pack.
 
 ---
 
-[← G04](g04-gmail-service-model.md) · [Topic index](README.md) · [T21 →](t21-managed-application-platforms.md)
+[← PS3-31](ps3-31-private-bucket-policy.md) · [Topic index](README.md) · [T21 →](t21-managed-application-platforms.md)

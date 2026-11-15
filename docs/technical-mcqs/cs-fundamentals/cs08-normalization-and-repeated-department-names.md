@@ -36,4 +36,4 @@ Original educational practice added for the curriculum expansion.
 
 ---
 
-[← CS07](cs07-transactions-and-atomicity.md) · [Topic index](README.md)
+[← CS07](cs07-transactions-and-atomicity.md) · [Topic index](README.md) · [PS1-23 →](ps1-23-ready-queue-scheduling.md)

@@ -38,4 +38,4 @@ Panel demo.
 
 ---
 
-[← G03](g03-virtual-machines-and-guest-os.md) · [Topic index](README.md) · [T20 →](t20-cloud-service-models.md)
+[← G03](g03-virtual-machines-and-guest-os.md) · [Topic index](README.md) · [PS1-28 →](ps1-28-virtual-machines-and-iaas.md)

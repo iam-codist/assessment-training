@@ -1,0 +1,41 @@
+---
+id: "PS1-42"
+title: "Java dynamic dispatch"
+category: "technical-mcqs"
+topic: "cs-fundamentals"
+status: "ready"
+updated: "2026-11-15"
+source: "Original classroom practice sets, November 2026"
+---
+
+# Java dynamic dispatch
+
+## Question
+
+In Java, Animal a = new Dog(); then a.speak() is called. Dog overrides the public instance method speak(). Which implementation runs?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Animal.speak() |
+| B | Both methods automatically |
+| C | Dog.speak() |
+| D | The code cannot compile |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. Dog.speak()
+
+## Explanation
+
+Java dynamically dispatches overridden instance methods according to the object's type.
+
+</details>
+
+## Source context
+
+Original classroom practice sets, November 2026. Set 1, question 42.

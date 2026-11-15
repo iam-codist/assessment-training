@@ -1,0 +1,88 @@
+<!-- Generated from content/sql/joins/ps1-46-active-employees-by-department.mdx. Edit the MDX source. -->
+
+[Topic index](README.md) · [Edit MDX](../../../content/sql/joins/ps1-46-active-employees-by-department.mdx)
+
+**ID:** PS1-46 · **Status:** ready · **Updated:** 2026-11-15
+
+# Active employees by department
+
+## Question
+
+List every department and its number of active employees. Return department_name and active_count in alphabetical order by department name. Include departments with no employees and departments with inactive employees only. Then adapt the query to show departments with at least two active employees.
+
+### Starter data
+
+Run this setup in a fresh SQLite database.
+
+```sql
+CREATE TABLE departments (
+    department_id INTEGER PRIMARY KEY,
+    department_name VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE employees (
+    employee_id INTEGER PRIMARY KEY,
+    employee_name VARCHAR(50) NOT NULL,
+    department_id INTEGER NOT NULL REFERENCES departments(department_id),
+    status VARCHAR(10) NOT NULL
+);
+
+INSERT INTO departments VALUES (1, 'Engineering'), (2, 'HR'), (3, 'Sales'), (4, 'Support');
+INSERT INTO employees VALUES
+    (101, 'Anu', 1, 'active'),
+    (102, 'Dev', 1, 'inactive'),
+    (103, 'Ira', 1, 'active'),
+    (104, 'Ravi', 2, 'active'),
+    (105, 'Meera', 4, 'inactive');
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+```sql
+SELECT d.department_name, COUNT(e.employee_id) AS active_count
+FROM departments AS d
+LEFT JOIN employees AS e
+    ON e.department_id = d.department_id AND e.status = 'active'
+GROUP BY d.department_id, d.department_name
+ORDER BY d.department_name;
+```
+
+Expected rows:
+
+| department_name | active_count |
+| --- | --- |
+| Engineering | 2 |
+| HR | 1 |
+| Sales | 0 |
+| Support | 0 |
+
+Follow-up:
+
+```sql
+SELECT d.department_name, COUNT(e.employee_id) AS active_count
+FROM departments AS d
+LEFT JOIN employees AS e
+    ON e.department_id = d.department_id AND e.status = 'active'
+GROUP BY d.department_id, d.department_name
+HAVING COUNT(e.employee_id) >= 2
+ORDER BY d.department_name;
+```
+
+Expected row: Engineering, 2.
+
+## Explanation
+
+A LEFT JOIN keeps all departments. Filtering active employees in ON preserves departments without a match. COUNT(e.employee_id) skips the NULL in an unmatched row. HAVING filters the aggregated count in the follow-up.
+
+</details>
+
+## Source context
+
+Original classroom practice sets, November 2026. Set 1, question 46.
+
+---
+
+[Topic index](README.md) · [PS2-46 →](ps2-46-paid-order-totals.md)

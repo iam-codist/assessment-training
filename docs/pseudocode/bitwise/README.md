@@ -1,6 +1,6 @@
 # Binary and bitwise operations
 
-10 entries. Try each question before opening its answer panel.
+13 entries. Try each question before opening its answer panel.
 
 | ID | Question | Status |
 | --- | --- | --- |
@@ -14,5 +14,8 @@
 | M17 | [Bitwise AND + OR](m17-bitwise-and-or.md) | ready |
 | P11 | [Bitwise operations](p11-bitwise-operations.md) | ready |
 | P12 | [Bit shifting](p12-bit-shifting.md) | ready |
+| PS1-10 | [Bitwise XOR](ps1-10-bitwise-xor.md) | ready |
+| PS2-09 | [Bitwise AND](ps2-09-bitwise-and.md) | ready |
+| PS3-08 | [Bitwise OR](ps3-08-bitwise-or.md) | ready |
 
 [All topics](../../README.md) · [Category index](../README.md)

@@ -45,4 +45,4 @@ D. 14
 
 ---
 
-[← P11](p11-bitwise-operations.md) · [Topic index](README.md)
+[← P11](p11-bitwise-operations.md) · [Topic index](README.md) · [PS1-10 →](ps1-10-bitwise-xor.md)

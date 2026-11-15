@@ -8,6 +8,8 @@ The website has topic navigation, search, expandable answers, C/C++/Python/Java 
 
 ## Browse the collection
 
+[Assessment practice sets](ASSESSMENT-PRACTICE.md) groups the three classroom sets in question order. Each exercise uses the same expandable answer format as the topic library.
+
 | Area | What you will practise |
 | --- | --- |
 | [Technical MCQs](docs/technical-mcqs/README.md) | Excel, office tools, networking, cloud, security database keys and CS fundamentals |

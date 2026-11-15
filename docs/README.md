@@ -4,19 +4,19 @@ Study by topic, then use each question's **Show answer and explanation** panel t
 
 | Category | Entries |
 | --- | --- |
-| [Technical MCQs](technical-mcqs/README.md) | 36 |
-| [Pseudocode](pseudocode/README.md) | 52 |
+| [Technical MCQs](technical-mcqs/README.md) | 141 |
+| [Pseudocode](pseudocode/README.md) | 82 |
 | [Coding problems](coding/README.md) | 49 |
 | [Concept checks](concept-checks/README.md) | 8 |
-| [SQL — joins and queries](sql/README.md) | 10 |
-| [Frontend development](frontend/README.md) | 12 |
+| [SQL — joins and queries](sql/README.md) | 13 |
+| [Frontend development](frontend/README.md) | 15 |
 | [Cognitive practice](cognitive/README.md) | 225 |
 | [Behavioral assessment](behavioral/README.md) | 6 |
 | [Communication assessment](communication/README.md) | 8 |
 | [Technical and HR interview](interview/README.md) | 10 |
 | [Reference outlines](reference-outlines/README.md) | 20 |
 
-**436 entries:** 404 ready, 0 planned, 12 needing review, and 20 outlines. Counts include labelled variants.
+**577 entries:** 545 ready, 0 planned, 12 needing review, and 20 outlines. Counts include labelled variants.
 
 ## Status guide
 

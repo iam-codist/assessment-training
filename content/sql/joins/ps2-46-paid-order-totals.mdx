@@ -1,0 +1,67 @@
+---
+id: "PS2-46"
+title: "Paid order totals"
+category: "sql"
+topic: "joins"
+status: "ready"
+updated: "2026-11-15"
+source: "Original classroom practice sets, November 2026"
+---
+
+# Paid order totals
+
+## Question
+
+Return each customer name and paid_total. Sum only paid orders, return zero for customers with no paid orders, and sort by total descending and then name ascending.
+
+### Starter data
+
+Run this setup in a fresh SQLite database.
+
+```sql
+CREATE TABLE customers (id INTEGER PRIMARY KEY, name TEXT);
+CREATE TABLE orders (
+    id INTEGER PRIMARY KEY,
+    customer_id INTEGER REFERENCES customers(id),
+    amount INTEGER,
+    status TEXT
+);
+
+INSERT INTO customers VALUES (1,'Asha'),(2,'Bala'),(3,'Charu'),(4,'Diya');
+INSERT INTO orders VALUES
+    (10,1,120,'paid'),(11,1,80,'paid'),(12,1,50,'cancelled'),
+    (13,2,75,'paid'),(14,3,40,'cancelled');
+```
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+```sql
+SELECT c.name, COALESCE(SUM(o.amount), 0) AS paid_total
+FROM customers AS c
+LEFT JOIN orders AS o
+    ON o.customer_id = c.id AND o.status = 'paid'
+GROUP BY c.id, c.name
+ORDER BY paid_total DESC, c.name;
+```
+
+Expected rows:
+
+| name | paid_total |
+| --- | --- |
+| Asha | 200 |
+| Bala | 75 |
+| Charu | 0 |
+| Diya | 0 |
+
+## Explanation
+
+A LEFT JOIN keeps all customers. Put the paid-status condition in ON so customers with no paid orders remain in the result. COALESCE changes the NULL sum for an unmatched customer to zero.
+
+</details>
+
+## Source context
+
+Original classroom practice sets, November 2026. Set 2, question 46.
