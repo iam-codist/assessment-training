@@ -6,10 +6,6 @@ Topic-wise preparation covering all ten requested assessment areas, combining re
 
 The website has topic navigation, search, expandable answers, C/C++/Python/Java solution tabs, mobile navigation and a stable page for every question. The integrated Cognitive Lab provides interactive solo and classroom practice. The repository and website remain public; no account or invitation is needed. Question content comes directly from the MDX files in this repository.
 
-## Printable practice
-
-[Open all three sets](PRINTABLE-PRACTICE.md) for A4 student handouts and trainer copies with worked solutions.
-
 ## Browse the collection
 
 | Area | What you will practise |

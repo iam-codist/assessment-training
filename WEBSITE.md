@@ -41,7 +41,6 @@ npm run test:lab
 | `cognitive-lab/` | Interactive activities, rules and lab tests; built into `/lab/` |
 | `solutions/` | Four-language references and the tab manifest |
 | `practice/sql/` | Downloadable SQL teaching dataset |
-| `practice/printable/` | Student handout and trainer PDFs linked from the printable practice guide |
 | `site.config.json` | Site title, repository address, origin and base path |
 | `site/style.css` | Responsive layout and reading styles |
 | `site/app.mjs` | Mobile menu, search interaction and copy controls |
