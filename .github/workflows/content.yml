@@ -1,4 +1,4 @@
-name: Validate and sync content
+name: Validate and publish student site
 
 on:
   push:
@@ -16,6 +16,9 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -23,8 +26,17 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
-      - run: npm run sync
+      - run: npm run build
       - run: npm test
+      - run: npm run test:site
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@v5
+      - name: Upload website
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
       - uses: actions/upload-artifact@v4
         with:
           name: reading-pages
@@ -55,3 +67,18 @@ jobs:
             git commit -m 'docs: sync reading pages from MDX'
             git push origin HEAD:main
           fi
+
+  deploy-website:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish the student website
+        id: deployment
+        uses: actions/deploy-pages@v4

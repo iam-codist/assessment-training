@@ -2,7 +2,9 @@
 
 Topic-wise MCQs, pseudocode, coding problems and cognitive practice from our assessment training sessions. Every complete exercise includes an answer and explanation or a coding approach. Expand the answer only after trying the question.
 
-**[Start learning →](docs/README.md)** · **[Suggested study order](STUDY-GUIDE.md)** · **[How to contribute](CONTRIBUTING.md)**
+**[Open the student website →](https://iam-codist.github.io/assessment-training/)** · **[Read on GitHub](docs/README.md)** · **[How to contribute](CONTRIBUTING.md)**
+
+The website has topic navigation, keyword and question-ID search, expandable answers, mobile navigation and a stable page for every question. No account is needed. Question content comes directly from the MDX files in this repository.
 
 ## Browse the collection
 
@@ -32,11 +34,14 @@ Edit the `.mdx` files in [`content/`](content). These are the source of truth. [
 
 ```sh
 npm ci
-npm run sync
+npm run build
 npm test
+npm run test:site
 ```
 
-The workflow validates MDX and local links on pull requests. On changes to `main`, it also refreshes the reading copies and indexes automatically. Add a question with the [template](templates/question.mdx); see [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
+The workflow validates MDX, search and site links on pull requests. Every change to `main` builds and deploys the website to GitHub Pages, and refreshes the GitHub reading copies and indexes. Add a question with the [template](templates/question.mdx); see [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
+
+For a local website preview, run `npm run dev` and open `http://127.0.0.1:4173/assessment-training/`. The design and browser interactions live in `site/`; the static build is in `scripts/build-site.mjs`. GitHub Pages settings and the project URL are described in [WEBSITE.md](WEBSITE.md).
 
 ## About the material
 

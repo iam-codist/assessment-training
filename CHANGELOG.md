@@ -1,5 +1,13 @@
 # Change log
 
+## 2026-11-15 — Student website on GitHub Pages
+
+- Added topic navigation, a practice homepage and a stable website URL for each question ID.
+- Added browser-based keyword/ID search with learning-area and status filters.
+- Rendered MDX into static HTML with expandable answers, visual puzzle assets, code-reading pages and a mobile topic menu.
+- Added automatic website deployment on changes to `main`, alongside the existing GitHub reading-page updates.
+- Added search checks and a build audit for question coverage, collapsed answers and all local page/asset links.
+
 ## 2026-11-15 — Initial student repository
 
 - Added 379 entries organized by category and topic: 28 technical MCQs, 52 pseudocode exercises, 46 coding entries, 8 concept checks, 225 cognitive activities and 20 historical outlines.

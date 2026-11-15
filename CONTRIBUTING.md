@@ -6,7 +6,7 @@ The editable originals are `content/<category>/<topic>/<id>-<short-title>.mdx`. 
 
 Open the question's reading page and choose **Edit MDX**. On GitHub, use the pencil button to edit the source, update the `updated` date and commit to a branch. Explain the correction in a pull request, including the question ID. You may also commit a routine correction directly to `main` if you maintain this repository.
 
-The checks validate syntax, metadata, unique IDs and links. After a change reaches `main`, GitHub Actions refreshes the reading pages. Wait for the **Validate and sync content** workflow to finish before sharing an updated reading link.
+The checks validate syntax, metadata, unique IDs, search and website links. After a change reaches `main`, GitHub Actions publishes the student website and refreshes the GitHub reading pages. Wait for the **Validate and publish student site** workflow to finish before sharing an updated page.
 
 ## Add a question
 
@@ -19,11 +19,12 @@ The checks validate syntax, metadata, unique IDs and links. After a change reach
 
 ```sh
 npm ci
-npm run sync
+npm run build
 npm test
+npm run test:site
 ```
 
-Commit the MDX changes and generated reading pages when working locally. Browser edits may change only the MDX file; the workflow generates the rest after merge.
+Commit the MDX changes and generated reading pages when working locally. Browser edits may change only the MDX file; the workflow generates the rest after merge. The `dist/` website build is ignored and deployed as an artifact, so do not commit it. A question's website URL uses its stable ID; changing its title or topic does not change that URL.
 
 ## MDX authoring rules
 
@@ -31,7 +32,7 @@ Use standard Markdown headings, lists, tables, links, images and fenced code. Th
 
 Put pseudocode, Java, Python and sample inputs in fenced code blocks. In ordinary prose, write literal less-than signs as `&lt;` and braces as `&#123;` / `&#125;`, or wrap them in backticks. This prevents them being interpreted as MDX syntax. Do not add imports, JavaScript expressions or custom components: the files must remain readable as both MDX and Markdown.
 
-The validator parses YAML frontmatter separately and compiles the body with `@mdx-js/mdx` and `remark-gfm`. A future MDX website should use the same frontmatter handling and table support. See the [MDX frontmatter guide](https://mdxjs.com/guides/frontmatter/) for integration details.
+The validator and website build parse YAML frontmatter separately and compile the body with `@mdx-js/mdx` and `remark-gfm`. The website renders HTML during the build; students do not download a React application. See the [MDX frontmatter guide](https://mdxjs.com/guides/frontmatter/) for integration details.
 
 Use repository-relative paths for local links. Put diagrams in `assets/puzzles/` and standalone code in `solutions/<question-id>/`. Include a text equivalent for a diagram where practical.
 
