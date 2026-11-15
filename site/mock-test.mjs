@@ -10,6 +10,8 @@ const submit = form.querySelector('[type="submit"]');
 const cards = [...form.querySelectorAll('[data-question]')];
 const navigator = document.querySelector('#mock-navigator');
 const navigatorSummary = document.querySelector('#mock-navigator-summary');
+const confirmation = document.querySelector('#mock-confirm');
+const confirmationSummary = document.querySelector('#mock-confirm-summary');
 const jumps = [...navigator.querySelectorAll('[data-jump]')];
 const fields = [...form.querySelectorAll('input, textarea')];
 const storageKey = `assessment-training:mock:v1:${form.dataset.reviewUrl}`;
@@ -94,6 +96,7 @@ async function submitAttempt(expired = false) {
   fields.forEach(field => { field.disabled = true; });
   for (const flag of form.querySelectorAll('.mock-flag')) flag.disabled = true;
   if (navigator.open) navigator.close();
+  if (confirmation.open) confirmation.close();
   loading = true;
   submit.disabled = true;
   submit.textContent = 'Loading review…';
@@ -200,9 +203,18 @@ form.addEventListener('click', event => {
   updateProgress();
 });
 
+document.querySelector('#mock-keep-working').addEventListener('click', () => confirmation.close());
+document.querySelector('#mock-submit-anyway').addEventListener('click', () => void submitAttempt());
+
 form.addEventListener('submit', event => {
   event.preventDefault();
-  void submitAttempt();
+  if (!attempt || loading || !result.hidden) return;
+  if (attempt.submitted || Date.now() >= attempt.deadline) {
+    void submitAttempt();
+    return;
+  }
+  confirmationSummary.textContent = navigatorSummary.textContent;
+  if (!confirmation.open) confirmation.showModal();
 });
 
 document.addEventListener('visibilitychange', () => {

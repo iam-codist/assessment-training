@@ -248,6 +248,12 @@ for (const [set, questions] of mockSets) {
         <p class="mock-legend"><span>○ Unanswered</span><span>✓ Answered</span><span>⚑ Marked for review</span></p>
         <nav class="mock-grid" aria-label="Jump to a question">${navigatorLinks}</nav>
       </dialog>
+      <dialog id="mock-confirm" aria-labelledby="mock-confirm-title" aria-describedby="mock-confirm-summary mock-confirm-note">
+        <h2 id="mock-confirm-title">Submit this mock test?</h2>
+        <p id="mock-confirm-summary"></p>
+        <p id="mock-confirm-note">You can go back to review your responses. The timer keeps running and will submit the test at zero.</p>
+        <div class="mock-dialog-actions"><button class="button secondary" type="button" id="mock-keep-working" autofocus>Go back</button><button class="button primary" type="button" id="mock-submit-anyway">Submit anyway</button></div>
+      </dialog>
       ${cards}
       <div class="mock-submit" id="mock-submit"><button class="button primary" type="submit" disabled>Submit mock test</button><p id="mock-error" role="alert"></p></div>
     </form><script type="module" src="${href('site/mock-test.mjs')}"></script>`;
