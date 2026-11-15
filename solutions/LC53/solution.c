@@ -26,6 +26,8 @@ static ll *read_array(int n) {
 
 int main(void) {
     int n = (int)read_num();
+    if (n <= 0)
+        return 1; /* A nonempty subarray requires at least one input value. */
     ll *a = read_array(n), current = a[0], best = a[0];
     for (int i = 1; i < n; i++) {
         current = current + a[i] > a[i] ? current + a[i] : a[i];

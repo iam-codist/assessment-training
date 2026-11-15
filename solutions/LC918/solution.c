@@ -26,6 +26,8 @@ static ll *read_array(int n) {
 
 int main(void) {
     int n = (int)read_num();
+    if (n <= 0)
+        return 1; /* The circular subarray must also be nonempty. */
     ll *a = read_array(n), hi = a[0], lo = a[0], best = a[0], worst = a[0], total = a[0];
     for (int i = 1; i < n; i++) {
         hi = hi + a[i] > a[i] ? hi + a[i] : a[i];

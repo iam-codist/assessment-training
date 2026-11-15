@@ -58,6 +58,7 @@ if __name__ == '__main__':
     catalog = json.loads((ROOT / 'catalog.json').read_text())
     assert {q['id'] for q in catalog['questions'] if q['category'] == 'coding'} <= set(MANIFEST), 'A coding lesson is missing language solutions'
     count = 0
+    failures = []
     with ThreadPoolExecutor(max_workers=4) as pool:
         futures = {pool.submit(check_problem, key): key for key in selected}
         for future in as_completed(futures):
@@ -65,5 +66,7 @@ if __name__ == '__main__':
             try:
                 count += future.result()
             except Exception as exc:
-                raise AssertionError(f'{key}: {exc}') from exc
+                failures.append(f'{key}: {exc}')
+    if failures:
+        raise AssertionError('\n\n'.join(failures))
     print(f'Passed {count} shared cases across {len(selected) * 4} reference programs.')
