@@ -10,10 +10,14 @@
 
 In a conventional runtime model, what happens to a method call’s stack frame after the call returns?
 
-A. It normally leaves the active call stack
-B. It becomes a new operating system process
-C. Every heap object is immediately deleted
-D. It stays active forever
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | It normally leaves the active call stack |
+| B | It becomes a new operating system process |
+| C | Every heap object is immediately deleted |
+| D | It stays active forever |
 
 <details>
 <summary>Show answer and explanation</summary>

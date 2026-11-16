@@ -10,10 +10,14 @@
 
 A sorted array is searched by discarding roughly half the remaining candidates after each comparison. What is the worst-case comparison complexity?
 
-A. O(1)
-B. O(log n)
-C. O(n)
-D. O(n squared)
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | O(1) |
+| B | O(log n) |
+| C | O(n) |
+| D | O(n squared) |
 
 <details>
 <summary>Show answer and explanation</summary>

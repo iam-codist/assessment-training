@@ -10,10 +10,14 @@
 
 An Account class keeps its balance private and changes it through deposit and withdraw methods that validate the amount. Which concept does this demonstrate?
 
-A. Encapsulation
-B. Binary search
-C. Deadlock
-D. Recursion
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Encapsulation |
+| B | Binary search |
+| C | Deadlock |
+| D | Recursion |
 
 <details>
 <summary>Show answer and explanation</summary>

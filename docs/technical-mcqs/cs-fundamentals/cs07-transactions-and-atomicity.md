@@ -10,10 +10,14 @@
 
 A transfer debits one account and credits another. Which transaction property prevents only one of these two updates from being committed?
 
-A. Atomicity
-B. Alphabetical sorting
-C. Compression
-D. Inheritance
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Atomicity |
+| B | Alphabetical sorting |
+| C | Compression |
+| D | Inheritance |
 
 <details>
 <summary>Show answer and explanation</summary>

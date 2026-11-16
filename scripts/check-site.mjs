@@ -50,6 +50,11 @@ for (const q of catalog.questions) {
     assert.match(html, /<summary>Show answer and explanation<\/summary>/, q.id);
     const lesson = html.split('<article class="prose lesson-body">')[1].split('</article>')[0];
     assert.doesNotMatch(lesson, /<details[^>]*\bopen/, `${q.id}: answers must start closed`);
+    if (q.category === 'technical-mcqs' && q.topic === 'cs-fundamentals') {
+      const prompt = lesson.split('<details')[0];
+      assert.match(prompt, /<h2 id="options">Options<\/h2>/, q.id);
+      assert.deepEqual([...prompt.matchAll(/<tr><td>([A-D])<\/td><td>/g)].map(match => match[1]), ['A', 'B', 'C', 'D'], q.id);
+    }
   }
 }
 const practiceGuide = await readFile(path.join(dist, 'guide', 'assessment-practice', 'index.html'), 'utf8');

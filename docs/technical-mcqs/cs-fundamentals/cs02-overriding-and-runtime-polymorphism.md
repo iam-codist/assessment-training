@@ -10,10 +10,14 @@
 
 A Shape reference points to a Circle object. Calling an overridden draw method uses Circle.draw. Which idea explains this?
 
-A. Method overloading based only on argument count
-B. Runtime polymorphism through overriding
-C. Sorting by object name
-D. Static variable initialization
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Method overloading based only on argument count |
+| B | Runtime polymorphism through overriding |
+| C | Sorting by object name |
+| D | Static variable initialization |
 
 <details>
 <summary>Show answer and explanation</summary>

@@ -10,10 +10,14 @@
 
 Each employee row repeats the name of a department identified by department_id. Renaming the department requires editing many rows. What is a sensible normalized design?
 
-A. Copy the name into more columns
-B. Store departments separately and reference department_id from employees
-C. Use employee name as every table’s key
-D. Delete all department identifiers
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Copy the name into more columns |
+| B | Store departments separately and reference department_id from employees |
+| C | Use employee name as every table’s key |
+| D | Delete all department identifiers |
 
 <details>
 <summary>Show answer and explanation</summary>

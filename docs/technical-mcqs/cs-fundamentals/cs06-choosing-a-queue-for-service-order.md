@@ -10,10 +10,14 @@
 
 Requests must be served in the same order in which they arrived. Which basic structure fits?
 
-A. Stack, last in first out
-B. Queue, first in first out
-C. A variable holding only the newest request
-D. An unordered set that discards order
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Stack, last in first out |
+| B | Queue, first in first out |
+| C | A variable holding only the newest request |
+| D | An unordered set that discards order |
 
 <details>
 <summary>Show answer and explanation</summary>

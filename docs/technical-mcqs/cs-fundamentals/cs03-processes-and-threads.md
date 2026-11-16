@@ -10,10 +10,14 @@
 
 Which statement is generally correct for threads inside one process?
 
-A. Each thread has a completely separate process address space
-B. Threads share process resources but have their own execution state and stack
-C. Threads can never run concurrently
-D. A thread cannot access shared memory
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Each thread has a completely separate process address space |
+| B | Threads share process resources but have their own execution state and stack |
+| C | Threads can never run concurrently |
+| D | A thread cannot access shared memory |
 
 <details>
 <summary>Show answer and explanation</summary>
