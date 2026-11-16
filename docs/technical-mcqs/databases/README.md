@@ -1,9 +1,15 @@
-# Database keys
+# DBMS and SQL MCQs
 
-16 entries. Try each question before opening its answer panel.
+22 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AT35 | [Filtering groups by their maximum](at35-filtering-groups-by-their-maximum.md) | Worked solution |
+| AT36 | [Preserve customers while filtering matched rows](at36-preserve-customers-while-filtering-matched-rows.md) | Worked solution |
+| AT37 | [Count rows and known values](at37-count-rows-and-known-values.md) | Worked solution |
+| AT38 | [Counting distinct departments](at38-counting-distinct-departments.md) | Worked solution |
+| AT39 | [Transaction rollback](at39-transaction-rollback.md) | Worked solution |
+| AT40 | [Choosing a composite constraint](at40-choosing-a-composite-constraint.md) | Worked solution |
 | PS1-36 | [Primary key constraints](ps1-36-primary-key-constraints.md) | Worked solution |
 | PS1-37 | [Preserving departments in a join](ps1-37-preserving-departments-in-a-join.md) | Worked solution |
 | PS1-38 | [Filtering grouped counts](ps1-38-filtering-grouped-counts.md) | Worked solution |

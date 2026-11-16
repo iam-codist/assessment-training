@@ -34,4 +34,4 @@ DNS resolves domain names to address information.
 
 ---
 
-[Topic index](README.md) · [PS1-18 →](ps1-18-host-name-resolution.md)
+[← AT06](at06-ipv4-loopback-address.md) · [Topic index](README.md) · [PS1-18 →](ps1-18-host-name-resolution.md)

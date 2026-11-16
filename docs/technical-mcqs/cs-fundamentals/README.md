@@ -1,9 +1,15 @@
 # CS fundamentals
 
-38 entries. Try each question before opening its answer panel.
+44 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AT29 | [Virtual address translation cache](at29-virtual-address-translation-cache.md) | Worked solution |
+| AT30 | [Scheduling fairness](at30-scheduling-fairness.md) | Worked solution |
+| AT31 | [Shared read-modify-write update](at31-shared-read-modify-write-update.md) | Worked solution |
+| AT32 | [Overloading and parameter types](at32-overloading-and-parameter-types.md) | Worked solution |
+| AT33 | [Choosing a data structure for parsing](at33-choosing-a-data-structure-for-parsing.md) | Worked solution |
+| AT34 | [Search complexity on an unsorted list](at34-search-complexity-on-an-unsorted-list.md) | Worked solution |
 | CS01 | [Encapsulation and a bank account](cs01-encapsulation-and-a-bank-account.md) | Worked solution |
 | CS02 | [Overriding and runtime polymorphism](cs02-overriding-and-runtime-polymorphism.md) | Worked solution |
 | CS03 | [Processes and threads](cs03-processes-and-threads.md) | Worked solution |

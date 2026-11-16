@@ -1,0 +1,37 @@
+---
+id: "AT12"
+title: "Private network placement"
+category: "technical-mcqs"
+topic: "cloud"
+status: "ready"
+updated: "2026-11-16"
+source: "Original Accenture-style technical practice"
+---
+
+# Private network placement
+
+## Question
+
+A web app is public but its database should accept traffic from the app only. Which setup best fits?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Expose the database to the entire internet |
+| B | Place the database on a private network and allow only the app to connect |
+| C | Create an extra public DNS record |
+| D | Disable access rules |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+B. Place the database on a private network and allow only the app to connect
+
+## Explanation
+
+A private database and restricted inbound rules limit who can reach it. The public web tier can still serve users.
+
+</details>

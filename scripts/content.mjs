@@ -12,8 +12,13 @@ const labels = JSON.parse(await readFile(path.join(root, 'scripts/labels.json'),
 const label = key => labels[key] ?? key.split('-').map(s => s[0].toUpperCase() + s.slice(1)).join(' ');
 const studentStatus = { ready: 'Worked solution', planned: 'Guided practice', 'needs-review': 'Reasoning practice', outline: 'Planning prompt' };
 const statuses = ['ready', 'planned', 'needs-review', 'outline'];
-const categoryOrder = ['technical-mcqs', 'pseudocode', 'coding', 'concept-checks', 'sql', 'frontend', 'cognitive', 'behavioral', 'communication', 'interview', 'reference-outlines'];
+const categoryOrder = ['pseudocode', 'technical-mcqs', 'coding', 'concept-checks', 'sql', 'frontend', 'cognitive', 'behavioral', 'communication', 'interview', 'reference-outlines'];
 const collator = new Intl.Collator('en', { numeric: true });
+const technicalTopicOrder = ['networking', 'cloud', 'security', 'excel', 'office-tools', 'cs-fundamentals', 'databases'];
+const topicRank = topic => {
+  const index = technicalTopicOrder.indexOf(topic);
+  return index === -1 ? technicalTopicOrder.length : index;
+};
 
 async function files(directory) {
   const result = [];
@@ -77,7 +82,9 @@ for (const file of (await files('content')).filter(f => f.endsWith('.mdx'))) {
   entries.push({ ...meta, file, readPath: file.replace(/^content\//, 'docs/').replace(/\.mdx$/, '.md'), body });
 }
 if (!entries.length) throw new Error('No questions found');
-entries.sort((a, b) => categoryOrder.indexOf(a.category) - categoryOrder.indexOf(b.category) || collator.compare(a.topic, b.topic) || collator.compare(a.id, b.id));
+entries.sort((a, b) => categoryOrder.indexOf(a.category) - categoryOrder.indexOf(b.category) ||
+  (a.category === 'technical-mcqs' ? topicRank(a.topic) - topicRank(b.topic) : 0) ||
+  collator.compare(a.topic, b.topic) || collator.compare(a.id, b.id));
 
 const outputs = new Map();
 const nav = '\n\n[All topics](../../README.md) · [Category index](../README.md)\n';

@@ -40,4 +40,4 @@ B. 7
 
 ---
 
-[Topic index](README.md) · [E06 →](e06-recover-or-using-addition-and-and.md)
+[← AP02](ap02-trace-bitwise-flags.md) · [Topic index](README.md) · [E06 →](e06-recover-or-using-addition-and-and.md)

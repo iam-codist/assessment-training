@@ -1,0 +1,37 @@
+---
+id: "AP05"
+title: "Trace a decreasing recursive call"
+category: "pseudocode"
+topic: "recursion"
+status: "ready"
+updated: "2026-11-16"
+source: "Original Accenture-style technical practice"
+---
+
+# Trace a decreasing recursive call
+
+## Question
+
+Define f(n) = 1 when n is at most 1. Otherwise f(n) = n + f(n - 2). What is f(6)?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 13 |
+| B | 12 |
+| C | 16 |
+| D | 7 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+A. 13
+
+## Explanation
+
+The calls produce 6 + 4 + 2 + f(0). The base case returns 1, giving 13.
+
+</details>

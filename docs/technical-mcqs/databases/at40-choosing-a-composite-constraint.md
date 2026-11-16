@@ -1,0 +1,37 @@
+<!-- Generated from content/technical-mcqs/databases/at40-choosing-a-composite-constraint.mdx. Edit the MDX source. -->
+
+[Topic index](README.md)
+
+**ID:** AT40 · **Practice type:** Worked solution
+
+# Choosing a composite constraint
+
+## Question
+
+An attendance table allows a student to appear on multiple dates but only once per date. Which key best enforces that rule?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | student_id alone |
+| B | date alone |
+| C | The pair (student_id, date) |
+| D | A separate index on student name |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. The pair (student_id, date)
+
+## Explanation
+
+A student ID can repeat across dates, and a date can repeat across students. Requiring the pair to be unique prevents duplicate attendance on the same date.
+
+</details>
+
+---
+
+[← AT39](at39-transaction-rollback.md) · [Topic index](README.md) · [PS1-36 →](ps1-36-primary-key-constraints.md)

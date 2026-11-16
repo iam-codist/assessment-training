@@ -1,0 +1,37 @@
+---
+id: "AT36"
+title: "Preserve customers while filtering matched rows"
+category: "technical-mcqs"
+topic: "databases"
+status: "ready"
+updated: "2026-11-16"
+source: "Original Accenture-style technical practice"
+---
+
+# Preserve customers while filtering matched rows
+
+## Question
+
+A report uses Customers LEFT JOIN Orders. It must keep customers with no paid orders. Where should the Orders.status = 'Paid' condition go?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | In the ON clause |
+| B | In the WHERE clause only |
+| C | In ORDER BY |
+| D | In the SELECT column alias |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+A. In the ON clause
+
+## Explanation
+
+Placing the condition in ON filters matches while preserving left rows that have none.
+
+</details>

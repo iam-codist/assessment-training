@@ -1,9 +1,11 @@
 # Loops and loop control
 
-30 entries. Try each question before opening its answer panel.
+32 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AP01 | [Trace updates that depend on order](ap01-trace-updates-that-depend-on-order.md) | Worked solution |
+| AP06 | [Trace continue and break](ap06-trace-continue-and-break.md) | Worked solution |
 | E02 | [Loop sum warm-up](e02-loop-sum-warm-up.md) | Worked solution |
 | E03 | [Nested loop variant adding i](e03-nested-loop-variant-adding-i.md) | Worked solution |
 | G06 | [Adding loop values to x](g06-adding-loop-values-to-x.md) | Worked solution |

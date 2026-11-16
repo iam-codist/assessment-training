@@ -1,9 +1,10 @@
 # Recursion
 
-7 entries. Try each question before opening its answer panel.
+8 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AP05 | [Trace a decreasing recursive call](ap05-trace-a-decreasing-recursive-call.md) | Worked solution |
 | M05 | [Recursion](m05-recursion.md) | Worked solution |
 | M12 | [Recursion with Constant Addition](m12-recursion-with-constant-addition.md) | Worked solution |
 | P13 | [Small recursion](p13-small-recursion.md) | Worked solution |

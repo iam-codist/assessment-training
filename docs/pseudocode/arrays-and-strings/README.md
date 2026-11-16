@@ -1,9 +1,10 @@
 # Array and string tracing
 
-14 entries. Try each question before opening its answer panel.
+15 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AP03 | [Trace an in-place prefix update](ap03-trace-an-in-place-prefix-update.md) | Worked solution |
 | E05 | [Array subtraction in reverse order](e05-array-subtraction-in-reverse-order.md) | Worked solution |
 | M03 | [Array Manipulation](m03-array-manipulation.md) | Worked solution |
 | M09 | [Array Index and Parity Conditions](m09-array-index-and-parity-conditions.md) | Worked solution |

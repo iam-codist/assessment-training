@@ -34,4 +34,4 @@ Track Changes records revisions and lets the author accept or reject them indivi
 
 ---
 
-[Topic index](README.md) · [PS1-15 →](ps1-15-personalized-letters.md)
+[← AT28](at28-keeping-a-wide-table-on-one-landscape-page.md) · [Topic index](README.md) · [PS1-15 →](ps1-15-personalized-letters.md)

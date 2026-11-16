@@ -49,4 +49,4 @@ B. 20
 
 ---
 
-[Topic index](README.md) · [E08 →](e08-panel-demo-output-prediction.md)
+[← AP04](ap04-trace-two-independent-conditions.md) · [Topic index](README.md) · [E08 →](e08-panel-demo-output-prediction.md)

@@ -4,8 +4,8 @@ Study by topic, then use each question's **Show answer and explanation** panel t
 
 | Category | Entries |
 | --- | --- |
-| [Technical MCQs](technical-mcqs/README.md) | 141 |
-| [Pseudocode](pseudocode/README.md) | 82 |
+| [Pseudocode](pseudocode/README.md) | 88 |
+| [Technical MCQs](technical-mcqs/README.md) | 181 |
 | [Coding problems](coding/README.md) | 49 |
 | [Concept checks](concept-checks/README.md) | 8 |
 | [SQL — joins and queries](sql/README.md) | 13 |

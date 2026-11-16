@@ -1,0 +1,37 @@
+---
+id: "AT38"
+title: "Counting distinct departments"
+category: "technical-mcqs"
+topic: "databases"
+status: "ready"
+updated: "2026-11-16"
+source: "Original Accenture-style technical practice"
+---
+
+# Counting distinct departments
+
+## Question
+
+The department_id column contains 10, 10, 20, NULL. What does COUNT(DISTINCT department_id) return?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | 4 |
+| B | 3 |
+| C | 1 |
+| D | 2 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+D. 2
+
+## Explanation
+
+The distinct non-NULL values are 10 and 20. COUNT ignores NULL values.
+
+</details>

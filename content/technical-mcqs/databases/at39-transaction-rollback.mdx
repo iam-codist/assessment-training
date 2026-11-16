@@ -1,0 +1,37 @@
+---
+id: "AT39"
+title: "Transaction rollback"
+category: "technical-mcqs"
+topic: "databases"
+status: "ready"
+updated: "2026-11-16"
+source: "Original Accenture-style technical practice"
+---
+
+# Transaction rollback
+
+## Question
+
+An order is inserted in an open transaction. The stock update fails and the application rolls back. What happens to the order insert?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | It is undone |
+| B | It is committed automatically |
+| C | It becomes a view |
+| D | The order table is dropped |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+A. It is undone
+
+## Explanation
+
+ROLLBACK discards uncommitted transaction changes, including the earlier insert.
+
+</details>

@@ -1,0 +1,37 @@
+---
+id: "AT08"
+title: "Cloud failure isolation"
+category: "technical-mcqs"
+topic: "cloud"
+status: "ready"
+updated: "2026-11-16"
+source: "Original Accenture-style technical practice"
+---
+
+# Cloud failure isolation
+
+## Question
+
+An application needs to survive a power outage in one availability zone. Where should redundant instances run?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | One VM in that zone |
+| B | Different zones behind a load balancer |
+| C | Multiple processes on the same host |
+| D | One larger instance |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+B. Different zones behind a load balancer
+
+## Explanation
+
+Separate zones reduce shared failure risk. The load balancer can route requests to healthy instances in the other zone.
+
+</details>

@@ -46,4 +46,4 @@ fun(7) = 7 + 5 + 3 + 1 = 16.
 
 ---
 
-[Topic index](README.md) · [M12 →](m12-recursion-with-constant-addition.md)
+[← AP05](ap05-trace-a-decreasing-recursive-call.md) · [Topic index](README.md) · [M12 →](m12-recursion-with-constant-addition.md)

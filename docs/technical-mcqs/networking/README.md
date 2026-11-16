@@ -1,9 +1,15 @@
 # Networking
 
-20 entries. Try each question before opening its answer panel.
+26 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AT01 | [DNS works independently of connectivity](at01-dns-works-independently-of-connectivity.md) | Worked solution |
+| AT02 | [HTTPS destination port](at02-https-destination-port.md) | Worked solution |
+| AT03 | [Conventional IPv4 subnet capacity](at03-conventional-ipv4-subnet-capacity.md) | Worked solution |
+| AT04 | [Transport for a live voice stream](at04-transport-for-a-live-voice-stream.md) | Worked solution |
+| AT05 | [Bandwidth and latency](at05-bandwidth-and-latency.md) | Worked solution |
+| AT06 | [IPv4 loopback address](at06-ipv4-loopback-address.md) | Worked solution |
 | G05 | [Domain name translation](g05-domain-name-translation.md) | Worked solution |
 | PS1-18 | [Host name resolution](ps1-18-host-name-resolution.md) | Worked solution |
 | PS1-19 | [Reliable transport](ps1-19-reliable-transport.md) | Worked solution |

@@ -1,9 +1,14 @@
 # Excel
 
-17 entries. Try each question before opening its answer panel.
+22 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AT19 | [Counting entries with text and blanks](at19-counting-entries-with-text-and-blanks.md) | Worked solution |
+| AT20 | [Mixed references when copying](at20-mixed-references-when-copying.md) | Worked solution |
+| AT21 | [Matching a region and a threshold](at21-matching-a-region-and-a-threshold.md) | Worked solution |
+| AT22 | [Updating a PivotTable from changed data](at22-updating-a-pivottable-from-changed-data.md) | Worked solution |
+| AT23 | [Search for a precise staff ID](at23-search-for-a-precise-staff-id.md) | Worked solution |
 | G01 | [Numeric cells](g01-numeric-cells.md) | Worked solution |
 | G02 | [Categorical summaries](g02-categorical-summaries.md) | Worked solution |
 | PS1-11 | [Copying a cell formula](ps1-11-copying-a-cell-formula.md) | Worked solution |

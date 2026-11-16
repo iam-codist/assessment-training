@@ -1,0 +1,37 @@
+---
+id: "AT23"
+title: "Search for a precise staff ID"
+category: "technical-mcqs"
+topic: "excel"
+status: "ready"
+updated: "2026-11-16"
+source: "Original Accenture-style technical practice"
+---
+
+# Search for a precise staff ID
+
+## Question
+
+A worksheet must return the department for the exact staff ID in E2, using the ID column A and department column C. Which formula does that?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | =COUNTIF(A2:A20,E2) |
+| B | =SUM(C2:C20) |
+| C | =LEFT(E2,3) |
+| D | =XLOOKUP(E2,A2:A20,C2:C20,"Missing",0) |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+D. =XLOOKUP(E2,A2:A20,C2:C20,"Missing",0)
+
+## Explanation
+
+XLOOKUP searches the ID range and returns the value from the corresponding result row. Match mode 0 requires an exact match.
+
+</details>

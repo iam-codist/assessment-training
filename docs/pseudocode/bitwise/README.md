@@ -1,9 +1,10 @@
 # Binary and bitwise operations
 
-13 entries. Try each question before opening its answer panel.
+14 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AP02 | [Trace bitwise flags](ap02-trace-bitwise-flags.md) | Worked solution |
 | E04 | [Bitwise challenge with 6 and 3](e04-bitwise-challenge-with-6-and-3.md) | Worked solution |
 | E06 | [Recover OR using addition and AND](e06-recover-or-using-addition-and-and.md) | Worked solution |
 | E07 | [Recover XOR using addition and AND](e07-recover-xor-using-addition-and-and.md) | Worked solution |

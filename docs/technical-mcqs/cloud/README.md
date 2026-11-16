@@ -1,9 +1,15 @@
 # Cloud fundamentals
 
-18 entries. Try each question before opening its answer panel.
+24 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AT07 | [Vertical compute scaling](at07-vertical-compute-scaling.md) | Worked solution |
+| AT08 | [Cloud failure isolation](at08-cloud-failure-isolation.md) | Worked solution |
+| AT09 | [Storage for a database volume](at09-storage-for-a-database-volume.md) | Worked solution |
+| AT10 | [Managed database responsibilities](at10-managed-database-responsibilities.md) | Worked solution |
+| AT11 | [Event-driven processing](at11-event-driven-processing.md) | Worked solution |
+| AT12 | [Private network placement](at12-private-network-placement.md) | Worked solution |
 | G03 | [Virtual machines and guest OS](g03-virtual-machines-and-guest-os.md) | Worked solution |
 | G04 | [Gmail service model](g04-gmail-service-model.md) | Worked solution |
 | PS1-28 | [Virtual machines and IaaS](ps1-28-virtual-machines-and-iaas.md) | Worked solution |

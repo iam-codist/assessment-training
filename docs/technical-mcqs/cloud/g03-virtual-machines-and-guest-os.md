@@ -34,4 +34,4 @@ IaaS provides virtual infrastructure; customers manage the guest OS.
 
 ---
 
-[Topic index](README.md) · [G04 →](g04-gmail-service-model.md)
+[← AT12](at12-private-network-placement.md) · [Topic index](README.md) · [G04 →](g04-gmail-service-model.md)

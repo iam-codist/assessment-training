@@ -1,0 +1,37 @@
+---
+id: "AT35"
+title: "Filtering groups by their maximum"
+category: "technical-mcqs"
+topic: "databases"
+status: "ready"
+updated: "2026-11-16"
+source: "Original Accenture-style technical practice"
+---
+
+# Filtering groups by their maximum
+
+## Question
+
+Which clause keeps only product categories whose highest sale is over 500?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | WHERE MAX(amount) \> 500 |
+| B | ORDER BY MAX(amount) \> 500 |
+| C | HAVING MAX(amount) \> 500 |
+| D | SELECT DISTINCT amount \> 500 |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. HAVING MAX(amount) \> 500
+
+## Explanation
+
+HAVING applies after grouping and can filter on MAX for each category.
+
+</details>

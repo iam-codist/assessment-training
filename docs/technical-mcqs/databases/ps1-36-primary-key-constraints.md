@@ -34,4 +34,4 @@ A primary key uniquely identifies a row and its columns cannot contain NULL.
 
 ---
 
-[Topic index](README.md) · [PS1-37 →](ps1-37-preserving-departments-in-a-join.md)
+[← AT40](at40-choosing-a-composite-constraint.md) · [Topic index](README.md) · [PS1-37 →](ps1-37-preserving-departments-in-a-join.md)

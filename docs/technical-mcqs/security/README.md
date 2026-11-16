@@ -1,9 +1,15 @@
 # Security fundamentals
 
-15 entries. Try each question before opening its answer panel.
+21 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AT13 | [Password reuse after a breach](at13-password-reuse-after-a-breach.md) | Worked solution |
+| AT14 | [Availability and a service outage](at14-availability-and-a-service-outage.md) | Worked solution |
+| AT15 | [Encrypting a lost backup drive](at15-encrypting-a-lost-backup-drive.md) | Worked solution |
+| AT16 | [Authorization after sign-in](at16-authorization-after-sign-in.md) | Worked solution |
+| AT17 | [Monitoring unexpected access](at17-monitoring-unexpected-access.md) | Worked solution |
+| AT18 | [Retaining a recoverable version](at18-retaining-a-recoverable-version.md) | Worked solution |
 | PS1-32 | [Least privilege](ps1-32-least-privilege.md) | Worked solution |
 | PS1-33 | [Password storage](ps1-33-password-storage.md) | Worked solution |
 | PS1-34 | [Offboarding access](ps1-34-offboarding-access.md) | Worked solution |

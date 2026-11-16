@@ -1,9 +1,14 @@
 # Word, PowerPoint and Outlook
 
-17 entries. Try each question before opening its answer panel.
+22 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AT24 | [Repeating document information](at24-repeating-document-information.md) | Worked solution |
+| AT25 | [Showing a reason without editing text](at25-showing-a-reason-without-editing-text.md) | Worked solution |
+| AT26 | [Checking slide order before a presentation](at26-checking-slide-order-before-a-presentation.md) | Worked solution |
+| AT27 | [Recording attendance for a meeting](at27-recording-attendance-for-a-meeting.md) | Worked solution |
+| AT28 | [Keeping a wide table on one landscape page](at28-keeping-a-wide-table-on-one-landscape-page.md) | Worked solution |
 | PS1-14 | [Recording Word revisions](ps1-14-recording-word-revisions.md) | Worked solution |
 | PS1-15 | [Personalized letters](ps1-15-personalized-letters.md) | Worked solution |
 | PS1-16 | [Shared slide branding](ps1-16-shared-slide-branding.md) | Worked solution |

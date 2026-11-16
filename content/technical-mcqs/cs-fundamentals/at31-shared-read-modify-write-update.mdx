@@ -1,0 +1,37 @@
+---
+id: "AT31"
+title: "Shared read-modify-write update"
+category: "technical-mcqs"
+topic: "cs-fundamentals"
+status: "ready"
+updated: "2026-11-16"
+source: "Original Accenture-style technical practice"
+---
+
+# Shared read-modify-write update
+
+## Question
+
+Two service threads increment the same shared counter at once and one increment is lost. Which change can prevent that outcome?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Protect the increment with a mutex |
+| B | Add a comment above it |
+| C | Rename the counter |
+| D | Move the counter to a different text file |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+A. Protect the increment with a mutex
+
+## Explanation
+
+A mutex lets only one thread at a time run the read-modify-write sequence in the protected section.
+
+</details>

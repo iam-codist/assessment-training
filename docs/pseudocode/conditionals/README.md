@@ -1,9 +1,10 @@
 # Assignments, conditions and Boolean logic
 
-10 entries. Try each question before opening its answer panel.
+11 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
+| AP04 | [Trace two independent conditions](ap04-trace-two-independent-conditions.md) | Worked solution |
 | E01 | [Conditional warm-up](e01-conditional-warm-up.md) | Worked solution |
 | E08 | [Predict the output of a conditional](e08-panel-demo-output-prediction.md) | Worked solution |
 | M06 | [Conditional Statements with MOD & DIV](m06-conditional-statements-with-mod-div.md) | Worked solution |

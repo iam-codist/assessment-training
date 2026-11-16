@@ -2,6 +2,15 @@
 
 Each set includes 45 technical MCQs, one SQL joins exercise and one frontend exercise. Use the timed mocks when you want to practise pacing. To study one skill at a time, open a question below and try it before expanding the answer.
 
+## What to practise first
+
+1. [Pseudocode](docs/pseudocode/README.md). Trace assignments, loops, arrays, recursion and bitwise operations by hand.
+2. [Networking](docs/technical-mcqs/networking/README.md), [cloud](docs/technical-mcqs/cloud/README.md) and [security](docs/technical-mcqs/security/README.md). Match the clue in each scenario to the protocol, service model or control.
+3. [Excel](docs/technical-mcqs/excel/README.md) and [Word, PowerPoint and Outlook](docs/technical-mcqs/office-tools/README.md). Practise choosing the right formula or feature.
+4. [CS fundamentals](docs/technical-mcqs/cs-fundamentals/README.md) and [DBMS and SQL MCQs](docs/technical-mcqs/databases/README.md). Review operating systems, object-oriented programming, data structures, keys and query results.
+
+Recent campus candidates reported these areas. The mix can vary by drive and role, so use your invitation to confirm the format and timing. The questions here are original practice. [Accenture recruiting guidance](https://www.accenture.com/in-en/careers/explore-careers/area-of-interest/journey-to-accenture) · [November campus assessment report](https://www.reddit.com/r/accenture_india/comments/1xlvmfq/accenture_2026_oncampus_oa_experience_batch_2027/) · [November campus hiring report](https://www.reddit.com/r/accenture_india/comments/1xuhycc/accenture_2027_oncampus_hiring_experience_oa/)
+
 ## Set 1
 
 | Question | Question | Question |
