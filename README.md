@@ -1,4 +1,4 @@
-# Assessment Training
+# iamcodist · Assessment Training
 
 Prepare for aptitude, technical and interview assessments with topic practice, worked examples and timed mocks. Try each question before opening its answer.
 
@@ -58,3 +58,9 @@ For a local website preview, run `npm run dev` and open `http://127.0.0.1:4173/a
 ## About the material
 
 This is a classroom learning resource, not an official Accenture assessment paper or a claim about the current hiring test. The collection preserves original practice, paraphrased coding lessons and clearly identified source exercises. See [source notes](SOURCES.md), [known gaps](KNOWN-GAPS.md) and the [change log](CHANGELOG.md).
+
+## Attribution and reuse
+
+The source code is publicly available. Original project-owned code uses the [PolyForm Noncommercial License 1.0.0](LICENSE), and original project-owned teaching content uses [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The licenses describe the permitted uses and attribution requirements. Uses outside those permissions require separate written permission. Third-party materials keep their own terms. See [Attribution and Credits](policies/attribution.md) for a copyable credit line.
+
+[Terms & Conditions](policies/terms.md) · [Fair Use](policies/fair-use.md) · [Privacy Policy](policies/privacy.md) · [Sources](SOURCES.md)

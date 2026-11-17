@@ -37,6 +37,11 @@
 
 .lesson-return{margin:14px 0 20px;font-size:14px;line-height:1.6}.lesson-return a{color:#1c5c48;font-weight:700}.lesson-return span{color:#67776e}
 
+.lab-site-footer{display:flex;flex-wrap:wrap;gap:12px 20px;border-top:1px solid #d9e3d8;padding:20px 24px;font-size:13px}
+.lab-site-footer nav{display:flex;flex-wrap:wrap;gap:8px 15px}
+.lab-site-footer a{color:#224f43;text-decoration:underline}
+@media print{.lab-site-footer{display:none}}
+
 /* Keep the main practice library reachable from every lab view. */
 .training-links{display:flex;align-items:center;gap:18px;margin-left:auto;margin-right:18px}
 .training-links a{display:flex;align-items:center;gap:6px;min-height:44px;font-size:12px;font-weight:600;color:#235c4d;text-decoration:none;white-space:nowrap}

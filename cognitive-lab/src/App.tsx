@@ -80,5 +80,14 @@ export default function App(){
  {game&&<div hidden={view!=='game'}><Game key={game.key} records={records} bank={game.bank} visible={view==='game'} defaultDuration={duration==='recommended'?null:Number(duration)} autoAdvance={autoAdvance} onAutoAdvanceChange={setAutoAdvance} onDraftChange={setHasDraft} onRecord={onRecord} onBack={()=>navigate('library')} onSummary={()=>navigate('summary')}/></div>}
  {view==='summary'&&<Summary records={records} onUpdate={onRecord} className={className} onClear={()=>{setRecords([]);setGame(null);setHasDraft(false);}} onStart={()=>navigate('library')}/>}{view==='guide'&&<Guide/>}
  {pendingBank&&<ConfirmDialog title="Switch to a new activity?" description="This replaces the current unsubmitted round and its notes. All completed session records will stay." action="Start new activity" onConfirm={()=>begin(pendingBank)} onCancel={()=>setPendingBank(null)}/>}
+ <footer className="lab-site-footer">
+   <a href="../">iamcodist · Assessment Training</a>
+   <nav aria-label="Site policies">
+     <a href="../policies/attribution/">Attribution and Credits</a>
+     <a href="../policies/terms/">Terms &amp; Conditions</a>
+     <a href="../policies/fair-use/">Fair Use</a>
+     <a href="../policies/privacy/">Privacy Policy</a>
+   </nav>
+ </footer>
  </main></div>;
 }
