@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AP06 · **Practice type:** Worked solution
+**ID:** AP06 · **Practice type:** Worked solution · **Difficulty:** Hard
 
 # Trace continue and break
 
@@ -34,4 +34,4 @@ The loop adds 1 and 3, skips 2 and 4, and stops before adding 5.
 
 ---
 
-[← AP01](ap01-trace-updates-that-depend-on-order.md) · [Topic index](README.md) · [E02 →](e02-loop-sum-warm-up.md)
+[← AP01](ap01-trace-updates-that-depend-on-order.md) · [Topic index](README.md) · [AP07 →](ap07-trace-continue-within-nested-loops.md)

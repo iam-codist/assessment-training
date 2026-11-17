@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C03 · **Practice type:** Worked solution
+**ID:** C03 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Matching bit counts
 

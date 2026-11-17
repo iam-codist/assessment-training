@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC12 · **Practice type:** Worked solution
+**ID:** LC12 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Integer to Roman
 
@@ -68,4 +68,4 @@ MMMDCCXLIX
 
 ---
 
-[← C18](c18-grid-delivery-route.md) · [Topic index](README.md) · [LC1518 →](lc1518-water-bottles.md)
+[← C18](c18-grid-delivery-route.md) · [Topic index](README.md)

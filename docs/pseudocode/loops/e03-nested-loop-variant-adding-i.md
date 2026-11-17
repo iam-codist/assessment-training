@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** E03 · **Practice type:** Worked solution
+**ID:** E03 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Nested loop variant adding i
 

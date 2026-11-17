@@ -1,0 +1,37 @@
+<!-- Generated from content/technical-mcqs/cloud/at42-retry-a-payment-event-safely.mdx. Edit the MDX source. -->
+
+[Topic index](README.md)
+
+**ID:** AT42 · **Practice type:** Worked solution · **Difficulty:** Hard
+
+# Retry a payment event safely
+
+## Question
+
+A queue can deliver a payment event more than once. Two workers may handle the same event concurrently. Which design best prevents a second charge?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Increase the number of workers |
+| B | Check an in-memory flag before charging |
+| C | Use the event ID as an idempotency key with atomic duplicate detection and a payment API that honors that key |
+| D | Delete every failed event |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. Use the event ID as an idempotency key with atomic duplicate detection and a payment API that honors that key
+
+## Explanation
+
+Retries and concurrent workers require shared, durable coordination. Reusing an idempotency key lets the payment provider return the earlier result. Atomic duplicate detection prevents two local workers from independently claiming the event. An in-memory check can be lost or race. More workers do not prevent duplicates.
+
+</details>
+
+---
+
+[← T23](t23-scaling.md) · [Topic index](README.md)

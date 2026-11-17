@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL02 · **Practice type:** Worked solution
+**ID:** SQL02 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Left join customers with no orders
 
@@ -45,4 +45,4 @@ LEFT JOIN preserves Omar even without an order. COUNT(o.id) ignores the NULL pla
 
 ---
 
-[← SQL01](sql01-inner-join-employees-and-departments.md) · [Topic index](README.md) · [SQL05 →](sql05-self-join-employees-and-managers.md)
+[← PS3-46](ps3-46-passing-course-enrollments.md) · [Topic index](README.md) · [SQL05 →](sql05-self-join-employees-and-managers.md)

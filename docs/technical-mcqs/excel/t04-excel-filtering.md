@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T04 · **Practice type:** Worked solution
+**ID:** T04 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Excel filtering
 
@@ -34,4 +34,4 @@ Filtering changes which rows are visible. It does not delete the other records.
 
 ---
 
-[← T03](t03-excel-counting.md) · [Topic index](README.md) · [T05 →](t05-excel-formatting.md)
+[← T01](t01-excel-references.md) · [Topic index](README.md) · [T06 →](t06-excel-summaries.md)

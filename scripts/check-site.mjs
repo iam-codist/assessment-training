@@ -47,6 +47,9 @@ for (const q of catalog.questions) {
     assert.match(html, /C, C\+\+, Python and Java/);
   }
   if (q.status !== 'outline') {
+    assert.ok(['easy', 'medium', 'hard'].includes(q.difficulty), q.id);
+    assert.equal(index.find(entry => entry.id === q.id).difficulty, q.difficulty);
+    assert.ok(html.includes(`difficulty-${q.difficulty}`), q.id);
     assert.match(html, /<summary>Show answer and explanation<\/summary>/, q.id);
     const lesson = html.split('<article class="prose lesson-body">')[1].split('</article>')[0];
     assert.doesNotMatch(lesson, /<details[^>]*\bopen/, `${q.id}: answers must start closed`);
@@ -64,6 +67,7 @@ for (const set of [1, 2, 3]) {
   const review = JSON.parse(await readFile(path.join(dist, route, 'review.json'), 'utf8'));
   assert.ok(practiceGuide.includes(`href="${basePath}${route}"`));
   assert.match(mock, /id="mock-start"/);
+  assert.equal((mock.match(/badge difficulty difficulty-/g) ?? []).length, 47);
   assert.match(mock, /data-minutes="[1-9]\d*" autocomplete="off" hidden/);
   assert.match(mock, /id="mock-clock" role="timer"/);
   assert.match(mock, /<dialog id="mock-navigator"/);

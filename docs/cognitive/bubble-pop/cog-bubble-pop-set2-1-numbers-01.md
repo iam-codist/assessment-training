@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-bubble-pop-set2-1 · **Practice type:** Worked solution
+**ID:** COG-bubble-pop-set2-1 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Numbers · 01
 

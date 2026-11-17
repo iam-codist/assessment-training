@@ -8,3 +8,7 @@ This collection brings together original assessment practice, worked coding exam
 - **Cognitive exercises:** Image prompts are adapted from Accenture Cognitive Assessment Practice, Game Aptitude Test Session 02 (Geo-Sudo), and Gamified Aptitude practice slides. The [Cognitive Lab](https://iam-codist.github.io/assessment-training/lab/) lets you work through the puzzles interactively.
 
 [Browse all topics](docs/README.md)
+
+## Assessment pattern research
+
+The [assessment guide](ASSESSMENT-GUIDE.md) records the review date, links official recruiting guidance and identifies firsthand campus reports. Practice question counts and difficulty labels are defined for this library. New extensions are original exercises. Company assessment instructions determine the rules for your drive.

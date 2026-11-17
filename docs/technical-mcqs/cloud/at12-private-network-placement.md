@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT12 · **Practice type:** Worked solution
+**ID:** AT12 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Private network placement
 

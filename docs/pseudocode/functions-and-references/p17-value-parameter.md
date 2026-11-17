@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P17 · **Practice type:** Worked solution
+**ID:** P17 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Value parameter
 

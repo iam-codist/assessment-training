@@ -11,7 +11,7 @@
 | [Memory sequences and positions](memory/README.md) | 12 |
 | [Number equations](numbers/README.md) | 5 |
 | [Rotating path tiles](rocket/README.md) | 12 |
-| [Number sequences](sequences/README.md) | 12 |
+| [Number sequences](sequences/README.md) | 13 |
 | [Rotation and reflection](spatial/README.md) | 12 |
 | [Visual discussion puzzles](visual/README.md) | 11 |
 | [Word circuits](words/README.md) | 3 |

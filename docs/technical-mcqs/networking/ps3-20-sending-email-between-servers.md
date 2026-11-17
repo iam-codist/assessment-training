@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-20 · **Practice type:** Worked solution
+**ID:** PS3-20 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Sending email between servers
 

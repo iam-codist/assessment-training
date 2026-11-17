@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C09 · **Practice type:** Worked solution
+**ID:** C09 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Compare two numerals
 

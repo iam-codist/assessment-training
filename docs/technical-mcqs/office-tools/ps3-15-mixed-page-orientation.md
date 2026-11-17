@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-15 · **Practice type:** Worked solution
+**ID:** PS3-15 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Mixed page orientation
 
@@ -34,4 +34,4 @@ Sections can have independent page setup settings such as orientation.
 
 ---
 
-[← PS3-14](ps3-14-automatic-contents-table.md) · [Topic index](README.md) · [PS3-16 →](ps3-16-slide-transitions.md)
+[← PS2-17](ps2-17-reordering-slides.md) · [Topic index](README.md) · [PS3-16 →](ps3-16-slide-transitions.md)

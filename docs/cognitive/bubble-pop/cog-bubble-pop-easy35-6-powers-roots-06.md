@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-bubble-pop-easy35-6 · **Practice type:** Worked solution
+**ID:** COG-bubble-pop-easy35-6 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Powers &amp; roots · 06
 

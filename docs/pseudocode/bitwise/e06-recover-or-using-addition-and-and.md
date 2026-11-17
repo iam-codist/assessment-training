@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** E06 · **Practice type:** Worked solution
+**ID:** E06 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Recover OR using addition and AND
 

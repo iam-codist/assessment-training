@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P18 · **Practice type:** Worked solution
+**ID:** P18 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Boolean grouping
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-set2-q28 · **Practice type:** Worked solution
+**ID:** COG-set2-q28 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Filter and Order
 

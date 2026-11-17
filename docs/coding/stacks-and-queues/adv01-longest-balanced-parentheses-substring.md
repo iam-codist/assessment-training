@@ -1,0 +1,49 @@
+<!-- Generated from content/coding/stacks-and-queues/adv01-longest-balanced-parentheses-substring.mdx. Edit the MDX source. -->
+
+[Topic index](README.md)
+
+**ID:** ADV01 · **Practice type:** Worked solution · **Difficulty:** Hard
+
+# Longest balanced parentheses substring
+
+## Question
+
+Given one line containing 0 to 100000 characters, each either ( or ), print the length of its longest contiguous balanced substring. A balanced substring never has more closing than opening parentheses in any prefix, and has equal counts overall. Print 0 if none exists. Aim for O(n) time.
+
+**Input**
+
+```text
+)()())
+```
+
+**Output**
+
+```text
+4
+```
+
+**Starter approach**
+
+Track unmatched opening positions. Decide what boundary remains after a closing parenthesis cannot be matched.
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+The longest balanced substring is ()(), of length 4.
+
+- [C source](../../../solutions/ADV01/solution.c)
+- [C++ source](../../../solutions/ADV01/solution.cpp)
+- [Python source](../../../solutions/ADV01/solution.py)
+- [Java source](../../../solutions/ADV01/Main.java)
+
+## Explanation
+
+Start a stack with boundary −1. Push each opening position. On a closing parenthesis, pop once. If the stack becomes empty, push the current position as the new invalid boundary. Otherwise, the current balanced suffix length is current index minus stack top. In )()()), index 0 resets the boundary to 0. Closing indices 2 and 4 give lengths 2 and 4. Index 5 resets again. All openings give 0; ()() gives 4; (()) gives 4. Time O(n), space O(n).
+
+</details>
+
+---
+
+[Topic index](README.md)

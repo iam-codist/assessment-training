@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C05 · **Practice type:** Worked solution
+**ID:** C05 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Closest measurement
 

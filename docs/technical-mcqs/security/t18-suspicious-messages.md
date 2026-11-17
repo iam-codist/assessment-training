@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T18 · **Practice type:** Worked solution
+**ID:** T18 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Suspicious messages
 

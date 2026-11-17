@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M07 · **Practice type:** Worked solution
+**ID:** M07 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # FOR Loop with CONTINUE
 

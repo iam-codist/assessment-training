@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** BE02 · **Practice type:** Worked solution
+**ID:** BE02 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Disagreeing during a code review
 

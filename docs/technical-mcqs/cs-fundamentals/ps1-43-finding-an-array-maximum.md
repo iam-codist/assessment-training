@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-43 · **Practice type:** Worked solution
+**ID:** PS1-43 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Finding an array maximum
 
@@ -34,4 +34,4 @@ The algorithm must inspect all n values because the maximum can be anywhere.
 
 ---
 
-[← PS1-42](ps1-42-java-dynamic-dispatch.md) · [Topic index](README.md) · [PS1-44 →](ps1-44-undo-with-a-stack.md)
+[← PS1-42](ps1-42-java-dynamic-dispatch.md) · [Topic index](README.md) · [PS2-23 →](ps2-23-context-switching.md)

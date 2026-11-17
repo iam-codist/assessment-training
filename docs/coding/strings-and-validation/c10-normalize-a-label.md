@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C10 · **Practice type:** Worked solution
+**ID:** C10 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Normalize a label
 

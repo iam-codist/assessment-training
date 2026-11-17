@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-spatial-2 · **Practice type:** Worked solution
+**ID:** COG-spatial-2 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Rotate 180° · 02
 

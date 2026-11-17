@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T21 · **Practice type:** Worked solution
+**ID:** T21 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Managed application platforms
 

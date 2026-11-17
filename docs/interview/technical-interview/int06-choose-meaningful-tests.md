@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** INT06 · **Practice type:** Worked solution
+**ID:** INT06 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Choose meaningful tests
 
@@ -25,4 +25,4 @@ Isolate rules so a failing test tells you which behavior is wrong. Include empty
 
 ---
 
-[← INT05](int05-explain-a-left-join-in-an-interview.md) · [Topic index](README.md)
+[← INT05](int05-explain-a-left-join-in-an-interview.md) · [Topic index](README.md) · [INT07 →](int07-explain-a-duplicate-total-before-proposing-a-fix.md)

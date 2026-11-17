@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-39 · **Practice type:** Worked solution
+**ID:** PS2-39 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Inner join matches
 
@@ -34,4 +34,4 @@ An inner join returns only combinations that satisfy its join predicate.
 
 ---
 
-[← PS2-38](ps2-38-testing-for-sql-null.md) · [Topic index](README.md) · [PS2-40 →](ps2-40-indexing-an-email-lookup.md)
+[← PS2-38](ps2-38-testing-for-sql-null.md) · [Topic index](README.md) · [PS3-36 →](ps3-36-descending-sort-order.md)

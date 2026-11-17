@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC387 · **Practice type:** Worked solution
+**ID:** LC387 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # First Unique Character in a String
 
@@ -68,4 +68,4 @@ loveleetcode
 
 ---
 
-[← LC242](lc242-valid-anagram.md) · [Topic index](README.md)
+[← LC242](lc242-valid-anagram.md) · [Topic index](README.md) · [C19 →](c19-runner-up-value-and-frequency.md)

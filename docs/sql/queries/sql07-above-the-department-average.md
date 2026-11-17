@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL07 · **Practice type:** Worked solution
+**ID:** SQL07 · **Practice type:** Worked solution · **Difficulty:** Hard
 
 # Above the department average
 
@@ -46,4 +46,4 @@ Engineering’s average is 60000, so only Farah is above it. The Sales average i
 
 ---
 
-[← SQL06](sql06-second-highest-distinct-salary.md) · [Topic index](README.md) · [SQL09 →](sql09-dense-ranking-with-tied-salaries.md)
+[← SQL11](sql11-qualifying-order-totals.md) · [Topic index](README.md) · [SQL09 →](sql09-dense-ranking-with-tied-salaries.md)

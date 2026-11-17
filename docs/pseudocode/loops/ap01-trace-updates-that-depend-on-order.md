@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AP01 · **Practice type:** Worked solution
+**ID:** AP01 · **Practice type:** Worked solution · **Difficulty:** Hard
 
 # Trace updates that depend on order
 
@@ -34,4 +34,4 @@ The first pass gives (7, 2). The second pass uses those new values and gives (9,
 
 ---
 
-[Topic index](README.md) · [AP06 →](ap06-trace-continue-and-break.md)
+[← M16](m16-nested-loops-with-break.md) · [Topic index](README.md) · [AP06 →](ap06-trace-continue-and-break.md)

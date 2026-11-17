@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** G04 · **Practice type:** Worked solution
+**ID:** G04 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Gmail service model
 

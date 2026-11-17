@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-numbers-5 · **Practice type:** Worked solution
+**ID:** COG-numbers-5 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Subtract and add
 

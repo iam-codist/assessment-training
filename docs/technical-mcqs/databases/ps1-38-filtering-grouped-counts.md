@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-38 · **Practice type:** Worked solution
+**ID:** PS1-38 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Filtering grouped counts
 
@@ -34,4 +34,4 @@ HAVING filters groups after aggregation. WHERE filters individual rows before gr
 
 ---
 
-[← PS1-37](ps1-37-preserving-departments-in-a-join.md) · [Topic index](README.md) · [PS1-39 →](ps1-39-counting-non-null-values.md)
+[← PS1-37](ps1-37-preserving-departments-in-a-join.md) · [Topic index](README.md) · [PS1-40 →](ps1-40-transaction-atomicity.md)

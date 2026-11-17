@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T17 · **Practice type:** Worked solution
+**ID:** T17 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Encrypted connections
 

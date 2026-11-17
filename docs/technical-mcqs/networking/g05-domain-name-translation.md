@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** G05 · **Practice type:** Worked solution
+**ID:** G05 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Domain name translation
 

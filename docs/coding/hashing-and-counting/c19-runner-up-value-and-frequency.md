@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C19 · **Practice type:** Worked solution
+**ID:** C19 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Runner-up value and frequency
 
@@ -99,4 +99,4 @@ Read n and n integers. Print second-distinct-maximum and frequency, or NONE.
 
 ---
 
-[Topic index](README.md) · [C20 →](c20-digit-rearrangement-test.md)
+[← LC387](lc387-first-unique-character-in-a-string.md) · [Topic index](README.md) · [LC49 →](lc49-group-anagrams.md)

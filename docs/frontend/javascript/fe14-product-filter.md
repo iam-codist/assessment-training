@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE14 · **Practice type:** Worked solution
+**ID:** FE14 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Build a live product filter
 
@@ -121,4 +121,4 @@ Normalizing both strings makes the match case-insensitive. Try “ USB ” for t
 
 ---
 
-[← FE13](fe13-quantity.md) · [Topic index](README.md) · [PS1-47 →](ps1-47-workshop-seat-counter.md)
+[← FE13](fe13-quantity.md) · [Topic index](README.md) · [FE12 →](fe12-handle-an-http-error-from-fetch.md)

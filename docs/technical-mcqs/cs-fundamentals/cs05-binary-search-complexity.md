@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** CS05 · **Practice type:** Worked solution
+**ID:** CS05 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Binary search complexity
 
@@ -34,4 +34,4 @@ After k halvings, about n / 2^k candidates remain. Reaching one candidate takes 
 
 ---
 
-[← CS04](cs04-stack-frames-and-heap-objects.md) · [Topic index](README.md) · [CS06 →](cs06-choosing-a-queue-for-service-order.md)
+[← CS02](cs02-overriding-and-runtime-polymorphism.md) · [Topic index](README.md) · [CS07 →](cs07-transactions-and-atomicity.md)

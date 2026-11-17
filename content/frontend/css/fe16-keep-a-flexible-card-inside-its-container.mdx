@@ -1,0 +1,38 @@
+---
+id: "FE16"
+title: "Keep a flexible card inside its container"
+category: "frontend"
+topic: "css"
+status: "ready"
+difficulty: "hard"
+updated: "2026-11-17"
+source: "Original guided assessment practice"
+---
+
+# Keep a flexible card inside its container
+
+## Question
+
+A flex row contains a flexible card with a long unbroken identifier. The card overflows even though flex-shrink is enabled. Which CSS most directly lets it shrink and wrap?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | position: fixed on the card |
+| B | width: 200vw on the card |
+| C | min-width: 0 and overflow-wrap: anywhere on the flexible card |
+| D | white-space: nowrap on every element |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. min-width: 0 and overflow-wrap: anywhere on the flexible card
+
+## Explanation
+
+A flex item can retain an automatic minimum based on its content. min-width:0 lets it shrink below that size. overflow-wrap:anywhere allows the identifier to wrap. A fixed position or oversized width does not solve sizing within the row.
+
+</details>

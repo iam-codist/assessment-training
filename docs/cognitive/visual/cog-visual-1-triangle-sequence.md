@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-visual-1 · **Practice type:** Reasoning practice
+**ID:** COG-visual-1 · **Practice type:** Reasoning practice · **Difficulty:** Medium
 
 # Triangle sequence
 

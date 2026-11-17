@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M04 · **Practice type:** Worked solution
+**ID:** M04 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # WHILE Loop with MOD &amp; DIV
 

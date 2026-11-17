@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-10 · **Practice type:** Worked solution
+**ID:** PS3-10 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Post-test loop
 
@@ -34,4 +34,4 @@ The loop checks after each decrement and stops after reaching 0.
 
 ---
 
-[← PS3-04](ps3-04-shrinking-inner-loop.md) · [Topic index](README.md)
+[← PS3-04](ps3-04-shrinking-inner-loop.md) · [Topic index](README.md) · [M01 →](m01-nested-loops.md)

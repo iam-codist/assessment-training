@@ -439,5 +439,14 @@
       "Python": "solutions/DP03/solution.py",
       "Java": "solutions/DP03/Main.java"
     }
+  },
+  "ADV01": {
+    "input": "Read a line of parentheses and print the longest balanced substring length.",
+    "files": {
+      "C": "solutions/ADV01/solution.c",
+      "C++": "solutions/ADV01/solution.cpp",
+      "Python": "solutions/ADV01/solution.py",
+      "Java": "solutions/ADV01/Main.java"
+    }
   }
 }

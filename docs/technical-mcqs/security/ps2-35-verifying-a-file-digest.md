@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-35 · **Practice type:** Worked solution
+**ID:** PS2-35 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Verifying a file digest
 

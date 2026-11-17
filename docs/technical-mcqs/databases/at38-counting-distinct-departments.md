@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT38 · **Practice type:** Worked solution
+**ID:** AT38 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Counting distinct departments
 

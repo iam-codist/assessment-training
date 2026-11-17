@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-set2-q12 · **Practice type:** Worked solution
+**ID:** COG-set2-q12 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Unlock the Way
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M18 · **Practice type:** Worked solution
+**ID:** M18 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Functions and Parameters
 

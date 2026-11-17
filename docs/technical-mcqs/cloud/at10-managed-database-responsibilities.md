@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT10 · **Practice type:** Worked solution
+**ID:** AT10 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Managed database responsibilities
 

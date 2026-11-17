@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** G02 · **Practice type:** Worked solution
+**ID:** G02 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Categorical summaries
 
@@ -34,4 +34,4 @@ PivotTable groups records and summarizes them by category.
 
 ---
 
-[← G01](g01-numeric-cells.md) · [Topic index](README.md) · [PS1-11 →](ps1-11-copying-a-cell-formula.md)
+[← G01](g01-numeric-cells.md) · [Topic index](README.md) · [PS1-13 →](ps1-13-department-totals-with-a-pivottable.md)

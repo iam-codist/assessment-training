@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M14 · **Practice type:** Worked solution
+**ID:** M14 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Array Reversal Using Swapping
 

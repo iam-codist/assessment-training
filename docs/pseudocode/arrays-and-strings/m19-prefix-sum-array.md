@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M19 · **Practice type:** Worked solution
+**ID:** M19 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Prefix Sum Array
 
@@ -44,4 +44,4 @@ Prefix array: [2,6,7,10,15]. Print 10+15 = 25.
 
 ---
 
-[← M14](m14-array-reversal-using-swapping.md) · [Topic index](README.md) · [P08 →](p08-array-updates.md)
+[← M14](m14-array-reversal-using-swapping.md) · [Topic index](README.md)

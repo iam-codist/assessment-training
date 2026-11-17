@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-22 · **Practice type:** Worked solution
+**ID:** PS2-22 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Datagram transport
 
@@ -34,4 +34,4 @@ UDP provides datagrams without TCP-style acknowledgments or retransmission.
 
 ---
 
-[← PS2-21](ps2-21-ipv4-subnet-mask.md) · [Topic index](README.md) · [PS3-18 →](ps3-18-physical-signal-regeneration.md)
+[← PS2-20](ps2-20-ping-protocol.md) · [Topic index](README.md) · [PS3-18 →](ps3-18-physical-signal-regeneration.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-40 · **Practice type:** Worked solution
+**ID:** PS3-40 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Grouped sums
 
@@ -34,4 +34,4 @@ GROUP BY forms one group per category and SUM aggregates each group.
 
 ---
 
-[← PS3-39](ps3-39-committing-changes.md) · [Topic index](README.md) · [T12 →](t12-access-data-integrity.md)
+[← PS3-38](ps3-38-relational-normalization.md) · [Topic index](README.md) · [AT47 →](at47-count-orders-after-two-one-to-many-joins.md)

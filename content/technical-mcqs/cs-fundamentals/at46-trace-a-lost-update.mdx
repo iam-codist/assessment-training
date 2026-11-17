@@ -1,0 +1,38 @@
+---
+id: "AT46"
+title: "Trace a lost update"
+category: "technical-mcqs"
+topic: "cs-fundamentals"
+status: "ready"
+difficulty: "hard"
+updated: "2026-11-17"
+source: "Original guided assessment practice"
+---
+
+# Trace a lost update
+
+## Question
+
+Two threads read counter = 0. Each computes its local value plus one, then writes it. Both writes store 1. Which approach makes the two increments produce 2?
+
+## Options
+
+| Option | Answer choice |
+| --- | --- |
+| A | Make counter larger |
+| B | Sleep before each read |
+| C | Protect the complete read-modify-write operation with the same mutex, or use an atomic increment |
+| D | Lock only the final display |
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+C. Protect the complete read-modify-write operation with the same mutex, or use an atomic increment
+
+## Explanation
+
+Both threads read the old value before either update is visible to the other. A shared mutex around the full operation serializes the increments. An atomic increment provides one indivisible update. Sleeping gives no ordering guarantee, and locking the display occurs after the lost update.
+
+</details>

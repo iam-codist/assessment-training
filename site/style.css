@@ -67,3 +67,18 @@
 .mock-topic-scores li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:baseline;border-top:1px solid var(--line);padding:9px 0}
 .mock-topic-scores li a{grid-column:1/-1;text-decoration:underline;text-underline-offset:3px}
 .mock-topic-scores li span{white-space:nowrap;font-variant-numeric:tabular-nums}
+
+/* Learning difficulty is visible in lists, search and individual lessons. */
+.question-badges { margin-left: auto; display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+.question-badges .badge { margin-left: 0; }
+.badge.difficulty-easy { background: #e8f2e8; color: #295732; }
+.badge.difficulty-medium { background: #fff1d6; color: #73500e; }
+.badge.difficulty-hard { background: #f4e8ed; color: #7b304b; }
+.search-result .difficulty { margin-left: 8px; }
+@media (max-width: 600px) {
+  .question-row { flex-wrap: wrap; gap: 10px; }
+  .question-name { flex: 1; min-width: 140px; }
+  .question-badges { width: 100%; justify-content: flex-start; margin-left: 0; }
+  .question-badges .badge { display: inline-block; }
+  .question-row .row-arrow { display: none; }
+}

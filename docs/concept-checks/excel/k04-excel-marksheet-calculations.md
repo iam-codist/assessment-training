@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** K04 · **Practice type:** Worked solution
+**ID:** K04 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Excel marksheet calculations
 

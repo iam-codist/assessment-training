@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AP05 · **Practice type:** Worked solution
+**ID:** AP05 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Trace a decreasing recursive call
 

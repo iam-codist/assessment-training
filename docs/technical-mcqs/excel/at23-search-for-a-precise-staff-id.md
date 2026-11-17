@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT23 · **Practice type:** Worked solution
+**ID:** AT23 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Search for a precise staff ID
 
@@ -34,4 +34,4 @@ XLOOKUP searches the ID range and returns the value from the corresponding resul
 
 ---
 
-[← AT22](at22-updating-a-pivottable-from-changed-data.md) · [Topic index](README.md) · [G01 →](g01-numeric-cells.md)
+[← AT20](at20-mixed-references-when-copying.md) · [Topic index](README.md) · [AT44 →](at44-copy-a-formula-across-and-down.md)

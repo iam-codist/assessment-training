@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-07 · **Practice type:** Worked solution
+**ID:** PS3-07 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Swap with a temporary variable
 

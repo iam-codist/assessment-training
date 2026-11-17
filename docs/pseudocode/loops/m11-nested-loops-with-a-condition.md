@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M11 · **Practice type:** Worked solution
+**ID:** M11 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Nested Loops with a Condition
 

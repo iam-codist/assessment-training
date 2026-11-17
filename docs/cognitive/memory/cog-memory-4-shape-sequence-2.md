@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-memory-4 · **Practice type:** Worked solution
+**ID:** COG-memory-4 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Shape sequence · 2
 

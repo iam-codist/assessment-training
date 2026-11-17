@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-set2-q11 · **Practice type:** Worked solution
+**ID:** COG-set2-q11 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Reach the Exit
 

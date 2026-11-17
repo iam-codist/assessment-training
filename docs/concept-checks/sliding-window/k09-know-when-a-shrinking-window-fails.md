@@ -1,0 +1,28 @@
+<!-- Generated from content/concept-checks/sliding-window/k09-know-when-a-shrinking-window-fails.mdx. Edit the MDX source. -->
+
+[Topic index](README.md)
+
+**ID:** K09 · **Practice type:** Worked solution · **Difficulty:** Hard
+
+# Know when a shrinking window fails
+
+## Question
+
+Find the shortest nonempty subarray with sum at least 3 in [1, -1, 3]. A window method removes left values only while the current sum already meets the target. Why can that method miss the best answer?
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+The answer is length 1, the subarray [3]. The stated method can stop shrinking after removing the first 1, leaving [-1, 3] with sum 2.
+
+## Explanation
+
+With positive values, removing the left element cannot increase a window sum. Negative values break that property. Removing -1 would increase 2 to 3, but the simple algorithm stops before trying it. Check input constraints before transferring the positive-only sliding-window method to another problem.
+
+</details>
+
+---
+
+[← K08](k08-one-sliding-window-update.md) · [Topic index](README.md)

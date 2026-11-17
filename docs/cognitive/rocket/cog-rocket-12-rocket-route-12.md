@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-rocket-12 · **Practice type:** Worked solution
+**ID:** COG-rocket-12 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Rocket route 12
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-44 · **Practice type:** Worked solution
+**ID:** PS1-44 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Undo with a stack
 
@@ -34,4 +34,4 @@ A stack uses last-in, first-out order. The last action pushed is the first one p
 
 ---
 
-[← PS1-43](ps1-43-finding-an-array-maximum.md) · [Topic index](README.md) · [PS1-45 →](ps1-45-method-overloading.md)
+[← PS1-41](ps1-41-encapsulating-account-state.md) · [Topic index](README.md) · [PS1-45 →](ps1-45-method-overloading.md)

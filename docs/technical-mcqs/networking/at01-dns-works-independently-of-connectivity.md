@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT01 · **Practice type:** Worked solution
+**ID:** AT01 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # DNS works independently of connectivity
 

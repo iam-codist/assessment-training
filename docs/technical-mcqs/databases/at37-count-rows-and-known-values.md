@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT37 · **Practice type:** Worked solution
+**ID:** AT37 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Count rows and known values
 

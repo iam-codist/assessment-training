@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT24 · **Practice type:** Worked solution
+**ID:** AT24 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Repeating document information
 

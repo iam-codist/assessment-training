@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-46 · **Practice type:** Worked solution
+**ID:** PS1-46 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Active employees by department
 
@@ -81,4 +81,4 @@ A LEFT JOIN keeps all departments. Filtering active employees in ON preserves de
 
 ---
 
-[Topic index](README.md) · [PS2-46 →](ps2-46-paid-order-totals.md)
+[← SQL01](sql01-inner-join-employees-and-departments.md) · [Topic index](README.md) · [PS2-46 →](ps2-46-paid-order-totals.md)

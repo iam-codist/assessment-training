@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-47 · **Practice type:** Worked solution
+**ID:** PS1-47 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Workshop seat counter
 
@@ -113,4 +113,4 @@ The render function derives both the visible message and the button state from t
 
 ---
 
-[← FE14](fe14-product-filter.md) · [Topic index](README.md) · [PS2-47 →](ps2-47-ticket-price-calculator.md)
+[← FE09](fe09-strict-equality-and-type-conversion.md) · [Topic index](README.md) · [PS2-47 →](ps2-47-ticket-price-calculator.md)

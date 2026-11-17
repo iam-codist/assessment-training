@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M16 · **Practice type:** Worked solution
+**ID:** M16 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Nested Loops with BREAK
 
@@ -50,4 +50,4 @@ The inner loop contributes 1+2+3+4 = 10.
 
 ---
 
-[← M15](m15-while-loop-with-integer-division.md) · [Topic index](README.md) · [M20 →](m20-complex-while-loop.md)
+[← M15](m15-while-loop-with-integer-division.md) · [Topic index](README.md) · [AP01 →](ap01-trace-updates-that-depend-on-order.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-41 · **Practice type:** Worked solution
+**ID:** PS1-41 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Encapsulating account state
 
@@ -34,4 +34,4 @@ Encapsulation bundles state and behavior and controls how other code can change 
 
 ---
 
-[← PS1-27](ps1-27-lock-wait-cycle.md) · [Topic index](README.md) · [PS1-42 →](ps1-42-java-dynamic-dispatch.md)
+[← PS1-26](ps1-26-round-robin-preemption.md) · [Topic index](README.md) · [PS1-44 →](ps1-44-undo-with-a-stack.md)

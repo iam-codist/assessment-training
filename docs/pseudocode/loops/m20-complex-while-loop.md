@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M20 · **Practice type:** Worked solution
+**ID:** M20 · **Practice type:** Worked solution · **Difficulty:** Hard
 
 # Complex WHILE Loop
 
@@ -50,4 +50,4 @@ x starts odd and always increases by 2, so the MOD 4 branch is never taken. Valu
 
 ---
 
-[← M16](m16-nested-loops-with-break.md) · [Topic index](README.md) · [P03 →](p03-odd-position-accumulation.md)
+[← AP07](ap07-trace-continue-within-nested-loops.md) · [Topic index](README.md)

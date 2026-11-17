@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-17 · **Practice type:** Worked solution
+**ID:** PS2-17 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Reordering slides
 
@@ -34,4 +34,4 @@ Slide Sorter presents multiple slide thumbnails for reordering.
 
 ---
 
-[← PS2-16](ps2-16-speaker-notes.md) · [Topic index](README.md) · [PS3-14 →](ps3-14-automatic-contents-table.md)
+[← PS2-16](ps2-16-speaker-notes.md) · [Topic index](README.md) · [PS3-15 →](ps3-15-mixed-page-orientation.md)

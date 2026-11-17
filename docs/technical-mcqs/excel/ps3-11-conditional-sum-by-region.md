@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-11 · **Practice type:** Worked solution
+**ID:** PS3-11 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Conditional sum by region
 
@@ -34,4 +34,4 @@ SUMIF evaluates the criterion range and adds corresponding values from the sum r
 
 ---
 
-[← PS2-13](ps2-13-pass-or-fail-formula.md) · [Topic index](README.md) · [PS3-12 →](ps3-12-drop-down-data-validation.md)
+[← PS2-13](ps2-13-pass-or-fail-formula.md) · [Topic index](README.md) · [T01 →](t01-excel-references.md)

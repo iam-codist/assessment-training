@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-13 · **Practice type:** Worked solution
+**ID:** PS3-13 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Formatting low inventory
 
@@ -34,4 +34,4 @@ A formatting rule applies automatically when a cell value meets its condition.
 
 ---
 
-[← PS3-12](ps3-12-drop-down-data-validation.md) · [Topic index](README.md) · [T01 →](t01-excel-references.md)
+[← PS3-12](ps3-12-drop-down-data-validation.md) · [Topic index](README.md) · [T02 →](t02-excel-conditions.md)

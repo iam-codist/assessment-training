@@ -1,0 +1,97 @@
+<!-- Generated from content/frontend/javascript/fe17-remove-dynamic-tasks-with-event-delegation.mdx. Edit the MDX source. -->
+
+[Topic index](README.md)
+
+**ID:** FE17 · **Practice type:** Worked solution · **Difficulty:** Hard
+
+# Remove dynamic tasks with event delegation
+
+## Question
+
+Build a list where Add creates a task with a Remove button. Clicking the button or its nested × symbol must remove only that task. Empty input must leave the list unchanged. Display user text as text and keep feedback visible. Paste the complete answer into an HTML editor after attempting this starter.
+
+```html
+<form id="task-form">
+  <label for="task-name">Task</label>
+  <input id="task-name" required>
+  <button type="submit">Add</button>
+</form>
+<ul id="tasks"></ul>
+<p id="feedback" role="status"></p>
+<script>
+// Handle form submission and delegate list clicks here.
+</script>
+```
+
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+
+```html
+<style>
+  body { font-family: system-ui, sans-serif; padding: 16px; }
+  form, li { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  input { min-width: 0; }
+  button { min-height: 44px; }
+  li { margin-block: 12px; overflow-wrap: anywhere; }
+</style>
+<form id="task-form">
+  <label for="task-name">Task</label>
+  <input id="task-name" required>
+  <button type="submit">Add</button>
+</form>
+<ul id="tasks"></ul>
+<p id="feedback" role="status"></p>
+<script>
+const form = document.querySelector('#task-form');
+const input = document.querySelector('#task-name');
+const list = document.querySelector('#tasks');
+const feedback = document.querySelector('#feedback');
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  const name = input.value.trim();
+  if (!name) {
+    feedback.textContent = 'Enter a task name.';
+    input.focus();
+    return;
+  }
+  const item = document.createElement('li');
+  const text = document.createElement('span');
+  text.textContent = name;
+  const remove = document.createElement('button');
+  remove.type = 'button';
+  remove.dataset.action = 'remove';
+  remove.setAttribute('aria-label', `Remove ${name}`);
+  const symbol = document.createElement('span');
+  symbol.textContent = '×';
+  symbol.setAttribute('aria-hidden', 'true');
+  remove.append(symbol);
+  item.append(text, remove);
+  list.append(item);
+  input.value = '';
+  feedback.textContent = 'Task added.';
+  input.focus();
+});
+list.addEventListener('click', event => {
+  const button = event.target.closest('button[data-action="remove"]');
+  if (!button || !list.contains(button)) return;
+  button.closest('li').remove();
+  feedback.textContent = 'Task removed.';
+  input.focus();
+});
+</script>
+```
+
+
+## Explanation
+
+One listener on the list handles buttons added later. closest finds the button when the nested symbol receives the click. textContent displays names literally. Test two tasks with the same name, whitespace-only input, a name containing < and >, removing the final task, and Enter-key submission.
+
+</details>
+
+---
+
+[← FE12](fe12-handle-an-http-error-from-fetch.md) · [Topic index](README.md)

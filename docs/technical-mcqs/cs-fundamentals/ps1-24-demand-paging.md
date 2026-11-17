@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-24 · **Practice type:** Worked solution
+**ID:** PS1-24 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Demand paging
 
@@ -34,4 +34,4 @@ The OS handles the fault, brings the page into memory, and can resume the instru
 
 ---
 
-[← PS1-23](ps1-23-ready-queue-scheduling.md) · [Topic index](README.md) · [PS1-25 →](ps1-25-shared-thread-memory.md)
+[← CS08](cs08-normalization-and-repeated-department-names.md) · [Topic index](README.md) · [PS1-27 →](ps1-27-lock-wait-cycle.md)

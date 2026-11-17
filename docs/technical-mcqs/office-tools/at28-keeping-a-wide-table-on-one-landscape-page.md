@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT28 · **Practice type:** Worked solution
+**ID:** AT28 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Keeping a wide table on one landscape page
 

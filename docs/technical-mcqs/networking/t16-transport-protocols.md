@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T16 · **Practice type:** Worked solution
+**ID:** T16 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Transport protocols
 
@@ -34,4 +34,4 @@ TCP provides an ordered byte stream and uses acknowledgments and retransmission 
 
 ---
 
-[← T15](t15-ipv4-subnetting.md) · [Topic index](README.md)
+[← T13](t13-name-resolution.md) · [Topic index](README.md) · [AT03 →](at03-conventional-ipv4-subnet-capacity.md)

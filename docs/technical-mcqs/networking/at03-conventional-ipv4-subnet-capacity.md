@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT03 · **Practice type:** Worked solution
+**ID:** AT03 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Conventional IPv4 subnet capacity
 
@@ -34,4 +34,4 @@ IPv4 has 32 bits, so /26 leaves six host bits. Subtract the network and broadcas
 
 ---
 
-[← AT02](at02-https-destination-port.md) · [Topic index](README.md) · [AT04 →](at04-transport-for-a-live-voice-stream.md)
+[← T16](t16-transport-protocols.md) · [Topic index](README.md) · [PS1-21 →](ps1-21-automatic-address-leases.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** BE01 · **Practice type:** Worked solution
+**ID:** BE01 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # A deadline is at risk
 

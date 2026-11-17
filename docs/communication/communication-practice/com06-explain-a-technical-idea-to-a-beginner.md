@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COM06 · **Practice type:** Worked solution
+**ID:** COM06 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Explain a technical idea to a beginner
 

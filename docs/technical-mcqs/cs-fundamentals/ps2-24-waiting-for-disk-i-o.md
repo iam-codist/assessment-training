@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-24 · **Practice type:** Worked solution
+**ID:** PS2-24 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Waiting for disk I/O
 
@@ -34,4 +34,4 @@ It cannot proceed until the I/O event occurs.
 
 ---
 
-[← PS2-23](ps2-23-context-switching.md) · [Topic index](README.md) · [PS2-25 →](ps2-25-process-memory-isolation.md)
+[← PS1-45](ps1-45-method-overloading.md) · [Topic index](README.md) · [PS2-25 →](ps2-25-process-memory-isolation.md)

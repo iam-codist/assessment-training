@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** INT01 · **Practice type:** Worked solution
+**ID:** INT01 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Explain your project with evidence
 

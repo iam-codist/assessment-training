@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** HR01 · **Practice type:** Worked solution
+**ID:** HR01 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Why are you interested in this role
 

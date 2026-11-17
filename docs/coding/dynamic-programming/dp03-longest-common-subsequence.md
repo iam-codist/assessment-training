@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** DP03 · **Practice type:** Worked solution
+**ID:** DP03 · **Practice type:** Worked solution · **Difficulty:** Hard
 
 # Longest common subsequence
 

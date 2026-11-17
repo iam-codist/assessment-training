@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** HR02 · **Practice type:** Worked solution
+**ID:** HR02 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Strengths and areas to improve
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-20 · **Practice type:** Worked solution
+**ID:** PS1-20 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Routing across networks
 
@@ -34,4 +34,4 @@ A router uses destination IP addresses and routing information to forward packet
 
 ---
 
-[← PS1-19](ps1-19-reliable-transport.md) · [Topic index](README.md) · [PS1-21 →](ps1-21-automatic-address-leases.md)
+[← PS1-19](ps1-19-reliable-transport.md) · [Topic index](README.md) · [PS1-22 →](ps1-22-resolving-an-ipv4-neighbor.md)

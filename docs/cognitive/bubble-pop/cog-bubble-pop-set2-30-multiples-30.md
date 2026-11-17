@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-bubble-pop-set2-30 · **Practice type:** Worked solution
+**ID:** COG-bubble-pop-set2-30 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Multiples · 30
 

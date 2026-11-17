@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P13 · **Practice type:** Worked solution
+**ID:** P13 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Small recursion
 
@@ -44,4 +44,4 @@ F(6)=F(4)+6, F(4)=F(2)+4, F(2)=F(0)+2, and F(0)=1. The result is 13.
 
 ---
 
-[← M12](m12-recursion-with-constant-addition.md) · [Topic index](README.md) · [P22 →](p22-recursive-printing.md)
+[← M12](m12-recursion-with-constant-addition.md) · [Topic index](README.md) · [PS1-07 →](ps1-07-recursive-sum.md)

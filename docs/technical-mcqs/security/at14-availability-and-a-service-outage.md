@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT14 · **Practice type:** Worked solution
+**ID:** AT14 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Availability and a service outage
 

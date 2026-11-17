@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC242 · **Practice type:** Worked solution
+**ID:** LC242 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Valid Anagram
 
@@ -69,4 +69,4 @@ true
 
 ---
 
-[← LC49](lc49-group-anagrams.md) · [Topic index](README.md) · [LC387 →](lc387-first-unique-character-in-a-string.md)
+[← D03](d03-distinct-character-count.md) · [Topic index](README.md) · [LC387 →](lc387-first-unique-character-in-a-string.md)

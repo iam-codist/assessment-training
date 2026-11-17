@@ -6,7 +6,7 @@ import {answerFeedback} from '../src/feedback.ts';
 test('All requested practice areas are playable and prioritized',()=>{
  assert.equal(activities.length,13);assert.equal(practiceAreas.length,7);assert.equal(practiceAreas.filter(a=>a.priority==='High').length,3);
  for(const area of practiceAreas){assert.ok(activities.some(a=>a.id===area.type));const bank=puzzles.filter(p=>p.type===area.type);assert.ok(bank.length>=12);assert.ok(bank.some(p=>!p.ungraded));}
- const authored=puzzles.filter(p=>p.sourceKind==='authored');assert.equal(authored.length,60);assert.equal(new Set(authored.map(p=>p.type)).size,5);
+ const authored=puzzles.filter(p=>p.sourceKind==='authored');assert.equal(authored.length,61);assert.equal(new Set(authored.map(p=>p.type)).size,5);
  const math=puzzles.filter(p=>p.type==='bubbles').flatMap(p=>p.bubbles!.map(b=>b.label)).join(' ');for(const op of ['+','−','×','÷'])assert.ok(math.includes(op));
 });
 for(const p of puzzles.filter(p=>p.rocket))test(`${p.id}: solvable, shortest, unsolved start and fixed endpoints`,()=>{
@@ -25,7 +25,7 @@ for(const p of puzzles.filter(p=>p.rocket))test(`${p.id}: solvable, shortest, un
  }visit([r.start],-1);assert.equal(shorter,false);
 });
 test('Ports rotate clockwise without losing connections',()=>{assert.equal(rotatePorts(1,1),2);assert.equal(rotatePorts(3,1),6);assert.equal(rotatePorts(5,1),10);for(let mask=0;mask<16;mask++)assert.equal(rotatePorts(mask,4),mask);});
-const sequenceRules=[(n:number)=>3+4*n,(n:number)=>2*3**n,(n:number)=>(n+1)**2,(n:number)=>(n+1)**2+1,(n:number)=>50-5*n,(_n:number)=>0,(_n:number)=>0,(n:number)=>(n+1)*(n+2),(n:number)=>96/2**n,(n:number)=>n%2?(n+1)/2*10:(n+2),(n:number)=>{let v=1;for(let j=2;j<=n+1;j++)v*=j;return v;},(n:number)=>4*2**n+1];
+const sequenceRules=[(n:number)=>3+4*n,(n:number)=>2*3**n,(n:number)=>(n+1)**2,(n:number)=>(n+1)**2+1,(n:number)=>50-5*n,(_n:number)=>0,(_n:number)=>0,(n:number)=>(n+1)*(n+2),(n:number)=>96/2**n,(n:number)=>n%2?(n+1)/2*10:(n+2),(n:number)=>{let v=1;for(let j=2;j<=n+1;j++)v*=j;return v;},(n:number)=>4*2**n+1,(n:number)=>n%2===0?(n/2+1)**2+1:3*2**((n-1)/2)];
 for(const [i,p] of puzzles.filter(p=>p.type==='sequences').entries())test(`${p.id}: every visible and missing term follows its stated rule`,()=>{
  const expected=i===5?[4,8,6,12,10,20,18]:i===6?[2,3,5,8,13,21]:p.sequence!.map((_,n)=>sequenceRules[i](n));
  assert.equal(p.sequence!.filter(n=>n===null).length,1);

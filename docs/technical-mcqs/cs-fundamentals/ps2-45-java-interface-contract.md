@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-45 · **Practice type:** Worked solution
+**ID:** PS2-45 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Java interface contract
 
@@ -34,4 +34,4 @@ An interface provides a shared contract that unrelated classes can implement.
 
 ---
 
-[← PS2-44](ps2-44-binary-search-complexity.md) · [Topic index](README.md) · [PS3-23 →](ps3-23-privileged-instructions.md)
+[← PS2-43](ps2-43-recursive-base-case.md) · [Topic index](README.md) · [PS3-23 →](ps3-23-privileged-instructions.md)

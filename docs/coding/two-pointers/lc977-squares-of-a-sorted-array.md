@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC977 · **Practice type:** Worked solution
+**ID:** LC977 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Squares of a Sorted Array
 
@@ -69,4 +69,4 @@ Read n and a sorted array of n integers. Print squares in nondecreasing order.
 
 ---
 
-[← LC283](lc283-move-zeroes.md) · [Topic index](README.md)
+[← LC283](lc283-move-zeroes.md) · [Topic index](README.md) · [LC11 →](lc11-container-with-most-water.md)

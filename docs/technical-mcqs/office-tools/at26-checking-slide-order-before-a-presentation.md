@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT26 · **Practice type:** Worked solution
+**ID:** AT26 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Checking slide order before a presentation
 

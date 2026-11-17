@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-19 · **Practice type:** Worked solution
+**ID:** PS3-19 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # IPv6 DNS record
 

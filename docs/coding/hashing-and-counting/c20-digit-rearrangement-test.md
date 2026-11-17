@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C20 · **Practice type:** Worked solution
+**ID:** C20 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Digit rearrangement test
 
@@ -97,4 +97,4 @@ MATCH
 
 ---
 
-[← C19](c19-runner-up-value-and-frequency.md) · [Topic index](README.md) · [D03 →](d03-distinct-character-count.md)
+[Topic index](README.md) · [D03 →](d03-distinct-character-count.md)

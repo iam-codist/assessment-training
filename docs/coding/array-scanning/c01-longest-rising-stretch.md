@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C01 · **Practice type:** Worked solution
+**ID:** C01 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Longest rising stretch
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE10 · **Practice type:** Worked solution
+**ID:** FE10 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Event target versus currentTarget
 
@@ -30,4 +30,4 @@ A bubbling event can pass through ancestor listeners. currentTarget changes with
 
 ---
 
-[← FE09](fe09-strict-equality-and-type-conversion.md) · [Topic index](README.md) · [FE11 →](fe11-promise-callbacks-and-synchronous-code.md)
+[← FE08](fe08-a-closure-that-remembers-a-counter.md) · [Topic index](README.md) · [FE11 →](fe11-promise-callbacks-and-synchronous-code.md)

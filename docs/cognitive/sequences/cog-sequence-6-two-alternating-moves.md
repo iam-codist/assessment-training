@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-sequence-6 · **Practice type:** Worked solution
+**ID:** COG-sequence-6 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Two alternating moves
 

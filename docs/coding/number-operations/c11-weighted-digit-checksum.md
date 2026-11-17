@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C11 · **Practice type:** Worked solution
+**ID:** C11 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Weighted digit checksum
 
@@ -94,4 +94,4 @@ Read a nonempty digit string. Print its weighted checksum modulo 10.
 
 ---
 
-[← C09](c09-compare-two-numerals.md) · [Topic index](README.md) · [C14 →](c14-odd-part-decomposition.md)
+[← C09](c09-compare-two-numerals.md) · [Topic index](README.md) · [D01 →](d01-difference-of-sums.md)

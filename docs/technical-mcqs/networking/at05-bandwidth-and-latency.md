@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT05 · **Practice type:** Worked solution
+**ID:** AT05 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Bandwidth and latency
 

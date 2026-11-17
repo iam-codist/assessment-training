@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-41 · **Practice type:** Worked solution
+**ID:** PS3-41 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Java constructors
 
@@ -34,4 +34,4 @@ A constructor runs during object creation to establish initial state.
 
 ---
 
-[← PS3-27](ps3-27-page-table-translation.md) · [Topic index](README.md) · [PS3-42 →](ps3-42-hash-set-membership.md)
+[← PS3-26](ps3-26-mutex-exclusion.md) · [Topic index](README.md) · [PS3-42 →](ps3-42-hash-set-membership.md)

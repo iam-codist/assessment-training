@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-27 · **Practice type:** Worked solution
+**ID:** PS2-27 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # First-come scheduling
 
@@ -34,4 +34,4 @@ FCFS uses arrival order and lets the running task retain the CPU until it blocks
 
 ---
 
-[← PS2-26](ps2-26-excessive-paging.md) · [Topic index](README.md) · [PS2-41 →](ps2-41-class-inheritance.md)
+[← PS2-25](ps2-25-process-memory-isolation.md) · [Topic index](README.md) · [PS2-41 →](ps2-41-class-inheritance.md)

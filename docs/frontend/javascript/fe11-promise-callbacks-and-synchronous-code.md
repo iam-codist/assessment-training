@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE11 · **Practice type:** Worked solution
+**ID:** FE11 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Promise callbacks and synchronous code
 
@@ -36,4 +36,4 @@ The current synchronous code finishes first. The then callback is queued as a pr
 
 ---
 
-[← FE10](fe10-event-target-versus-currenttarget.md) · [Topic index](README.md) · [FE12 →](fe12-handle-an-http-error-from-fetch.md)
+[← FE10](fe10-event-target-versus-currenttarget.md) · [Topic index](README.md) · [FE13 →](fe13-quantity.md)

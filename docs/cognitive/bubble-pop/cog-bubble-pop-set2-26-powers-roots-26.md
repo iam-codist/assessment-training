@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-bubble-pop-set2-26 · **Practice type:** Worked solution
+**ID:** COG-bubble-pop-set2-26 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Powers &amp; roots · 26
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** G03 · **Practice type:** Worked solution
+**ID:** G03 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Virtual machines and guest OS
 

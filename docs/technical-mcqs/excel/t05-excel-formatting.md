@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T05 · **Practice type:** Worked solution
+**ID:** T05 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Excel formatting
 
@@ -34,4 +34,4 @@ Conditional formatting applies visual formatting when a rule is true; it does no
 
 ---
 
-[← T04](t04-excel-filtering.md) · [Topic index](README.md) · [T06 →](t06-excel-summaries.md)
+[← T03](t03-excel-counting.md) · [Topic index](README.md) · [AT20 →](at20-mixed-references-when-copying.md)

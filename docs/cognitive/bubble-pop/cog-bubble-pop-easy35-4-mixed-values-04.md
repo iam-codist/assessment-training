@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-bubble-pop-easy35-4 · **Practice type:** Worked solution
+**ID:** COG-bubble-pop-easy35-4 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Mixed values · 04
 

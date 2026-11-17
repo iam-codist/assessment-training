@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** HR04 · **Practice type:** Worked solution
+**ID:** HR04 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # When you do not know an answer
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-spatial-5 · **Practice type:** Worked solution
+**ID:** COG-spatial-5 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Rotate 90° clockwise · 05
 

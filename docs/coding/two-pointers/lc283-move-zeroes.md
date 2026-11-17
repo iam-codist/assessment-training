@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC283 · **Practice type:** Worked solution
+**ID:** LC283 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Move Zeroes
 
@@ -55,4 +55,4 @@ Read n and n integers. Move zeros to the end while preserving nonzero order. Pri
 
 ---
 
-[← LC189](lc189-rotate-array.md) · [Topic index](README.md) · [LC977 →](lc977-squares-of-a-sorted-array.md)
+[← LC125](lc125-valid-palindrome.md) · [Topic index](README.md) · [LC977 →](lc977-squares-of-a-sorted-array.md)

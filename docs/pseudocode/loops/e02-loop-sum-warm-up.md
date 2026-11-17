@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** E02 · **Practice type:** Worked solution
+**ID:** E02 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Loop sum warm-up
 
@@ -42,4 +42,4 @@ C. 10
 
 ---
 
-[← AP06](ap06-trace-continue-and-break.md) · [Topic index](README.md) · [E03 →](e03-nested-loop-variant-adding-i.md)
+[Topic index](README.md) · [E03 →](e03-nested-loop-variant-adding-i.md)

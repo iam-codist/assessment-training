@@ -15,3 +15,16 @@ test('empty queries browse all entries, no match is empty', () => {
   assert.equal(searchQuestions(questions, { query: 'not-a-real-topic' }).length, 0);
 });
 test('query punctuation is harmless and no HTML is evaluated', () => assert.equal(searchQuestions(questions, { query: '<script>alert(1)</script>' }).length, 0));
+
+test('difficulty composes with query and category while preserving unfiltered legacy entries', () => {
+  const items = [
+    { ...questions[0], difficulty: 'easy' },
+    { ...questions[1], difficulty: 'hard' },
+    { ...questions[2], difficulty: 'medium' }
+  ];
+  assert.deepEqual(searchQuestions(items, { category: 'coding', difficulty: 'hard', query: 'subarray' }).map(q => q.id), ['LC53']);
+  assert.deepEqual(searchQuestions(items, { difficulty: 'easy' }).map(q => q.id), ['K06']);
+  assert.deepEqual(searchQuestions(items, { difficulty: 'medium' }).map(q => q.id), ['LC209']);
+  assert.equal(searchQuestions(items, { category: 'coding', difficulty: 'easy' }).length, 0);
+  assert.equal(searchQuestions(questions).length, 3);
+});

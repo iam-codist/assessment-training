@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE05 · **Practice type:** Worked solution
+**ID:** FE05 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # A responsive grid of topic cards
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M02 · **Practice type:** Worked solution
+**ID:** M02 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Bitwise AND and XOR
 
@@ -40,4 +40,4 @@ B. 14
 
 ---
 
-[← G07](g07-bitwise-and.md) · [Topic index](README.md) · [M08 →](m08-bitwise-left-and-right-shift.md)
+[← AP09](ap09-combine-bit-removal-and-xor.md) · [Topic index](README.md) · [M08 →](m08-bitwise-left-and-right-shift.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL01 · **Practice type:** Worked solution
+**ID:** SQL01 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Inner join employees and departments
 
@@ -45,4 +45,4 @@ An inner join keeps only matched pairs. Evan has a NULL department_id, so no dep
 
 ---
 
-[← PS3-46](ps3-46-passing-course-enrollments.md) · [Topic index](README.md) · [SQL02 →](sql02-left-join-customers-with-no-orders.md)
+[Topic index](README.md) · [PS1-46 →](ps1-46-active-employees-by-department.md)

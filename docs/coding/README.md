@@ -9,6 +9,7 @@
 | [Numbers, digits and divisibility](number-operations/README.md) | 8 |
 | [Simulation and greedy choices](simulation-and-greedy/README.md) | 5 |
 | [Sliding window](sliding-window/README.md) | 4 |
+| [Stacks and queues](stacks-and-queues/README.md) | 1 |
 | [Strings and validation](strings-and-validation/README.md) | 5 |
 | [Two pointers and reversal](two-pointers/README.md) | 7 |
 

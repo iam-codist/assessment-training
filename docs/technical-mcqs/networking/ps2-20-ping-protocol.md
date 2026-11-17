@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-20 · **Practice type:** Worked solution
+**ID:** PS2-20 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Ping protocol
 
@@ -34,4 +34,4 @@ Ping typically sends an ICMP Echo Request and waits for an Echo Reply.
 
 ---
 
-[← PS2-19](ps2-19-switch-forwarding.md) · [Topic index](README.md) · [PS2-21 →](ps2-21-ipv4-subnet-mask.md)
+[← PS2-19](ps2-19-switch-forwarding.md) · [Topic index](README.md) · [PS2-22 →](ps2-22-datagram-transport.md)

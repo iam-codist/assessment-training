@@ -2,10 +2,10 @@ export function normalize(value) {
   return String(value).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 }
 
-export function searchQuestions(questions, { query = '', category = '', status = '' } = {}) {
+export function searchQuestions(questions, { query = '', category = '', status = '', difficulty = '' } = {}) {
   const phrase = normalize(query);
   const tokens = phrase.split(/\s+/).filter(Boolean);
-  return questions.filter(q => (!category || q.category === category) && (!status || q.status === status))
+  return questions.filter(q => (!category || q.category === category) && (!status || q.status === status) && (!difficulty || q.difficulty === difficulty))
     .map((q, order) => {
       const id = normalize(q.id);
       const title = normalize(q.title);

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M09 · **Practice type:** Worked solution
+**ID:** M09 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Array Index and Parity Conditions
 

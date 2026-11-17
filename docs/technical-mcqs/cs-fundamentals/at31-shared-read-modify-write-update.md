@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT31 · **Practice type:** Worked solution
+**ID:** AT31 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Shared read-modify-write update
 
@@ -34,4 +34,4 @@ A mutex lets only one thread at a time run the read-modify-write sequence in the
 
 ---
 
-[← AT30](at30-scheduling-fairness.md) · [Topic index](README.md) · [AT32 →](at32-overloading-and-parameter-types.md)
+[← AT29](at29-virtual-address-translation-cache.md) · [Topic index](README.md) · [AT33 →](at33-choosing-a-data-structure-for-parsing.md)

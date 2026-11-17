@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** E01 · **Practice type:** Worked solution
+**ID:** E01 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Conditional warm-up
 
@@ -49,4 +49,4 @@ B. 20
 
 ---
 
-[← AP04](ap04-trace-two-independent-conditions.md) · [Topic index](README.md) · [E08 →](e08-panel-demo-output-prediction.md)
+[Topic index](README.md) · [E08 →](e08-panel-demo-output-prediction.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-30 · **Practice type:** Worked solution
+**ID:** PS1-30 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Object storage
 

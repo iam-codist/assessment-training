@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AP02 · **Practice type:** Worked solution
+**ID:** AP02 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Trace bitwise flags
 
@@ -34,4 +34,4 @@ A. 8
 
 ---
 
-[Topic index](README.md) · [E04 →](e04-bitwise-challenge-with-6-and-3.md)
+[← PS3-08](ps3-08-bitwise-or.md) · [Topic index](README.md) · [AP09 →](ap09-combine-bit-removal-and-xor.md)

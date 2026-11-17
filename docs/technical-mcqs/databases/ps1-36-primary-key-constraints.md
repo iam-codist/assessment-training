@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-36 · **Practice type:** Worked solution
+**ID:** PS1-36 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Primary key constraints
 
@@ -34,4 +34,4 @@ A primary key uniquely identifies a row and its columns cannot contain NULL.
 
 ---
 
-[← AT40](at40-choosing-a-composite-constraint.md) · [Topic index](README.md) · [PS1-37 →](ps1-37-preserving-departments-in-a-join.md)
+[Topic index](README.md) · [PS1-39 →](ps1-39-counting-non-null-values.md)

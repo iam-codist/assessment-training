@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** K02 · **Practice type:** Worked solution
+**ID:** K02 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Maximum sum with K equal to 2
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-11 · **Practice type:** Worked solution
+**ID:** PS1-11 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Copying a cell formula
 
@@ -34,4 +34,4 @@ The relative row in B2 moves down one. Both coordinates in $F$1 stay fixed.
 
 ---
 
-[← G02](g02-categorical-summaries.md) · [Topic index](README.md) · [PS1-12 →](ps1-12-counting-scores-by-condition.md)
+[← AT44](at44-copy-a-formula-across-and-down.md) · [Topic index](README.md) · [PS1-12 →](ps1-12-counting-scores-by-condition.md)

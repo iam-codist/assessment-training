@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL11 · **Practice type:** Worked solution
+**ID:** SQL11 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Report qualifying order totals
 
@@ -84,4 +84,4 @@ ORDER BY SUM(Orders.amount) DESC, Customers.customer_id;
 
 ---
 
-[← SQL09](sql09-dense-ranking-with-tied-salaries.md) · [Topic index](README.md)
+[← SQL06](sql06-second-highest-distinct-salary.md) · [Topic index](README.md) · [SQL07 →](sql07-above-the-department-average.md)

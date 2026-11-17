@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** CS01 · **Practice type:** Worked solution
+**ID:** CS01 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Encapsulation and a bank account
 

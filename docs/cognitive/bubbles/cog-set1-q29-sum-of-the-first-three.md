@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-set1-q29 · **Practice type:** Worked solution
+**ID:** COG-set1-q29 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Sum of the First Three
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT36 · **Practice type:** Worked solution
+**ID:** AT36 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Preserve customers while filtering matched rows
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL08 · **Practice type:** Worked solution
+**ID:** SQL08 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Count employees including empty departments
 

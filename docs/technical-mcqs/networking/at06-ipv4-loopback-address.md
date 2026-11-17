@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT06 · **Practice type:** Worked solution
+**ID:** AT06 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # IPv4 loopback address
 

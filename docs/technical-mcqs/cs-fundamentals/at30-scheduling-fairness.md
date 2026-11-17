@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT30 · **Practice type:** Worked solution
+**ID:** AT30 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Scheduling fairness
 
@@ -34,4 +34,4 @@ Starvation occurs when a task is continually denied a resource. Other tasks can 
 
 ---
 
-[← AT29](at29-virtual-address-translation-cache.md) · [Topic index](README.md) · [AT31 →](at31-shared-read-modify-write-update.md)
+[← PS3-45](ps3-45-java-array-bounds.md) · [Topic index](README.md) · [AT32 →](at32-overloading-and-parameter-types.md)

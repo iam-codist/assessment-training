@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C17 · **Practice type:** Worked solution
+**ID:** C17 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Mirror phrase
 

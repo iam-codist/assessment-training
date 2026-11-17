@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-18 · **Practice type:** Worked solution
+**ID:** PS3-18 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Physical signal regeneration
 

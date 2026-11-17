@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** D04 · **Practice type:** Worked solution
+**ID:** D04 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Password Validation
 

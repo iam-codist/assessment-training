@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** CS06 · **Practice type:** Worked solution
+**ID:** CS06 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Choosing a queue for service order
 
@@ -34,4 +34,4 @@ Enqueue adds to the back and dequeue removes from the front. A stack would serve
 
 ---
 
-[← CS05](cs05-binary-search-complexity.md) · [Topic index](README.md) · [CS07 →](cs07-transactions-and-atomicity.md)
+[← CS04](cs04-stack-frames-and-heap-objects.md) · [Topic index](README.md) · [PS1-23 →](ps1-23-ready-queue-scheduling.md)

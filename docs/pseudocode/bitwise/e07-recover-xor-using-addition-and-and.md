@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** E07 · **Practice type:** Worked solution
+**ID:** E07 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Recover XOR using addition and AND
 

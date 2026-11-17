@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE03 · **Practice type:** Worked solution
+**ID:** FE03 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # An accessible action control
 
@@ -35,4 +35,4 @@ A native button supports keyboard activation and focus semantics. Give it type=b
 
 ---
 
-[← FE02](fe02-connect-a-form-label-to-its-input.md) · [Topic index](README.md)
+[← FE02](fe02-connect-a-form-label-to-its-input.md) · [Topic index](README.md) · [FE15 →](fe15-submit-a-validated-form-with-the-keyboard.md)

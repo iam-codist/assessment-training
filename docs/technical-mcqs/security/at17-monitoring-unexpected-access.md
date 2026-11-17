@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT17 · **Practice type:** Worked solution
+**ID:** AT17 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Monitoring unexpected access
 

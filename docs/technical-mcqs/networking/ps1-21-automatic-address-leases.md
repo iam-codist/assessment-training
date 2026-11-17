@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-21 · **Practice type:** Worked solution
+**ID:** PS1-21 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Automatic address leases
 
@@ -34,4 +34,4 @@ DHCP can supply the client address, subnet mask, default gateway, and other opti
 
 ---
 
-[← PS1-20](ps1-20-routing-across-networks.md) · [Topic index](README.md) · [PS1-22 →](ps1-22-resolving-an-ipv4-neighbor.md)
+[← AT03](at03-conventional-ipv4-subnet-capacity.md) · [Topic index](README.md) · [PS2-18 →](ps2-18-tcp-destination-port.md)

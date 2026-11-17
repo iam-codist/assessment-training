@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-37 · **Practice type:** Worked solution
+**ID:** PS3-37 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Cross join row count
 
@@ -34,4 +34,4 @@ The Cartesian product pairs each of the 3 rows with all 4 rows.
 
 ---
 
-[← PS3-36](ps3-36-descending-sort-order.md) · [Topic index](README.md) · [PS3-38 →](ps3-38-relational-normalization.md)
+[← PS3-36](ps3-36-descending-sort-order.md) · [Topic index](README.md) · [PS3-39 →](ps3-39-committing-changes.md)

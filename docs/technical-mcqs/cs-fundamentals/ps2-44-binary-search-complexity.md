@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-44 · **Practice type:** Worked solution
+**ID:** PS2-44 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Binary search complexity
 
@@ -34,4 +34,4 @@ Each comparison halves the remaining search interval.
 
 ---
 
-[← PS2-43](ps2-43-recursive-base-case.md) · [Topic index](README.md) · [PS2-45 →](ps2-45-java-interface-contract.md)
+[← PS2-26](ps2-26-excessive-paging.md) · [Topic index](README.md) · [PS3-27 →](ps3-27-page-table-translation.md)

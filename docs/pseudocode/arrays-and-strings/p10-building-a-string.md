@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P10 · **Practice type:** Worked solution
+**ID:** P10 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Building a string
 

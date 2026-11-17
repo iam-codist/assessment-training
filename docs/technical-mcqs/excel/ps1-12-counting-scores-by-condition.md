@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-12 · **Practice type:** Worked solution
+**ID:** PS1-12 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Counting scores by condition
 
@@ -34,4 +34,4 @@ COUNTIF counts cells meeting a criterion. SUMIF adds qualifying values.
 
 ---
 
-[← PS1-11](ps1-11-copying-a-cell-formula.md) · [Topic index](README.md) · [PS1-13 →](ps1-13-department-totals-with-a-pivottable.md)
+[← PS1-11](ps1-11-copying-a-cell-formula.md) · [Topic index](README.md) · [PS2-11 →](ps2-11-average-a-range.md)

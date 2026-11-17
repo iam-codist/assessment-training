@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-35 · **Practice type:** Worked solution
+**ID:** PS1-35 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Authentication factors
 

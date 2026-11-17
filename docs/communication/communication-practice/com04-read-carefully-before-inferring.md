@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COM04 · **Practice type:** Worked solution
+**ID:** COM04 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Read carefully before inferring
 

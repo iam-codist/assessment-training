@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-12 · **Practice type:** Worked solution
+**ID:** PS2-12 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Filter by status
 
@@ -34,4 +34,4 @@ A filter hides rows that fail its selected criteria.
 
 ---
 
-[← PS2-11](ps2-11-average-a-range.md) · [Topic index](README.md) · [PS2-13 →](ps2-13-pass-or-fail-formula.md)
+[← PS1-13](ps1-13-department-totals-with-a-pivottable.md) · [Topic index](README.md) · [PS3-12 →](ps3-12-drop-down-data-validation.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** G07 · **Practice type:** Worked solution
+**ID:** G07 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Bitwise AND
 
@@ -40,4 +40,4 @@ A. 1
 
 ---
 
-[← E07](e07-recover-xor-using-addition-and-and.md) · [Topic index](README.md) · [M02 →](m02-bitwise-and-and-xor.md)
+[← E07](e07-recover-xor-using-addition-and-and.md) · [Topic index](README.md) · [P11 →](p11-bitwise-operations.md)

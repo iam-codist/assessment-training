@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P06 · **Practice type:** Worked solution
+**ID:** P06 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Skipping an iteration
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** CS04 · **Practice type:** Worked solution
+**ID:** CS04 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Stack frames and heap objects
 
@@ -34,4 +34,4 @@ A stack frame holds call-specific execution data. Heap object lifetime is manage
 
 ---
 
-[← CS03](cs03-processes-and-threads.md) · [Topic index](README.md) · [CS05 →](cs05-binary-search-complexity.md)
+[← CS03](cs03-processes-and-threads.md) · [Topic index](README.md) · [CS06 →](cs06-choosing-a-queue-for-service-order.md)

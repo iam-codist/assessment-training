@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT07 · **Practice type:** Worked solution
+**ID:** AT07 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Vertical compute scaling
 

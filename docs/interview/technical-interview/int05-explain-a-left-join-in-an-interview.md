@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** INT05 · **Practice type:** Worked solution
+**ID:** INT05 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Explain a left join in an interview
 

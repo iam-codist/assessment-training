@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P08 · **Practice type:** Worked solution
+**ID:** P08 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Array updates
 
@@ -42,4 +42,4 @@ Updates are immediate: A becomes [2,6,6,8], then [2,6,12,8], then [2,6,12,20].
 
 ---
 
-[← M19](m19-prefix-sum-array.md) · [Topic index](README.md) · [P09 →](p09-strict-comparison-and-duplicates.md)
+[← E05](e05-array-subtraction-in-reverse-order.md) · [Topic index](README.md) · [P09 →](p09-strict-comparison-and-duplicates.md)

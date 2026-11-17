@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-04 · **Practice type:** Worked solution
+**ID:** PS1-04 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Integer division loop
 

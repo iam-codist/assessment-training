@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-26 · **Practice type:** Worked solution
+**ID:** PS2-26 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Excessive paging
 
@@ -34,4 +34,4 @@ Frequent page faults and transfers can dominate execution.
 
 ---
 
-[← PS2-25](ps2-25-process-memory-isolation.md) · [Topic index](README.md) · [PS2-27 →](ps2-27-first-come-scheduling.md)
+[← PS2-23](ps2-23-context-switching.md) · [Topic index](README.md) · [PS2-44 →](ps2-44-binary-search-complexity.md)

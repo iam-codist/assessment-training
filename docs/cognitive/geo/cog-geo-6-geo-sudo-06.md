@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-geo-6 · **Practice type:** Reasoning practice
+**ID:** COG-geo-6 · **Practice type:** Reasoning practice · **Difficulty:** Medium
 
 # Geo-Sudo 06
 

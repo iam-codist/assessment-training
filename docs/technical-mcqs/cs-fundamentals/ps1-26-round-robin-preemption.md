@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-26 · **Practice type:** Worked solution
+**ID:** PS1-26 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Round-robin preemption
 
@@ -34,4 +34,4 @@ The task goes back to the ready queue so other runnable tasks can receive CPU ti
 
 ---
 
-[← PS1-25](ps1-25-shared-thread-memory.md) · [Topic index](README.md) · [PS1-27 →](ps1-27-lock-wait-cycle.md)
+[← PS1-25](ps1-25-shared-thread-memory.md) · [Topic index](README.md) · [PS1-41 →](ps1-41-encapsulating-account-state.md)

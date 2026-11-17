@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-set2-q22 · **Practice type:** Worked solution
+**ID:** COG-set2-q22 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Descending Order
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC2894 · **Practice type:** Worked solution
+**ID:** LC2894 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Divisible and Non-divisible Sums Difference
 
@@ -68,4 +68,4 @@ Read range limit n, then divisor m (the reverse of D01). Print nondivisible-sum 
 
 ---
 
-[← LC1295](lc1295-find-numbers-with-even-number-of-digits.md) · [Topic index](README.md)
+[← LC1295](lc1295-find-numbers-with-even-number-of-digits.md) · [Topic index](README.md) · [C14 →](c14-odd-part-decomposition.md)

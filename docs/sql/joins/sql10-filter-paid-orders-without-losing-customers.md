@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL10 · **Practice type:** Worked solution
+**ID:** SQL10 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Filter paid orders without losing customers
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-set1-q24 · **Practice type:** Worked solution
+**ID:** COG-set1-q24 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Arithmetic Bubbles
 

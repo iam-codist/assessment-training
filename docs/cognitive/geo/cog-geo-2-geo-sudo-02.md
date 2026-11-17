@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-geo-2 · **Practice type:** Worked solution
+**ID:** COG-geo-2 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Geo-Sudo 02
 

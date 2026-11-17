@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-36 · **Practice type:** Worked solution
+**ID:** PS3-36 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Descending sort order
 
@@ -34,4 +34,4 @@ DESC orders the specified expression from high to low.
 
 ---
 
-[← PS2-40](ps2-40-indexing-an-email-lookup.md) · [Topic index](README.md) · [PS3-37 →](ps3-37-cross-join-row-count.md)
+[← PS2-39](ps2-39-inner-join-matches.md) · [Topic index](README.md) · [PS3-37 →](ps3-37-cross-join-row-count.md)

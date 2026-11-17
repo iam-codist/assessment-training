@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-12 · **Practice type:** Worked solution
+**ID:** PS3-12 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Drop-down data validation
 
@@ -34,4 +34,4 @@ Data Validation can show a list and reject other entries according to its settin
 
 ---
 
-[← PS3-11](ps3-11-conditional-sum-by-region.md) · [Topic index](README.md) · [PS3-13 →](ps3-13-formatting-low-inventory.md)
+[← PS2-12](ps2-12-filter-by-status.md) · [Topic index](README.md) · [PS3-13 →](ps3-13-formatting-low-inventory.md)

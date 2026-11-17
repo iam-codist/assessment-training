@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC189 · **Practice type:** Worked solution
+**ID:** LC189 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Rotate Array
 
@@ -65,4 +65,4 @@ Read positive n and nonnegative k, then n integers. Print the array after rotati
 
 ---
 
-[← LC125](lc125-valid-palindrome.md) · [Topic index](README.md) · [LC283 →](lc283-move-zeroes.md)
+[← LC11](lc11-container-with-most-water.md) · [Topic index](README.md)

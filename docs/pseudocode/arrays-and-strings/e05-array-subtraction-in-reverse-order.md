@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** E05 · **Practice type:** Worked solution
+**ID:** E05 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Array subtraction in reverse order
 
@@ -42,4 +42,4 @@ The right-to-left loop reads each previous element before it is changed. The fin
 
 ---
 
-[← AP03](ap03-trace-an-in-place-prefix-update.md) · [Topic index](README.md) · [M03 →](m03-array-manipulation.md)
+[Topic index](README.md) · [P08 →](p08-array-updates.md)

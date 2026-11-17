@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-22 · **Practice type:** Worked solution
+**ID:** PS1-22 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Resolving an IPv4 neighbor
 
@@ -34,4 +34,4 @@ ARP maps a local-link IPv4 address to a link-layer address.
 
 ---
 
-[← PS1-21](ps1-21-automatic-address-leases.md) · [Topic index](README.md) · [PS2-18 →](ps2-18-tcp-destination-port.md)
+[← PS1-20](ps1-20-routing-across-networks.md) · [Topic index](README.md) · [PS2-19 →](ps2-19-switch-forwarding.md)

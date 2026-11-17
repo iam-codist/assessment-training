@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** DP02 · **Practice type:** Worked solution
+**ID:** DP02 · **Practice type:** Worked solution · **Difficulty:** Hard
 
 # Minimum coins when greedy fails
 

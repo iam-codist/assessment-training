@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-23 · **Practice type:** Worked solution
+**ID:** PS2-23 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Context switching
 
@@ -34,4 +34,4 @@ A context switch changes which execution context a CPU runs.
 
 ---
 
-[← PS1-45](ps1-45-method-overloading.md) · [Topic index](README.md) · [PS2-24 →](ps2-24-waiting-for-disk-i-o.md)
+[← PS1-43](ps1-43-finding-an-array-maximum.md) · [Topic index](README.md) · [PS2-26 →](ps2-26-excessive-paging.md)

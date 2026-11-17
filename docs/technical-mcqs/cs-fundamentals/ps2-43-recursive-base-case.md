@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-43 · **Practice type:** Worked solution
+**ID:** PS2-43 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Recursive base case
 
@@ -34,4 +34,4 @@ The base case returns directly and terminates a chain of calls.
 
 ---
 
-[← PS2-42](ps2-42-fifo-job-scheduling.md) · [Topic index](README.md) · [PS2-44 →](ps2-44-binary-search-complexity.md)
+[← PS2-42](ps2-42-fifo-job-scheduling.md) · [Topic index](README.md) · [PS2-45 →](ps2-45-java-interface-contract.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** F01 · **Practice type:** Worked solution
+**ID:** F01 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Maximum Sum Subarray of Size K
 

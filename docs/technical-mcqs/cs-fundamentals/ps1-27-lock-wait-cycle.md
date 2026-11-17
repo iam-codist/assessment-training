@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-27 · **Practice type:** Worked solution
+**ID:** PS1-27 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Lock wait cycle
 
@@ -34,4 +34,4 @@ Each thread waits for the other to release a resource, forming a cycle that prev
 
 ---
 
-[← PS1-26](ps1-26-round-robin-preemption.md) · [Topic index](README.md) · [PS1-41 →](ps1-41-encapsulating-account-state.md)
+[← PS1-24](ps1-24-demand-paging.md) · [Topic index](README.md) · [PS1-42 →](ps1-42-java-dynamic-dispatch.md)

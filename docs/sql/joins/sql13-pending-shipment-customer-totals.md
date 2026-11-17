@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL13 · **Practice type:** Worked solution
+**ID:** SQL13 · **Practice type:** Worked solution · **Difficulty:** Hard
 
 # Report order totals for customers with pending shipments
 

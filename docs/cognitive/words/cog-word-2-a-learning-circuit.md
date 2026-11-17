@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-word-2 · **Practice type:** Worked solution
+**ID:** COG-word-2 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # A learning circuit
 

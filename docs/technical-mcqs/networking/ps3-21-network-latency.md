@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-21 · **Practice type:** Worked solution
+**ID:** PS3-21 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Network latency
 
@@ -34,4 +34,4 @@ Latency measures delay. Bandwidth measures capacity over time.
 
 ---
 
-[← PS3-20](ps3-20-sending-email-between-servers.md) · [Topic index](README.md) · [PS3-22 →](ps3-22-default-gateway.md)
+[← PS3-20](ps3-20-sending-email-between-servers.md) · [Topic index](README.md) · [T13 →](t13-name-resolution.md)

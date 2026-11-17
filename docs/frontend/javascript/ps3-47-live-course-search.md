@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-47 · **Practice type:** Worked solution
+**ID:** PS3-47 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Live course search
 
@@ -97,4 +97,4 @@ Lowercasing both strings makes substring matching case-insensitive. Trimming rem
 
 ---
 
-[← PS2-47](ps2-47-ticket-price-calculator.md) · [Topic index](README.md)
+[← PS2-47](ps2-47-ticket-price-calculator.md) · [Topic index](README.md) · [FE08 →](fe08-a-closure-that-remembers-a-counter.md)

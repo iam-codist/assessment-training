@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT25 · **Practice type:** Worked solution
+**ID:** AT25 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Showing a reason without editing text
 

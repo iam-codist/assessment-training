@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-15 · **Practice type:** Worked solution
+**ID:** PS2-15 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Starting a new page
 

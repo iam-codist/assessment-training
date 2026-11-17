@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-23 · **Practice type:** Worked solution
+**ID:** PS1-23 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Ready queue scheduling
 
@@ -34,4 +34,4 @@ The CPU scheduler selects a runnable process or thread from the ready queue.
 
 ---
 
-[← CS08](cs08-normalization-and-repeated-department-names.md) · [Topic index](README.md) · [PS1-24 →](ps1-24-demand-paging.md)
+[← CS06](cs06-choosing-a-queue-for-service-order.md) · [Topic index](README.md) · [PS1-25 →](ps1-25-shared-thread-memory.md)

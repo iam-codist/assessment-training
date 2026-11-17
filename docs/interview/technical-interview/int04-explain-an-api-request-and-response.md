@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** INT04 · **Practice type:** Worked solution
+**ID:** INT04 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Explain an API request and response
 

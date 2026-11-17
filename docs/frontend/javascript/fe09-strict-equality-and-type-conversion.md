@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE09 · **Practice type:** Worked solution
+**ID:** FE09 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Strict equality and type conversion
 
@@ -40,4 +40,4 @@ Strict equality does not coerce number and string to the same type. Loose equali
 
 ---
 
-[← FE08](fe08-a-closure-that-remembers-a-counter.md) · [Topic index](README.md) · [FE10 →](fe10-event-target-versus-currenttarget.md)
+[← FE07](fe07-block-scope-with-let.md) · [Topic index](README.md) · [PS1-47 →](ps1-47-workshop-seat-counter.md)

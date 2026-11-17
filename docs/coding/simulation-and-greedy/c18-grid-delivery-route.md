@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C18 · **Practice type:** Worked solution
+**ID:** C18 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Grid delivery route
 
@@ -101,4 +101,4 @@ Read n, then n coordinate pairs. Print total Manhattan distance including the re
 
 ---
 
-[← C13](c13-command-accumulator.md) · [Topic index](README.md) · [LC12 →](lc12-integer-to-roman.md)
+[← C08](c08-three-item-shopping-budget.md) · [Topic index](README.md) · [LC12 →](lc12-integer-to-roman.md)

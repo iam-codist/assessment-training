@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-spatial-12 · **Practice type:** Worked solution
+**ID:** COG-spatial-12 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Mirror top ↔ bottom · 12
 

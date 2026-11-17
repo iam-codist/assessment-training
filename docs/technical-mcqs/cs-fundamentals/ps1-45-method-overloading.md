@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-45 · **Practice type:** Worked solution
+**ID:** PS1-45 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Method overloading
 
@@ -34,4 +34,4 @@ Overloads share a method name but have different parameter lists. Overriding rep
 
 ---
 
-[← PS1-44](ps1-44-undo-with-a-stack.md) · [Topic index](README.md) · [PS2-23 →](ps2-23-context-switching.md)
+[← PS1-44](ps1-44-undo-with-a-stack.md) · [Topic index](README.md) · [PS2-24 →](ps2-24-waiting-for-disk-i-o.md)

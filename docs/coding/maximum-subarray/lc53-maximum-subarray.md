@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC53 · **Practice type:** Worked solution
+**ID:** LC53 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Maximum Subarray
 

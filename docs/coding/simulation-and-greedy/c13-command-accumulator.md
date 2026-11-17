@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C13 · **Practice type:** Worked solution
+**ID:** C13 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Command accumulator
 
@@ -105,4 +105,4 @@ ADD 2
 
 ---
 
-[← C08](c08-three-item-shopping-budget.md) · [Topic index](README.md) · [C18 →](c18-grid-delivery-route.md)
+[Topic index](README.md) · [LC1518 →](lc1518-water-bottles.md)

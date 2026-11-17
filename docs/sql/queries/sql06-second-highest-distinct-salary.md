@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL06 · **Practice type:** Worked solution
+**ID:** SQL06 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Second highest distinct salary
 
@@ -40,4 +40,4 @@ First find the maximum, 70000. Then find the maximum strictly below it, 60000. T
 
 ---
 
-[← SQL04](sql04-customers-with-no-orders-using-not-exists.md) · [Topic index](README.md) · [SQL07 →](sql07-above-the-department-average.md)
+[← SQL04](sql04-customers-with-no-orders-using-not-exists.md) · [Topic index](README.md) · [SQL11 →](sql11-qualifying-order-totals.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-memory-2 · **Practice type:** Worked solution
+**ID:** COG-memory-2 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Position recall · 1
 

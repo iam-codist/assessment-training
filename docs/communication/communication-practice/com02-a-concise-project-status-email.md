@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COM02 · **Practice type:** Worked solution
+**ID:** COM02 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # A concise project status email
 

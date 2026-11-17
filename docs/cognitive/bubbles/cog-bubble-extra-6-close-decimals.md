@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-bubble-extra-6 · **Practice type:** Worked solution
+**ID:** COG-bubble-extra-6 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Close decimals
 

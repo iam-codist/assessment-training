@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COM05 · **Practice type:** Worked solution
+**ID:** COM05 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Listening and note-taking practice
 

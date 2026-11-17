@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P14 · **Practice type:** Worked solution
+**ID:** P14 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Euclidean-style updates
 

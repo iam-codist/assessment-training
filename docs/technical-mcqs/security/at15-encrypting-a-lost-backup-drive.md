@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT15 · **Practice type:** Worked solution
+**ID:** AT15 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Encrypting a lost backup drive
 

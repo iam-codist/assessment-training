@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P09 · **Practice type:** Worked solution
+**ID:** P09 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Strict comparison and duplicates
 

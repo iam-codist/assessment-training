@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC918 · **Practice type:** Worked solution
+**ID:** LC918 · **Practice type:** Worked solution · **Difficulty:** Hard
 
 # Maximum Sum Circular Subarray
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P20 · **Practice type:** Worked solution
+**ID:** P20 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Two matrix diagonals
 

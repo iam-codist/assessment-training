@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT11 · **Practice type:** Worked solution
+**ID:** AT11 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Event-driven processing
 

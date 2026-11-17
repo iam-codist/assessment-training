@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** DP01 · **Practice type:** Worked solution
+**ID:** DP01 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Climbing stairs with two choices
 

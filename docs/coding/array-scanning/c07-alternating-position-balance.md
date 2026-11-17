@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C07 · **Practice type:** Worked solution
+**ID:** C07 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Alternating position balance
 

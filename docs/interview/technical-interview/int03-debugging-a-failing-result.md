@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** INT03 · **Practice type:** Worked solution
+**ID:** INT03 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Debugging a failing result
 

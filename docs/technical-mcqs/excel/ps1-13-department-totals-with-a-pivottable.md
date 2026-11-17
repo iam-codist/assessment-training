@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-13 · **Practice type:** Worked solution
+**ID:** PS1-13 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Department totals with a PivotTable
 
@@ -34,4 +34,4 @@ A PivotTable groups records by department and can sum values for each group.
 
 ---
 
-[← PS1-12](ps1-12-counting-scores-by-condition.md) · [Topic index](README.md) · [PS2-11 →](ps2-11-average-a-range.md)
+[← G02](g02-categorical-summaries.md) · [Topic index](README.md) · [PS2-12 →](ps2-12-filter-by-status.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P15 · **Practice type:** Worked solution
+**ID:** P15 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Stack order
 

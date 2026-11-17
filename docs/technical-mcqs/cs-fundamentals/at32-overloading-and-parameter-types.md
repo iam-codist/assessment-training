@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT32 · **Practice type:** Worked solution
+**ID:** AT32 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Overloading and parameter types
 
@@ -34,4 +34,4 @@ The class uses the same method name with different parameter lists. This is over
 
 ---
 
-[← AT31](at31-shared-read-modify-write-update.md) · [Topic index](README.md) · [AT33 →](at33-choosing-a-data-structure-for-parsing.md)
+[← AT30](at30-scheduling-fairness.md) · [Topic index](README.md) · [AT34 →](at34-search-complexity-on-an-unsorted-list.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-sequence-12 · **Practice type:** Worked solution
+**ID:** COG-sequence-12 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Double, then adjust
 
@@ -38,4 +38,4 @@ Double each term and subtract 1. 33 × 2 − 1 = 65; 65 × 2 − 1 = 129.
 
 ---
 
-[← COG-sequence-11](cog-sequence-11-growing-multipliers.md) · [Topic index](README.md)
+[← COG-sequence-11](cog-sequence-11-growing-multipliers.md) · [Topic index](README.md) · [COG-ADV01 →](cog-adv01-combine-interleaved-sequences.md)

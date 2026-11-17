@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COM03 · **Practice type:** Worked solution
+**ID:** COM03 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Grammar and subject–verb agreement
 

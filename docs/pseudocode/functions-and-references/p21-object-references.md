@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P21 · **Practice type:** Worked solution
+**ID:** P21 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Object references
 

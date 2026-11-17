@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M01 · **Practice type:** Worked solution
+**ID:** M01 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Nested loops
 
@@ -44,4 +44,4 @@ The four inner-loop totals are 1, 3, 6 and 10. Their sum is 20. This original qu
 
 ---
 
-[← G06](g06-adding-loop-values-to-x.md) · [Topic index](README.md) · [M04 →](m04-while-loop-with-mod-div.md)
+[← PS3-10](ps3-10-post-test-loop.md) · [Topic index](README.md) · [M04 →](m04-while-loop-with-mod-div.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-07 · **Practice type:** Worked solution
+**ID:** PS2-07 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Recursive doubling
 

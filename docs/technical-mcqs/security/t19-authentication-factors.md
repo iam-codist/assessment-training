@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T19 · **Practice type:** Worked solution
+**ID:** T19 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Authentication factors
 
@@ -34,4 +34,4 @@ The password is something you know and the hardware key is something you have. A
 
 ---
 
-[← T18](t18-suspicious-messages.md) · [Topic index](README.md)
+[← T18](t18-suspicious-messages.md) · [Topic index](README.md) · [AT43 →](at43-enforce-access-to-individual-records.md)

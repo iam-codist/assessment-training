@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T20 · **Practice type:** Worked solution
+**ID:** T20 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Cloud service models
 

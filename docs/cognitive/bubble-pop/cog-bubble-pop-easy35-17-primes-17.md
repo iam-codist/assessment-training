@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-bubble-pop-easy35-17 · **Practice type:** Worked solution
+**ID:** COG-bubble-pop-easy35-17 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Primes · 17
 

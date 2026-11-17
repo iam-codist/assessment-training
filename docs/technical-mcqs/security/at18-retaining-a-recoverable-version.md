@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT18 · **Practice type:** Worked solution
+**ID:** AT18 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Retaining a recoverable version
 

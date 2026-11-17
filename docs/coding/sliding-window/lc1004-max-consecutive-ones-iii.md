@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC1004 · **Practice type:** Worked solution
+**ID:** LC1004 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Max Consecutive Ones III
 

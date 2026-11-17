@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** BE05 · **Practice type:** Worked solution
+**ID:** BE05 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Prioritizing two urgent requests
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** E04 · **Practice type:** Worked solution
+**ID:** E04 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Bitwise challenge with 6 and 3
 
@@ -40,4 +40,4 @@ B. 7
 
 ---
 
-[← AP02](ap02-trace-bitwise-flags.md) · [Topic index](README.md) · [E06 →](e06-recover-or-using-addition-and-and.md)
+[Topic index](README.md) · [E06 →](e06-recover-or-using-addition-and-and.md)

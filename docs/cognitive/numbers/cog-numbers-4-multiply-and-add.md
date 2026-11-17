@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-numbers-4 · **Practice type:** Worked solution
+**ID:** COG-numbers-4 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Multiply and add
 

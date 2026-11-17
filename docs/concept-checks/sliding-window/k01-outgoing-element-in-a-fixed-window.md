@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** K01 · **Practice type:** Worked solution
+**ID:** K01 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Outgoing element in a fixed window
 

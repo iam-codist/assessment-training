@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T13 · **Practice type:** Worked solution
+**ID:** T13 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Name resolution
 
@@ -34,4 +34,4 @@ DNS maps names to address information. Failure of name resolution points to DNS 
 
 ---
 
-[← PS3-22](ps3-22-default-gateway.md) · [Topic index](README.md) · [T14 →](t14-automatic-network-configuration.md)
+[← PS3-21](ps3-21-network-latency.md) · [Topic index](README.md) · [T16 →](t16-transport-protocols.md)

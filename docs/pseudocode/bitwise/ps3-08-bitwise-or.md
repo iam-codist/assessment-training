@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-08 · **Practice type:** Worked solution
+**ID:** PS3-08 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Bitwise OR
 
@@ -34,4 +34,4 @@ Binary 1001 OR 0110 sets all four bits.
 
 ---
 
-[← PS2-09](ps2-09-bitwise-and.md) · [Topic index](README.md)
+[← PS2-09](ps2-09-bitwise-and.md) · [Topic index](README.md) · [AP02 →](ap02-trace-bitwise-flags.md)

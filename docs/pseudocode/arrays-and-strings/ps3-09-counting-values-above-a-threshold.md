@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-09 · **Practice type:** Worked solution
+**ID:** PS3-09 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Counting values above a threshold
 
@@ -34,4 +34,4 @@ Only 9 and 6 exceed 5.
 
 ---
 
-[← PS3-02](ps3-02-zero-based-array-access.md) · [Topic index](README.md)
+[← PS3-02](ps3-02-zero-based-array-access.md) · [Topic index](README.md) · [AP03 →](ap03-trace-an-in-place-prefix-update.md)

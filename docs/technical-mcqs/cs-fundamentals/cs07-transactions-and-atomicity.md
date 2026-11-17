@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** CS07 · **Practice type:** Worked solution
+**ID:** CS07 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Transactions and atomicity
 
@@ -34,4 +34,4 @@ A transaction commits its changes together or rolls them back together. Other pr
 
 ---
 
-[← CS06](cs06-choosing-a-queue-for-service-order.md) · [Topic index](README.md) · [CS08 →](cs08-normalization-and-repeated-department-names.md)
+[← CS05](cs05-binary-search-complexity.md) · [Topic index](README.md) · [CS08 →](cs08-normalization-and-repeated-department-names.md)

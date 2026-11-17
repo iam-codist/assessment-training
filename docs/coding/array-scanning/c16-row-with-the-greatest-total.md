@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C16 · **Practice type:** Worked solution
+**ID:** C16 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Row with the greatest total
 

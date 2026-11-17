@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-25 · **Practice type:** Worked solution
+**ID:** PS1-25 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Shared thread memory
 
@@ -34,4 +34,4 @@ Threads share the process address space, including its heap. Each has its own ex
 
 ---
 
-[← PS1-24](ps1-24-demand-paging.md) · [Topic index](README.md) · [PS1-26 →](ps1-26-round-robin-preemption.md)
+[← PS1-23](ps1-23-ready-queue-scheduling.md) · [Topic index](README.md) · [PS1-26 →](ps1-26-round-robin-preemption.md)

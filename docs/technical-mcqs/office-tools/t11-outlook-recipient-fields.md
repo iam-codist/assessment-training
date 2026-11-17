@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T11 · **Practice type:** Worked solution
+**ID:** T11 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Outlook recipient fields
 
@@ -34,4 +34,4 @@ Bcc hides that recipient from the To/Cc recipients. It does not stop the Bcc rec
 
 ---
 
-[← T10](t10-powerpoint-consistency.md) · [Topic index](README.md)
+[← T10](t10-powerpoint-consistency.md) · [Topic index](README.md) · [AT45 →](at45-diagnose-a-slide-master-exception.md)

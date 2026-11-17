@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC11 · **Practice type:** Worked solution
+**ID:** LC11 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Container With Most Water
 
@@ -69,4 +69,4 @@ Read n (at least 2), then n nonnegative heights. Print maximum container area.
 
 ---
 
-[← LC9](lc9-palindrome-number.md) · [Topic index](README.md) · [LC125 →](lc125-valid-palindrome.md)
+[← LC977](lc977-squares-of-a-sorted-array.md) · [Topic index](README.md) · [LC189 →](lc189-rotate-array.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** K05 · **Practice type:** Worked solution
+**ID:** K05 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Decimal and binary conversion practice
 

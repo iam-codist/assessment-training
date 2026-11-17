@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T06 · **Practice type:** Worked solution
+**ID:** T06 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Excel summaries
 
@@ -34,4 +34,4 @@ A PivotTable can group records by region and aggregate their amounts.
 
 ---
 
-[← T05](t05-excel-formatting.md) · [Topic index](README.md)
+[← T04](t04-excel-filtering.md) · [Topic index](README.md)

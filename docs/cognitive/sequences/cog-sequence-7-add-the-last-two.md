@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-sequence-7 · **Practice type:** Worked solution
+**ID:** COG-sequence-7 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Add the last two
 

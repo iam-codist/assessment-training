@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC1608 · **Practice type:** Worked solution
+**ID:** LC1608 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Special Array With X Elements Greater Than or Equal X
 

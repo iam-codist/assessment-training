@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC125 · **Practice type:** Worked solution
+**ID:** LC125 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Valid Palindrome
 
@@ -68,4 +68,4 @@ true
 
 ---
 
-[← LC11](lc11-container-with-most-water.md) · [Topic index](README.md) · [LC189 →](lc189-rotate-array.md)
+[← LC9](lc9-palindrome-number.md) · [Topic index](README.md) · [LC283 →](lc283-move-zeroes.md)

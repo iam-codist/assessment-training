@@ -1,5 +1,7 @@
 # Suggested study order
 
+For current pattern guidance, time budgets and a focused practice path, open the [assessment guide](ASSESSMENT-GUIDE.md).
+
 Work through a topic without looking at its answers, then review the explanation. Keep a small error log with the question ID, your mistake and the rule you will use next time.
 
 ## 1. Trace the basics

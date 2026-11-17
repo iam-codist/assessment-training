@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-13 · **Practice type:** Worked solution
+**ID:** PS2-13 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Pass or fail formula
 
@@ -34,4 +34,4 @@ IF returns its second argument when the condition is true and its third otherwis
 
 ---
 
-[← PS2-12](ps2-12-filter-by-status.md) · [Topic index](README.md) · [PS3-11 →](ps3-11-conditional-sum-by-region.md)
+[← PS2-11](ps2-11-average-a-range.md) · [Topic index](README.md) · [PS3-11 →](ps3-11-conditional-sum-by-region.md)

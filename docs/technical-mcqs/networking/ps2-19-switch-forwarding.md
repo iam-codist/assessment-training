@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-19 · **Practice type:** Worked solution
+**ID:** PS2-19 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Switch forwarding
 
@@ -34,4 +34,4 @@ The switch looks up the destination MAC in its forwarding table.
 
 ---
 
-[← PS2-18](ps2-18-tcp-destination-port.md) · [Topic index](README.md) · [PS2-20 →](ps2-20-ping-protocol.md)
+[← PS1-22](ps1-22-resolving-an-ipv4-neighbor.md) · [Topic index](README.md) · [PS2-20 →](ps2-20-ping-protocol.md)

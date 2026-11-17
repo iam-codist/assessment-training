@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M17 · **Practice type:** Worked solution
+**ID:** M17 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Bitwise AND + OR
 
@@ -43,4 +43,4 @@ C. 9
 
 ---
 
-[← M13](m13-xor-inside-a-loop.md) · [Topic index](README.md) · [P11 →](p11-bitwise-operations.md)
+[← M13](m13-xor-inside-a-loop.md) · [Topic index](README.md)

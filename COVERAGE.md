@@ -1,5 +1,7 @@
 # Your assessment preparation roadmap
 
+For current pattern guidance, time budgets and a focused practice path, open the [assessment guide](ASSESSMENT-GUIDE.md).
+
 Choose a topic below, try a few questions and record what you want to revisit. Then use a [timed mock test](ASSESSMENT-PRACTICE.md) to practise switching between topics.
 
 | Practice area | Where to practise | What is included |

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-39 · **Practice type:** Worked solution
+**ID:** PS3-39 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Committing changes
 
@@ -34,4 +34,4 @@ COMMIT finalizes the transaction. ROLLBACK discards its pending changes.
 
 ---
 
-[← PS3-38](ps3-38-relational-normalization.md) · [Topic index](README.md) · [PS3-40 →](ps3-40-grouped-sums.md)
+[← PS3-37](ps3-37-cross-join-row-count.md) · [Topic index](README.md) · [T12 →](t12-access-data-integrity.md)

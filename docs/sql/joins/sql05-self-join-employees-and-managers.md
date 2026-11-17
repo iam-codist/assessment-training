@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL05 · **Practice type:** Worked solution
+**ID:** SQL05 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Self join employees and managers
 

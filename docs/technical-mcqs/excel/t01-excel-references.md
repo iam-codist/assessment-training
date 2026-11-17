@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T01 · **Practice type:** Worked solution
+**ID:** T01 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Excel references
 
@@ -34,4 +34,4 @@ Copying down three rows changes relative C3 to C6. Both the column and row in $F
 
 ---
 
-[← PS3-13](ps3-13-formatting-low-inventory.md) · [Topic index](README.md) · [T02 →](t02-excel-conditions.md)
+[← PS3-11](ps3-11-conditional-sum-by-region.md) · [Topic index](README.md) · [T04 →](t04-excel-filtering.md)

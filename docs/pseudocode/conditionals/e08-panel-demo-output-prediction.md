@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** E08 · **Practice type:** Worked solution
+**ID:** E08 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Predict the output of a conditional
 
@@ -39,4 +39,4 @@ After i=1: a=3,b=6. After i=2: a=5,b=8. After i=3: a=8,b=0.
 
 ---
 
-[← E01](e01-conditional-warm-up.md) · [Topic index](README.md) · [M06 →](m06-conditional-statements-with-mod-div.md)
+[← E01](e01-conditional-warm-up.md) · [Topic index](README.md) · [P01 →](p01-sequential-assignment.md)

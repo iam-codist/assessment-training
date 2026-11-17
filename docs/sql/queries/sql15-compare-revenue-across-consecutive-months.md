@@ -1,0 +1,67 @@
+<!-- Generated from content/sql/queries/sql15-compare-revenue-across-consecutive-months.mdx. Edit the MDX source. -->
+
+[Topic index](README.md)
+
+**ID:** SQL15 · **Practice type:** Worked solution · **Difficulty:** Hard
+
+# Compare revenue across consecutive months
+
+## Question
+
+MonthlyRevenue contains exactly one row for every calendar month in the period, with nonnegative revenue. Return month, revenue, previous revenue and percentage growth, rounded to two decimals. Show NULL growth for the first month or after zero revenue. Sort by month.
+
+Run this setup in a fresh SQLite database.
+
+```sql
+CREATE TABLE MonthlyRevenue (month_start TEXT PRIMARY KEY, revenue INTEGER NOT NULL);
+INSERT INTO MonthlyRevenue VALUES ('2026-01-01',1000),('2026-02-01',1200),('2026-03-01',0),('2026-04-01',900);
+```
+
+**Starter**
+
+```sql
+-- First compute the window value in a CTE.
+-- Then select and filter the required output columns.
+```
+
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+
+```sql
+WITH comparison AS (
+    SELECT month_start, revenue,
+           LAG(revenue) OVER (ORDER BY month_start) AS previous_revenue
+    FROM MonthlyRevenue
+)
+SELECT month_start, revenue, previous_revenue,
+       CASE
+           WHEN previous_revenue IS NULL OR previous_revenue = 0 THEN NULL
+           ELSE ROUND(100.0 * (revenue - previous_revenue) / previous_revenue, 2)
+       END AS growth_percent
+FROM comparison
+ORDER BY month_start;
+```
+
+**Expected output**
+
+```text
+2026-01-01 | 1000 | NULL | NULL
+2026-02-01 | 1200 | 1000 | 20.0
+2026-03-01 | 0 | 1200 | -100.0
+2026-04-01 | 900 | 0 | NULL
+```
+
+
+## Explanation
+
+LAG reads the previous row. February grows by (1200−1000)/1000×100=20%. March falls to zero, so its growth is −100%. April has a zero base and no defined percentage growth. The complete monthly input matters: missing months must be supplied before using this query for calendar-month comparisons.
+
+</details>
+
+---
+
+[← SQL14](sql14-find-the-third-transaction-per-customer.md) · [Topic index](README.md)

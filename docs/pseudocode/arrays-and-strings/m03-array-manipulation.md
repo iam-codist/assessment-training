@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M03 · **Practice type:** Worked solution
+**ID:** M03 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Array Manipulation
 
@@ -44,4 +44,4 @@ Updated array: [3,3,6,6,9]. Each step uses the changed previous element.
 
 ---
 
-[← E05](e05-array-subtraction-in-reverse-order.md) · [Topic index](README.md) · [M09 →](m09-array-index-and-parity-conditions.md)
+[← AP03](ap03-trace-an-in-place-prefix-update.md) · [Topic index](README.md) · [M09 →](m09-array-index-and-parity-conditions.md)

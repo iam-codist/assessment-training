@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COM08 · **Practice type:** Worked solution
+**ID:** COM08 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Summarize a meeting with actions
 
@@ -25,4 +25,4 @@ The summary separates agreed actions from an unresolved dependency. Do not inven
 
 ---
 
-[← COM07](com07-ask-a-useful-clarification-question.md) · [Topic index](README.md)
+[← COM07](com07-ask-a-useful-clarification-question.md) · [Topic index](README.md) · [COM09 →](com09-deliver-a-concise-incident-update.md)

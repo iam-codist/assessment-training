@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** K06 · **Practice type:** Worked solution
+**ID:** K06 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Kadane current sum versus maximum
 

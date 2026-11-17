@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT09 · **Practice type:** Worked solution
+**ID:** AT09 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Storage for a database volume
 

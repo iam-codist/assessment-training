@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** BE04 · **Practice type:** Worked solution
+**ID:** BE04 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Responding to feedback
 

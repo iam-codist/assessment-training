@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T14 · **Practice type:** Worked solution
+**ID:** T14 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Automatic network configuration
 
@@ -34,4 +34,4 @@ DHCP can provide a leased IPv4 address plus settings such as a subnet mask, gate
 
 ---
 
-[← T13](t13-name-resolution.md) · [Topic index](README.md) · [T15 →](t15-ipv4-subnetting.md)
+[← PS3-22](ps3-22-default-gateway.md) · [Topic index](README.md) · [T15 →](t15-ipv4-subnetting.md)

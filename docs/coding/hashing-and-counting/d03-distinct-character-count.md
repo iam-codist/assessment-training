@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** D03 · **Practice type:** Worked solution
+**ID:** D03 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Distinct Character Count
 
@@ -68,4 +68,4 @@ banana
 
 ---
 
-[← C20](c20-digit-rearrangement-test.md) · [Topic index](README.md) · [LC49 →](lc49-group-anagrams.md)
+[← C20](c20-digit-rearrangement-test.md) · [Topic index](README.md) · [LC242 →](lc242-valid-anagram.md)

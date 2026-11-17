@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M15 · **Practice type:** Worked solution
+**ID:** M15 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # WHILE Loop with Integer Division
 

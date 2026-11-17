@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C14 · **Practice type:** Worked solution
+**ID:** C14 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Odd-part decomposition
 
@@ -94,4 +94,4 @@ Read positive n. Print odd-part and exponent-of-two.
 
 ---
 
-[← C11](c11-weighted-digit-checksum.md) · [Topic index](README.md) · [D01 →](d01-difference-of-sums.md)
+[← LC2894](lc2894-divisible-and-non-divisible-sums-difference.md) · [Topic index](README.md)

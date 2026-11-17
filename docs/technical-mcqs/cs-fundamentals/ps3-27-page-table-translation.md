@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-27 · **Practice type:** Worked solution
+**ID:** PS3-27 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Page-table translation
 
@@ -34,4 +34,4 @@ Page tables map virtual pages to physical frames, with the MMU performing transl
 
 ---
 
-[← PS3-26](ps3-26-mutex-exclusion.md) · [Topic index](README.md) · [PS3-41 →](ps3-41-java-constructors.md)
+[← PS2-44](ps2-44-binary-search-complexity.md) · [Topic index](README.md) · [AT46 →](at46-trace-a-lost-update.md)

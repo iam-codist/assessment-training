@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** K07 · **Practice type:** Worked solution
+**ID:** K07 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Repeated letters in an anagram
 

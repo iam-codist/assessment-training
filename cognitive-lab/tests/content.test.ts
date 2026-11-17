@@ -63,4 +63,4 @@ test('Elapsed timer freezes when paused and resumes from accumulated time',()=>{
 });
 test('Digit rules reject reuse and invalid values',()=>{assert.ok(Number.isNaN(calculateDigits('sum',[5,5,7])));assert.ok(Number.isNaN(calculateDigits('sum',[0,8,9])));assert.ok(Number.isNaN(calculateDigits('product',[7,8])));});
 test('CSV safely quotes trainer notes and spreadsheet formula prefixes',()=>{assert.equal(escapeCsv('A,"B"\nC'),'"A,""B""\nC"');assert.equal(escapeCsv('=SUM(A1:A2)'),`"'=SUM(A1:A2)"`);});
-test('Coverage of all source prompts',()=>{assert.equal(puzzles.length,225);assert.equal(puzzles.filter(p=>p.set).length,60);assert.equal(puzzles.filter(p=>p.ungraded).length,12);assert.equal(new Set(puzzles.map(p=>p.id)).size,225);});
+test('Coverage of all source prompts',()=>{assert.equal(puzzles.length,226);assert.equal(puzzles.filter(p=>p.set).length,60);assert.equal(puzzles.filter(p=>p.ungraded).length,12);assert.equal(new Set(puzzles.map(p=>p.id)).size,226);});

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE06 · **Practice type:** Worked solution
+**ID:** FE06 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Specificity within the same cascade layer
 
@@ -40,4 +40,4 @@ Under the stated origin, importance and layer conditions, the class selector has
 
 ---
 
-[← FE05](fe05-a-responsive-grid-of-topic-cards.md) · [Topic index](README.md)
+[← FE05](fe05-a-responsive-grid-of-topic-cards.md) · [Topic index](README.md) · [FE16 →](fe16-keep-a-flexible-card-inside-its-container.md)

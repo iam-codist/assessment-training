@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P11 · **Practice type:** Worked solution
+**ID:** P11 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Bitwise operations
 
@@ -41,4 +41,4 @@ A. 11
 
 ---
 
-[← M17](m17-bitwise-and-or.md) · [Topic index](README.md) · [P12 →](p12-bit-shifting.md)
+[← G07](g07-bitwise-and.md) · [Topic index](README.md) · [P12 →](p12-bit-shifting.md)

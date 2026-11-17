@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** INT02 · **Practice type:** Worked solution
+**ID:** INT02 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Explain an algorithm before coding
 

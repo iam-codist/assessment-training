@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-sequence-9 · **Practice type:** Worked solution
+**ID:** COG-sequence-9 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Halving ladder
 

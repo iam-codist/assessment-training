@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COM07 · **Practice type:** Worked solution
+**ID:** COM07 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Ask a useful clarification question
 

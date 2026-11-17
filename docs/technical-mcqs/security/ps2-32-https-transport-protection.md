@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-32 · **Practice type:** Worked solution
+**ID:** PS2-32 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # HTTPS transport protection
 

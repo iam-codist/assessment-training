@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC414 · **Practice type:** Worked solution
+**ID:** LC414 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Third Maximum Number
 

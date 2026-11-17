@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P19 · **Practice type:** Worked solution
+**ID:** P19 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # One sorting pass
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P03 · **Practice type:** Worked solution
+**ID:** P03 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Odd-position accumulation
 
@@ -44,4 +44,4 @@ Only i=1,3,5 contribute. Their contributions are 2,6,10.
 
 ---
 
-[← M20](m20-complex-while-loop.md) · [Topic index](README.md) · [P04 →](p04-repeated-halving.md)
+[← G06](g06-adding-loop-values-to-x.md) · [Topic index](README.md) · [P04 →](p04-repeated-halving.md)

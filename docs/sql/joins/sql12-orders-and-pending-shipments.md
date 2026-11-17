@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL12 · **Practice type:** Worked solution
+**ID:** SQL12 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Join customers, orders and pending shipments
 

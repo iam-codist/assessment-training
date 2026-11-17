@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT02 · **Practice type:** Worked solution
+**ID:** AT02 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # HTTPS destination port
 
@@ -34,4 +34,4 @@ HTTPS defaults to port 443. Port 80 is the default for plain HTTP.
 
 ---
 
-[← AT01](at01-dns-works-independently-of-connectivity.md) · [Topic index](README.md) · [AT03 →](at03-conventional-ipv4-subnet-capacity.md)
+[← AT01](at01-dns-works-independently-of-connectivity.md) · [Topic index](README.md) · [AT04 →](at04-transport-for-a-live-voice-stream.md)

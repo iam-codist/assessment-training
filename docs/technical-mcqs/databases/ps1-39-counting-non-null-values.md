@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-39 · **Practice type:** Worked solution
+**ID:** PS1-39 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Counting non-null values
 
@@ -34,4 +34,4 @@ COUNT(column) counts non-NULL values. COUNT(\*) would count all four rows.
 
 ---
 
-[← PS1-38](ps1-38-filtering-grouped-counts.md) · [Topic index](README.md) · [PS1-40 →](ps1-40-transaction-atomicity.md)
+[← PS1-36](ps1-36-primary-key-constraints.md) · [Topic index](README.md) · [PS2-36 →](ps2-36-foreign-key-constraints.md)

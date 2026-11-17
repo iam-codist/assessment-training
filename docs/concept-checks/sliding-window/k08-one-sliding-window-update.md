@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** K08 · **Practice type:** Worked solution
+**ID:** K08 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # One sliding window update
 
@@ -34,4 +34,4 @@ Remove 4 and add 1: 13 - 4 + 1 = 10.
 
 ---
 
-[← K03](k03-fixed-window-size.md) · [Topic index](README.md)
+[← K03](k03-fixed-window-size.md) · [Topic index](README.md) · [K09 →](k09-know-when-a-shrinking-window-fails.md)

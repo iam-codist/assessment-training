@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P07 · **Practice type:** Worked solution
+**ID:** P07 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Early loop exit
 

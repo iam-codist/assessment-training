@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT27 · **Practice type:** Worked solution
+**ID:** AT27 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Recording attendance for a meeting
 

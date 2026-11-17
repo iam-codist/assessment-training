@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T12 · **Practice type:** Worked solution
+**ID:** T12 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Access data integrity
 
@@ -34,4 +34,4 @@ A primary key uniquely identifies a record and cannot contain a null key value. 
 
 ---
 
-[← PS3-40](ps3-40-grouped-sums.md) · [Topic index](README.md)
+[← PS3-39](ps3-39-committing-changes.md) · [Topic index](README.md) · [AT35 →](at35-filtering-groups-by-their-maximum.md)

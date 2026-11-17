@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE12 · **Practice type:** Worked solution
+**ID:** FE12 · **Practice type:** Worked solution · **Difficulty:** Hard
 
 # Handle an HTTP error from fetch
 
@@ -38,4 +38,4 @@ fetch can resolve normally for an HTTP 404 or 500 response, so inspect response.
 
 ---
 
-[← FE11](fe11-promise-callbacks-and-synchronous-code.md) · [Topic index](README.md) · [FE13 →](fe13-quantity.md)
+[← FE14](fe14-product-filter.md) · [Topic index](README.md) · [FE17 →](fe17-remove-dynamic-tasks-with-event-delegation.md)

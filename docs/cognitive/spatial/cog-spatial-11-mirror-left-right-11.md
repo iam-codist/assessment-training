@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-spatial-11 · **Practice type:** Worked solution
+**ID:** COG-spatial-11 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Mirror left ↔ right · 11
 

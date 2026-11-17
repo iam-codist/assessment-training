@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** CS03 · **Practice type:** Worked solution
+**ID:** CS03 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Processes and threads
 
@@ -34,4 +34,4 @@ Shared memory makes communication convenient but also creates races. Each thread
 
 ---
 
-[← CS02](cs02-overriding-and-runtime-polymorphism.md) · [Topic index](README.md) · [CS04 →](cs04-stack-frames-and-heap-objects.md)
+[← AT33](at33-choosing-a-data-structure-for-parsing.md) · [Topic index](README.md) · [CS04 →](cs04-stack-frames-and-heap-objects.md)

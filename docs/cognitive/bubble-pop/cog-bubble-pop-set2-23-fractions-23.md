@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-bubble-pop-set2-23 · **Practice type:** Worked solution
+**ID:** COG-bubble-pop-set2-23 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Fractions · 23
 

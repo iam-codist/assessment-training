@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-46 · **Practice type:** Worked solution
+**ID:** PS3-46 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Passing course enrollments
 
@@ -59,4 +59,4 @@ Enrollments connect students to courses by ID. The two joins attach the names an
 
 ---
 
-[← PS2-46](ps2-46-paid-order-totals.md) · [Topic index](README.md) · [SQL01 →](sql01-inner-join-employees-and-departments.md)
+[← PS2-46](ps2-46-paid-order-totals.md) · [Topic index](README.md) · [SQL02 →](sql02-left-join-customers-with-no-orders.md)

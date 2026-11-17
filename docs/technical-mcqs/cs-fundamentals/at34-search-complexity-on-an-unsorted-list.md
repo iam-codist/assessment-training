@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT34 · **Practice type:** Worked solution
+**ID:** AT34 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Search complexity on an unsorted list
 
@@ -34,4 +34,4 @@ Without ordering, the algorithm must inspect every value before concluding the t
 
 ---
 
-[← AT33](at33-choosing-a-data-structure-for-parsing.md) · [Topic index](README.md) · [CS01 →](cs01-encapsulation-and-a-bank-account.md)
+[← AT32](at32-overloading-and-parameter-types.md) · [Topic index](README.md) · [CS01 →](cs01-encapsulation-and-a-bank-account.md)

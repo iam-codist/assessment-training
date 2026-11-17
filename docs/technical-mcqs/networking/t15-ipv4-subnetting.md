@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T15 · **Practice type:** Worked solution
+**ID:** T15 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # IPv4 subnetting
 
@@ -34,4 +34,4 @@ A /27 leaves 32-27=5 host bits: 2^5=32 addresses. Excluding the conventional net
 
 ---
 
-[← T14](t14-automatic-network-configuration.md) · [Topic index](README.md) · [T16 →](t16-transport-protocols.md)
+[← T14](t14-automatic-network-configuration.md) · [Topic index](README.md) · [AT41 →](at41-select-a-subnet-and-next-hop.md)

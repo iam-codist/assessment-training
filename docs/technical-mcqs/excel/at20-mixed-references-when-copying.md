@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT20 · **Practice type:** Worked solution
+**ID:** AT20 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Mixed references when copying
 
@@ -34,4 +34,4 @@ The A column and row 1 are fixed. The unanchored row 2 and column B shift by one
 
 ---
 
-[← AT19](at19-counting-entries-with-text-and-blanks.md) · [Topic index](README.md) · [AT21 →](at21-matching-a-region-and-a-threshold.md)
+[← T05](t05-excel-formatting.md) · [Topic index](README.md) · [AT23 →](at23-search-for-a-precise-staff-id.md)

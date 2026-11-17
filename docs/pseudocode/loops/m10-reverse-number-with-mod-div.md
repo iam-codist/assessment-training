@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M10 · **Practice type:** Worked solution
+**ID:** M10 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Reverse Number with MOD &amp; DIV
 

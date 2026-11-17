@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C08 · **Practice type:** Worked solution
+**ID:** C08 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Three-item shopping budget
 
@@ -97,4 +97,4 @@ Read n and budget, then n prices. Print minimum-total and change, or IMPOSSIBLE.
 
 ---
 
-[Topic index](README.md) · [C13 →](c13-command-accumulator.md)
+[← LC1518](lc1518-water-bottles.md) · [Topic index](README.md) · [C18 →](c18-grid-delivery-route.md)

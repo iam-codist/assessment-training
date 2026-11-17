@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COM01 · **Practice type:** Worked solution
+**ID:** COM01 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # A clear sixty-second introduction
 

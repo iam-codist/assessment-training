@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC1518 · **Practice type:** Worked solution
+**ID:** LC1518 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Water Bottles
 
@@ -64,4 +64,4 @@ Read full bottle count and exchange rate (at least 2). Print total bottles drunk
 
 ---
 
-[← LC12](lc12-integer-to-roman.md) · [Topic index](README.md)
+[← C13](c13-command-accumulator.md) · [Topic index](README.md) · [C08 →](c08-three-item-shopping-budget.md)

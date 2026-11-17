@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-36 · **Practice type:** Worked solution
+**ID:** PS2-36 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Foreign key constraints
 
@@ -34,4 +34,4 @@ A foreign key links each non-null reference to a valid parent key for a simple s
 
 ---
 
-[← PS1-40](ps1-40-transaction-atomicity.md) · [Topic index](README.md) · [PS2-37 →](ps2-37-distinct-result-rows.md)
+[← PS1-39](ps1-39-counting-non-null-values.md) · [Topic index](README.md) · [PS2-37 →](ps2-37-distinct-result-rows.md)

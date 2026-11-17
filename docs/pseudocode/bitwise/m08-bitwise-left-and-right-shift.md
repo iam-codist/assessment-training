@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M08 · **Practice type:** Worked solution
+**ID:** M08 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Bitwise Left and Right Shift
 

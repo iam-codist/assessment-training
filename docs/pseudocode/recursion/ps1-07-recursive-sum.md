@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-07 · **Practice type:** Worked solution
+**ID:** PS1-07 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Recursive sum
 
@@ -34,4 +34,4 @@ Expand the calls to 4 + 3 + 2 + 1 + 0 = 10.
 
 ---
 
-[← P22](p22-recursive-printing.md) · [Topic index](README.md) · [PS2-07 →](ps2-07-recursive-doubling.md)
+[← P13](p13-small-recursion.md) · [Topic index](README.md) · [PS2-07 →](ps2-07-recursive-doubling.md)

@@ -52,6 +52,7 @@ if (searchForm) {
   const query = document.querySelector('#search-query');
   const category = document.querySelector('#category-filter');
   const status = document.querySelector('#status-filter');
+  const difficulty = document.querySelector('#difficulty-filter');
   const results = document.querySelector('#search-results');
   const summary = document.querySelector('#search-summary');
   const more = document.querySelector('#load-more');
@@ -59,15 +60,17 @@ if (searchForm) {
   query.value = params.get('q') ?? '';
   category.value = params.get('category') ?? '';
   status.value = params.get('status') ?? '';
+  difficulty.value = params.get('difficulty') ?? '';
   let questions = []; let limit = 30; let timer;
   const statusLabel = { ready: 'Worked solution', planned: 'Guided practice', 'needs-review': 'Reasoning practice', outline: 'Planning prompt' };
   function render(updateURL = true) {
-    const matches = searchQuestions(questions, { query: query.value, category: category.value, status: status.value });
+    const matches = searchQuestions(questions, { query: query.value, category: category.value, status: status.value, difficulty: difficulty.value });
     if (updateURL) {
       const next = new URLSearchParams();
       if (query.value.trim()) next.set('q', query.value.trim());
       if (category.value) next.set('category', category.value);
       if (status.value) next.set('status', status.value);
+      if (difficulty.value) next.set('difficulty', difficulty.value);
       history.replaceState(null, '', location.pathname + (next.size ? '?' + next.toString() : ''));
     }
     summary.textContent = `${matches.length} ${matches.length === 1 ? 'question' : 'questions'} found${query.value.trim() ? ` for “${query.value.trim()}”` : ''}`;
@@ -84,7 +87,14 @@ if (searchForm) {
       const h2 = document.createElement('h2'); const a = document.createElement('a'); a.href = q.url; a.textContent = q.title; h2.append(a);
       const p = document.createElement('p'); p.textContent = q.excerpt;
       const badge = document.createElement('span'); badge.className = `badge ${q.status}`; badge.textContent = statusLabel[q.status];
-      article.append(meta, h2, p, badge); results.append(article);
+      article.append(meta, h2, p, badge);
+      if (q.difficulty) {
+        const level = document.createElement('span');
+        level.className = `badge difficulty difficulty-${q.difficulty}`;
+        level.textContent = q.difficulty[0].toUpperCase() + q.difficulty.slice(1);
+        article.append(level);
+      }
+      results.append(article);
     }
     more.hidden = matches.length <= limit;
     more.textContent = `Show more questions (${Math.max(0, matches.length - limit)} remaining)`;
@@ -95,12 +105,12 @@ if (searchForm) {
     questions = await response.json(); render(false);
     const update = () => { limit = 30; render(); };
     query.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(update, 120); });
-    category.addEventListener('change', update); status.addEventListener('change', update);
+    category.addEventListener('change', update); status.addEventListener('change', update); difficulty.addEventListener('change', update);
     searchForm.addEventListener('submit', event => { event.preventDefault(); clearTimeout(timer); update(); });
-    document.querySelector('#clear-search').addEventListener('click', () => { query.value = ''; category.value = ''; status.value = ''; update(); query.focus(); });
+    document.querySelector('#clear-search').addEventListener('click', () => { query.value = ''; category.value = ''; status.value = ''; difficulty.value = ''; update(); query.focus(); });
     more.addEventListener('click', () => { limit += 30; render(); });
     window.addEventListener('popstate', () => {
-      const next = new URLSearchParams(location.search); query.value = next.get('q') ?? ''; category.value = next.get('category') ?? ''; status.value = next.get('status') ?? ''; limit = 30; render(false);
+      const next = new URLSearchParams(location.search); query.value = next.get('q') ?? ''; category.value = next.get('category') ?? ''; status.value = next.get('status') ?? ''; difficulty.value = next.get('difficulty') ?? ''; limit = 30; render(false);
     });
   } catch {
     summary.textContent = 'Search could not load. Refresh the page or browse a topic from the menu.';

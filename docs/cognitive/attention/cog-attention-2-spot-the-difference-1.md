@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-attention-2 · **Practice type:** Worked solution
+**ID:** COG-attention-2 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Spot the difference · 1
 

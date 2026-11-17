@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-37 · **Practice type:** Worked solution
+**ID:** PS1-37 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Preserving departments in a join
 
@@ -34,4 +34,4 @@ LEFT JOIN preserves Department rows and fills unmatched employee columns with NU
 
 ---
 
-[← PS1-36](ps1-36-primary-key-constraints.md) · [Topic index](README.md) · [PS1-38 →](ps1-38-filtering-grouped-counts.md)
+[← AT40](at40-choosing-a-composite-constraint.md) · [Topic index](README.md) · [PS1-38 →](ps1-38-filtering-grouped-counts.md)

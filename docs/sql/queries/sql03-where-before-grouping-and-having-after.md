@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL03 · **Practice type:** Worked solution
+**ID:** SQL03 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # WHERE before grouping and HAVING after
 

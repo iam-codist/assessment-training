@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** SQL04 · **Practice type:** Worked solution
+**ID:** SQL04 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Customers with no orders using NOT EXISTS
 

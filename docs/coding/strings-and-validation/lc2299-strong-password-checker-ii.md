@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC2299 · **Practice type:** Worked solution
+**ID:** LC2299 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Strong Password Checker II
 

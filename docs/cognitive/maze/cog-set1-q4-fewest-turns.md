@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-set1-q4 · **Practice type:** Worked solution
+**ID:** COG-set1-q4 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Fewest Turns
 

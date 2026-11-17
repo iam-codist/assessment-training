@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** BE03 · **Practice type:** Worked solution
+**ID:** BE03 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Owning a mistake
 

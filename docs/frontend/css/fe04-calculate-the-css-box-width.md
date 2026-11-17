@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE04 · **Practice type:** Worked solution
+**ID:** FE04 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Calculate the CSS box width
 

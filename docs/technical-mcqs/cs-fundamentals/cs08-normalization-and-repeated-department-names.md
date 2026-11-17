@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** CS08 · **Practice type:** Worked solution
+**ID:** CS08 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Normalization and repeated department names
 
@@ -34,4 +34,4 @@ If department_id determines department_name, storing that name once avoids incon
 
 ---
 
-[← CS07](cs07-transactions-and-atomicity.md) · [Topic index](README.md) · [PS1-23 →](ps1-23-ready-queue-scheduling.md)
+[← CS07](cs07-transactions-and-atomicity.md) · [Topic index](README.md) · [PS1-24 →](ps1-24-demand-paging.md)

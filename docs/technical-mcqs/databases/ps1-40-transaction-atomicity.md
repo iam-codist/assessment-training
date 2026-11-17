@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-40 · **Practice type:** Worked solution
+**ID:** PS1-40 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Transaction atomicity
 
@@ -34,4 +34,4 @@ Atomicity makes all operations in the transaction succeed as one unit or roll ba
 
 ---
 
-[← PS1-39](ps1-39-counting-non-null-values.md) · [Topic index](README.md) · [PS2-36 →](ps2-36-foreign-key-constraints.md)
+[← PS1-38](ps1-38-filtering-grouped-counts.md) · [Topic index](README.md) · [PS2-40 →](ps2-40-indexing-an-email-lookup.md)

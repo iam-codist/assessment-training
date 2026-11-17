@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT35 · **Practice type:** Worked solution
+**ID:** AT35 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Filtering groups by their maximum
 
@@ -34,4 +34,4 @@ HAVING applies after grouping and can filter on MAX for each category.
 
 ---
 
-[Topic index](README.md) · [AT36 →](at36-preserve-customers-while-filtering-matched-rows.md)
+[← T12](t12-access-data-integrity.md) · [Topic index](README.md) · [AT36 →](at36-preserve-customers-while-filtering-matched-rows.md)

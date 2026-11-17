@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P02 · **Practice type:** Worked solution
+**ID:** P02 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Branch selection
 

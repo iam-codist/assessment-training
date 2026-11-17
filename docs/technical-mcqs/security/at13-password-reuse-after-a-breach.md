@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT13 · **Practice type:** Worked solution
+**ID:** AT13 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Password reuse after a breach
 

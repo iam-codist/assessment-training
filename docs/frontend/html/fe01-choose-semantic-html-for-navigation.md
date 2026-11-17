@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE01 · **Practice type:** Worked solution
+**ID:** FE01 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Choose semantic HTML for navigation
 

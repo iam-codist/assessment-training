@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C02 · **Practice type:** Worked solution
+**ID:** C02 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Orders within capacity
 

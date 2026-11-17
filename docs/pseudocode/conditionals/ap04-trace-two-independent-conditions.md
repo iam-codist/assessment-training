@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AP04 · **Practice type:** Worked solution
+**ID:** AP04 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Trace two independent conditions
 
@@ -34,4 +34,4 @@ The first condition makes x equal to 7. The second uses the updated value and do
 
 ---
 
-[Topic index](README.md) · [E01 →](e01-conditional-warm-up.md)
+[← PS3-05](ps3-05-strict-boolean-comparison.md) · [Topic index](README.md) · [M06 →](m06-conditional-statements-with-mod-div.md)

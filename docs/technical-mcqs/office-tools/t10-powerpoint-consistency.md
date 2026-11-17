@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T10 · **Practice type:** Worked solution
+**ID:** T10 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # PowerPoint consistency
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT39 · **Practice type:** Worked solution
+**ID:** AT39 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Transaction rollback
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M13 · **Practice type:** Worked solution
+**ID:** M13 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # XOR Inside a Loop
 

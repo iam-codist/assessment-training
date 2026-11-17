@@ -2,6 +2,6 @@
 
 | Topic | Entries |
 | --- | --- |
-| [Workplace scenarios](workplace-scenarios/README.md) | 6 |
+| [Workplace scenarios](workplace-scenarios/README.md) | 7 |
 
 [All topics](../README.md) · [Study guide](../../STUDY-GUIDE.md)

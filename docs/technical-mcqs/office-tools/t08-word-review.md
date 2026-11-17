@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T08 · **Practice type:** Worked solution
+**ID:** T08 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Word review
 

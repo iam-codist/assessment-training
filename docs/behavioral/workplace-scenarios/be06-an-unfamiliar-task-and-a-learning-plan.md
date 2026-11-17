@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** BE06 · **Practice type:** Worked solution
+**ID:** BE06 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # An unfamiliar task and a learning plan
 
@@ -25,4 +25,4 @@ A credible plan names what you already know and what you must learn. Time-box ex
 
 ---
 
-[← BE05](be05-prioritizing-two-urgent-requests.md) · [Topic index](README.md)
+[← BE05](be05-prioritizing-two-urgent-requests.md) · [Topic index](README.md) · [BE07 →](be07-handle-a-release-risk-under-deadline-pressure.md)

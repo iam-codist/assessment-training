@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T09 · **Practice type:** Worked solution
+**ID:** T09 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Word structure
 

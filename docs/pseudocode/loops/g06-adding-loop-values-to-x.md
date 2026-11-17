@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** G06 · **Practice type:** Worked solution
+**ID:** G06 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Adding loop values to x
 
@@ -42,4 +42,4 @@ x changes 2 → 3 → 5 → 8.
 
 ---
 
-[← E03](e03-nested-loop-variant-adding-i.md) · [Topic index](README.md) · [M01 →](m01-nested-loops.md)
+[← E03](e03-nested-loop-variant-adding-i.md) · [Topic index](README.md) · [P03 →](p03-odd-position-accumulation.md)

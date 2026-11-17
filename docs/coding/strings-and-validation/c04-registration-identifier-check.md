@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C04 · **Practice type:** Worked solution
+**ID:** C04 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Registration identifier check
 

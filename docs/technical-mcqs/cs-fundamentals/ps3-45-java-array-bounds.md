@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-45 · **Practice type:** Worked solution
+**ID:** PS3-45 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Java array bounds
 
@@ -34,4 +34,4 @@ Valid indices are 0 and 1. Java checks bounds at runtime.
 
 ---
 
-[← PS3-44](ps3-44-programming-abstraction.md) · [Topic index](README.md)
+[← PS3-44](ps3-44-programming-abstraction.md) · [Topic index](README.md) · [AT30 →](at30-scheduling-fairness.md)

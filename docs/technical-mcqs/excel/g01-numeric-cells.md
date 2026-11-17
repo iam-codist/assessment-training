@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** G01 · **Practice type:** Worked solution
+**ID:** G01 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Numeric cells
 
@@ -34,4 +34,4 @@ COUNT counts numeric cells, including zero.
 
 ---
 
-[← AT23](at23-search-for-a-precise-staff-id.md) · [Topic index](README.md) · [G02 →](g02-categorical-summaries.md)
+[← AT22](at22-updating-a-pivottable-from-changed-data.md) · [Topic index](README.md) · [G02 →](g02-categorical-summaries.md)

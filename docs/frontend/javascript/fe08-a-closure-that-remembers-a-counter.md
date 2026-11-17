@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE08 · **Practice type:** Worked solution
+**ID:** FE08 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # A closure that remembers a counter
 
@@ -40,4 +40,4 @@ The returned function retains access to the count binding created by that call t
 
 ---
 
-[← FE07](fe07-block-scope-with-let.md) · [Topic index](README.md) · [FE09 →](fe09-strict-equality-and-type-conversion.md)
+[← PS3-47](ps3-47-live-course-search.md) · [Topic index](README.md) · [FE10 →](fe10-event-target-versus-currenttarget.md)

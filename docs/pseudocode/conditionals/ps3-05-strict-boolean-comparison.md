@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-05 · **Practice type:** Worked solution
+**ID:** PS3-05 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Strict Boolean comparison
 
@@ -34,4 +34,4 @@ The second comparison is false because 6 is equal to 6.
 
 ---
 
-[← PS2-08](ps2-08-else-if-branch.md) · [Topic index](README.md)
+[← PS2-08](ps2-08-else-if-branch.md) · [Topic index](README.md) · [AP04 →](ap04-trace-two-independent-conditions.md)

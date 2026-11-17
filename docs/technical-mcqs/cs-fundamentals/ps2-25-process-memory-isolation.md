@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-25 · **Practice type:** Worked solution
+**ID:** PS2-25 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Process memory isolation
 
@@ -34,4 +34,4 @@ Page mappings and permissions restrict access to another process's memory.
 
 ---
 
-[← PS2-24](ps2-24-waiting-for-disk-i-o.md) · [Topic index](README.md) · [PS2-26 →](ps2-26-excessive-paging.md)
+[← PS2-24](ps2-24-waiting-for-disk-i-o.md) · [Topic index](README.md) · [PS2-27 →](ps2-27-first-come-scheduling.md)

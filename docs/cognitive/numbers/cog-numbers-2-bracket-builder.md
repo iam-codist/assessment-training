@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-numbers-2 · **Practice type:** Worked solution
+**ID:** COG-numbers-2 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Bracket builder
 

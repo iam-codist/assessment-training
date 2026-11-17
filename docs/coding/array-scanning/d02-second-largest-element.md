@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** D02 · **Practice type:** Worked solution
+**ID:** D02 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Second Largest Element
 

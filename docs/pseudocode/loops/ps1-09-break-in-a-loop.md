@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-09 · **Practice type:** Worked solution
+**ID:** PS1-09 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Break in a loop
 

@@ -58,6 +58,7 @@ for (const file of (await files('content')).filter(f => f.endsWith('.mdx'))) {
   }
   if (!/^[A-Za-z0-9-]+$/.test(meta.id) || ids.has(meta.id)) throw new Error(`${file}: invalid or duplicate id ${meta.id}`);
   ids.add(meta.id);
+  if (meta.status !== 'outline' && !['easy', 'medium', 'hard'].includes(meta.difficulty)) throw new Error(`${file}: difficulty must be easy, medium or hard`);
   if (!statuses.includes(meta.status)) throw new Error(`${file}: invalid status ${meta.status}`);
   if (!categoryOrder.includes(meta.category)) throw new Error(`${file}: unknown category`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(meta.updated) || Number.isNaN(Date.parse(meta.updated))) throw new Error(`${file}: invalid update date`);
@@ -84,7 +85,7 @@ for (const file of (await files('content')).filter(f => f.endsWith('.mdx'))) {
 if (!entries.length) throw new Error('No questions found');
 entries.sort((a, b) => categoryOrder.indexOf(a.category) - categoryOrder.indexOf(b.category) ||
   (a.category === 'technical-mcqs' ? topicRank(a.topic) - topicRank(b.topic) : 0) ||
-  collator.compare(a.topic, b.topic) || collator.compare(a.id, b.id));
+  collator.compare(a.topic, b.topic) || ['easy', 'medium', 'hard'].indexOf(a.difficulty) - ['easy', 'medium', 'hard'].indexOf(b.difficulty) || collator.compare(a.id, b.id));
 
 const outputs = new Map();
 const nav = '\n\n[All topics](../../README.md) · [Category index](../README.md)\n';
@@ -97,12 +98,12 @@ for (const topic of topics) {
   for (let i = 0; i < group.length; i++) {
     const e = group[i];
     const previous = group[i - 1]; const next = group[i + 1];
-    const header = `<!-- Generated from ${e.file}. Edit the MDX source. -->\n\n[Topic index](README.md)\n\n**ID:** ${e.id} · **Practice type:** ${studentStatus[e.status]}\n\n`;
+    const header = `<!-- Generated from ${e.file}. Edit the MDX source. -->\n\n[Topic index](README.md)\n\n**ID:** ${e.id} · **Practice type:** ${studentStatus[e.status]}${e.difficulty ? ` · **Difficulty:** ${label(e.difficulty)}` : ''}\n\n`;
     const footer = '\n---\n\n' + [previous && `[← ${previous.id}](${path.posix.basename(previous.readPath)})`, '[Topic index](README.md)', next && `[${next.id} →](${path.posix.basename(next.readPath)})`].filter(Boolean).join(' · ') + '\n';
     const body = e.body.replace(/(\]\([^\s)]*)\.mdx(?=[)#])/g, '$1.md');
     outputs.set(e.readPath, header + body + footer);
   }
-  outputs.set(`docs/${topic}/README.md`, `# ${label(group[0].topic)}\n\n${group.length} entries. Try each question before opening its answer panel.\n\n` + table(['ID', 'Question', 'Practice type'], group.map(e => [e.id, `[${e.title}](${path.posix.basename(e.readPath)})`, studentStatus[e.status]])) + nav);
+  outputs.set(`docs/${topic}/README.md`, `# ${label(group[0].topic)}\n\n${group.length} entries. Try each question before opening its answer panel.\n\n` + table(['ID', 'Question', 'Difficulty', 'Practice type'], group.map(e => [e.id, `[${e.title}](${path.posix.basename(e.readPath)})`, e.difficulty ? label(e.difficulty) : 'Planning', studentStatus[e.status]])) + nav);
 }
 
 for (const category of categoryOrder) {

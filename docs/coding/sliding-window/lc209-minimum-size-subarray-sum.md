@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC209 · **Practice type:** Worked solution
+**ID:** LC209 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Minimum Size Subarray Sum
 

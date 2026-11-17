@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-21 · **Practice type:** Worked solution
+**ID:** PS2-21 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # IPv4 subnet mask
 
@@ -34,4 +34,4 @@ The mask marks which address bits identify the network prefix.
 
 ---
 
-[← PS2-20](ps2-20-ping-protocol.md) · [Topic index](README.md) · [PS2-22 →](ps2-22-datagram-transport.md)
+[← PS2-18](ps2-18-tcp-destination-port.md) · [Topic index](README.md) · [PS3-22 →](ps3-22-default-gateway.md)

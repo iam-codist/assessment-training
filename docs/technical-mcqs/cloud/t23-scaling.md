@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T23 · **Practice type:** Worked solution
+**ID:** T23 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Scaling
 
@@ -34,4 +34,4 @@ Adding more unchanged instances is horizontal scaling. Increasing the resources 
 
 ---
 
-[← T22](t22-cloud-responsibilities.md) · [Topic index](README.md)
+[← T22](t22-cloud-responsibilities.md) · [Topic index](README.md) · [AT42 →](at42-retry-a-payment-event-safely.md)

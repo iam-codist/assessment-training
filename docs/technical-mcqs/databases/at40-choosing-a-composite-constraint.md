@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT40 · **Practice type:** Worked solution
+**ID:** AT40 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Choosing a composite constraint
 
@@ -34,4 +34,4 @@ A student ID can repeat across dates, and a date can repeat across students. Req
 
 ---
 
-[← AT39](at39-transaction-rollback.md) · [Topic index](README.md) · [PS1-36 →](ps1-36-primary-key-constraints.md)
+[← AT39](at39-transaction-rollback.md) · [Topic index](README.md) · [PS1-37 →](ps1-37-preserving-departments-in-a-join.md)

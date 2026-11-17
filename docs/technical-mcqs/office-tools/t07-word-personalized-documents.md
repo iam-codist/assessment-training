@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T07 · **Practice type:** Worked solution
+**ID:** T07 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Word personalized documents
 

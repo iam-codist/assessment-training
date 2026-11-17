@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T02 · **Practice type:** Worked solution
+**ID:** T02 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Excel conditions
 
@@ -34,4 +34,4 @@ The qualifying values are 50, 75 and 50. The >= condition includes values equal 
 
 ---
 
-[← T01](t01-excel-references.md) · [Topic index](README.md) · [T03 →](t03-excel-counting.md)
+[← PS3-13](ps3-13-formatting-low-inventory.md) · [Topic index](README.md) · [T03 →](t03-excel-counting.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT16 · **Practice type:** Worked solution
+**ID:** AT16 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Authorization after sign-in
 

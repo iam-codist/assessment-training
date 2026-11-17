@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS1-42 · **Practice type:** Worked solution
+**ID:** PS1-42 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Java dynamic dispatch
 
@@ -34,4 +34,4 @@ Java dynamically dispatches overridden instance methods according to the object'
 
 ---
 
-[← PS1-41](ps1-41-encapsulating-account-state.md) · [Topic index](README.md) · [PS1-43 →](ps1-43-finding-an-array-maximum.md)
+[← PS1-27](ps1-27-lock-wait-cycle.md) · [Topic index](README.md) · [PS1-43 →](ps1-43-finding-an-array-maximum.md)

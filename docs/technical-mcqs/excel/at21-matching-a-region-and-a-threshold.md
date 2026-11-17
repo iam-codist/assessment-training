@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT21 · **Practice type:** Worked solution
+**ID:** AT21 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Matching a region and a threshold
 
@@ -34,4 +34,4 @@ COUNTIFS tests each row against multiple conditions and counts the rows satisfyi
 
 ---
 
-[← AT20](at20-mixed-references-when-copying.md) · [Topic index](README.md) · [AT22 →](at22-updating-a-pivottable-from-changed-data.md)
+[← AT19](at19-counting-entries-with-text-and-blanks.md) · [Topic index](README.md) · [AT22 →](at22-updating-a-pivottable-from-changed-data.md)

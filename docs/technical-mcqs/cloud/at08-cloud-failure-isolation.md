@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT08 · **Practice type:** Worked solution
+**ID:** AT08 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Cloud failure isolation
 

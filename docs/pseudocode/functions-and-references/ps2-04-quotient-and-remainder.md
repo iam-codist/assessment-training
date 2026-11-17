@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-04 · **Practice type:** Worked solution
+**ID:** PS2-04 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Quotient and remainder
 

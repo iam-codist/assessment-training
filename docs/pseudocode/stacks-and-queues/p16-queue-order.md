@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P16 · **Practice type:** Worked solution
+**ID:** P16 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Queue order
 

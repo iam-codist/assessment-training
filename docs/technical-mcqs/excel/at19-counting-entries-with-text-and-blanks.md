@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT19 · **Practice type:** Worked solution
+**ID:** AT19 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Counting entries with text and blanks
 
@@ -34,4 +34,4 @@ COUNT includes the numeric cells 9, 0 and 12. It skips the blank and text.
 
 ---
 
-[Topic index](README.md) · [AT20 →](at20-mixed-references-when-copying.md)
+[Topic index](README.md) · [AT21 →](at21-matching-a-region-and-a-threshold.md)

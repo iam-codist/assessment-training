@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-26 · **Practice type:** Worked solution
+**ID:** PS3-26 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Mutex exclusion
 
@@ -34,4 +34,4 @@ A mutex makes cooperating threads take turns entering protected code.
 
 ---
 
-[← PS3-25](ps3-25-counter-race-condition.md) · [Topic index](README.md) · [PS3-27 →](ps3-27-page-table-translation.md)
+[← PS3-25](ps3-25-counter-race-condition.md) · [Topic index](README.md) · [PS3-41 →](ps3-41-java-constructors.md)

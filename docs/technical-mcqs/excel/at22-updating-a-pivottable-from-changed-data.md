@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT22 · **Practice type:** Worked solution
+**ID:** AT22 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Updating a PivotTable from changed data
 
@@ -34,4 +34,4 @@ Refreshing recalculates the PivotTable from its source data.
 
 ---
 
-[← AT21](at21-matching-a-region-and-a-threshold.md) · [Topic index](README.md) · [AT23 →](at23-search-for-a-precise-staff-id.md)
+[← AT21](at21-matching-a-region-and-a-threshold.md) · [Topic index](README.md) · [G01 →](g01-numeric-cells.md)

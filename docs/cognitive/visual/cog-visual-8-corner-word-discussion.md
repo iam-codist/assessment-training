@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-visual-8 · **Practice type:** Reasoning practice
+**ID:** COG-visual-8 · **Practice type:** Reasoning practice · **Difficulty:** Medium
 
 # Corner word discussion
 

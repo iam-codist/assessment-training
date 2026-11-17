@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** K03 · **Practice type:** Worked solution
+**ID:** K03 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Fixed window size
 

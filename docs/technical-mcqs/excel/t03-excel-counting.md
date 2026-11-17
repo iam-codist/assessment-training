@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T03 · **Practice type:** Worked solution
+**ID:** T03 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Excel counting
 
@@ -34,4 +34,4 @@ COUNTA counts nonempty cells, including text and numeric zero. Only the genuinel
 
 ---
 
-[← T02](t02-excel-conditions.md) · [Topic index](README.md) · [T04 →](t04-excel-filtering.md)
+[← T02](t02-excel-conditions.md) · [Topic index](README.md) · [T05 →](t05-excel-formatting.md)

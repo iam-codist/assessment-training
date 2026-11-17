@@ -58,3 +58,7 @@ SQL answer queries stay in the MDX files. Keep expected rows in `tests/sql-cases
 The interactive lab lives in `cognitive-lab/` and is rebuilt and deployed by the same workflow. Its playable boards and scoring rules come from its typed question data and game code; they are separate from the MDX reading pages. When correcting a cognitive prompt or answer, update both representations and run the lab checks. Every lab prompt has a matching reading page, linked after submission. An MDX-only edit updates that reading page automatically; it does not change a game's scoring rules.
 
 Mark newly authored additions as new practice rather than recovered chat material. Keep assessment claims, original variants and review status accurate.
+
+## Difficulty and focused additions
+
+Give every complete lesson a difficulty of `easy`, `medium` or `hard` in its MDX metadata. Use Easy for one direct concept, Medium for combined familiar steps, and Hard for subtle constraints or advanced reasoning. Review the actual prompt and prerequisites. Add a new question when it teaches a distinct skill; prefer a small variation or clarification when the same lesson already exists. Keep question IDs stable, solutions collapsed and examples executable. Update the assessment guide when new evidence changes the recommended preparation path, recording the date and source.

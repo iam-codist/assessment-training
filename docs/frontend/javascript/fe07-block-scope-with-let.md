@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE07 · **Practice type:** Worked solution
+**ID:** FE07 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Block scope with let
 
@@ -44,4 +44,4 @@ The inner let creates a different binding scoped to its block. It shadows the ou
 
 ---
 
-[Topic index](README.md) · [FE08 →](fe08-a-closure-that-remembers-a-counter.md)
+[Topic index](README.md) · [FE09 →](fe09-strict-equality-and-type-conversion.md)

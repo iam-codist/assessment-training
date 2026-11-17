@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE02 · **Practice type:** Worked solution
+**ID:** FE02 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Connect a form label to its input
 

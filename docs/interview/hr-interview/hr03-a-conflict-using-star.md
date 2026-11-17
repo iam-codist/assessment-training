@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** HR03 · **Practice type:** Worked solution
+**ID:** HR03 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # A conflict using STAR
 

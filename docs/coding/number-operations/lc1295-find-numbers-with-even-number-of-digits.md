@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC1295 · **Practice type:** Worked solution
+**ID:** LC1295 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Find Numbers with Even Number of Digits
 

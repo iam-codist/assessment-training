@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P04 · **Practice type:** Worked solution
+**ID:** P04 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Repeated halving
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AP03 · **Practice type:** Worked solution
+**ID:** AP03 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Trace an in-place prefix update
 
@@ -34,4 +34,4 @@ Each iteration reads the already-updated preceding cell. The new values are 3, t
 
 ---
 
-[Topic index](README.md) · [E05 →](e05-array-subtraction-in-reverse-order.md)
+[← PS3-09](ps3-09-counting-values-above-a-threshold.md) · [Topic index](README.md) · [M03 →](m03-array-manipulation.md)

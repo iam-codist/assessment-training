@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-sequence-3 · **Practice type:** Worked solution
+**ID:** COG-sequence-3 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Square numbers
 

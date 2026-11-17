@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M12 · **Practice type:** Worked solution
+**ID:** M12 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Recursion with Constant Addition
 

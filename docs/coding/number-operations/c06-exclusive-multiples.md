@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C06 · **Practice type:** Worked solution
+**ID:** C06 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Exclusive multiples
 

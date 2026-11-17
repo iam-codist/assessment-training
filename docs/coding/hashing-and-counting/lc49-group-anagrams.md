@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC49 · **Practice type:** Worked solution
+**ID:** LC49 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Group Anagrams
 
@@ -71,4 +71,4 @@ ate
 
 ---
 
-[← D03](d03-distinct-character-count.md) · [Topic index](README.md) · [LC242 →](lc242-valid-anagram.md)
+[← C19](c19-runner-up-value-and-frequency.md) · [Topic index](README.md)

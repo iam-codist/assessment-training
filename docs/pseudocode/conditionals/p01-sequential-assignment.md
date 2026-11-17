@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P01 · **Practice type:** Worked solution
+**ID:** P01 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Sequential assignment
 
@@ -42,4 +42,4 @@ After a becomes 11, b uses that updated value: 11-7=4. Assignment is sequential.
 
 ---
 
-[← M06](m06-conditional-statements-with-mod-div.md) · [Topic index](README.md) · [P02 →](p02-branch-selection.md)
+[← E08](e08-panel-demo-output-prediction.md) · [Topic index](README.md) · [P02 →](p02-branch-selection.md)

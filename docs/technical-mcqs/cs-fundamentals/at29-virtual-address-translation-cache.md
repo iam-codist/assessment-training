@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT29 · **Practice type:** Worked solution
+**ID:** AT29 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Virtual address translation cache
 
@@ -34,4 +34,4 @@ The translation lookaside buffer stores recent virtual-to-physical mappings to r
 
 ---
 
-[Topic index](README.md) · [AT30 →](at30-scheduling-fairness.md)
+[Topic index](README.md) · [AT31 →](at31-shared-read-modify-write-update.md)

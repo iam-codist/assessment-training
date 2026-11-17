@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC3 · **Practice type:** Worked solution
+**ID:** LC3 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Longest Substring Without Repeating Characters
 

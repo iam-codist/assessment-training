@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-22 · **Practice type:** Worked solution
+**ID:** PS3-22 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Default gateway
 
@@ -34,4 +34,4 @@ The default gateway is the next hop for destinations without a specific route.
 
 ---
 
-[← PS3-21](ps3-21-network-latency.md) · [Topic index](README.md) · [T13 →](t13-name-resolution.md)
+[← PS2-21](ps2-21-ipv4-subnet-mask.md) · [Topic index](README.md) · [T14 →](t14-automatic-network-configuration.md)

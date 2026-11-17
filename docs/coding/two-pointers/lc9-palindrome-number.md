@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** LC9 · **Practice type:** Worked solution
+**ID:** LC9 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Palindrome Number
 
@@ -64,4 +64,4 @@ true
 
 ---
 
-[← C17](c17-mirror-phrase.md) · [Topic index](README.md) · [LC11 →](lc11-container-with-most-water.md)
+[← C17](c17-mirror-phrase.md) · [Topic index](README.md) · [LC125 →](lc125-valid-palindrome.md)

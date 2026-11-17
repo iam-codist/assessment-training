@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-40 · **Practice type:** Worked solution
+**ID:** PS2-40 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Indexing an email lookup
 
@@ -34,4 +34,4 @@ An index offers an access path to matching values, though it uses storage and ad
 
 ---
 
-[← PS2-39](ps2-39-inner-join-matches.md) · [Topic index](README.md) · [PS3-36 →](ps3-36-descending-sort-order.md)
+[← PS1-40](ps1-40-transaction-atomicity.md) · [Topic index](README.md) · [PS3-38 →](ps3-38-relational-normalization.md)

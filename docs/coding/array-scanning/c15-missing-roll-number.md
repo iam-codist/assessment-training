@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C15 · **Practice type:** Worked solution
+**ID:** C15 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Missing roll number
 

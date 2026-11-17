@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P12 · **Practice type:** Worked solution
+**ID:** P12 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Bit shifting
 

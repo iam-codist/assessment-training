@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-11 · **Practice type:** Worked solution
+**ID:** PS2-11 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Average a range
 
@@ -34,4 +34,4 @@ AVERAGE divides the sum by the count of numeric cells.
 
 ---
 
-[← PS1-13](ps1-13-department-totals-with-a-pivottable.md) · [Topic index](README.md) · [PS2-12 →](ps2-12-filter-by-status.md)
+[← PS1-12](ps1-12-counting-scores-by-condition.md) · [Topic index](README.md) · [PS2-13 →](ps2-13-pass-or-fail-formula.md)

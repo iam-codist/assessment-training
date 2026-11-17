@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** D01 · **Practice type:** Worked solution
+**ID:** D01 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Difference of Sums
 
@@ -68,4 +68,4 @@ Read divisor n, then range limit m. Print nondivisible-sum minus divisible-sum.
 
 ---
 
-[← C14](c14-odd-part-decomposition.md) · [Topic index](README.md) · [LC1295 →](lc1295-find-numbers-with-even-number-of-digits.md)
+[← C11](c11-weighted-digit-checksum.md) · [Topic index](README.md) · [LC1295 →](lc1295-find-numbers-with-even-number-of-digits.md)

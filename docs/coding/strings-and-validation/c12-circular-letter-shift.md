@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** C12 · **Practice type:** Worked solution
+**ID:** C12 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Circular letter shift
 

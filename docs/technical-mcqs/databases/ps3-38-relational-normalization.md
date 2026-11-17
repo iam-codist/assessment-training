@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS3-38 · **Practice type:** Worked solution
+**ID:** PS3-38 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Relational normalization
 
@@ -34,4 +34,4 @@ Normalization organizes facts by their dependencies to reduce duplication and in
 
 ---
 
-[← PS3-37](ps3-37-cross-join-row-count.md) · [Topic index](README.md) · [PS3-39 →](ps3-39-committing-changes.md)
+[← PS2-40](ps2-40-indexing-an-email-lookup.md) · [Topic index](README.md) · [PS3-40 →](ps3-40-grouped-sums.md)

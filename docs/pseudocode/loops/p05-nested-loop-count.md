@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** P05 · **Practice type:** Worked solution
+**ID:** P05 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Nested loop count
 

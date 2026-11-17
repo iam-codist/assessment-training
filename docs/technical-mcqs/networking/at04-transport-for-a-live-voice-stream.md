@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** AT04 · **Practice type:** Worked solution
+**ID:** AT04 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Transport for a live voice stream
 
@@ -34,4 +34,4 @@ UDP sends datagrams without built-in reliable delivery. The application decides 
 
 ---
 
-[← AT03](at03-conventional-ipv4-subnet-capacity.md) · [Topic index](README.md) · [AT05 →](at05-bandwidth-and-latency.md)
+[← AT02](at02-https-destination-port.md) · [Topic index](README.md) · [AT05 →](at05-bandwidth-and-latency.md)

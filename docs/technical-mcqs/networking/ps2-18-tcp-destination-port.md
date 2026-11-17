@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** PS2-18 · **Practice type:** Worked solution
+**ID:** PS2-18 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # TCP destination port
 
@@ -34,4 +34,4 @@ The destination port identifies the receiving transport endpoint.
 
 ---
 
-[← PS1-22](ps1-22-resolving-an-ipv4-neighbor.md) · [Topic index](README.md) · [PS2-19 →](ps2-19-switch-forwarding.md)
+[← PS1-21](ps1-21-automatic-address-leases.md) · [Topic index](README.md) · [PS2-21 →](ps2-21-ipv4-subnet-mask.md)

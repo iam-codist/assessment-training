@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** M06 · **Practice type:** Worked solution
+**ID:** M06 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Conditional Statements with MOD &amp; DIV
 
@@ -50,4 +50,4 @@ The first IF changes x to 3. The second IF is false, so x becomes 3+6 = 9.
 
 ---
 
-[← E08](e08-panel-demo-output-prediction.md) · [Topic index](README.md) · [P01 →](p01-sequential-assignment.md)
+[← AP04](ap04-trace-two-independent-conditions.md) · [Topic index](README.md)

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** FE13 · **Practice type:** Worked solution
+**ID:** FE13 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Fix a product-card quantity selector
 
@@ -148,4 +148,4 @@ Both buttons update the same quantity, and render updates the display and button
 
 ---
 
-[← FE12](fe12-handle-an-http-error-from-fetch.md) · [Topic index](README.md) · [FE14 →](fe14-product-filter.md)
+[← FE11](fe11-promise-callbacks-and-synchronous-code.md) · [Topic index](README.md) · [FE14 →](fe14-product-filter.md)

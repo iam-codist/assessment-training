@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** COG-bubble-extra-3 · **Practice type:** Worked solution
+**ID:** COG-bubble-extra-3 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Roots and powers
 

@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** T22 · **Practice type:** Worked solution
+**ID:** T22 · **Practice type:** Worked solution · **Difficulty:** Easy
 
 # Cloud responsibilities
 

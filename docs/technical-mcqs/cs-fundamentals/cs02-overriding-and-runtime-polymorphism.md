@@ -2,7 +2,7 @@
 
 [Topic index](README.md)
 
-**ID:** CS02 · **Practice type:** Worked solution
+**ID:** CS02 · **Practice type:** Worked solution · **Difficulty:** Medium
 
 # Overriding and runtime polymorphism
 
@@ -34,4 +34,4 @@ The runtime object determines the implementation for an overridden instance meth
 
 ---
 
-[← CS01](cs01-encapsulation-and-a-bank-account.md) · [Topic index](README.md) · [CS03 →](cs03-processes-and-threads.md)
+[← CS01](cs01-encapsulation-and-a-bank-account.md) · [Topic index](README.md) · [CS05 →](cs05-binary-search-complexity.md)
