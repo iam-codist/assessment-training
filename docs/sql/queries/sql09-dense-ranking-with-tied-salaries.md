@@ -46,4 +46,4 @@ DENSE_RANK assigns 1,2,3,4,4,5 here. RANK would leave a gap after the tie, givin
 
 ---
 
-[← SQL07](sql07-above-the-department-average.md) · [Topic index](README.md)
+[← SQL07](sql07-above-the-department-average.md) · [Topic index](README.md) · [SQL11 →](sql11-qualifying-order-totals.md)

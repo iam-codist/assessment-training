@@ -8,8 +8,8 @@ Study by topic, then use each question's **Show answer and explanation** panel t
 | [Technical MCQs](technical-mcqs/README.md) | 181 |
 | [Coding problems](coding/README.md) | 49 |
 | [Concept checks](concept-checks/README.md) | 8 |
-| [SQL — joins and queries](sql/README.md) | 13 |
-| [Frontend development](frontend/README.md) | 15 |
+| [SQL — joins and queries](sql/README.md) | 16 |
+| [Frontend development](frontend/README.md) | 17 |
 | [Cognitive practice](cognitive/README.md) | 225 |
 | [Behavioral assessment](behavioral/README.md) | 6 |
 | [Communication assessment](communication/README.md) | 8 |

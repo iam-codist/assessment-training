@@ -1,0 +1,151 @@
+<!-- Generated from content/frontend/javascript/fe13-quantity.mdx. Edit the MDX source. -->
+
+[Topic index](README.md)
+
+**ID:** FE13 · **Practice type:** Worked solution
+
+# Fix a product-card quantity selector
+
+## Question
+
+Start at quantity 1 and keep it between 1 and 5. Update the total at ₹499 per item, disable each button at its limit, and show “Maximum quantity reached.” at 5. Give the buttons accessible names and align the controls with CSS.
+
+Paste each starter into its matching [CodePen](https://codepen.io/pen/) panel.
+
+**HTML**
+
+```html
+<main class="product-card">
+  <h1>Wireless Mouse</h1>
+  <p>Unit price: ₹499</p>
+  <div class="quantity-controls">
+    <button id="decrease">−</button>
+    <span id="quantity">1</span>
+    <button id="increase">+</button>
+  </div>
+  <p>Total: <strong id="total">₹499</strong></p>
+  <p id="limit-message"></p>
+</main>
+```
+
+**CSS**
+
+```css
+body { font-family: system-ui, sans-serif; padding: 16px; }
+.product-card { border: 1px solid #ccc; }
+.quantity-controls { /* TODO: Align and space the controls. */ }
+```
+
+**JavaScript**
+
+```javascript
+const unitPrice = 499;
+let quantity = 1;
+const decrease = document.querySelector('#decrease');
+const increase = document.querySelector('#increase');
+const quantityDisplay = document.querySelector('#quantity');
+const total = document.querySelector('#total');
+const message = document.querySelector('#limit-message');
+
+function render() {
+  quantityDisplay.textContent = quantity;
+  // TODO: Update the total, buttons and limit message.
+}
+
+increase.addEventListener('click', () => {
+  // TODO: Increase quantity without exceeding 5.
+  render();
+});
+
+decrease.addEventListener('click', () => {
+  // TODO: Decrease quantity without going below 1.
+  render();
+});
+
+render();
+```
+
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+**HTML**
+
+```html
+<main class="product-card">
+  <h1>Wireless Mouse</h1>
+  <p>Unit price: ₹499</p>
+  <div class="quantity-controls" role="group" aria-label="Quantity">
+    <button id="decrease" type="button" aria-label="Decrease quantity" disabled>−</button>
+    <span id="quantity">1</span>
+    <button id="increase" type="button" aria-label="Increase quantity">+</button>
+  </div>
+  <p aria-live="polite" aria-atomic="true">Total: <strong id="total">₹499</strong></p>
+  <p id="limit-message" role="status"></p>
+</main>
+```
+
+**CSS**
+
+```css
+body { font-family: system-ui, sans-serif; padding: 16px; }
+.product-card { max-width: 320px; padding: 20px; border: 1px solid #ccc; }
+.quantity-controls { display: flex; align-items: center; gap: 12px; }
+.quantity-controls button { min-width: 44px; min-height: 44px; }
+.quantity-controls button:disabled { opacity: 0.5; }
+#limit-message { min-height: 1.5em; }
+```
+
+**JavaScript**
+
+```javascript
+const unitPrice = 499;
+const minQuantity = 1;
+const maxQuantity = 5;
+let quantity = minQuantity;
+
+const decrease = document.querySelector('#decrease');
+const increase = document.querySelector('#increase');
+const quantityDisplay = document.querySelector('#quantity');
+const total = document.querySelector('#total');
+const message = document.querySelector('#limit-message');
+
+function render() {
+  quantityDisplay.textContent = quantity;
+  total.textContent = `₹${quantity * unitPrice}`;
+  decrease.disabled = quantity === minQuantity;
+  increase.disabled = quantity === maxQuantity;
+  message.textContent = quantity === maxQuantity
+    ? 'Maximum quantity reached.'
+    : '';
+}
+
+increase.addEventListener('click', () => {
+  if (quantity < maxQuantity) {
+    quantity += 1;
+    render();
+  }
+});
+
+decrease.addEventListener('click', () => {
+  if (quantity > minQuantity) {
+    quantity -= 1;
+    render();
+  }
+});
+
+render();
+```
+
+
+## Explanation
+
+Both buttons update the same quantity, and render updates the display and button states together. Check 1 → ₹499, 2 → ₹998, and 5 → ₹2495. Decreasing from 5 should clear the limit message.
+
+</details>
+
+---
+
+[← FE12](fe12-handle-an-http-error-from-fetch.md) · [Topic index](README.md) · [FE14 →](fe14-product-filter.md)

@@ -38,4 +38,4 @@ fetch can resolve normally for an HTTP 404 or 500 response, so inspect response.
 
 ---
 
-[← FE11](fe11-promise-callbacks-and-synchronous-code.md) · [Topic index](README.md) · [PS1-47 →](ps1-47-workshop-seat-counter.md)
+[← FE11](fe11-promise-callbacks-and-synchronous-code.md) · [Topic index](README.md) · [FE13 →](fe13-quantity.md)

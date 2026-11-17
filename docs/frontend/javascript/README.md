@@ -1,6 +1,6 @@
 # JavaScript fundamentals
 
-9 entries. Try each question before opening its answer panel.
+11 entries. Try each question before opening its answer panel.
 
 | ID | Question | Practice type |
 | --- | --- | --- |
@@ -10,6 +10,8 @@
 | FE10 | [Event target versus currentTarget](fe10-event-target-versus-currenttarget.md) | Worked solution |
 | FE11 | [Promise callbacks and synchronous code](fe11-promise-callbacks-and-synchronous-code.md) | Worked solution |
 | FE12 | [Handle an HTTP error from fetch](fe12-handle-an-http-error-from-fetch.md) | Worked solution |
+| FE13 | [Fix a product-card quantity selector](fe13-quantity.md) | Worked solution |
+| FE14 | [Build a live product filter](fe14-product-filter.md) | Worked solution |
 | PS1-47 | [Workshop seat counter](ps1-47-workshop-seat-counter.md) | Worked solution |
 | PS2-47 | [Ticket price calculator](ps2-47-ticket-price-calculator.md) | Worked solution |
 | PS3-47 | [Live course search](ps3-47-live-course-search.md) | Worked solution |

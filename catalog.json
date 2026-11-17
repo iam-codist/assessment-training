@@ -4,8 +4,8 @@
     "technical-mcqs": 181,
     "coding": 49,
     "concept-checks": 8,
-    "sql": 13,
-    "frontend": 15,
+    "sql": 16,
+    "frontend": 17,
     "cognitive": 225,
     "behavioral": 6,
     "communication": 8,
@@ -13,12 +13,12 @@
     "reference-outlines": 20
   },
   "statuses": {
-    "ready": 591,
+    "ready": 596,
     "planned": 0,
     "needs-review": 12,
     "outline": 20
   },
-  "total": 623,
+  "total": 628,
   "questions": [
     {
       "id": "AP03",
@@ -3695,6 +3695,28 @@
       "readPath": "docs/sql/joins/sql10-filter-paid-orders-without-losing-customers.md"
     },
     {
+      "id": "SQL12",
+      "title": "Join customers, orders and pending shipments",
+      "category": "sql",
+      "topic": "joins",
+      "status": "ready",
+      "updated": "2026-11-17",
+      "source": "Original classroom practice",
+      "file": "content/sql/joins/sql12-orders-and-pending-shipments.mdx",
+      "readPath": "docs/sql/joins/sql12-orders-and-pending-shipments.md"
+    },
+    {
+      "id": "SQL13",
+      "title": "Report order totals for customers with pending shipments",
+      "category": "sql",
+      "topic": "joins",
+      "status": "ready",
+      "updated": "2026-11-17",
+      "source": "Original classroom practice",
+      "file": "content/sql/joins/sql13-pending-shipment-customer-totals.mdx",
+      "readPath": "docs/sql/joins/sql13-pending-shipment-customer-totals.md"
+    },
+    {
       "id": "SQL03",
       "title": "WHERE before grouping and HAVING after",
       "category": "sql",
@@ -3748,6 +3770,17 @@
       "source": "New original practice — curriculum expansion, November 2026",
       "file": "content/sql/queries/sql09-dense-ranking-with-tied-salaries.mdx",
       "readPath": "docs/sql/queries/sql09-dense-ranking-with-tied-salaries.md"
+    },
+    {
+      "id": "SQL11",
+      "title": "Report qualifying order totals",
+      "category": "sql",
+      "topic": "queries",
+      "status": "ready",
+      "updated": "2026-11-17",
+      "source": "Original classroom practice",
+      "file": "content/sql/queries/sql11-qualifying-order-totals.mdx",
+      "readPath": "docs/sql/queries/sql11-qualifying-order-totals.md"
     },
     {
       "id": "FE04",
@@ -3880,6 +3913,28 @@
       "source": "New original practice — curriculum expansion, November 2026",
       "file": "content/frontend/javascript/fe12-handle-an-http-error-from-fetch.mdx",
       "readPath": "docs/frontend/javascript/fe12-handle-an-http-error-from-fetch.md"
+    },
+    {
+      "id": "FE13",
+      "title": "Fix a product-card quantity selector",
+      "category": "frontend",
+      "topic": "javascript",
+      "status": "ready",
+      "updated": "2026-11-17",
+      "source": "Original classroom practice",
+      "file": "content/frontend/javascript/fe13-quantity.mdx",
+      "readPath": "docs/frontend/javascript/fe13-quantity.md"
+    },
+    {
+      "id": "FE14",
+      "title": "Build a live product filter",
+      "category": "frontend",
+      "topic": "javascript",
+      "status": "ready",
+      "updated": "2026-11-17",
+      "source": "Original classroom practice",
+      "file": "content/frontend/javascript/fe14-product-filter.mdx",
+      "readPath": "docs/frontend/javascript/fe14-product-filter.md"
     },
     {
       "id": "PS1-47",

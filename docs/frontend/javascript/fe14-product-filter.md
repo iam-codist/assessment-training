@@ -1,0 +1,124 @@
+<!-- Generated from content/frontend/javascript/fe14-product-filter.mdx. Edit the MDX source. -->
+
+[Topic index](README.md)
+
+**ID:** FE14 · **Practice type:** Worked solution
+
+# Build a live product filter
+
+## Question
+
+Filter the product list as the user types. Ignore surrounding spaces and letter case. Show the match count, or “No products found” for zero matches. Connect the label to the search input, fill the available input width and leave 12px between visible items.
+
+Paste each starter into its matching [CodePen](https://codepen.io/pen/) panel.
+
+**HTML**
+
+```html
+<main class="search-panel">
+  <h1>Product search</h1>
+  <label>Search products</label>
+  <input id="search" type="search">
+  <p id="results">3 products found</p>
+  <ul id="products">
+    <li>Wireless Mouse</li>
+    <li>USB Keyboard</li>
+    <li>USB Cable</li>
+  </ul>
+</main>
+```
+
+**CSS**
+
+```css
+body { font-family: system-ui, sans-serif; padding: 16px; }
+.search-panel { /* TODO: Set the maximum width. */ }
+#search { /* TODO: Fill the available width. */ }
+#products { /* TODO: Leave 12px between visible items. */ }
+```
+
+**JavaScript**
+
+```javascript
+const search = document.querySelector('#search');
+const products = document.querySelectorAll('#products li');
+const results = document.querySelector('#results');
+
+function filterProducts() {
+  // TODO: Read, trim and lowercase the search term.
+  // TODO: Hide non-matching products and count matches.
+  // TODO: Display the count or "No products found".
+}
+
+search.addEventListener('input', filterProducts);
+filterProducts();
+```
+
+
+<details>
+<summary>Show answer and explanation</summary>
+
+## Answer
+
+**HTML**
+
+```html
+<main class="search-panel">
+  <h1>Product search</h1>
+  <label for="search">Search products</label>
+  <input id="search" type="search">
+  <p id="results" role="status">3 products found</p>
+  <ul id="products">
+    <li>Wireless Mouse</li>
+    <li>USB Keyboard</li>
+    <li>USB Cable</li>
+  </ul>
+</main>
+```
+
+**CSS**
+
+```css
+body { font-family: system-ui, sans-serif; padding: 16px; }
+.search-panel { max-width: 360px; }
+#search { display: block; width: 100%; box-sizing: border-box; }
+#products { display: flex; flex-direction: column; gap: 12px; padding-left: 24px; }
+#products li[hidden] { display: none; }
+```
+
+**JavaScript**
+
+```javascript
+const search = document.querySelector('#search');
+const products = document.querySelectorAll('#products li');
+const results = document.querySelector('#results');
+
+function filterProducts() {
+  const term = search.value.trim().toLowerCase();
+  let count = 0;
+
+  for (const product of products) {
+    const matches = product.textContent.toLowerCase().includes(term);
+    product.hidden = !matches;
+    if (matches) count += 1;
+  }
+
+  results.textContent = count === 0
+    ? 'No products found'
+    : `${count} ${count === 1 ? 'product' : 'products'} found`;
+}
+
+search.addEventListener('input', filterProducts);
+filterProducts();
+```
+
+
+## Explanation
+
+Normalizing both strings makes the match case-insensitive. Try “ USB ” for two results, “mouse” for one, and “charger” for zero. Clearing the input restores all three products.
+
+</details>
+
+---
+
+[← FE13](fe13-quantity.md) · [Topic index](README.md) · [PS1-47 →](ps1-47-workshop-seat-counter.md)

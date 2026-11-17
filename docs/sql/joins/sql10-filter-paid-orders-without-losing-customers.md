@@ -46,4 +46,4 @@ Put the paid condition in ON so it determines which orders match while retaining
 
 ---
 
-[← SQL08](sql08-count-employees-including-empty-departments.md) · [Topic index](README.md)
+[← SQL08](sql08-count-employees-including-empty-departments.md) · [Topic index](README.md) · [SQL12 →](sql12-orders-and-pending-shipments.md)
