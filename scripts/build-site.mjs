@@ -20,7 +20,8 @@ const href = route => base + route;
 const esc = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const label = key => labels[key] ?? key.replaceAll('-', ' ');
 const entries = catalog.questions;
-const categories = Object.keys(catalog.counts);
+const categoryOrder = ['technical-mcqs', 'pseudocode', 'coding', 'sql', 'frontend', 'cognitive', 'behavioral', 'communication', 'interview', 'concept-checks', 'reference-outlines'];
+const categories = Object.keys(catalog.counts).sort((a, b) => categoryOrder.indexOf(a) - categoryOrder.indexOf(b));
 const topics = [...new Set(entries.map(q => `${q.category}/${q.topic}`))];
 const questionRoute = q => `questions/${q.id.toLowerCase()}/`;
 const topicRoute = q => `topics/${q.category}/${q.topic}/`;
@@ -44,6 +45,8 @@ const descriptions = {
 const icons = {
   'technical-mcqs': '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="m8 12 3 3 5-6"/>',
   pseudocode: '<path d="m9 6-6 6 6 6m6-12 6 6-6 6"/>',
+  sql: '<ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 4 16 4 16 0V5M4 12c0 4 16 4 16 0"/>',
+  frontend: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h1m3 0h1M8 13l-2 2 2 2m8-4 2 2-2 2"/>',
   coding: '<path d="m8 8-4 4 4 4m8-8 4 4-4 4m-3-11-2 18"/>',
   'concept-checks': '<path d="M9 18h6m-5 3h4M8 14a6 6 0 1 1 8 0l-1 2H9z"/>',
   cognitive: '<rect x="3" y="3" width="7" height="7" rx="1"/><circle cx="17.5" cy="6.5" r="3.5"/><path d="m6.5 14 4 7h-8z"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
@@ -108,17 +111,17 @@ function sidebar(activeCategory = '', activeTopic = '', current = '') {
     <div class="sidebar-head">
       <div class="brand-row"><a class="brand" href="${href('')}" aria-label="Assessment Training home"><span class="brand-symbol">${icon('coding')}</span><span>Assessment<strong>Training</strong></span></a><button id="menu-close" class="icon-button" aria-label="Close navigation">×</button></div>
       <nav class="sidebar-shortcuts" aria-label="Quick access">
-        ${shortcut('', 'Overview', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m3 10 9-7 9 7v10H3zM9 20v-7h6v7"/></svg>')}
+        ${shortcut('', 'Home', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m3 10 9-7 9 7v10H3zM9 20v-7h6v7"/></svg>')}
+        ${shortcut('search/', 'Search library', searchIcon)}
         ${shortcut('guide/assessment-practice/', 'Mock tests', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M9 2h6m-3 3v8l4 2"/></svg>', current === 'guide/assessment-practice/' || current.startsWith('mock-tests/'))}
-        ${shortcut('lab/', 'Cognitive Lab', icon('cognitive'))}
       </nav>
-      <div class="sidebar-filter" hidden><label class="visually-hidden" for="topic-filter">Find a topic in navigation</label>${searchIcon}<input id="topic-filter" type="search" placeholder="Find a topic…" autocomplete="off" aria-controls="topic-navigation"/><button id="topic-filter-clear" type="button" aria-label="Clear topic filter" hidden>×</button></div>
+      <div class="sidebar-filter" hidden><label class="visually-hidden" for="topic-filter">Filter sidebar topics</label>${searchIcon}<input id="topic-filter" type="search" placeholder="Jump to a topic…" autocomplete="off" aria-controls="topic-navigation"/><button id="topic-filter-clear" type="button" aria-label="Clear topic filter" hidden>×</button></div>
     </div>
     <div class="sidebar-library-heading"><span class="nav-label">PRACTICE LIBRARY</span><a href="${href('topics/')}" ${current === 'topics/' ? 'aria-current="page"' : ''}>View all</a></div>
     <nav class="sidebar-scroll" id="topic-navigation" aria-label="Practice topics" tabindex="0">
       ${categories.map(cat => `<details class="nav-group ${cat === activeCategory ? 'is-current' : ''}" name="learning-area" data-category="${cat}" ${cat === activeCategory ? 'open' : ''}><summary>${icon(cat)}<span class="nav-group-label">${navigationLabels[cat] ?? label(cat)}</span><span class="nav-count" aria-label="${catalog.counts[cat]} questions">${catalog.counts[cat]}</span><span class="nav-chevron" aria-hidden="true"></span></summary><div class="nav-topics"><a href="${href(categoryRoute(cat))}" ${current === categoryRoute(cat) ? 'aria-current="page"' : ''}>All ${label(cat).toLowerCase()}</a>${topics.filter(t => t.startsWith(cat + '/')).map(t => {
         const topic = t.split('/')[1]; return `<a ${topic === activeTopic && cat === activeCategory ? 'class="active" aria-current="page"' : ''} href="${href(`topics/${t}/`)}">${label(topic)}</a>`;
-      }).join('')}</div></details>`).join('')}
+      }).join('')}${cat === 'cognitive' ? `<a href="${href('lab/')}">Open Cognitive Lab ↗</a>` : ''}</div></details>`).join('')}
       <details class="nav-group nav-guides" name="learning-area" data-category="guides" ${preparation.some(([route]) => current === `guide/${route}/`) ? 'open' : ''}><summary>${icon('reference-outlines')}<span class="nav-group-label">Preparation guides</span><span class="nav-chevron" aria-hidden="true"></span></summary><div class="nav-topics">${preparation.map(([route, title]) => `<a href="${href(`guide/${route}/`)}" ${current === `guide/${route}/` ? 'aria-current="page"' : ''}>${title}</a>`).join('')}</div></details>
       <p id="topic-filter-empty" class="sidebar-empty" hidden>No topics found. Try “SQL”, “loops” or “networking”.</p>
     </nav>
@@ -130,7 +133,7 @@ function sidebar(activeCategory = '', activeTopic = '', current = '') {
 function page({ title, route = '', content, category = '', topic = '', description = config.description, kind = 'page' }) {
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>${esc(title)} · Assessment Training</title><meta name="description" content="${esc(description)}"/><meta name="theme-color" content="#164e48"/><link rel="canonical" href="${config.origin}${href(route)}"/><link rel="icon" href="${href('site/favicon.svg')}" type="image/svg+xml"/><link rel="stylesheet" href="${href('site/style.css')}"/><script type="module" src="${href('site/app.mjs')}"></script></head>
   <body data-page="${kind}"><a class="skip-link" href="#main">Skip to content</a><button id="menu-backdrop" aria-label="Close topic menu" tabindex="-1"></button>${sidebar(category, topic, route)}<div class="workspace">
-  <header class="topbar"><button id="menu-toggle" class="icon-button" aria-label="Open topic menu" aria-controls="sidebar" aria-expanded="false">☰</button><a class="topbar-label" href="${href('')}">A space to learn, practise &amp; improve.</a><form class="header-search" role="search" action="${href('search/')}">${searchIcon}<input id="header-search" name="q" aria-label="Search all questions" placeholder="Search questions, topics, IDs…"/><kbd>/</kbd><button type="submit" aria-label="Submit search">→</button></form><a class="github-link" href="${config.repository}">GitHub ↗</a></header>
+  <header class="topbar"><button id="menu-toggle" class="icon-button" aria-label="Open topic menu" aria-controls="sidebar" aria-expanded="false">☰</button><a class="topbar-home" href="${href('')}">Assessment Training</a><a class="global-search" href="${href('search/')}" ${route === 'search/' ? 'aria-current="page"' : ''}>${searchIcon}<span>Search library</span><kbd aria-hidden="true">/</kbd></a><a class="github-link" href="${config.repository}">GitHub ↗</a></header>
   <main id="main" class="main ${kind}" tabindex="-1">${content}</main>
   <footer class="footer"><span>Learn the reasoning. Build the confidence.</span><div><a href="${href('guide/sources/')}">About the material</a><a href="${config.repository}/issues">Suggest a correction ↗</a></div><p>Independent assessment preparation and practice.</p></footer>
   </div></body></html>`;
@@ -138,9 +141,26 @@ function page({ title, route = '', content, category = '', topic = '', descripti
 async function save(route, html) {
   const file = path.join(out, route || '', 'index.html'); await mkdir(path.dirname(file), { recursive: true }); await writeFile(file, html);
 }
-function categoryCard(cat, index) {
-  return `<a class="category-card color-${index}" href="${href(categoryRoute(cat))}"><div class="card-top"><span class="category-icon">${icon(cat)}</span><span class="card-count">${catalog.counts[cat]} entries</span></div><h3>${label(cat)}</h3><p>${descriptions[cat]}</p><div class="card-bottom">Explore topics <span>↗</span></div></a>`;
+const practiceSections = {
+  'technical-mcqs': ['Technical MCQs', 'Cloud, networking, security, DBMS, CS and Office tools.'],
+  pseudocode: ['Pseudocode', 'Trace loops, conditions, arrays and bitwise operations.'],
+  coding: ['Coding problems', 'Solve problems in C, C++, Python or Java.'],
+  sql: ['SQL practice', 'Write joins, filters, aggregates and window queries.'],
+  frontend: ['HTML, CSS & JavaScript', 'Build layouts, handle events and work with the DOM.'],
+  cognitive: ['Cognitive practice', 'Practise memory, arithmetic and visual reasoning.'],
+  behavioral: ['Behavioral assessment', 'Work through teamwork and workplace scenarios.'],
+  communication: ['Communication', 'Practise speaking, writing and comprehension.'],
+  interview: ['Interview preparation', 'Explain your projects, decisions and approach.'],
+  'concept-checks': ['Concept checks', 'Check your understanding of key techniques.'],
+  'reference-outlines': ['Problem-planning warm-ups', 'Plan inputs, examples and an approach before coding.']
+};
+function practiceDirectory(items) {
+  return `<div class="practice-directory">${items.map(cat => {
+    const [title, description] = practiceSections[cat] ?? [label(cat), descriptions[cat]];
+    return `<a class="practice-entry" href="${href(categoryRoute(cat))}"><span class="practice-entry-icon">${icon(cat)}</span><span class="practice-entry-body"><h3>${esc(title)}</h3><p>${esc(description)}</p><span class="practice-entry-meta">${catalog.counts[cat]} ${cat === 'reference-outlines' ? 'planning prompts' : 'practice questions'}</span></span><span class="practice-entry-arrow" aria-hidden="true">→</span></a>`;
+  }).join('')}</div>`;
 }
+
 function questionList(group) {
   return `<div class="question-list">${group.map(q => `<a class="question-row" href="${href(questionRoute(q))}"><span class="question-id">${esc(q.id)}</span><span class="question-name">${esc(q.title)}<small>${esc(label(q.topic))}</small></span><span class="question-badges">${difficultyBadge(q.difficulty)}${statusBadge(q.status)}</span><span class="row-arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
 }
@@ -161,21 +181,33 @@ await writeFile(path.join(out, '.nojekyll'), '');
 function labBanner() {
   return `<section class="lab-banner"><div><div class="eyebrow">THINK. PLAY. REFLECT.</div><h2>Your Cognitive Lab is ready.</h2><p>Explore 13 activities and 225 prompts, from Bubble Pop to memory and mazes. Start untimed, then add a timer as your accuracy improves. Export your session report before closing or refreshing.</p></div><a class="button primary" href="${href('lab/')}">Launch the lab →</a></section>`;
 }
-const home = `<section class="hero"><div><div class="eyebrow"><span></span> YOUR PRACTICE SPACE</div><h1>Small steps.<br/><em>Stronger thinking.</em></h1><p>Explore a topic. Work through a question. Understand the answer. Your next breakthrough starts with a little practice.</p><div class="hero-actions"><a class="button primary" href="${href('topics/')}">Find a topic <span>→</span></a><a class="text-link" href="${href('guide/assessment-guide/')}">Start your assessment plan ↗</a></div></div><aside class="study-note"><div class="note-heading">A GOOD WAY TO LEARN <span>✳</span></div><ol><li><b>Choose your topic</b><span>Start small. Follow your curiosity.</span></li><li><b>Try it yourself</b><span>A rough trace is a great beginning.</span></li><li><b>Check your thinking</b><span>Open the answer. Learn the why.</span></li></ol><div class="note-footer">Progress comes from understanding.</div></aside></section>
-  <div class="stats-strip"><div><b>${catalog.total}</b><span>practice entries</span></div><div><b>${topics.length}</b><span>topics to explore</span></div><div><b>${categories.length}</b><span>library sections</span></div><p>From the first loop<br/>to a clearer solution.</p></div>
-  <section class="section"><div class="section-heading"><div><div class="eyebrow">FIND YOUR FOCUS</div><h2>What will you practise today?</h2></div><a class="text-link" href="${href('search/')}">Search the library →</a></div><div class="category-grid">${categories.map(categoryCard).join('')}</div></section>
-  <section class="start-banner"><span class="start-symbol" aria-hidden="true">↗</span><div><h2>Assessment practice sets</h2><p>Work through 45 technical MCQs, a SQL joins exercise and a frontend exercise in each set.</p></div><a class="button secondary" href="${href('guide/assessment-practice/')}">Open the practice sets →</a></section>
-  ${labBanner()}
-  <section class="start-banner"><span class="start-symbol">↗</span><div><h2>Prepare for your assessment</h2><p>Check the pattern, plan your time and choose a short practice path.</p></div><a class="button secondary" href="${href('guide/assessment-guide/')}">Open the assessment guide →</a></section>
-  <p class="library-note">After checking an answer, write down the rule or clue you missed and retry the question later.</p>`;
-await save('', page({ title: 'Your practice space', content: home, kind: 'home' }));
-await save('topics/', page({ title: 'All topics', route: 'topics/', content: `${crumb([['All topics']])}<div class="page-heading"><div class="eyebrow">THE PRACTICE LIBRARY</div><h1>Find your focus.</h1><p>${categories.length} library sections cover the ten assessment areas. Choose one and work through it at your own pace.</p></div><div class="category-grid">${categories.map(categoryCard).join('')}</div>` }));
+const mockMinutes = 70;
+const primarySections = categories.filter(cat => ['technical-mcqs', 'pseudocode', 'coding', 'sql', 'frontend', 'cognitive'].includes(cat));
+const supportingSections = categories.filter(cat => !primarySections.includes(cat));
+const home = `<section class="home-intro" aria-labelledby="home-title">
+  <div class="home-heading"><h1 id="home-title">Assessment preparation</h1><a href="${href('guide/assessment-guide/')}">Assessment guide <span aria-hidden="true">↗</span></a></div>
+  <p>Practise technical questions, solve coding tasks and check your reasoning with worked explanations.</p>
+  <div class="home-library-meta"><span>${catalog.total} practice entries</span><span>${topics.length} topics</span><span>Free &amp; open source</span></div>
+  <form class="home-search" action="${href('search/')}" role="search" aria-label="Question library"><label class="visually-hidden" for="home-search-query">Search questions, topics or IDs</label>${searchIcon}<input id="home-search-query" name="q" type="search" placeholder="Topic, question or ID…"/><button type="submit">Search</button></form>
+  <div class="home-search-links"><span class="home-suggestion">Try:</span><a class="home-suggestion" href="${href('search/?q=SQL+joins')}">SQL joins</a><a class="home-suggestion" href="${href('search/?q=networking')}">Networking</a><a class="home-suggestion" href="${href('search/?q=JavaScript')}">JavaScript</a><a class="home-browse" href="${href('search/')}">Browse all questions &amp; filters →</a><a class="home-mock-shortcut" href="#home-mocks-title">Mock tests ↓</a></div>
+</section>
+<div class="home-workspace">
+  <section class="home-practice" aria-labelledby="practice-title"><div class="home-section-heading"><div><h2 id="practice-title">Practice by section</h2><p>Choose a subject and work from Easy to Hard.</p></div></div>${practiceDirectory(primarySections)}</section>
+  <aside class="home-tools" aria-label="Mock tests and study planning">
+    <section class="home-mocks" aria-labelledby="home-mocks-title"><div class="home-section-heading"><h2 id="home-mocks-title" tabindex="-1">Mock tests</h2><span>${mockMinutes} min / set</span></div><p>45 MCQs, one SQL task and one frontend task in each set.</p><div class="home-mock-links">${[1,2,3].map(set => `<a href="${href(`mock-tests/set-${set}/`)}"><span>Practice set ${String(set).padStart(2, '0')}</span><span>Open set <span aria-hidden="true">→</span></span></a>`).join('')}</div><small>The timer starts when you begin. Your progress is saved in this browser.</small></section>
+    <section class="home-plan" aria-labelledby="home-plan-title"><h2 id="home-plan-title">Plan your preparation</h2><p>Review the format and timing, then choose a study path.</p><a href="${href('guide/assessment-guide/')}">Assessment guide &amp; tips <span aria-hidden="true">→</span></a><a href="${href('guide/study-guide/')}">Study plan <span aria-hidden="true">→</span></a></section>
+  </aside>
+</div>
+<section class="home-more" aria-labelledby="more-practice-title"><div class="home-section-heading"><h2 id="more-practice-title">More preparation</h2><a href="${href('topics/')}">All learning areas →</a></div>${practiceDirectory(supportingSections)}</section>
+<section class="home-project"><div><h2>Built for students. Open to contributions.</h2><p>Created by <a href="${config.repository}">iam-codist and contributors</a>. Found an unclear explanation or have a better example? Help improve the library.</p></div><a href="${config.repository}/blob/main/CONTRIBUTING.md">Contribute on GitHub ↗</a></section>`;
+await save('', page({ title: 'Assessment preparation', content: home, kind: 'home' }));
+await save('topics/', page({ title: 'Practice library', route: 'topics/', content: `${crumb([['Practice library']])}<div class="page-heading"><h1>Practice library</h1><p>Choose a learning area, or <a href="${href('search/')}">search all questions and filter by difficulty</a>.</p></div>${practiceDirectory(categories)}` }));
 
 for (const cat of categories) {
   const ownTopics = topics.filter(t => t.startsWith(cat + '/'));
   const content = `${crumb([[label(cat)]])}<div class="page-heading"><div class="eyebrow">${catalog.counts[cat]} ENTRIES · ${ownTopics.length} TOPICS</div><h1>${label(cat)}</h1><p>${descriptions[cat]}</p></div>${cat === 'cognitive' ? labBanner() : ''}<div class="topic-grid">${ownTopics.map((t, i) => {
     const topic = t.split('/')[1]; const group = entries.filter(q => q.category === cat && q.topic === topic);
-    return `<a class="topic-card" href="${href(`topics/${t}/`)}"><span class="topic-number">${String(i + 1).padStart(2, '0')}</span><h2>${label(topic)}</h2><span>${group.length} ${group.length === 1 ? 'question' : 'questions'} <b>→</b></span></a>`;
+    return `<a class="topic-card" href="${href(`topics/${t}/`)}"><h2>${label(topic)}</h2><span>${group.length} ${group.length === 1 ? 'question' : 'questions'} <b>→</b></span></a>`;
   }).join('')}</div>`;
   await save(categoryRoute(cat), page({ title: label(cat), route: categoryRoute(cat), category: cat, content }));
 }
@@ -185,7 +217,6 @@ for (const t of topics) {
   await save(route, page({ title: label(topic), route, category: cat, topic, content }));
 }
 
-const mockMinutes = 70;
 // The same section boundaries apply to all three sets.
 const mockTopics = [
   [10, 'Pseudocode', 'topics/pseudocode/'],
@@ -297,7 +328,7 @@ for (const [set, questions] of mockSets) {
   await writeFile(path.join(out, reviewPath), JSON.stringify(review));
 }
 
-const searchContent = `${crumb([['Search']])}<div class="page-heading"><div class="eyebrow">FOLLOW YOUR CURIOSITY</div><h1>Find your next question.</h1><p>Search by a topic, question ID or a phrase. Try “sliding window”, “M20” or “Excel”.</p></div><form id="search-form" class="search-panel" role="search" data-index="${href('search-index.json')}"><label for="search-query">What would you like to practise?</label><div class="search-input-row">${searchIcon}<input id="search-query" name="q" type="search" placeholder="Search all ${catalog.total} entries…" autocomplete="off"/><button class="button primary" type="submit">Search</button></div><div class="search-filters"><div class="filter-field"><label for="category-filter">Learning area</label><span class="select-control"><select id="category-filter"><option value="">All learning areas</option>${categories.map(c => `<option value="${c}">${label(c)}</option>`).join('')}</select></span></div><div class="filter-field"><label for="difficulty-filter">Difficulty</label><span class="select-control"><select id="difficulty-filter"><option value="">All difficulties</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select></span></div><div class="filter-field"><label for="status-filter">Practice type</label><span class="select-control"><select id="status-filter"><option value="">All practice types</option>${Object.entries(statusLabel).map(([value, name]) => `<option value="${value}">${name}</option>`).join('')}</select></span></div><button id="clear-search" type="button" class="quiet-button">Clear filters</button></div></form><p id="search-summary" class="search-summary" role="status" aria-live="polite">Loading the question library…</p><noscript><p>Search needs JavaScript. You can still <a href="${href('topics/')}">browse every topic</a> and read all questions.</p></noscript><div id="search-results"></div><button id="load-more" class="button secondary" hidden>Show more questions</button>`;
+const searchContent = `${crumb([['Search']])}<div class="page-heading"><h1>Search the library</h1><p>Find a question by keyword or ID. Narrow the results by learning area, difficulty or practice type.</p></div><form id="search-form" class="search-panel" role="search" data-index="${href('search-index.json')}"><label for="search-query">Search questions</label><div class="search-input-row">${searchIcon}<input id="search-query" name="q" type="search" placeholder="Search all ${catalog.total} entries…" autocomplete="off"/><button class="button primary" type="submit">Search</button></div><div class="search-filters"><div class="filter-field"><label for="category-filter">Learning area</label><span class="select-control"><select id="category-filter"><option value="">All learning areas</option>${categories.map(c => `<option value="${c}">${label(c)}</option>`).join('')}</select></span></div><div class="filter-field"><label for="difficulty-filter">Difficulty</label><span class="select-control"><select id="difficulty-filter"><option value="">All difficulties</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select></span></div><div class="filter-field"><label for="status-filter">Practice type</label><span class="select-control"><select id="status-filter"><option value="">All practice types</option>${Object.entries(statusLabel).map(([value, name]) => `<option value="${value}">${name}</option>`).join('')}</select></span></div><button id="clear-search" type="button" class="quiet-button">Clear filters</button></div></form><p id="search-summary" class="search-summary" role="status" aria-live="polite">Loading the question library…</p><noscript><p>Search needs JavaScript. You can still <a href="${href('topics/')}">browse every topic</a> and read all questions.</p></noscript><div id="search-results"></div><button id="load-more" class="button secondary" hidden>Show more questions</button>`;
 await save('search/', page({ title: 'Search the library', route: 'search/', content: searchContent, kind: 'search-page' }));
 
 for (const [file, name, subtitle] of guides) {

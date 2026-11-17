@@ -2,8 +2,15 @@ import { searchQuestions } from './search.mjs';
 import './navigation.mjs';
 
 document.addEventListener('keydown', event => {
-  if (event.key === '/' && !event.ctrlKey && !event.metaKey && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName)) {
-    event.preventDefault(); document.querySelector('#search-query, #header-search')?.focus();
+  if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey && !document.activeElement?.isContentEditable && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName)) {
+    event.preventDefault();
+    if (document.body.classList.contains('menu-open')) {
+      document.querySelector('.sidebar-shortcuts a[href$="search/"]')?.click();
+      return;
+    }
+    const searchInput = document.querySelector('#search-query, #home-search-query');
+    if (searchInput) searchInput.focus();
+    else document.querySelector('.global-search')?.click();
   }
 });
 

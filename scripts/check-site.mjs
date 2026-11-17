@@ -26,7 +26,10 @@ for (const file of files.filter(f => f.endsWith('.html'))) {
   if (relative === 'lab/index.html') {
     assert.match(html, /id="root"/);
     assert.match(html, /type="module"/);
-  } else assert.match(html, /id="main"/);
+  } else {
+    assert.match(html, /id="main"/);
+    assert.ok(html.includes(`class="global-search" href="${basePath}search/"`), `${relative}: search must be directly reachable`);
+  }
   for (const [, url] of html.matchAll(/(?:href|src|action)="([^"]+)"/g)) {
     if (/^(https?:|mailto:|#)/.test(url)) continue;
     if (!relative.startsWith('lab/')) assert.ok(url.startsWith(basePath), `${file}: URL misses Pages base path: ${url}`);
@@ -37,6 +40,15 @@ for (const file of files.filter(f => f.endsWith('.html'))) {
     if (!checked.has(target)) { await access(target); checked.add(target); }
   }
 }
+const home = await readFile(path.join(dist, 'index.html'), 'utf8');
+const homeContent = home.split('<main id="main"')[1].split('</main>')[0];
+for (const category of Object.keys(catalog.counts)) {
+  assert.ok(homeContent.includes(`href="${basePath}topics/${category}/"`), `Home must link to ${category}`);
+}
+for (const set of [1, 2, 3]) {
+  assert.ok(homeContent.includes(`href="${basePath}mock-tests/set-${set}/"`), `Home must link directly to mock set ${set}`);
+}
+assert.ok(homeContent.includes(`action="${basePath}search/"`), 'Home search must work with a standard form submission');
 for (const q of catalog.questions) {
   const route = `${basePath}questions/${q.id.toLowerCase()}/`;
   const html = await readFile(path.join(dist, 'questions', q.id.toLowerCase(), 'index.html'), 'utf8');
