@@ -1,30 +1,9 @@
 import { searchQuestions } from './search.mjs';
+import './navigation.mjs';
 
-const menu = document.querySelector('#menu-toggle');
-const sidebar = document.querySelector('#sidebar');
-const backdrop = document.querySelector('#menu-backdrop');
-function closeMenu() {
-  document.body.classList.remove('menu-open');
-  menu?.setAttribute('aria-expanded', 'false');
-}
-menu?.addEventListener('click', () => {
-  const open = document.body.classList.toggle('menu-open');
-  menu.setAttribute('aria-expanded', String(open));
-  if (open) sidebar.querySelector('a')?.focus();
-});
-backdrop?.addEventListener('click', () => { closeMenu(); menu.focus(); });
-document.querySelector('#menu-close')?.addEventListener('click', () => { closeMenu(); menu.focus(); });
-matchMedia('(min-width: 761px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
 document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' && document.body.classList.contains('menu-open')) { closeMenu(); menu.focus(); }
   if (event.key === '/' && !event.ctrlKey && !event.metaKey && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName)) {
     event.preventDefault(); document.querySelector('#search-query, #header-search')?.focus();
-  }
-  if (event.key === 'Tab' && document.body.classList.contains('menu-open')) {
-    const items = [...sidebar.querySelectorAll('a, button, summary')].filter(el => el.getClientRects().length);
-    const first = items[0]; const last = items.at(-1);
-    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
-    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
   }
 });
 

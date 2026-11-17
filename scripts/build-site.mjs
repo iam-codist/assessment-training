@@ -98,15 +98,32 @@ async function renderMdx(body, file) {
 }
 
 function sidebar(activeCategory = '', activeTopic = '', current = '') {
-  return `<aside class="sidebar" id="sidebar" aria-label="Topic navigation">
-    <div class="brand-row"><a class="brand" href="${href('')}" aria-label="Assessment Training home"><span class="brand-symbol">${icon('coding')}</span><span>Assessment<strong>Training</strong></span></a><button id="menu-close" class="icon-button" aria-label="Close topic menu">×</button></div>
-    <a class="home-link ${current === '' ? 'active' : ''}" href="${href('')}" ${current === '' ? 'aria-current="page"' : ''}>⌂ <span>Overview</span></a>
-    <a class="lab-link" href="${href('lab/')}">${icon('cognitive')}<span>Open Cognitive Lab ↗</span></a>
-    <div class="nav-label">YOUR PRACTICE LIBRARY</div>
-    <nav>${categories.map(cat => `<details class="nav-group" ${cat === activeCategory ? 'open' : ''}><summary>${icon(cat)}<span>${label(cat)}</span><span class="nav-count">${catalog.counts[cat]}</span></summary><div class="nav-topics"><a href="${href(categoryRoute(cat))}" ${current === categoryRoute(cat) ? 'aria-current="page"' : ''}>All ${label(cat).toLowerCase()}</a>${topics.filter(t => t.startsWith(cat + '/')).map(t => {
-      const topic = t.split('/')[1]; return `<a ${topic === activeTopic && cat === activeCategory ? 'class="active" aria-current="page"' : ''} href="${href(`topics/${t}/`)}">${label(topic)}</a>`;
-    }).join('')}</div></details>`).join('')}</nav>
-    <div class="sidebar-bottom"><a href="${href('guide/assessment-guide/')}">Assessment guide &amp; tips <span>↗</span></a><a href="${href('guide/assessment-roadmap/')}">Your assessment roadmap <span>↗</span></a><a href="${href('guide/study-guide/')}">A simple study plan <span>↗</span></a><a href="${href('guide/conventions/')}">Conventions &amp; common pitfalls <span>↗</span></a><p>One question at a time.</p></div>
+  const shortcut = (route, text, glyph, selected = current === route) => `<a class="sidebar-shortcut" href="${href(route)}" ${selected ? 'aria-current="page"' : ''}>${glyph}<span>${text}</span></a>`;
+  const navigationLabels = { sql: 'SQL practice', frontend: 'Frontend practice', behavioral: 'Behavioral practice', communication: 'Communication', interview: 'Interview preparation', 'reference-outlines': 'Planning warm-ups' };
+  const preparation = [
+    ['assessment-guide', 'Assessment guide & tips'], ['assessment-roadmap', 'Preparation roadmap'],
+    ['study-guide', 'Study plan'], ['conventions', 'Conventions & common pitfalls']
+  ];
+  return `<aside class="sidebar" id="sidebar" aria-label="Learning navigation" data-active-category="${esc(activeCategory)}">
+    <div class="sidebar-head">
+      <div class="brand-row"><a class="brand" href="${href('')}" aria-label="Assessment Training home"><span class="brand-symbol">${icon('coding')}</span><span>Assessment<strong>Training</strong></span></a><button id="menu-close" class="icon-button" aria-label="Close navigation">×</button></div>
+      <nav class="sidebar-shortcuts" aria-label="Quick access">
+        ${shortcut('', 'Overview', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m3 10 9-7 9 7v10H3zM9 20v-7h6v7"/></svg>')}
+        ${shortcut('guide/assessment-practice/', 'Mock tests', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M9 2h6m-3 3v8l4 2"/></svg>', current === 'guide/assessment-practice/' || current.startsWith('mock-tests/'))}
+        ${shortcut('lab/', 'Cognitive Lab', icon('cognitive'))}
+      </nav>
+      <div class="sidebar-filter" hidden><label class="visually-hidden" for="topic-filter">Find a topic in navigation</label>${searchIcon}<input id="topic-filter" type="search" placeholder="Find a topic…" autocomplete="off" aria-controls="topic-navigation"/><button id="topic-filter-clear" type="button" aria-label="Clear topic filter" hidden>×</button></div>
+    </div>
+    <div class="sidebar-library-heading"><span class="nav-label">PRACTICE LIBRARY</span><a href="${href('topics/')}" ${current === 'topics/' ? 'aria-current="page"' : ''}>View all</a></div>
+    <nav class="sidebar-scroll" id="topic-navigation" aria-label="Practice topics" tabindex="0">
+      ${categories.map(cat => `<details class="nav-group ${cat === activeCategory ? 'is-current' : ''}" name="learning-area" data-category="${cat}" ${cat === activeCategory ? 'open' : ''}><summary>${icon(cat)}<span class="nav-group-label">${navigationLabels[cat] ?? label(cat)}</span><span class="nav-count" aria-label="${catalog.counts[cat]} questions">${catalog.counts[cat]}</span><span class="nav-chevron" aria-hidden="true"></span></summary><div class="nav-topics"><a href="${href(categoryRoute(cat))}" ${current === categoryRoute(cat) ? 'aria-current="page"' : ''}>All ${label(cat).toLowerCase()}</a>${topics.filter(t => t.startsWith(cat + '/')).map(t => {
+        const topic = t.split('/')[1]; return `<a ${topic === activeTopic && cat === activeCategory ? 'class="active" aria-current="page"' : ''} href="${href(`topics/${t}/`)}">${label(topic)}</a>`;
+      }).join('')}</div></details>`).join('')}
+      <details class="nav-group nav-guides" name="learning-area" data-category="guides" ${preparation.some(([route]) => current === `guide/${route}/`) ? 'open' : ''}><summary>${icon('reference-outlines')}<span class="nav-group-label">Preparation guides</span><span class="nav-chevron" aria-hidden="true"></span></summary><div class="nav-topics">${preparation.map(([route, title]) => `<a href="${href(`guide/${route}/`)}" ${current === `guide/${route}/` ? 'aria-current="page"' : ''}>${title}</a>`).join('')}</div></details>
+      <p id="topic-filter-empty" class="sidebar-empty" hidden>No topics found. Try “SQL”, “loops” or “networking”.</p>
+    </nav>
+    <div id="topic-filter-status" class="visually-hidden" role="status" aria-live="polite"></div>
+    <div class="sidebar-credit"><span>An open-source learning project</span><a href="${config.repository}">By iam-codist &amp; contributors <span aria-hidden="true">↗</span></a></div>
   </aside>`;
 }
 
