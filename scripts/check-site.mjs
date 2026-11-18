@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const dist = path.join(root, 'dist');
-const { basePath } = JSON.parse(await readFile(path.join(root, 'site.config.json'), 'utf8'));
+const { basePath, brand, policies } = JSON.parse(await readFile(path.join(root, 'site.config.json'), 'utf8'));
 const catalog = JSON.parse(await readFile(path.join(root, 'catalog.json'), 'utf8'));
 const index = JSON.parse(await readFile(path.join(dist, 'search-index.json'), 'utf8'));
 assert.equal(index.length, catalog.questions.length, 'Search index must include every question');
@@ -22,12 +22,23 @@ for (const file of files.filter(f => f.endsWith('.html'))) {
   htmlCount++;
   const html = await readFile(file, 'utf8');
   assert.match(html, /<html lang="en">/);
+  assert.ok(html.match(/<title>(.*?)<\/title>/)?.[1].includes(brand), `${file}: page title must include the site brand`);
   const relative = path.relative(dist, file).split(path.sep).join('/');
   if (relative === 'lab/index.html') {
     assert.match(html, /id="root"/);
     assert.match(html, /type="module"/);
   } else {
     assert.match(html, /id="main"/);
+    const footer = html.match(/<footer class="footer site-footer">([\s\S]*?)<\/footer>/)?.[1];
+    assert.ok(footer, `${relative}: shared site footer is required`);
+    assert.ok(footer.includes(`${brand} and contributors`), `${relative}: footer credits must use the site brand`);
+    for (const [slug] of policies) {
+      const policyLink = `href="${basePath}policies/${slug}/"`;
+      assert.ok(footer.includes(policyLink), `${relative}: missing ${slug} policy link`);
+      if (relative === `policies/${slug}/index.html`) {
+        assert.ok(footer.includes(`${policyLink} aria-current="page"`), `${relative}: mark the current policy`);
+      }
+    }
     assert.ok(html.includes(`class="global-search" href="${basePath}search/"`), `${relative}: search must be directly reachable`);
   }
   for (const [, url] of html.matchAll(/(?:href|src|action)="([^"]+)"/g)) {
@@ -40,6 +51,7 @@ for (const file of files.filter(f => f.endsWith('.html'))) {
     if (!checked.has(target)) { await access(target); checked.add(target); }
   }
 }
+assert.equal(await readFile(path.join(dist, 'lab/favicon.svg'), 'utf8'), await readFile(path.join(dist, 'site/favicon.svg'), 'utf8'), 'Library and Lab must share the same brand icon');
 const home = await readFile(path.join(dist, 'index.html'), 'utf8');
 const homeContent = home.split('<main id="main"')[1].split('</main>')[0];
 for (const category of Object.keys(catalog.counts)) {

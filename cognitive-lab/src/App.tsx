@@ -1,4 +1,4 @@
-import {useCallback,useState} from 'react';
+import {useCallback,useEffect,useRef,useState} from 'react';
 import {ArrowRight,BookOpen,CheckCircle2,ChevronRight,Clock3,Download,Grid2X2,KeyRound,LayoutGrid,Lightbulb,ListChecks,Play,Printer,Route,Search,Shapes,Sparkles,Timer,X,CircleDot,Calculator,WholeWord,Eye,RotateCcw,Rocket,Brain,ScanEye,RotateCw,TrendingUp} from 'lucide-react';
 import {activities,puzzles,highPriorityTypes} from './content';
 import {type GameType,type Puzzle,escapeCsv,formatTime} from './engine';
@@ -9,9 +9,12 @@ import {ConfirmDialog} from './ConfirmDialog';
 import {PracticeCoverage} from './PracticeCoverage';
 import {BubblePracticeCard} from './BubblePracticeCard';
 import {matchesBubblePack,type BubblePack} from './bubblePacks';
+import siteConfig from '../../site.config.json';
 import './styles.css';
+import '../../site/site-footer.css';
+const sitePath=(route='')=>siteConfig.basePath+route;
 const icons={rocket:Rocket,sequences:TrendingUp,spatial:RotateCw,memory:Brain,attention:ScanEye,'bubble-pop':CircleDot,maze:Route,keys:KeyRound,bubbles:CircleDot,geo:Shapes,numbers:Calculator,words:WholeWord,visual:Eye};
-function Brand(){return <div className="brand"><span className="brand-mark"><span/><i/></span><div>Cognitive<span>LAB</span></div></div>}
+function Brand(){return <a className="lab-brand" href={sitePath()} aria-label={`${siteConfig.brand} home`}><img src="./favicon.svg" width={38} height={38} alt=""/><span><small>{siteConfig.brand}</small><strong>Cognitive Lab</strong></span></a>}
 function ActivityArt({type}:{type:string}){
  if(type==='rocket')return <div className="card-art art-rocket"><div className="rocket-art-grid">{['🚀','━','┓','┏','┛','┃','┗','━','⚑'].map((s,i)=><span key={i}>{s}</span>)}</div><span className="art-tag">Rotate. Connect. Launch.</span></div>;
  if(type==='sequences')return <div className="card-art art-sequence"><span>2</span><i>×3</i><span>6</span><i>×3</i><span>18</span><i>×3</i><b>?</b></div>;
@@ -58,18 +61,25 @@ function Summary({records,className,onClear,onStart,onUpdate}:{records:RoundReco
 }
 export default function App(){
  const [view,setView]=useState<'library'|'game'|'summary'|'guide'>('library');
+ const navigationRequested=useRef(false);
  const [priority,setPriority]=useState('All practice'),[filter,setFilter]=useState('All activities'),[search,setSearch]=useState(''),[className,setClassName]=useState(''),[duration,setDuration]=useState('recommended'),[set,setSet]=useState('all');
  const [bubblePack,setBubblePack]=useState<BubblePack>('easy35');
  const [game,setGame]=useState<{key:number;bank:Puzzle[]}|null>(null),[records,setRecords]=useState<RoundRecord[]>([]);
  const [autoAdvance,setAutoAdvance]=useState(true),[hasDraft,setHasDraft]=useState(false),[pendingBank,setPendingBank]=useState<Puzzle[]|null>(null);
  const onRecord=useCallback((r:RoundRecord)=>setRecords(prev=>{const i=prev.findIndex(p=>p.id===r.id);return i<0?[...prev,r]:prev.map((p,j)=>j===i?r:p);}),[]);
- const begin=(bank:Puzzle[])=>{setGame({key:Date.now(),bank});setHasDraft(false);setPendingBank(null);setView('game');window.scrollTo({top:0});};
+ const begin=(bank:Puzzle[])=>{navigationRequested.current=true;setGame({key:Date.now(),bank});setHasDraft(false);setPendingBank(null);setView('game');window.scrollTo({top:0});};
  const startBank=(bank:Puzzle[])=>{if(game&&hasDraft)setPendingBank(bank);else begin(bank);};
  const launch=(type:GameType)=>startBank(puzzles.filter(p=>p.type===type&&(set==='all'||!p.set||p.set===Number(set))&&matchesBubblePack(p,bubblePack)));
- const navigate=(next:typeof view)=>{setView(next);window.scrollTo({top:0});};
+ const navigate=(next:typeof view)=>{if(next===view)return;navigationRequested.current=true;setView(next);window.scrollTo({top:0});};
+ useEffect(()=>{
+  if(!navigationRequested.current)return;
+  navigationRequested.current=false;
+  const heading=[...document.querySelectorAll<HTMLElement>('#lab-main h1')].find(element=>element.getClientRects().length);
+  heading?.setAttribute('tabindex','-1');heading?.focus({preventScroll:true});
+ },[view,game?.key]);
  const shown=activities.filter(a=>(priority==='All practice'||(priority==='High priority'?highPriorityTypes.has(a.id):!highPriorityTypes.has(a.id)))&&(filter==='All activities'||a.group===filter)&&`${a.name} ${a.description} ${a.label}`.toLowerCase().includes(search.toLowerCase()));
- return <div className="app-shell"><aside className="sidebar"><Brand/><span className="sidebar-caption">PRACTICE WORKSPACE</span><nav aria-label="Main navigation"><button className={view==='library'||view==='game'?'nav-active':''} onClick={()=>navigate('library')}><LayoutGrid size={19}/>Activity library<span>{activities.length}</span></button><button className={view==='summary'?'nav-active':''} onClick={()=>navigate('summary')}><ListChecks size={19}/>Session summary{records.length>0&&<span>{records.length}</span>}</button><button className={view==='guide'?'nav-active':''} onClick={()=>navigate('guide')}><BookOpen size={19}/>Practice guide</button></nav></aside>
- <main><header className="topbar"><div className="breadcrumb">Workspace<ChevronRight size={15}/><b>{{library:'Activity library',game:'Live activity',summary:'Session summary',guide:'Practice guide'}[view]}</b></div><nav className="training-links" aria-label="Assessment Training"><a href="../">Training home</a><a href="../search/"><Search size={15}/>Search library</a></nav><span className="classroom-pill"><span/>Cognitive practice</span></header>
+ return <div className="app-shell"><a className="lab-skip-link" href="#lab-main">Skip to content</a><aside className="sidebar"><Brand/><span className="sidebar-caption">PRACTICE WORKSPACE</span><nav aria-label="Main navigation"><button className={view==='library'||view==='game'?'nav-active':''} aria-current={view==='library'?'page':view==='game'?'location':undefined} title="Activity library" onClick={()=>navigate('library')}><LayoutGrid size={19}/><span className="lab-nav-label">Activity library</span><span>{activities.length}</span></button><button className={view==='summary'?'nav-active':''} aria-current={view==='summary'?'page':undefined} title="Session summary" onClick={()=>navigate('summary')}><ListChecks size={19}/><span className="lab-nav-label">Session summary</span>{records.length>0&&<span>{records.length}</span>}</button><button className={view==='guide'?'nav-active':''} aria-current={view==='guide'?'page':undefined} title="Practice guide" onClick={()=>navigate('guide')}><BookOpen size={19}/><span className="lab-nav-label">Practice guide</span></button></nav></aside>
+ <main id="lab-main" tabIndex={-1}><header className="topbar"><div className="breadcrumb">Workspace<ChevronRight size={15}/><b>{{library:'Activity library',game:'Live activity',summary:'Session summary',guide:'Practice guide'}[view]}</b></div><nav className="training-links" aria-label={`${siteConfig.brand} navigation`}><a href={sitePath()}>Home</a><a href={sitePath('search/')}><Search size={15}/>Search library</a></nav><span className="classroom-pill"><span/>Cognitive practice</span></header>
  {view==='library'&&<div className="page library"><div className="section-heading"><div><span className="eyebrow">COGNITIVE PRACTICE</span><h1>Activity library</h1><p>Choose a skill to practise.</p></div>{game&&<button className="outline-button" onClick={()=>navigate('game')}><Play size={16}/>Return to activity</button>}</div>
  <div className="library-feature"><section className="welcome-panel"><div className="welcome-content"><span className="hero-tag"><Sparkles size={14}/> Timed and untimed practice</span><h2>Build your thinking.<br/>One challenge at a time.</h2><p>Choose a challenge, try it, then check the explanation.</p><button onClick={()=>launch('maze')} className="hero-button">Start a warm-up <ArrowRight size={17}/></button><div className="hero-meta"><span><Shapes size={15}/>{activities.length} activity formats</span><span><Grid2X2 size={15}/>{puzzles.length} practice prompts</span></div></div><div className="hero-art" aria-hidden="true"><div className="hero-orbit"/><div className="hero-grid">{['●','','✚','','','▲','','■','✚','','?','','','■','','●'].map((s,i)=><span key={i} className={s==='?'?'hero-question':''}>{s}</span>)}</div><span className="floating-symbol symbol-one">↗</span><span className="floating-symbol symbol-two">✳</span><span className="hero-label">Aha, I see it!</span></div></section>
  <section className="session-setup"><div className="setup-heading"><Timer size={19}/><h3>Set up your session</h3></div><label htmlFor="class-name">Session name <span>optional</span></label><input id="class-name" value={className} maxLength={70} onChange={e=>setClassName(e.target.value)} placeholder="e.g. Puzzle warm-up"/><div className="setup-fields"><div><label htmlFor="default-timer">Timer</label><select id="default-timer" value={duration} onChange={e=>setDuration(e.target.value)}><option value="recommended">By activity</option><option value="0">Untimed</option><option value="15">15 seconds</option><option value="20">20 seconds</option><option value="30">30 seconds</option><option value="60">60 seconds</option><option value="90">90 seconds</option><option value="120">120 seconds</option><option value="180">180 seconds</option></select></div></div><label htmlFor="practice-set">Cognitive practice set</label><select id="practice-set" value={set} onChange={e=>setSet(e.target.value)}><option value="all">Both sets · all rounds</option><option value="1">Practice set 1</option><option value="2">Practice set 2</option></select><label className="checkbox auto-setup"><input type="checkbox" checked={autoAdvance} onChange={e=>setAutoAdvance(e.target.checked)}/>Auto-advance after submission</label><p><CheckCircle2 size={14}/>Pause the review countdown whenever you need</p></section></div>
@@ -80,13 +90,12 @@ export default function App(){
  {game&&<div hidden={view!=='game'}><Game key={game.key} records={records} bank={game.bank} visible={view==='game'} defaultDuration={duration==='recommended'?null:Number(duration)} autoAdvance={autoAdvance} onAutoAdvanceChange={setAutoAdvance} onDraftChange={setHasDraft} onRecord={onRecord} onBack={()=>navigate('library')} onSummary={()=>navigate('summary')}/></div>}
  {view==='summary'&&<Summary records={records} onUpdate={onRecord} className={className} onClear={()=>{setRecords([]);setGame(null);setHasDraft(false);}} onStart={()=>navigate('library')}/>}{view==='guide'&&<Guide/>}
  {pendingBank&&<ConfirmDialog title="Switch to a new activity?" description="This replaces the current unsubmitted round and its notes. All completed session records will stay." action="Start new activity" onConfirm={()=>begin(pendingBank)} onCancel={()=>setPendingBank(null)}/>}
- <footer className="lab-site-footer">
-   <a href="../">iamcodist · Assessment Training</a>
+ <footer className="lab-site-footer site-footer">
+   <span>{siteConfig.title} by <a href={siteConfig.repository}>{siteConfig.brand} and contributors</a></span>
    <nav aria-label="Site policies">
-     <a href="../policies/attribution/">Attribution and Credits</a>
-     <a href="../policies/terms/">Terms &amp; Conditions</a>
-     <a href="../policies/fair-use/">Fair Use</a>
-     <a href="../policies/privacy/">Privacy Policy</a>
+     {siteConfig.policies.map(([slug,title])=><a key={slug} href={sitePath(`policies/${slug}/`)}>{title}</a>)}
+     <a href={sitePath('guide/sources/')}>Sources</a>
+     <a href={`${siteConfig.repository}/issues`}>Suggest a correction ↗</a>
    </nav>
  </footer>
  </main></div>;

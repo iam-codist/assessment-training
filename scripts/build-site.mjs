@@ -62,12 +62,7 @@ sourceRoutes.set('docs/README.md', 'topics/');
 sourceRoutes.set('README.md', '');
 const guides = [['ASSESSMENT-GUIDE.md', 'assessment-guide', 'Pattern, timing, preparation priorities and exam-day strategy'], ['ASSESSMENT-PRACTICE.md', 'assessment-practice', 'Three sets of technical questions, SQL joins and frontend exercises'], ['COVERAGE.md', 'assessment-roadmap', 'All ten areas in your preparation plan'], ['SOLUTIONS.md', 'running-solutions', 'Choose a language. Run an example. Test an edge case.'], ['SQL-PRACTICE.md', 'sql-practice', 'One small dataset for every SQL exercise'], ['STUDY-GUIDE.md', 'study-guide', 'Find your starting point'], ['CONVENTIONS.md', 'conventions', 'Small rules. Fewer mistakes.'], ['KNOWN-GAPS.md', 'known-gaps', 'Ways to practise with open-ended questions'], ['SOURCES.md', 'sources', 'References and credits']];
 for (const [file, route] of guides) sourceRoutes.set(file, `guide/${route}/`);
-const policies = [
-  ['attribution', 'Attribution and Credits'],
-  ['terms', 'Terms & Conditions'],
-  ['fair-use', 'Fair Use'],
-  ['privacy', 'Privacy Policy']
-];
+const policies = config.policies;
 for (const [slug] of policies) sourceRoutes.set(`policies/${slug}.md`, `policies/${slug}/`);
 const codeSources = new Set();
 
@@ -117,7 +112,7 @@ function sidebar(activeCategory = '', activeTopic = '', current = '') {
   ];
   return `<aside class="sidebar" id="sidebar" aria-label="Learning navigation" data-active-category="${esc(activeCategory)}">
     <div class="sidebar-head">
-      <div class="brand-row"><a class="brand" href="${href('')}" aria-label="${esc(config.brand)} home"><span class="brand-symbol">${icon('coding')}</span><span>${esc(config.brand)}<strong>${esc(config.title)}</strong></span></a><button id="menu-close" class="icon-button" aria-label="Close navigation">×</button></div>
+      <div class="brand-row"><a class="brand" href="${href('')}" aria-label="${esc(config.brand)} home"><img class="brand-symbol" src="${href('site/favicon.svg')}" width="38" height="38" alt=""/><span>${esc(config.brand)}<strong>${esc(config.title)}</strong></span></a><button id="menu-close" class="icon-button" aria-label="Close navigation">×</button></div>
       <nav class="sidebar-shortcuts" aria-label="Quick access">
         ${shortcut('', 'Home', '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m3 10 9-7 9 7v10H3zM9 20v-7h6v7"/></svg>')}
         ${shortcut('search/', 'Search library', searchIcon)}
@@ -134,16 +129,16 @@ function sidebar(activeCategory = '', activeTopic = '', current = '') {
       <p id="topic-filter-empty" class="sidebar-empty" hidden>No topics found. Try “SQL”, “loops” or “networking”.</p>
     </nav>
     <div id="topic-filter-status" class="visually-hidden" role="status" aria-live="polite"></div>
-    <div class="sidebar-credit"><span>A free learning resource</span><a href="${config.repository}">By iam-codist &amp; contributors <span aria-hidden="true">↗</span></a></div>
+    <div class="sidebar-credit"><span>A free learning resource</span><a href="${config.repository}">By ${esc(config.brand)} &amp; contributors <span aria-hidden="true">↗</span></a></div>
   </aside>`;
 }
 
 function page({ title, route = '', content, category = '', topic = '', description = config.description, kind = 'page' }) {
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>${esc(route ? `${title} · ${config.brand}` : `${config.brand} · ${config.title}`)}</title><meta name="description" content="${esc(description)}"/><meta name="theme-color" content="#164e48"/><link rel="canonical" href="${config.origin}${href(route)}"/><link rel="icon" href="${href('site/favicon.svg')}" type="image/svg+xml"/><link rel="stylesheet" href="${href('site/style.css')}"/><script type="module" src="${href('site/app.mjs')}"></script></head>
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>${esc(route ? `${title} · ${config.brand}` : `${config.brand} · ${config.title}`)}</title><meta name="description" content="${esc(description)}"/><meta name="theme-color" content="#164e48"/><link rel="canonical" href="${config.origin}${href(route)}"/><link rel="icon" href="${href('site/favicon.svg')}" type="image/svg+xml"/><link rel="stylesheet" href="${href('site/style.css')}"/><link rel="stylesheet" href="${href('site/site-footer.css')}"/><script type="module" src="${href('site/app.mjs')}"></script></head>
   <body data-page="${kind}"><a class="skip-link" href="#main">Skip to content</a><button id="menu-backdrop" aria-label="Close topic menu" tabindex="-1"></button>${sidebar(category, topic, route)}<div class="workspace">
   <header class="topbar"><button id="menu-toggle" class="icon-button" aria-label="Open topic menu" aria-controls="sidebar" aria-expanded="false">☰</button><a class="topbar-home" href="${href('')}">${esc(config.brand)}</a><a class="global-search" href="${href('search/')}" ${route === 'search/' ? 'aria-current="page"' : ''}>${searchIcon}<span>Search library</span><kbd aria-hidden="true">/</kbd></a><a class="github-link" href="${config.repository}">GitHub ↗</a></header>
   <main id="main" class="main ${kind}" tabindex="-1">${content}</main>
-  <footer class="footer"><span>Assessment Training by <a href="${config.repository}">iam-codist and contributors</a></span><nav aria-label="Site policies">${policies.map(([slug, title]) => `<a href="${href(`policies/${slug}/`)}">${esc(title)}</a>`).join('')}<a href="${href('guide/sources/')}">Sources</a><a href="${config.repository}/issues">Suggest a correction ↗</a></nav></footer>
+  <footer class="footer site-footer"><span>Assessment Training by <a href="${config.repository}">${esc(config.brand)} and contributors</a></span><nav aria-label="Site policies">${policies.map(([slug, title]) => `<a href="${href(`policies/${slug}/`)}" ${route === `policies/${slug}/` ? 'aria-current="page"' : ''}>${esc(title)}</a>`).join('')}<a href="${href('guide/sources/')}">Sources</a><a href="${config.repository}/issues">Suggest a correction ↗</a></nav></footer>
   </div></body></html>`;
 }
 async function save(route, html) {
@@ -208,7 +203,7 @@ const home = `<section class="home-intro" aria-labelledby="home-title">
   </aside>
 </div>
 <section class="home-more" aria-labelledby="more-practice-title"><div class="home-section-heading"><h2 id="more-practice-title">More preparation</h2><a href="${href('topics/')}">All learning areas →</a></div>${practiceDirectory(supportingSections)}</section>
-<section class="home-project"><div><h2>Built for students. Open to contributions.</h2><p>Created by <a href="${config.repository}">iam-codist and contributors</a>. Found an unclear explanation or have a better example? Help improve the library.</p></div><a href="${config.repository}/blob/main/CONTRIBUTING.md">Contribute on GitHub ↗</a></section>`;
+<section class="home-project"><div><h2>Built for students. Open to contributions.</h2><p>Created by <a href="${config.repository}">${esc(config.brand)} and contributors</a>. Found an unclear explanation or have a better example? Help improve the library.</p></div><a href="${config.repository}/blob/main/CONTRIBUTING.md">Contribute on GitHub ↗</a></section>`;
 await save('', page({ title: 'Assessment preparation', content: home, kind: 'home' }));
 await save('topics/', page({ title: 'Practice library', route: 'topics/', content: `${crumb([['Practice library']])}<div class="page-heading"><h1>Practice library</h1><p>Choose a learning area, or <a href="${href('search/')}">search all questions and filter by difficulty</a>.</p></div>${practiceDirectory(categories)}` }));
 

@@ -1,0 +1,39 @@
+/* Shared by the question library and Cognitive Lab. */
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 24px;
+  color: #52695c;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.site-footer > span {
+  font: inherit;
+}
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 16px;
+}
+.site-footer a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: #164e48;
+  text-decoration: none;
+}
+.site-footer a:hover,
+.site-footer a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.site-footer a[aria-current="page"] {
+  font-weight: 700;
+}
+@media (max-width: 600px) {
+  .site-footer { font-size: 13px; }
+}
+@media print {
+  .site-footer { display: none; }
+}

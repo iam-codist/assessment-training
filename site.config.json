@@ -4,5 +4,23 @@
   "description": "A little practice, a clearer understanding. Topic-wise questions, worked explanations and coding exercises for students.",
   "repository": "https://github.com/iam-codist/assessment-training",
   "origin": "https://iam-codist.github.io",
-  "basePath": "/assessment-training/"
+  "basePath": "/assessment-training/",
+  "policies": [
+    [
+      "attribution",
+      "Attribution and Credits"
+    ],
+    [
+      "terms",
+      "Terms & Conditions"
+    ],
+    [
+      "fair-use",
+      "Fair Use"
+    ],
+    [
+      "privacy",
+      "Privacy Policy"
+    ]
+  ]
 }
